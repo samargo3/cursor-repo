@@ -2,6 +2,8 @@
 
 > Centralized configuration, documentation, and project management for Cursor IDE
 
+**GitHub:** [https://github.com/samargo3/cursor-repo](https://github.com/samargo3/cursor-repo)
+
 ## 🎯 Purpose
 
 This repository contains:
