@@ -1,0 +1,32 @@
+reports:
+  - name: MC - Closed Won - YTD
+    report_id: 00O3y00000AcJIWEA3
+    output: data/output/mc_closed_won_raw.csv
+
+transforms:
+  - input: data/output/mc_closed_won_raw.csv
+    output: data/output/mc_closed_won_clean.csv
+    steps:
+      - type: rename_columns
+        mapping: 
+          Amount: amount
+          StageName: stage
+          CloseDate: close_date
+          AccountName: account_name
+      - type: filter_rows
+        expr: amount > 0
+      - type: derive_column
+        name: amount_k
+        expr: amount / 1000
+      - type: sort_rows
+        by: [amount]
+        ascending: false
+
+# Optional: Publish to Tableau (disabled by default)
+publish:
+  enabled: false
+  # Uncomment and fill these if you want to publish to Tableau:
+  # datasource: MC Closed Won
+  # file: data/output/mc_closed_won_clean.csv
+  # project: Default
+  # workbook: MC Pipeline Analysis

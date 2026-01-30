@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>64.0</apiVersion>
+    <description>Demo flow for sending notifications on high-value leads</description>
+    <environments>Default</environments>
+    <interviewLabel>Demo Notification Flow {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Demo Notification Flow</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Check_Lead_Value</targetReference>
+        </connector>
+    </start>
+</Flow>

@@ -1,0 +1,5 @@
+SELECT Status, COUNT(Id) 
+FROM Lead 
+GROUP BY Status 
+ORDER BY COUNT(Id) DESC
+

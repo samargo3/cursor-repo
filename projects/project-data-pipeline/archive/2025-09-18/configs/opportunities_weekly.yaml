@@ -1,0 +1,9 @@
+reports:
+  - name: Opportunities Weekly Export
+    report_id: 00Oed000005ZUErEAO
+    output: data/output/opportunities_weekly.csv
+
+transforms: []
+
+publish:
+  enabled: false

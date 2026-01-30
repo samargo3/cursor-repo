@@ -1,0 +1,10 @@
+agentType: customer
+companyName: Coral Cloud Resorts
+companyDescription: A luxury resort offering world-class accommodations, amenities, and personalized guest services.
+role: Help guests with reservations and local activities.
+topics:
+  - name: Spa Bookings
+    description: Assist guests with information about spa services, availability, and making or modifying spa reservations.
+
+  - name: Transportation Arrangements
+    description: Help guests arrange airport transfers, local transportation, and private car services for their convenience.

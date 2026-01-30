@@ -1,0 +1,124 @@
+# Weekly export for Activity with schema alignment and ID resolution
+reports:
+  - name: Argo - Weekly Export - Activity
+    report_id: 00Oed000005ao1pEAA
+    output: data/output/history/activity_{date}.csv
+
+transforms:
+  - input: data/output/history/activity_{date}.csv
+    output: data/output/history/activity_{date}.csv
+    steps:
+      - type: add_constant_column
+        name: snapshot_date
+        value: {date}
+
+      # Clean HTML content from text fields
+      - type: clean_html_content
+        columns:
+          - SUBJECT
+          - TITLE
+
+      # Resolve IDs to names (before renames)
+      - type: resolve_ids_to_names
+        mappings:
+          - column: SUBJECT
+            object_type: Event
+            name_field: Subject
+          - column: OPPORTUNITY
+            object_type: Opportunity
+            name_field: Name
+          - column: ACCOUNT
+            object_type: Account
+            name_field: Name
+          - column: ASSIGNED
+            object_type: User
+            name_field: Name
+          - column: ACCOWNER
+            object_type: User
+            name_field: Name
+          - column: CONTACT
+            object_type: Contact
+            name_field: Name
+          - column: CREATED_BY
+            object_type: User
+            name_field: Name
+
+      # Rename columns to cleaner names
+      - type: rename_columns
+        mapping:
+          ACTIVITY_ID: "Activity ID"
+          DUE_DATE: "Due Date"
+          SUBJECT: "Subject"
+          Activity.SE_Task_Type__c: "SE Task Type"
+          DURATIONHOURS: "Duration Hours"
+          OPPORTUNITY: "Opportunity Name"
+          ACCOUNT: "Account Name"
+          CREATED_DATE: "Created Date"
+          ASSIGNED: "Assigned To"
+          TASK_TYPE: "Task Type"
+          ACCOWNER: "Account Owner"
+          CONTACT: "Contact Name"
+          TITLE: "Contact Title"
+          CREATED_BY: "Created By"
+          CLOSED: "Closed"
+
+      # Cast to appropriate data types
+      - type: cast_dtypes
+        dtypes:
+          "Activity ID": string
+          "Due Date": datetime64[ns]
+          "Subject": string
+          "SE Task Type": string
+          "Duration Hours": float64
+          "Opportunity Name": string
+          "Account Name": string
+          "Created Date": datetime64[ns]
+          "Assigned To": string
+          "Task Type": string
+          "Account Owner": string
+          "Contact Name": string
+          "Contact Title": string
+          "Created By": string
+          "Closed": bool
+
+      # Select and order columns
+      - type: select_columns
+        columns:
+          - "Activity ID"
+          - "Due Date"
+          - "Subject"
+          - "SE Task Type"
+          - "Duration Hours"
+          - "Opportunity Name"
+          - "Account Name"
+          - "Created Date"
+          - "Assigned To"
+          - "Task Type"
+          - "Account Owner"
+          - "Contact Name"
+          - "Contact Title"
+          - "Created By"
+          - "Closed"
+
+      # Basic data quality checks
+      - type: data_quality_check
+        checks:
+          - name: Row Count Check
+            type: row_count_check
+            min_rows: 1
+            max_rows: 10000
+          - name: Required Fields Null Check
+            type: null_check
+            columns: ["Activity ID", "Subject", "Due Date"]
+
+postprocess:
+  append:
+    - source: data/output/history/activity_{date}.csv
+      master: data/output/activity_master.csv
+      dedupe:
+        key: "Activity ID"
+        keep: latest
+
+publish:
+  enabled: false
+

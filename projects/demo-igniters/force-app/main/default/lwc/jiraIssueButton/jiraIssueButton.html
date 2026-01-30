@@ -1,0 +1,19 @@
+<template>
+    <div class="jira-wrapper">
+        <lightning-card>
+            <div slot="title" class="jira-title">
+                <img src={jiraLogo} alt="Jira" class="jira-logo"/>
+                <span>Escalate to Jira</span>
+            </div>
+            <div class="slds-p-around_medium">
+                <lightning-button
+                    label={buttonLabel}
+                    variant={buttonVariant}
+                    onclick={handleCreateIssue}
+                    class={buttonClass}
+                ></lightning-button>
+            </div>
+        </lightning-card>
+    </div>
+</template>
+

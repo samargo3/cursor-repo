@@ -1,0 +1,538 @@
+Activity ID,Due Date,Subject,SE Task Type,Duration Hours,Opportunity Name,Account Name,Created Date,Assigned To,Task Type,Account Owner,Contact Name,Contact Title,Created By,Closed
+00Ued00000JNKntEAH,2025-04-14,Salesforce-Titian/Labguru AI Overview,nan,1.0,nan,Labguru (Aquired by Titian),2025-04-14,Sam Argo,AE meeting,Hannah Frey,Yaniv Toplian,CXO,Hannah Frey,True
+00Ued00000JNKkfEAH,2025-04-15,Tobin Scientific - FSL Discovery Call,nan,1.0,nan,Tobin Scientific,2025-04-14,Sam Argo,AE meeting,Austin Ricci,Samuel Perna,Business Operations Manager,Austin Ricci,True
+00Ued00000KeOhdEAF,2025-04-15,Tobin Scientific - FSL Discovery Call,Customer Discovery,1.0,"Tobin Scientific - +28 FSL Technician, +3 Dispatcher, +8 FSL+",Tobin Scientific,2025-04-29,Sam Argo,nan,Austin Ricci,nan,<NA>,Sam Argo,True
+00Ued00000JzbMMEAZ,2025-04-23,Boston Team VTO Overview - LLS Fundraiser,nan,0.25,nan,SALESFORCE.COM,2025-04-22,Sam Argo,AE meeting,MyPatch Hold,Brandy Wentworth,Regional Sales Director,Tripp Murphy,True
+00Ued00000K9CknEAF,2025-04-30,Tobin Scientific - Field Service Demo,nan,1.25,nan,Tobin Scientific,2025-04-23,Sam Argo,AE meeting,Austin Ricci,Samuel Perna,Business Operations Manager,Austin Ricci,True
+00Ued00000KbKVjEAN,2025-04-30,Salesforce x Transmit | Service Sync,nan,0.5,nan,Transmit Security,2025-04-29,Sam Argo,AE meeting,Vance Cassell,Scott Schmitt,Salesforce Architect,Vance Cassell,True
+00Ued00000KnCr6EAF,2025-04-30,Salesforce x Transmit | Service Sync,Customer Discovery,0.5,nan,Transmit Security,2025-04-30,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000KoYnnEAF,2025-04-30,Tobin Scientific - Field Service Demo,Customer Presentation,1.25,"Tobin Scientific - +28 FSL Technician, +3 Dispatcher, +8 FSL+",Tobin Scientific,2025-04-30,Sam Argo,nan,Austin Ricci,nan,<NA>,Sam Argo,True
+00Ued00000RTGt3EAH,2025-05-09,00Ued00000RTGt3EAH,Solution Creation,2.0,nan,nan,2025-07-16,Sam Argo,nan,nan,nan,<NA>,Sam Argo,True
+00Ued00000KoCH0EAN,2025-05-13,Titletown & Vonage Virtual Lunch & Learn (Boston Room - C17),nan,0.75,nan,Vonage Business Inc.,2025-04-30,Sam Argo,AE meeting,Morgan Empey,Reilly Mathews,Consultant,Tripp Murphy,True
+00Ued00000LMyUUEA1,2025-05-13,Salesforce | Preservica - Sales AI Discovery,nan,0.5,nan,Preservica Inc.,2025-05-08,Sam Argo,AE meeting,Dillon Hipp,Nathan Voogt,Global Director Of Business Development,Julie Marshall,True
+00Ued00000LTvJlEAL,2025-05-13,Salesforce x Transmit Security | Service Sync,nan,1.0,nan,Transmit Security,2025-05-09,Sam Argo,AE meeting,Vance Cassell,Scott Schmitt,Salesforce Architect,Vance Cassell,True
+00Ued00000LjglaEAB,2025-05-13,Tripleseat - Sales AI Connect,nan,0.5,nan,"Tripleseat Software, LLC",2025-05-13,Sam Argo,AE meeting,Austin Ricci,Julie DiNicola,Director of Sales Operations,Austin Ricci,True
+00Ued00000RSf0wEAD,2025-05-13,Salesforce x Transmit Security | Service Sync,Customer Presentation,1.0,SLK - Transmit Security - Biz+ V2 Upgrade,Transmit Security,2025-07-16,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000OnvnQEAR,2025-06-18,Linus Health x Salesforce - Agentforce,nan,1.0,nan,Linus Health,2025-06-16,Sam Argo,AE meeting,Austin Ricci,Tim Nash,Senior Vice President - Healthcare,Austin Ricci,True
+00Ued00000OofOkEAJ,2025-06-18,Syncell-Salesforce Service Readback,nan,1.0,nan,SYNCELL,2025-06-16,Sam Argo,AE meeting,Hannah Frey,Michael Stringfellow,<NA>,Hannah Frey,True
+00Ued00000RTAFlEAP,2025-06-18,Syncell-Salesforce Service Readback,Customer Presentation,1.0,nan,SYNCELL,2025-07-16,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000RTAFmEAP,2025-06-18,Linus Health x Salesforce - Agentforce,Customer Discovery,1.0,Dosespot: Agentforce for Service Swap #Agentforce #FY26JumpStartAgentforce,Dosespot,2025-07-16,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000Sb1HyEAJ,2025-06-19,Ambient Internal Pre sync,Account Planning,0.25,Ambient - Agentforce 1 Upgrade,Ambient Enterprises Holdco LLC,2025-07-28,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000SaqPpEAJ,2025-06-20,Ambient x Salesforce Partner Review,nan,0.5,nan,Ambient Enterprises Holdco LLC,2025-07-28,Sam Argo,AE meeting,Jared McPherson,Scott Wallace,Chief Information Officer,Jared McPherson,True
+00Ued00000SbKqrEAF,2025-06-20,Ambient x Salesforce Partner Review,Customer Discovery,0.5,Ambient - Agentforce 1 Upgrade,Ambient Enterprises Holdco LLC,2025-07-28,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000RNU5wEAH,2025-07-09,DoseSpot + Agentforce Discussion,Customer Discovery,1.0,Dosespot: Agentforce for Service Swap #Agentforce #FY26JumpStartAgentforce,Dosespot,2025-07-15,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000Sq6KhEAJ,2025-07-15,TeachTown Dry Run,Dry Run,0.75,"TeachTown Inc. - Premier Success & (+5) Flex Credit Blocks, Sales Engagement, Customer Community Members",TeachTown Inc.,2025-07-30,Sam Argo,nan,Frank Puleo,nan,<NA>,Sam Argo,True
+00Ued00000ReIgEEAV,2025-07-21,Internal Invite - Courier News Room,nan,0.4166666666666667,nan,Cloud Odyssey IT Solutions Pvt. Ltd.,2025-07-17,Sam Argo,AE meeting,Partner Trail Guide,sandeep gupta,VP of Sales North America,Matt Kenney,True
+00Ued00000Rrc7dEAB,2025-07-21,Pro-Vision//Internal Sync,nan,0.5,nan,Spar Solutions LLC,2025-07-21,Sam Argo,AE meeting,Chris Longoria,Jake Vellinga,"Vice President, Solutions Consulting and Chief People Officer",Hannah Frey,True
+00Ued00000V4dw7EAB,2025-07-21,Captivate / Salesforce Bi Weekly,nan,0.25,nan,Captivate,2025-08-29,Sam Argo,AE meeting,Vance Cassell,Scott Yapp,Creative Tech & Analytics,Vance Cassell,True
+00Ued00000Rsh3nEAB,2025-07-22,Pro-Vision- Salesforce FSL Sync,nan,0.75,nan,Pro-Vision Org,2025-07-21,Sam Argo,AE meeting,Hannah Frey,JR Newton,Solutions Engineer,Hannah Frey,True
+00Ued00000RvaQdEAJ,2025-07-22,Pro-Vision: Internal,nan,0.5,nan,Spar Solutions LLC,2025-07-21,Sam Argo,AE meeting,Chris Longoria,Jake Vellinga,"Vice President, Solutions Consulting and Chief People Officer",Hannah Frey,True
+00Ued00000SXGIsEAP,2025-07-22,Sam / Chloe Connect on En Power Build,Solution Creation,0.5,"En-Power - (+57) 57 Sales EE, (+25) 25 Platform, MC Growth, PSA",En-Power Group,2025-07-28,Sam Argo,nan,Nate Weisbrod,nan,<NA>,Sam Argo,True
+00Ued00000SXRKgEAP,2025-07-22,Demo Build,Solution Creation,1.0,"En-Power - (+57) 57 Sales EE, (+25) 25 Platform, MC Growth, PSA",En-Power Group,2025-07-28,Sam Argo,nan,Nate Weisbrod,nan,<NA>,Sam Argo,True
+00Ued00000SXZDNEA5,2025-07-22,Pro-Vision- Salesforce FSL Sync,Customer Discovery,0.75,"Pro-Vision (12) FSL+ (8) Technician (5) Service Cloud, Full Copy Sandbox",Pro-Vision Org,2025-07-28,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000SXGIpEAP,2025-07-23,Focus: En Power Demo Build,Solution Creation,1.0,"En-Power - (+57) 57 Sales EE, (+25) 25 Platform, MC Growth, PSA",En-Power Group,2025-07-28,Sam Argo,nan,Nate Weisbrod,nan,<NA>,Sam Argo,True
+00Ued00000SXGIqEAP,2025-07-23,Connect on En Power,Solution Creation,0.5,"En-Power - (+57) 57 Sales EE, (+25) 25 Platform, MC Growth, PSA",En-Power Group,2025-07-28,Sam Argo,nan,Nate Weisbrod,nan,<NA>,Sam Argo,True
+00Ued00000SXGIrEAP,2025-07-23,Focus: En Power Demo Build,Solution Creation,1.0,"En-Power - (+57) 57 Sales EE, (+25) 25 Platform, MC Growth, PSA",En-Power Group,2025-07-28,Sam Argo,nan,Nate Weisbrod,nan,<NA>,Sam Argo,True
+00Ued00000SY1w4EAD,2025-07-23,Internal | Transmit Security - Biweekly Sync,Account Planning,0.5,nan,Transmit Security,2025-07-28,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000SYAXuEAP,2025-07-23,Slack Intro to Captivate Team!,Customer Discovery,0.25,SLK Captivate: +50 Business+,Captivate,2025-07-28,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000SYCQ1EAP,2025-07-24,DoseSpot Continued Agentforce Discussion,Customer Discovery,1.0,Dosespot: Agentforce for Service Swap #Agentforce #FY26JumpStartAgentforce,Dosespot,2025-07-28,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000SYEzhEAH,2025-07-25,DoseSpot Agentforce Pricing,Customer Presentation,0.5,Dosespot: Agentforce for Service Swap #Agentforce #FY26JumpStartAgentforce,Dosespot,2025-07-28,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000SYPdNEAX,2025-07-28,CMC North America x Salesforce | Data Pipelines,nan,0.5,nan,All Access Equipment,2025-07-28,Sam Argo,Customer Meeting,Jared McPherson,Mike Censullo,Marketing And Graphic Design Manager,Kevin Thonkulpitak,True
+00Ued00000SXq58EAD,2025-07-28,BRN Forecast Call,Account Planning,1.0,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-07-28,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000SZDdNEAX,2025-07-28,Starburst Agentforce prep,Account Planning,0.5,nan,Starburst Data,2025-07-28,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000SaGHREA3,2025-07-28,Solutions Sync re: Captivate,Account Planning,0.25,SLK Captivate: +50 Business+,Captivate,2025-07-28,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000SaoXdEAJ,2025-07-28,Sam / Jared,Account Planning,0.5,Ambient - Agentforce 1 Upgrade,Ambient Enterprises Holdco LLC,2025-07-28,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000SbxPDEAZ,2025-07-29,Reptrak - Salesforce Renewal,nan,0.5,nan,RepTrak,2025-07-28,Sam Argo,AE meeting,Andrew Sopko,Will Anderson,"Senior Director, Global Operations",Andrew Sopko,True
+00Ued00000Sf3zbEAB,2025-07-29,Captivate + Slack Demo,Customer Presentation,1.0,SLK Captivate: +50 Business+,Captivate,2025-07-29,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000SfmjhEAB,2025-07-29,Reptrak - Salesforce Renewal,Customer Presentation,0.5,Reptrak - Early Renewal AF + DC #AgentUplift,RepTrak,2025-07-29,Sam Argo,nan,Andrew Sopko,nan,<NA>,Sam Argo,True
+00Ued00000Sp44hEAB,2025-07-29,DoseSpot + Salesforce Agentforce Readback!,Customer Presentation,1.0,Dosespot: Agentforce for Service Swap #Agentforce #FY26JumpStartAgentforce,Dosespot,2025-07-30,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000SpOGHEA3,2025-07-29,Quantix Automation Workshop with Salesforce,Customer Discovery,1.5,MS - Quantix - Integration -> L1,"Quantix SCS, LLC.",2025-07-30,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000S3ZPKEA3,2025-07-30,Pro-Vision- Salesforce Pricing,nan,0.75,nan,Pro-Vision Org,2025-07-22,Sam Argo,AE meeting,Hannah Frey,Joel Ross,VP Sales and Service,Hannah Frey,True
+00Ued00000Sp9cDEAR,2025-07-30,Pro-Vision- Salesforce Pricing,Customer Presentation,0.75,"Pro-Vision (12) FSL+ (8) Technician (5) Service Cloud, Full Copy Sandbox",Pro-Vision Org,2025-07-30,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000SrDrpEAF,2025-07-30,Sam / Casey,Account Planning,0.5,nan,airSlate,2025-07-30,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000SrE1VEAV,2025-07-30,Int Sync on Quantix,Account Planning,0.5,Quantix SCS: +75 FSL,"Quantix SCS, LLC.",2025-07-30,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000SyJ1HEAV,2025-07-31,VulnCheck x Salesforce/Mule,nan,0.75,nan,VulnCheck,2025-07-31,Sam Argo,AE meeting,Jared McPherson,Dan Dawidczyk,Head of Revenue Operations,Kaitlin Lucas,True
+00Ued00000SzVmmEAF,2025-07-31,VulnCheck x Salesforce/Mule,Customer Discovery,0.75,Vulncheck +7 EE,VulnCheck,2025-07-31,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000SZWoAEAX,2025-08-01,Jared + Salesforce,nan,1.0,nan,airSlate,2025-07-28,Sam Argo,AE meeting,Casey Garfinkel,Jared Weiner,Partner Account Manager,Casey Garfinkel,True
+00Ued00000T6BT9EAN,2025-08-01,Jared + Salesforce,Customer Discovery,1.0,nan,airSlate,2025-08-01,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000TPbjdEAD,2025-08-01,00Ued00000TPbjdEAD,Solution Creation,1.0,Labster + Agentforce,Labster.,2025-08-06,Sam Argo,nan,Andrew Sopko,nan,<NA>,Sam Argo,True
+00Ued00000RusHXEAZ,2025-08-04,Labster - Agentforce Education Workshop,nan,1.0,nan,Labster.,2025-07-21,Sam Argo,AE meeting,Andrew Sopko,Sara Colton,VP of Revenue Operations,Andrew Sopko,True
+00Ued00000TPbtJEAT,2025-08-04,Labster - Agentforce Education Workshop,Customer Presentation,1.0,Labster + Agentforce,Labster.,2025-08-06,Sam Argo,nan,Andrew Sopko,nan,<NA>,Sam Argo,True
+00Ued00000TPbzlEAD,2025-08-04,Debrief: Labster,Account Planning,0.25,Labster + Agentforce,Labster.,2025-08-06,Sam Argo,nan,Andrew Sopko,nan,<NA>,Sam Argo,True
+00Ued00000TPd0fEAD,2025-08-04,BRN Forecast Call,Account Planning,1.0,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-08-06,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000TnMEsEAN,2025-08-05,Sales Cloud Demo Build,Solution Creation,2.0,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-08-12,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000a3GyIEAU,2025-08-05,Starburst Deck Build & Prep,Account Planning,2.0,Starburst + Agentforce,Starburst Data,2025-10-30,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000a4UFhEAM,2025-08-05,Sam | CJ,Account Planning,0.75,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-10-30,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000TP6MTEA1,2025-08-06,Appcues x Agentforce Connect,nan,0.5,nan,Appcues,2025-08-06,Sam Argo,AE meeting,Austin Ricci,Francis Romero,Salesforce Administrator,Austin Ricci,True
+00Ued00000TOtx8EAD,2025-08-06,Appcues x Agentforce Connect,Post Sales Support,0.5,nan,Appcues,2025-08-06,Sam Argo,nan,Austin Ricci,nan,<NA>,Sam Argo,True
+00Ued00000TnTZeEAN,2025-08-06,Sam / Jared,Account Planning,0.25,Starburst Data - Tableau Pulse/ AF,Starburst Data,2025-08-12,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000TnrDlEAJ,2025-08-06,Sam / Casey - airSlate Recap + Stablepoint Sync,Account Planning,0.5,airSlate +15 (15) Tableau,airSlate,2025-08-12,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000USaC9EAL,2025-08-06,Focus Block: Starburst Data,Solution Creation,0.5,Starburst Data - Tableau Pulse/ AF,Starburst Data,2025-08-21,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000a4HqOEAU,2025-08-06,BRNers New Hire Office Hours,Account Planning,0.5,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-10-30,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000TmvEiEAJ,2025-08-07,Cursor Ai Testing,Solution Creation,2.0,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-08-12,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000TneoQEAR,2025-08-07,Sam / Casey - Stablepoint Sync,Account Planning,0.25,Stablepoint Partners - SLK (+9),Stablepoint Partners,2025-08-12,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000a4KZiEAM,2025-08-07,BRNers End of Week Sync,Account Planning,0.5,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-10-30,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000a4dE9EAI,2025-08-07,Stablepoint Discovery Prep,Account Planning,1.5,SLK - Stablepoint - Plus,Stablepoint,2025-10-30,Sam Argo,nan,ESB UKI AE Account Team,nan,<NA>,Sam Argo,True
+00Ued00000SABGdEAP,2025-08-08,Stablepoint Partners + Salesforce/Slack,nan,1.0,nan,Stablepoint Partners,2025-07-23,Sam Argo,AE meeting,Casey Garfinkel,Gina Mackey,VP,Casey Garfinkel,True
+00Ued00000TmuYjEAJ,2025-08-08,Stablepoint Partners + Salesforce/Slack,Customer Discovery,1.0,Stablepoint Partners - SLK (+9),Stablepoint Partners,2025-08-12,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000SpJiGEAV,2025-08-11,Linksquares <> Tableau Embedded Deep Dive & Demo,nan,1.0,nan,"LinkSquares, Inc.",2025-07-30,Sam Argo,AE meeting,Hannah Frey,Laura Gill,Product Management Manager,Clare Riordan,True
+00Ued00000TnEJ0EAN,2025-08-11,Captivate - Solutions Sync,Account Planning,0.75,nan,Captivate,2025-08-12,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000TnuI5EAJ,2025-08-11,BRN Forecast Call,Account Planning,1.0,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-08-12,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000USqGvEAL,2025-08-11,Focus: Captivate x Plative,Solution Creation,1.5,Captivate: +20 Agentforce for Service,Captivate,2025-08-21,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000TnpFBEAZ,2025-08-12,Plative x Salesforce - Captivate AI Workshop Prep,Account Planning,0.5,nan,Captivate,2025-08-12,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000UR5aKEAT,2025-08-12,Int Quantix - Prep for Readback,Account Planning,0.5,Quantix SCS: +75 FSL,"Quantix SCS, LLC.",2025-08-21,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000USqyTEAT,2025-08-12,Sam x Hannah 1:1,Account Planning,0.5,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-08-21,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000SilXqEAJ,2025-08-13,Quantix Automation Workshop Readback,nan,0.5,nan,"Quantix SCS, LLC.",2025-07-29,Sam Argo,AE meeting,Casey Garfinkel,Heather Glenn,Sales Operations,Kaitlin Lucas,True
+00Ued00000USH4sEAH,2025-08-13,Quantix Automation Workshop Readback,Customer Presentation,0.5,Quantix SCS: +75 FSL,"Quantix SCS, LLC.",2025-08-21,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000UStczEAD,2025-08-13,Sam / Casey - airSlate sync,Account Planning,0.5,airSlate +15 (15) Tableau,airSlate,2025-08-21,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000UStrVEAT,2025-08-14,Captivate Meetings Workshop,Solution Creation,1.0,Captivate: +20 Agentforce for Service,Captivate,2025-08-21,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000TTwmLEAT,2025-08-15,Jared + Salesforce,nan,0.5,nan,airSlate,2025-08-07,Sam Argo,AE meeting,Casey Garfinkel,Jared Weiner,Partner Account Manager,Casey Garfinkel,True
+00Ued00000USuHJEA1,2025-08-15,Focus: airSlate Slides,Solution Creation,1.0,airSlate - Sales Engagement Add-On +35 (35),airSlate,2025-08-21,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000USukLEAT,2025-08-15,Sam / Casey - StablePoint Sync,Account Planning,0.5,Stablepoint Partners - Sales Cloud EE (+9) 9,Stablepoint Partners,2025-08-21,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000USuu1EAD,2025-08-15,Jared + Salesforce,Customer Presentation,1.5,airSlate - Sales Engagement Add-On +35 (35),airSlate,2025-08-21,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000USvJpEAL,2025-08-15,Focus: Captivate,Solution Creation,1.0,Captivate: +20 Agentforce for Service,Captivate,2025-08-21,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000V4dwAEAR,2025-08-18,Captivate / Salesforce Bi Weekly,nan,0.25,nan,Captivate,2025-08-29,Sam Argo,AE meeting,Vance Cassell,Scott Yapp,Creative Tech & Analytics,Vance Cassell,True
+00Ued00000USLJgEAP,2025-08-18,Captivate / Salesforce Bi Weekly,Customer Discovery,0.25,Captivate: +20 Agentforce for Service,Captivate,2025-08-21,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000USgO2EAL,2025-08-18,Captivate Debrief,Account Planning,0.5,Captivate: +20 Agentforce for Service,Captivate,2025-08-21,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000USvdBEAT,2025-08-18,AI Roadmap with Captivate,Customer Presentation,1.0,Captivate: +20 Agentforce for Service,Captivate,2025-08-21,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000USvq5EAD,2025-08-18,BRN Forecast Call,Account Planning,1.0,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-08-21,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000USvy9EAD,2025-08-18,Internal Sync on Captivate,Account Planning,0.25,Captivate: +20 Agentforce for Service,Captivate,2025-08-21,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000USw9REAT,2025-08-18,Sam / Christian - Product Catalogue Connect,Solution Creation,0.5,"Latin American Distributors - (+15) EE, (+1) CRE, Tableau Cloud+ (+2) EXP, (+4) VIEW",Latin American Distributors,2025-08-21,Sam Argo,nan,Griffin Downie,nan,<NA>,Sam Argo,True
+00Ued00000USjNYEA1,2025-08-19,Captivate deck working session,Solution Creation,1.0,Captivate: +20 Agentforce for Service,Captivate,2025-08-21,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000USoocEAD,2025-08-19,Sam / Christian - Products sync,Solution Creation,0.5,"Latin American Distributors - (+15) EE, (+1) CRE, Tableau Cloud+ (+2) EXP, (+4) VIEW",Latin American Distributors,2025-08-21,Sam Argo,nan,Griffin Downie,nan,<NA>,Sam Argo,True
+00Ued00000UfaPeEAJ,2025-08-19,Demo Build: Latin American Distributors,Solution Creation,1.0,"Latin American Distributors - (+15) EE, (+1) CRE, Tableau Cloud+ (+2) EXP, (+4) VIEW",Latin American Distributors,2025-08-25,Sam Argo,nan,Griffin Downie,nan,<NA>,Sam Argo,True
+00Ued00000WgnczEAB,2025-08-19,Allego Renewal Sync,Account Planning,0.25,"Allego, Inc. Renewal 118 SFA, 28 SteelBrick CPQ, 119 Sandbox...","Allego, Inc.",2025-09-19,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000US6h8EAD,2025-08-20,Captivate Data Cloud Enablement,Customer Presentation,1.5,Captivate: +20 Agentforce for Service,Captivate,2025-08-21,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000USxVJEA1,2025-08-20,Engageware Prep,Solution Creation,0.5,TimeTrade Systems (Engageware) - Sales Engagement (+33) + Agentforce for Sales (+70) + Sales Dialer (+24),TimeTrade Systems (Engageware),2025-08-21,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000WSw0DEAT,2025-08-20,Commute from Captivate,Travel,1.25,Captivate: +20 Agentforce for Service,Captivate,2025-09-17,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000WSw0EEAT,2025-08-20,Commute to Captivate,Travel,1.25,Captivate: +20 Agentforce for Service,Captivate,2025-09-17,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000TuQIjEAN,2025-08-21,BRN: Team Dinner @ SAVR,nan,0.5,nan,"DoubleTrack, LLC",2025-08-13,Sam Argo,AE meeting,Partner Trail Guide,Kate Bailin,"Senior Director, Sales",Hannah Frey,True
+00Ued00000U4y5yEAB,2025-08-21,BRN QBR's - Q2 Review & Q3 Planning,nan,8.5,nan,"DoubleTrack, LLC",2025-08-15,Sam Argo,AE meeting,Partner Trail Guide,Kate Bailin,"Senior Director, Sales",Anna Winthrop,True
+00Ued00000UfcuUEAR,2025-08-22,Demo Build: Engageware,Solution Creation,2.0,TimeTrade Systems (Engageware) - Sales Engagement (+33) + Agentforce for Sales (+70) + Sales Dialer (+24),TimeTrade Systems (Engageware),2025-08-25,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000TjrcCEAR,2025-08-22,Engageware + Salesforce,nan,1.0,nan,TimeTrade Systems (Engageware),2025-08-11,Sam Argo,AE meeting,Casey Garfinkel,Shelly Parker,Director of Revenue Operations,Casey Garfinkel,True
+00Ued00000UYxVwEAL,2025-08-22,Focus: Engageware Demo Prep,Solution Creation,2.0,TimeTrade Systems (Engageware) - Sales Engagement (+33) + Agentforce for Sales (+70) + Sales Dialer (+24),TimeTrade Systems (Engageware),2025-08-22,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000UZRNpEAP,2025-08-22,Engageware + Salesforce,Customer Discovery,1.0,TimeTrade Systems (Engageware) - Sales Engagement (+33) + Agentforce for Sales (+70) + Sales Dialer (+24),TimeTrade Systems (Engageware),2025-08-22,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000UZTM1EAP,2025-08-22,Sam / Vance - HireClix sync,Solution Creation,0.5,HireClix LLC - (+2 SE) 11 SE + (+1EE) 15EE,HireClix LLC,2025-08-22,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000WRvJAEA1,2025-08-25,LinkSquares- Internal Sync,Account Planning,0.5,"LinkSquares, Inc - Sandbox","LinkSquares, Inc.",2025-09-17,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000WfqjNEAR,2025-08-25,BRN Forecast Call,Account Planning,1.0,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-09-19,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000aEYRxEAO,2025-08-25,Demo Build,Solution Creation,1.0,TimeTrade Systems (Engageware) - Sales Engagement +40 & Sales Dialer +20,TimeTrade Systems (Engageware),2025-10-31,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000aG5lNEAS,2025-08-25,Deck Build,Solution Creation,1.0,airSlate - Sales Engagement +35 (35),airSlate,2025-10-31,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000WfFwwEAF,2025-08-26,Sync,Account Planning,0.5,TimeTrade Systems (Engageware) - Sales Engagement (+33) + Agentforce for Sales (+70) + Sales Dialer (+24),TimeTrade Systems (Engageware),2025-09-19,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000UpbDzEAJ,2025-08-27,airSlate + Salesforce,nan,0.5,nan,airSlate,2025-08-26,Sam Argo,AE meeting,Casey Garfinkel,Richard Rosenstein,CFO,Casey Garfinkel,True
+00Ued00000WSyejEAD,2025-08-27,Focus: HireClix Deck Build,Solution Creation,0.5,HireClix LLC - (+2 SE) 11 SE + (+1EE) 15EE,HireClix LLC,2025-09-17,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000WSzSjEAL,2025-08-27,airSlate + Salesforce,Customer Presentation,0.5,airSlate - Sales Engagement Add-On +35 (35),airSlate,2025-09-17,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000WeZhWEAV,2025-08-27,Engageware Demo Planning,Solution Creation,0.75,TimeTrade Systems (Engageware) - Sales Engagement (+33) + Agentforce for Sales (+70) + Sales Dialer (+24),TimeTrade Systems (Engageware),2025-09-19,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000WfrnaEAB,2025-08-27,Quick Commerce Sync,Account Planning,0.25,nan,"Evolv Technologies Holdings, Inc.",2025-09-19,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000Wg71AEAR,2025-08-27,HireClix - quick sync (ahead of call),Account Planning,0.25,HireClix LLC - (+2 SE) 11 SE + (+1EE) 15EE,HireClix LLC,2025-09-19,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000UuTPWEA3,2025-08-28,Safety Partners x Salesforce Review,nan,0.5,nan,"Safety Partners, Inc.",2025-08-27,Sam Argo,AE meeting,Jared McPherson,Lee Tetreault,"Associate Director, Sales & Marketing",Jared McPherson,True
+00Ued00000Uz6AYEAZ,2025-08-28,airSlate + Salesforce,nan,0.25,nan,airSlate,2025-08-28,Sam Argo,AE meeting,Casey Garfinkel,Ergen Ekici,Chief AI and Revenue Officer,Casey Garfinkel,True
+00Ued00000WRtpOEAT,2025-08-28,Sam / Christian - Cursor use case time,Asset Creation,0.5,"Latin American Distributors - (+15) EE, (+1) CRE, Tableau Cloud+ (+2) EXP, (+4) VIEW",Latin American Distributors,2025-09-17,Sam Argo,nan,Griffin Downie,nan,<NA>,Sam Argo,True
+00Ued00000WSwHzEAL,2025-08-28,airSlate + Salesforce,Customer Presentation,0.25,airSlate - Sales Cloud - EE +4 (74),airSlate,2025-09-17,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000WT1RNEA1,2025-08-28,Evolv Weekly Internal Team Sync,Account Planning,0.5,Evolv - + Shield,"Evolv Technologies Holdings, Inc.",2025-09-17,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000WT3phEAD,2025-08-28,Engageware Sync,Account Planning,0.5,TimeTrade Systems (Engageware) - Sales Engagement (+33) + Agentforce for Sales (+70) + Sales Dialer (+24),TimeTrade Systems (Engageware),2025-09-17,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000WfPeOEAV,2025-08-28,Safety Partners x Salesforce Review,Account Planning,0.5,Safety Partners - EE Pull forward,"Safety Partners, Inc.",2025-09-19,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000WfzQ6EAJ,2025-08-28,Focus: Engageware Demo Build,Solution Creation,1.0,TimeTrade Systems (Engageware) - Sales Engagement (+33) + Agentforce for Sales (+70) + Sales Dialer (+24),TimeTrade Systems (Engageware),2025-09-19,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000Wp5PqEAJ,2025-08-28,Quick Sync - airSlate,Account Planning,0.25,airSlate - Sales Cloud - EE +4 (74),airSlate,2025-09-22,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000aG78rEAC,2025-08-28,Quick Sync on Linksquares,Account Planning,0.5,nan,"LinkSquares, Inc.",2025-10-31,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000aGI5tEAG,2025-08-28,Sam x Jared 1:1,Account Planning,0.5,nan,"Evolv Technologies Holdings, Inc.",2025-10-31,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000WfKhyEAF,2025-08-29,Account Sync,Account Planning,0.5,Quantix SCS: +75 FSL,"Quantix SCS, LLC.",2025-09-19,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000UxmSPEAZ,2025-09-02,Starburst Spiff Internal Sync,nan,0.25,nan,"Spiff, Inc",2025-08-28,Sam Argo,AE meeting,MyPatch Hold,Brent Showerman,Customer Success Manager,Jared McPherson,True
+00Ued00000WgLX7EAN,2025-09-02,Starburst Spiff Internal Sync,Account Planning,0.25,Starburst Data - Tableau Pulse/ AF,Starburst Data,2025-09-19,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000aGEAMEA4,2025-09-02,Cursor Demo Building,Solution Creation,1.5,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-10-31,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000UGqxVEAT,2025-09-03,HireClix + Salesforce | Sales Engagement - Cadence Walkthrough,nan,0.5,nan,HireClix LLC,2025-08-19,Sam Argo,AE meeting,Vance Cassell,Rachael Cecilio,Office/Marketing Manager,Vance Cassell,True
+00Ued00000UhlaHEAR,2025-09-03,Linksquares <> Tableau,nan,0.75,nan,"LinkSquares, Inc.",2025-08-25,Sam Argo,AE meeting,Hannah Frey,Laura Gill,Product Management Manager,Clare Riordan,True
+00Ued00000UmQ3zEAF,2025-09-03,Trinity x Agentforce Connect,nan,0.75,nan,Trinity Partners*,2025-08-26,Sam Argo,AE meeting,Austin Ricci,Karthik Mohan,"Vice President, Product Engineering",Austin Ricci,True
+00Ued00000UuPx0EAF,2025-09-03,Evolv x Salesforce H2 Sync,nan,1.0,nan,"Evolv Technologies Holdings, Inc.",2025-08-27,Sam Argo,AE meeting,Jared McPherson,Peter Vittands,VP of CyberSecurity and IT,Jared McPherson,True
+00Ued00000WfyRTEAZ,2025-09-03,HireClix + Salesforce | Sales Engagement - Cadence Walkthrough,Customer Discovery,0.5,HireClix LLC - (+2 SE) 11 SE + (+1EE) 15EE,HireClix LLC,2025-09-19,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000WgQ8YEAV,2025-09-03,Trinity x Agentforce Connect,Customer Discovery,0.75,Trinity Partners - Conversation to Flex Credit Swap,Trinity Partners*,2025-09-19,Sam Argo,nan,Austin Ricci,nan,<NA>,Sam Argo,True
+00Ued00000WgiyIEAR,2025-09-03,Captivate / Salesforce Bi Weekly,Account Planning,0.25,Captivate: +20 Agentforce for Service,Captivate,2025-09-19,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000WgjrCEAR,2025-09-03,Linksquares <> Tableau,Customer Presentation,0.75,TAB - LinkSquares- Embedded UBL / 26 C / 34 E / 10k Impressions / #TabEAforSMB / #tab-premier,"LinkSquares, Inc.",2025-09-19,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000aGKu5EAG,2025-09-03,Focus: HireClix Prep,Solution Creation,0.5,HireClix - (+5EE) 19EE,HireClix LLC,2025-10-31,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000aGLBpEAO,2025-09-03,Internal | Transmit Security - Biweekly Sync,Account Planning,0.5,nan,Transmit Security,2025-10-31,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000aGLgTEAW,2025-09-03,Sam / Jared,Account Planning,0.25,nan,"Evolv Technologies Holdings, Inc.",2025-10-31,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000V4jugEAB,2025-09-04,Captivate Sync Prior to Salesforce on Salesforce,nan,0.5,nan,Captivate,2025-08-29,Sam Argo,AE meeting,Vance Cassell,Alli Paternoster,"Senior Director, RevOps & Sales Strategy",Vance Cassell,True
+00Ued00000Wh2lhEAB,2025-09-04,Captivate Sync Prior to Salesforce on Salesforce,Customer Discovery,0.5,TAB - Captivate - Tab+ Upgrade & Early Renewal,Captivate,2025-09-19,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000Wjx37EAB,2025-09-04,Focus: Engageware Demo Prep,Solution Creation,1.5,TimeTrade Systems (Engageware) - Sales Engagement (+33) + Agentforce for Sales (+70) + Sales Dialer (+24),TimeTrade Systems (Engageware),2025-09-20,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000aGFUcEAO,2025-09-04,Focus: Engageware Demo Build,Solution Creation,0.5,TimeTrade Systems (Engageware) - Sales Engagement +40 & Sales Dialer +20,TimeTrade Systems (Engageware),2025-10-31,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000aGQhlEAG,2025-09-04,Evolv Weekly Internal Team Sync,Account Planning,0.5,nan,"Evolv Technologies Holdings, Inc.",2025-10-31,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000UZodPEAT,2025-09-05,Engageware + Salesforce,nan,1.5,nan,TimeTrade Systems (Engageware),2025-08-22,Sam Argo,AE meeting,Casey Garfinkel,Shelly Parker,Director of Revenue Operations,Casey Garfinkel,True
+00Ued00000We8ipEAB,2025-09-05,Dry Run: Engageware Demo,Solution Creation,1.0,TimeTrade Systems (Engageware) - Sales Engagement (+33) + Agentforce for Sales (+70) + Sales Dialer (+24),TimeTrade Systems (Engageware),2025-09-19,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000WgBWDEA3,2025-09-05,Captivate - Internal Debrief,Account Planning,0.5,Captivate: +20 Agentforce for Service,Captivate,2025-09-19,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000WganqEAB,2025-09-05,Demo Prep: Engageware,Solution Creation,3.0,TimeTrade Systems (Engageware) - Sales Engagement (+33) + Agentforce for Sales (+70) + Sales Dialer (+24),TimeTrade Systems (Engageware),2025-09-19,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000Wh1zJEAR,2025-09-05,Engageware + Salesforce,Customer Presentation,1.5,TimeTrade Systems (Engageware) - Sales Engagement (+33) + Agentforce for Sales (+70) + Sales Dialer (+24),TimeTrade Systems (Engageware),2025-09-19,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000VjymAEAR,2025-09-08,Starburst x Spiff,nan,0.5,nan,Starburst Data,2025-09-08,Sam Argo,AE meeting,Jared McPherson,Katie Nichols*,Director of Business Applications,Jared McPherson,True
+00Ued00000Wjb10EAB,2025-09-08,Captivate - Internal Call Prep,Account Planning,0.5,Captivate: +20 Agentforce for Service,Captivate,2025-09-20,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000WkaR4EAJ,2025-09-08,BRN Forecast Call,Account Planning,1.0,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-09-20,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000Wkc33EAB,2025-09-08,Starburst x Spiff,Account Planning,0.5,Starburst Data Renewal 212 Spiff,Starburst Data,2025-09-20,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000Wkc4fEAB,2025-09-08,Stablepoint Partners Prep,Account Planning,0.5,Stablepoint Partners - Sales Cloud EE (+9) 9,Stablepoint Partners,2025-09-20,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000Wkc9VEAR,2025-09-08,Focus: Captivate SF on SF Investigation,Solution Creation,0.5,TAB - Captivate - Tab+ Upgrade & Early Renewal,Captivate,2025-09-20,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000aGQmfEAG,2025-09-08,Vance / Clare: Quick Sync on Captivate,Account Planning,0.5,nan,Captivate,2025-10-31,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000V4jujEAB,2025-09-09,Captivate Salesforce on Salesforce!,nan,1.0,nan,Captivate,2025-08-29,Sam Argo,AE meeting,Vance Cassell,Alli Paternoster,"Senior Director, RevOps & Sales Strategy",Vance Cassell,True
+00Ued00000VpuO8EAJ,2025-09-09,Trinity Partners + Salesforce,nan,0.5,nan,Trinity Partners*,2025-09-09,Sam Argo,AE meeting,Austin Ricci,Christine ODonnell,Brokerage Coordinator,Matthew Montaquila,True
+00Ued00000WkcCjEAJ,2025-09-09,Captivate Salesforce on Salesforce!,Customer Discovery,1.0,TAB - Captivate - Tab+ Upgrade & Early Renewal,Captivate,2025-09-20,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000WkcELEAZ,2025-09-09,Trinity Partners + Salesforce,Customer Discovery,0.5,Trinity Real Estate - Sales Cloud New Logo,Trinity Partners Commercial Real Estate - New Logo,2025-09-20,Sam Argo,nan,Austin Ricci,nan,<NA>,Sam Argo,True
+00Ued00000Vl6BNEAZ,2025-09-10,Salesforce + USPC | Intro,nan,1.0,nan,nan,2025-09-08,Sam Argo,AE meeting,nan,nan,<NA>,Vance Cassell,True
+00Ued00000WkbrmEAB,2025-09-10,Focus: Stablepoint Prep,Solution Creation,0.5,Stablepoint Partners - Sales Cloud EE (+9) 9,Stablepoint Partners,2025-09-20,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000WkbyLEAR,2025-09-10,Sam x Hannah 1:1,Account Planning,0.5,"LinkSquares, Inc - Sandbox","LinkSquares, Inc.",2025-09-20,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000WkcKnEAJ,2025-09-10,Sam / Casey,Account Planning,0.5,Stablepoint Partners - Sales Cloud EE (+9) 9,Stablepoint Partners,2025-09-20,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000WkcRFEAZ,2025-09-10,Salesforce + USPC | Intro,Customer Discovery,1.0,US Proptech Council - (+4EE) 4EE + (+250 CC Members) 250 CC Members #NewLogo,US Proptech Council,2025-09-20,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000WkcSrEAJ,2025-09-10,Sales Cloud Demo Org Build,Solution Creation,1.0,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-09-20,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000Wkau6EAB,2025-09-11,Sam / Casey - Quantix Sync,Account Planning,0.25,"Quantix SCS, LLC. - (+Agentforce) #Agentforce","Quantix SCS, LLC.",2025-09-20,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000WkbF6EAJ,2025-09-11,Sales Engagement Expert Coaching,Customer Presentation,1.0,HireClix LLC - (+2 SE) 11 SE + (+1EE) 15EE,HireClix LLC,2025-09-20,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000VbHPrEAN,2025-09-12,Salesforce/ Engageware Sales Engagement Feedback,nan,0.5,nan,TimeTrade Systems (Engageware),2025-09-05,Sam Argo,AE meeting,Casey Garfinkel,Shelly Parker,Director of Revenue Operations,Anna Winthrop,True
+00Ued00000WrvnTEAR,2025-09-12,Evolv x Spiff,Customer Discovery,0.75,"Evolv Technologies Holdings, Inc.- (+60) SPIFF","Evolv Technologies Holdings, Inc.",2025-09-22,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000VHugtEAD,2025-09-15,Captivate / Salesforce Bi Weekly,nan,0.25,nan,Captivate,2025-09-02,Sam Argo,AE meeting,Vance Cassell,Scott Yapp,Creative Tech & Analytics,Vance Cassell,True
+00Ued00000VwfguEAB,2025-09-15,Salesforce + USPC | check-in,nan,0.5,nan,US Proptech Council,2025-09-10,Sam Argo,AE meeting,Vance Cassell,Judah Ferst,VP,Vance Cassell,True
+00Ued00000WkaNqEAJ,2025-09-15,Salesforce + USPC | check-in,Customer Discovery,0.5,US Proptech Council - (+4EE) 4EE + (+250 CC Members) 250 CC Members #NewLogo,US Proptech Council,2025-09-20,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000WkcizEAB,2025-09-15,Captivate / Salesforce Bi Weekly,Customer Discovery,0.25,Captivate: +20 Agentforce for Service,Captivate,2025-09-20,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000WkckbEAB,2025-09-15,Focus: Trinity Demo Build,Solution Creation,1.0,Trinity Real Estate - Sales Cloud New Logo,Trinity Partners Commercial Real Estate - New Logo,2025-09-20,Sam Argo,nan,Austin Ricci,nan,<NA>,Sam Argo,True
+00Ued00000VuLKxEAN,2025-09-16,Salesforce Demo Call,nan,1.0,nan,Trinity Partners Commercial Real Estate - New Logo,2025-09-10,Sam Argo,AE meeting,Austin Ricci,Walt Robinson,Partner,Austin Ricci,True
+00Ued00000WkNYsEAN,2025-09-16,Salesforce Demo Call,Customer Presentation,1.0,Trinity Real Estate - Sales Cloud New Logo,Trinity Partners Commercial Real Estate - New Logo,2025-09-20,Sam Argo,nan,Austin Ricci,nan,<NA>,Sam Argo,True
+00Ued00000WkXAzEAN,2025-09-16,Focus: Demo Build,Solution Creation,1.5,Trinity Real Estate - Sales Cloud New Logo,Trinity Partners Commercial Real Estate - New Logo,2025-09-20,Sam Argo,nan,Austin Ricci,nan,<NA>,Sam Argo,True
+00Ued00000WkcuHEAR,2025-09-16,Focus: Demo Build,Solution Creation,2.5,Trinity Real Estate - Sales Cloud New Logo,Trinity Partners Commercial Real Estate - New Logo,2025-09-20,Sam Argo,nan,Austin Ricci,nan,<NA>,Sam Argo,True
+00Ued00000WkNwyEAF,2025-09-17,Sam / Casey - Quantix,Account Planning,0.5,"Quantix SCS, LLC. - (+Agentforce) #Agentforce","Quantix SCS, LLC.",2025-09-20,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000aGB9GEAW,2025-09-17,Account Research USPC,Account Planning,1.0,US Proptech Council - (+4EE) 4EE + (+250 CC Members) 250 CC Members #NewLogo,US Proptech Council,2025-10-31,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000aGG0rEAG,2025-09-17,Cursor Demo Asset Build,Solution Creation,1.5,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-10-31,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000WMcDvEAL,2025-09-18,Salesforce + USPC | check-in,nan,0.5,nan,US Proptech Council,2025-09-16,Sam Argo,AE meeting,Vance Cassell,Judah Ferst,VP,Vance Cassell,True
+00Ued00000WYRLAEA5,2025-09-18,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-09-18,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,True
+00Ued00000WkXZgEAN,2025-09-18,Corissa : Hannah Weekly,Customer Discovery,0.5,SYNCELL - Agentforce,SYNCELL,2025-09-20,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000Wkd3xEAB,2025-09-18,Salesforce + USPC | check-in,Customer Discovery,0.5,US Proptech Council - (+4EE) 4EE + (+250 CC Members) 250 CC Members #NewLogo,US Proptech Council,2025-09-20,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000W8uFWEAZ,2025-09-19,Salesforce + Engageware Sales Engagement Feedback,nan,0.5,nan,TimeTrade Systems (Engageware),2025-09-12,Sam Argo,AE meeting,Casey Garfinkel,Shelly Parker,Director of Revenue Operations,Casey Garfinkel,True
+00Ued00000WkZ8QEAV,2025-09-19,Salesforce + Engageware Sales Engagement Feedback,Customer Presentation,0.5,TimeTrade Systems (Engageware) - Sales Engagement (+33) + Agentforce for Sales (+70) + Sales Dialer (+24),TimeTrade Systems (Engageware),2025-09-20,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000WsVIxEAN,2025-09-22,Sam x Anna - Weekly Sync,Account Planning,0.5,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-09-22,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000WsWN4EAN,2025-09-22,Engageware - Whatsapp Documentation,Solution Creation,1.0,TimeTrade Systems (Engageware) - Digital Engagement (+25),TimeTrade Systems (Engageware),2025-09-22,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000Wt535EAB,2025-09-22,Spiff & Evolv - Spiff Demo,Customer Presentation,1.0,"Evolv Technologies Holdings, Inc.- (+60) SPIFF","Evolv Technologies Holdings, Inc.",2025-09-22,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000WtCvlEAF,2025-09-22,BRN Forecast Call,Account Planning,1.0,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-09-22,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000WtCaoEAF,2025-09-23,Entromy x Salesforce | Quoting and Contract Automation,nan,0.75,nan,Entromy,2025-09-22,Sam Argo,AE meeting,Jared McPherson,Sara Trivette,Executive Assistant & Project Manager,Jared McPherson,True
+00Ued00000WxOQYEA3,2025-09-23,Shelly + Salesforce - Quick Check-In,nan,0.5,nan,TimeTrade Systems (Engageware),2025-09-23,Sam Argo,AE meeting,Casey Garfinkel,Shelly Parker,Director of Revenue Operations,Casey Garfinkel,True
+00Ued00000WymqXEAR,2025-09-23,Entromy x Salesforce | Quoting and Contract Automation,Customer Discovery,0.75,Entromy  + RCA,Entromy,2025-09-23,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000Wyt7FEAR,2025-09-23,airSlate - Sales Engagment Content,Solution Creation,0.5,airSlate - Sales Engagement Add-On +35 (35),airSlate,2025-09-23,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000X5gzjEAB,2025-09-23,Shelly + Salesforce - Quick Check-In,Customer Discovery,0.5,TimeTrade Systems (Engageware) - Sales Engagement (+33) + Agentforce for Sales (+70) + Sales Dialer (+24),TimeTrade Systems (Engageware),2025-09-24,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000aGZczEAG,2025-09-23,Cursor AI Demo Building,Solution Creation,1.5,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-10-31,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000VrMn2EAF,2025-09-24,Salesforce + Captivate | Tableau Discussion,nan,1.0,nan,Captivate,2025-09-09,Sam Argo,AE meeting,Vance Cassell,Scott Yapp,Creative Tech & Analytics,Vance Cassell,True
+00Ued00000WbNuUEAV,2025-09-24,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-09-18,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,True
+00Ued00000WyBwNEAV,2025-09-24,Pheonix Forge x Salesforce,nan,0.5,nan,"Phoenix Forging Company, Inc.",2025-09-23,Sam Argo,AE meeting,Austin Ricci,Robert Stahler,IT Director,Megan Ignoffo,True
+00Ued00000X630JEAR,2025-09-24,Engageware Demo Build,Solution Creation,1.0,TimeTrade Systems (Engageware) - Sales Engagement (+33) + Agentforce for Sales (+70) + Sales Dialer (+24),TimeTrade Systems (Engageware),2025-09-24,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000X6CZnEAN,2025-09-24,Engageware - Demo Build,Solution Creation,1.0,TimeTrade Systems (Engageware) - Sales Engagement (+33) + Agentforce for Sales (+70) + Sales Dialer (+24),TimeTrade Systems (Engageware),2025-09-24,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000X6DZ3EAN,2025-09-24,Ben+Charlie+Sam | AF Activation Account Sync,Account Planning,0.5,nan,Dosespot,2025-09-24,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000X6EBlEAN,2025-09-24,Pheonix Forge x Salesforce,Customer Discovery,0.5,Phoenix Forging Group- (+10) Sales EE + Dialer,"Phoenix Forging Company, Inc.",2025-09-24,Sam Argo,nan,Austin Ricci,nan,<NA>,Sam Argo,True
+00Ued00000X6FXdEAN,2025-09-24,Corissa : Hannah Weekly,Customer Discovery,0.5,SYNCELL - Agentforce,SYNCELL,2025-09-24,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000X6FcTEAV,2025-09-24,Salesforce + Captivate | Tableau Discussion,Customer Discovery,1.0,Captivate - Tableau Renewal 10/23/2025 - 04032381,Captivate,2025-09-24,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000ZMvRkEAL,2025-09-25,Engageware Sync,Account Planning,0.5,TimeTrade Systems (Engageware) - UE Upgrade (+120) + AF for Sales Promo (+120),TimeTrade Systems (Engageware),2025-10-23,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000ZN3lpEAD,2025-09-25,Engageware Demo Build,Solution Creation,1.5,TimeTrade Systems (Engageware) - UE Upgrade (+120) + AF for Sales Promo (+120),TimeTrade Systems (Engageware),2025-10-23,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000aGZptEAG,2025-09-26,Demo Build: Engageware,Solution Creation,2.0,TimeTrade Systems (Engageware) - Sales Engagement +40 & Sales Dialer +20,TimeTrade Systems (Engageware),2025-10-31,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000ZN4wPEAT,2025-09-29,BRN Forecast Call,Account Planning,1.0,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-10-23,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000ZN4y1EAD,2025-09-29,Sam x Anna - Weekly Sync,Account Planning,0.5,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-10-23,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000aGRYzEAO,2025-09-29,Service Cloud Demo Build,Solution Creation,1.5,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-10-31,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000VHugwEAD,2025-09-30,Captivate / Salesforce Bi Weekly,nan,0.25,nan,Captivate,2025-09-02,Sam Argo,AE meeting,Vance Cassell,Scott Yapp,Creative Tech & Analytics,Vance Cassell,True
+00Ued00000VxjnHEAR,2025-09-30,LinkSquares-Salesforce Onsite Sync,nan,0.75,nan,"LinkSquares, Inc.",2025-09-10,Sam Argo,AE meeting,Hannah Frey,Lindsay Kalinowski,Revenue Operations Analyst,Hannah Frey,True
+00Ued00000XXXn3EAH,2025-09-30,The Quin-Salesforce Sync,nan,0.5,nan,"Algonquin Club Hexagon, LLC dba The ‘Quin House,",2025-09-30,Sam Argo,AE meeting,Hannah Frey,Michelle Q,<NA>,Hannah Frey,True
+00Ued00000ZN2rREAT,2025-09-30,LinkSquares-Salesforce Onsite Sync,Account Planning,0.75,"LinkSquares, Inc.- Own Archive  + Backup #Oct Push","LinkSquares, Inc.",2025-10-23,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000aGLLaEAO,2025-09-30,Block,Solution Creation,1.0,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-10-31,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000aGS8TEAW,2025-09-30,The Quin-Salesforce Sync,Customer Discovery,0.5,The 'Quin House (+20) Sales & Service EE,"Algonquin Club Hexagon, LLC dba The ‘Quin House,",2025-10-31,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000aGW7HEAW,2025-09-30,Cursor Demo Building,Solution Creation,1.0,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-10-31,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000X2wbDEAR,2025-10-01,United Sports x Salesforce Intro,nan,0.5,nan,United Sports Training Center,2025-09-24,Sam Argo,AE meeting,Jared McPherson,Steve VanNote,Senior Vice President Business Development,Jared McPherson,True
+00Ued00000X9wHwEAJ,2025-10-01,Evolv x Salesforce,nan,0.75,nan,"Evolv Technologies Holdings, Inc.",2025-09-25,Sam Argo,AE meeting,Jared McPherson,Peter Vittands,VP of CyberSecurity and IT,Jared McPherson,True
+00Ued00000XFu0gEAD,2025-10-01,All Access x iStore (Commerce Cloud),nan,1.0,nan,All Access Equipment,2025-09-26,Sam Argo,AE meeting,Jared McPherson,Vishal Singh,Developer,Jared McPherson,True
+00Ued00000XfyqfEAB,2025-10-01,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,True
+00Ued00000ZLT6EEAX,2025-10-01,United Sports x Salesforce Intro,Customer Discovery,0.5,United Sports Training Center - + 15 EE,United Sports Training Center,2025-10-23,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000ZMMiWEAX,2025-10-01,Sam / Casey - Stablepoint Sync,Account Planning,0.25,Stablepoint Partners - SLK (+9),Stablepoint Partners,2025-10-23,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000ZMXCYEA5,2025-10-01,Evolv x Salesforce,Customer Discovery,0.75,Evolv - + Shield,"Evolv Technologies Holdings, Inc.",2025-10-23,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000ZMrb0EAD,2025-10-01,Engageware Sync,Account Planning,0.4166666666666667,TimeTrade Systems (Engageware) - Sales Engagement (+33) + Agentforce for Sales (+70) + Sales Dialer (+24),TimeTrade Systems (Engageware),2025-10-23,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000ZN9WHEA1,2025-10-01,All Access x iStore (Commerce Cloud),Customer Discovery,1.0,All Access Equipment - + 2UE +10GB,All Access Equipment,2025-10-23,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000ZNA5lEAH,2025-10-01,Corissa : Hannah Weekly,Customer Discovery,0.5,SYNCELL - Agentforce,SYNCELL,2025-10-23,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000ZN3SUEA1,2025-10-02,Sam / Jenny,Account Planning,0.5,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-10-23,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000Wx6JuEAJ,2025-10-03,Engageware + Salesforce Demo,nan,1.5,nan,TimeTrade Systems (Engageware),2025-09-23,Sam Argo,AE meeting,Casey Garfinkel,Shelly Parker,Director of Revenue Operations,Casey Garfinkel,True
+00Ued00000ZMEZlEAP,2025-10-03,Mock Run/ Prep for LinkSquares,Account Planning,1.0,"LinkSquares, Inc.- Own Archive  + Backup #Oct Push","LinkSquares, Inc.",2025-10-23,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000ZNCKTEA5,2025-10-03,Engageware + Salesforce Demo,Customer Presentation,1.5,TimeTrade Systems (Engageware) - UE Upgrade (+120) + AF for Sales Promo (+120),TimeTrade Systems (Engageware),2025-10-23,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000ZNCU9EAP,2025-10-03,Evolv shield sync,Account Planning,0.5,Evolv - + Shield,"Evolv Technologies Holdings, Inc.",2025-10-23,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000XB5HfEAL,2025-10-06,New England Home + Salesforce/Slack,nan,0.5,nan,New England Home,2025-09-25,Sam Argo,AE meeting,Casey Garfinkel,Jennifer Orr,VP,Casey Garfinkel,True
+00Ued00000ZMudpEAD,2025-10-06,Final Sync:  LinkSquares Onsite,Solution Creation,0.5,"LinkSquares, Inc.- Own Archive  + Backup #Oct Push","LinkSquares, Inc.",2025-10-23,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000ZNExNEAX,2025-10-06,BRN Forecast Call,Account Planning,1.0,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-10-23,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000aGBfXEAW,2025-10-06,Sam/Sergio - BigBelly Sync,Account Planning,0.25,nan,"Bigbelly Solar, Inc.",2025-10-31,Sam Argo,nan,Sergio Cultrera,nan,<NA>,Sam Argo,True
+00Ued00000aGbRuEAK,2025-10-06,Engageware Sync,Account Planning,0.5,nan,TimeTrade Systems (Engageware),2025-10-31,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000aGcXeEAK,2025-10-06,Internal | Captivate - Agentforce Sync,Account Planning,0.5,nan,Captivate,2025-10-31,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000aGdQTEA0,2025-10-06,Focus time,Solution Creation,1.5,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-10-31,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000UiyNPEAZ,2025-10-07,LinkSquare-Salesforce Onsite,nan,1.5,nan,"LinkSquares, Inc.",2025-08-25,Sam Argo,AE meeting,Hannah Frey,Lindsay Kalinowski,Revenue Operations Analyst,Hannah Frey,True
+00Ued00000XfyqhEAB,2025-10-07,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,True
+00Ued00000ZM9AAEA1,2025-10-07,Corissa : Hannah Weekly,Customer Discovery,0.5,nan,SYNCELL,2025-10-23,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000ZMV10EAH,2025-10-07,Team Chen- Weekly Team Meeting,Account Planning,1.0,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-10-23,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000ZNFDVEA5,2025-10-07,Travel time- Link Squares,Travel,0.5,"LinkSquares, Inc.- Own Archive  + Backup #Oct Push","LinkSquares, Inc.",2025-10-23,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000ZNFILEA5,2025-10-07,LinkSquare-Salesforce Onsite,Customer Discovery,1.5,"LinkSquares, Inc- Data Cloud + Full Copy Sandbox","LinkSquares, Inc.",2025-10-23,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000ZNFVFEA5,2025-10-07,Sam / Jenny - Weekly 1:1,Account Planning,0.5,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-10-23,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000ZNFdJEAX,2025-10-07,BRN Team Meeting,Account Planning,1.0,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-10-23,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000XkSRLEA3,2025-10-08,BigBelly Solar- Salesforce Renewal Connect,nan,0.75,nan,"Bigbelly Solar, Inc.",2025-10-02,Sam Argo,AE meeting,Sergio Cultrera,Michelle Nadeau,Marketing Director,Sergio Cultrera,True
+00Ued00000ZMqtSEAT,2025-10-08,BigBelly Solar- Salesforce Renewal Connect,Customer Presentation,0.75,BigBelly Solar- (+) Agentforce,"Bigbelly Solar, Inc.",2025-10-23,Sam Argo,nan,Sergio Cultrera,nan,<NA>,Sam Argo,True
+00Ued00000ZMtrMEAT,2025-10-08,Engageware Sync,Account Planning,0.5,TimeTrade Systems (Engageware) - Sales Engagement (+33) + Agentforce for Sales (+70) + Sales Dialer (+24),TimeTrade Systems (Engageware),2025-10-23,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000ZNFyHEAX,2025-10-08,Starburst: Tackle + Salesforce (Agentforce/Data Cloud),Account Planning,0.5,Starburst + Agentforce,Starburst Data,2025-10-23,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000YGNhtEAH,2025-10-09,Internal | Salesforce + Texas Air - Sync,nan,0.5,nan,"Infinityy, Inc.",2025-10-08,Sam Argo,AE meeting,Vance Cassell,Kelsey Miller,SF Admin,Vance Cassell,True
+00Ued00000ZMLrQEAX,2025-10-09,LinkSquares- Debrief,Account Planning,0.75,"LinkSquares, Inc- Data Cloud + Full Copy Sandbox","LinkSquares, Inc.",2025-10-23,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000ZMuqcEAD,2025-10-09,Trinity Partners // Salesforce - Security Review,Customer Presentation,0.5,Trinity Life Sciences - Early Renewal + Backup & Shield,Trinity Partners*,2025-10-23,Sam Argo,nan,Austin Ricci,nan,<NA>,Sam Argo,True
+00Ued00000ZNGSvEAP,2025-10-09,Sam x Jared 1:1,Account Planning,0.5,Evolv - + Shield,"Evolv Technologies Holdings, Inc.",2025-10-23,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000ZNGUXEA5,2025-10-09,Evolv Weekly Internal Team Sync,Account Planning,0.5,Evolv - + Shield,"Evolv Technologies Holdings, Inc.",2025-10-23,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000ZNGzBEAX,2025-10-09,Internal | Salesforce + Texas Air - Sync,Account Planning,0.5,Texas Air Maintenance and Service - (+5EE) 5EE,Texas Air Maintenance and Service,2025-10-23,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000XtZgWEAV,2025-10-10,Engageware + Salesforce - Pricing,nan,0.5,nan,TimeTrade Systems (Engageware),2025-10-03,Sam Argo,AE meeting,Casey Garfinkel,Shelly Parker,Director of Revenue Operations,Casey Garfinkel,True
+00Ued00000ZMmxuEAD,2025-10-10,Engageware + Salesforce - Pricing,Customer Presentation,0.5,TimeTrade Systems (Engageware) - UE Upgrade (+120) + AF for Sales Promo (+120),TimeTrade Systems (Engageware),2025-10-23,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000a4gbqEAA,2025-10-13,Vulncheck x RCA Onsite Sync,Account Planning,0.5,nan,VulnCheck,2025-10-30,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000Xb7cMEAR,2025-10-14,Captivate / Salesforce Bi Weekly,nan,0.5,nan,Captivate,2025-09-30,Sam Argo,AE meeting,Vance Cassell,Scott Yapp,Creative Tech & Analytics,Vance Cassell,True
+00Ued00000YHGj8EAH,2025-10-14,Tripleseat - UE Upgrade Discovery,nan,0.5,nan,"Tripleseat Software, LLC",2025-10-08,Sam Argo,AE meeting,Austin Ricci,Julie DiNicola,Director of Sales Operations,Austin Ricci,True
+00Ued00000a3flUEAQ,2025-10-14,Team Chen- Weekly Team Meeting,Account Planning,1.0,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-10-30,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000a4OIQEA2,2025-10-14,Captivate / Salesforce Bi Weekly,Account Planning,0.5,nan,Captivate,2025-10-30,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000a4edGEAQ,2025-10-14,Vulncheck x Marketing Onsite Sync,Account Planning,0.25,Vulncheck - SPM,VulnCheck,2025-10-30,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000a4kQxEAI,2025-10-14,Tripleseat - UE Upgrade Discovery,Customer Presentation,0.5,Tripleseat - (+5) 225 EE #Oct Push,Tripleseat,2025-10-30,Sam Argo,nan,Austin Ricci,nan,<NA>,Sam Argo,True
+00Ued00000a4sgDEAQ,2025-10-14,Sam x Anna - Weekly Sync,Account Planning,0.5,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-10-30,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000a4sl3EAA,2025-10-14,BRN Team Meeting & Forecast Call,Account Planning,1.5,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-10-30,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000XfyqgEAB,2025-10-15,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,True
+00Ued00000a3LkrEAE,2025-10-15,"Pan Communications, Internal Sync",Account Planning,0.5,Pan Communications + 20 EE & Premier,"Pan Communications, Inc.",2025-10-30,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000a4Y9gEAE,2025-10-15,Corissa : Hannah Weekly,Post Sales Support,0.5,nan,SYNCELL,2025-10-30,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000a4uDNEAY,2025-10-15,Austin & Sam Sync,Account Planning,0.5,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-10-30,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000Y7iX8EAJ,2025-10-16,Spiff & Evolv | IT & Audit,nan,1.0,nan,"Evolv Technologies Holdings, Inc.",2025-10-07,Sam Argo,AE meeting,Jared McPherson,Tim Rodgers,Director of Sales Operations,Jared McPherson,True
+00Ued00000YQPYnEAP,2025-10-16,Salesforce Discovery Meeting,nan,0.5,nan,"Phoenix Forging Company, Inc.",2025-10-10,Sam Argo,AE meeting,Austin Ricci,Robert Stahler,IT Director,Austin Ricci,True
+00Ued00000YdxhSEAR,2025-10-16,Vulncheck x Salesforce | Pre-Onsite Huddle,nan,0.5,nan,VulnCheck,2025-10-14,Sam Argo,AE meeting,Jared McPherson,Jay Wallace,"VP, Global Sales",Jared McPherson,True
+00Ued00000YfUt2EAF,2025-10-16,Posh x Salesforce | Account Engagement Demo Conversation,nan,0.5,nan,SALESFORCE.COM,2025-10-14,Sam Argo,AE meeting,MyPatch Hold,Sam Argo,Account Solution Engineer,Jared McPherson,True
+00Ued00000a3ufIEAQ,2025-10-16,Posh: EAC Demo Build,Solution Creation,0.5,Posh Technologies Inc. - +15 Sales Engagement,Posh Technologies Inc.,2025-10-30,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000a4ix0EAA,2025-10-16,Sam / Jenny - Weekly 1:1,Account Planning,0.5,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-10-30,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000a4tdvEAA,2025-10-16,Posh x Salesforce | Account Engagement Demo Conversation,Customer Presentation,0.5,Posh Technologies Inc. - +15 Sales Engagement,Posh Technologies Inc.,2025-10-30,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000a4uzlEAA,2025-10-16,Vulncheck x Salesforce | Pre-Onsite Huddle,Dry Run,0.5,Vulncheck - SPM,VulnCheck,2025-10-30,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000a4vJ7EAI,2025-10-16,Posh,Account Planning,0.5,Posh Technologies Inc. - +15 Sales Engagement,Posh Technologies Inc.,2025-10-30,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000a4vsbEAA,2025-10-16,Evolv Weekly Internal Team Sync,Account Planning,0.5,nan,"Evolv Technologies Holdings, Inc.",2025-10-30,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000a4wFBEAY,2025-10-16,Spiff & Evolv | IT & Audit,Customer Presentation,1.0,"Evolv Technologies Holdings, Inc.- (+60) SPIFF","Evolv Technologies Holdings, Inc.",2025-10-30,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000a4wS5EAI,2025-10-16,Salesforce Discovery Meeting,Customer Discovery,0.5,Phoenix Forge Group - +20 Sales Cloud EE - New Logo #FY26JumpStartSWE,"Phoenix Forging Company, Inc.",2025-10-30,Sam Argo,nan,Austin Ricci,nan,<NA>,Sam Argo,True
+00Ued00000aC5P2EAK,2025-10-16,RSP Demo Build: Focus time,Solution Creation,1.0,RSP (2nd Org) - Experience Cloud #pfFY26,RSP (2nd Org),2025-10-31,Sam Argo,nan,Christopher Sadsad,nan,<NA>,Sam Argo,True
+00Ued00000aCHefEAG,2025-10-16,Sam / Christian -  Jira|Productboard Integration demo,Solution Creation,0.5,RSP (2nd Org) - Experience Cloud #pfFY26,RSP (2nd Org),2025-10-31,Sam Argo,nan,Christopher Sadsad,nan,<NA>,Sam Argo,True
+00Ued00000YqEDAEA3,2025-10-17,Quantix + Salesforce,nan,1.0,nan,"Quantix SCS, LLC.",2025-10-16,Sam Argo,AE meeting,Casey Garfinkel,Heather Glenn,Sales Operations,Casey Garfinkel,True
+00Ued00000aBRY5EAO,2025-10-17,Vulncheck x SPM Internal sync,Account Planning,0.5,Vulncheck - SPM,VulnCheck,2025-10-31,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000aC1oUEAS,2025-10-17,Sam / Casey,Account Planning,0.5,nan,TimeTrade Systems (Engageware),2025-10-31,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000aCHUzEAO,2025-10-17,[Internal] RSP Demo Sync,Solution Creation,0.5,RSP (2nd Org) - Experience Cloud #pfFY26,RSP (2nd Org),2025-10-31,Sam Argo,nan,Christopher Sadsad,nan,<NA>,Sam Argo,True
+00Ued00000aCJyDEAW,2025-10-17,Quantix + Salesforce,Customer Discovery,1.0,"Quantix SCS, LLC. - (+Agentforce) #Agentforce","Quantix SCS, LLC.",2025-10-31,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000aBFn4EAG,2025-10-20,Sam x Anna - Weekly Sync,Account Planning,0.5,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-10-31,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000aCRMNEA4,2025-10-20,BRN Forecast Call,Account Planning,1.0,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-10-31,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000aCexpEAC,2025-10-20,Sales Cloud Demo Build,Solution Creation,1.0,Phoenix Forge Group - +20 Sales Cloud EE - New Logo #FY26JumpStartSWE,"Phoenix Forging Company, Inc.",2025-10-31,Sam Argo,nan,Austin Ricci,nan,<NA>,Sam Argo,True
+00Ued00000Z9a3JEAR,2025-10-21,Spiff-Apriori Demonstration,nan,1.0,nan,aPriori,2025-10-21,Sam Argo,AE meeting,Hannah Frey,Patrick Marotta,"Manager, Revenue Operations",Hannah Frey,True
+00Ued00000aBNMREA4,2025-10-21,Tripleseat Internal Sync,Account Planning,0.5,Tripleseat - Pipeline Agent #Agentforce,Tripleseat,2025-10-31,Sam Argo,nan,Austin Ricci,nan,<NA>,Sam Argo,True
+00Ued00000aCahJEAS,2025-10-21,Spiff-Apriori Demonstration,Customer Presentation,1.0,aPriori - Spiff,aPriori,2025-10-31,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000aDFkZEAW,2025-10-21,Vulncheck On-Site Prep,Solution Creation,1.0,Vulncheck - SPM,VulnCheck,2025-10-31,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000aDpcfEAC,2025-10-21,Linksquares Readback: Deck Build,Solution Creation,1.0,"LinkSquares, Inc- Data Cloud + Full Copy Sandbox","LinkSquares, Inc.",2025-10-31,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000XfyqcEAB,2025-10-22,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,True
+00Ued00000YQlpLEAT,2025-10-22,Maine fire-Salesforce Checkin,nan,0.5,nan,Maine Fire,2025-10-10,Sam Argo,AE meeting,Hannah Frey,Derek William,Systems Design Manager,Hannah Frey,True
+00Ued00000Z2j0DEAR,2025-10-22,Trinity Partners - Salesforce Pricing Call,nan,0.5,nan,Trinity Partners Commercial Real Estate - New Logo,2025-10-20,Sam Argo,AE meeting,Austin Ricci,Walt Robinson,Partner,Austin Ricci,True
+00Ued00000Z4ajvEAB,2025-10-22,Starburst x Salesforce 12/14 Renewal,nan,0.5,nan,Starburst Data,2025-10-20,Sam Argo,AE meeting,Jared McPherson,Katie Nichols*,Director of Business Applications,Jared McPherson,True
+00Ued00000ZN5RIEA1,2025-10-22,#SupersonikProSuite,Account Planning,0.25,nan,Main Line Brands,2025-10-23,Sam Argo,nan,Maxwell Foster,Danielle Yuthas,"VP, Marketing",Sam Argo,True
+00Ued00000ZNENxEAP,2025-10-22,#SupersonikProSuite,Account Planning,0.25,nan,Synergies Intelligent Systems,2025-10-23,Sam Argo,nan,Nolan Pizzi,Michael Chang,Chief Executive Officer,Sam Argo,True
+00Ued00000ZO3dJEAT,2025-10-22,#SupersonikProSuite,Account Planning,0.25,nan,Redfin Solutions,2025-10-23,Sam Argo,nan,Jared McPherson,Patrick Corbett,CEO,Sam Argo,True
+00Ued00000ZOAEzEAP,2025-10-22,#SupersonikProSuite,Account Planning,0.25,nan,StaticWorx,2025-10-23,Sam Argo,nan,Vance Cassell,Kimberly Petraccaro,Director of Corporate Sales,Sam Argo,True
+00Ued00000ZOBSnEAP,2025-10-22,#SupersonikProSuite,Account Planning,0.25,nan,IQ3 Connect,2025-10-23,Sam Argo,nan,Nolan Pizzi,Ali Merchant,Chief Executive Officer & Founder,Sam Argo,True
+00Ued00000aDDsZEAW,2025-10-22,Internal | Agentforce Pricing Sync,Account Planning,0.5,Captivate - (+50 Agentforce for Service) 50 Agentforce for Service,Captivate,2025-10-31,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000aDFFuEAO,2025-10-22,Chloe / Sam : Linksquares x Data 36O,Dry Run,0.5,"LinkSquares, Inc- Data Cloud + Full Copy Sandbox","LinkSquares, Inc.",2025-10-31,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000aEQPREA4,2025-10-22,Sam / Jared,Account Planning,0.25,nan,VulnCheck,2025-10-31,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000aETDZEA4,2025-10-22,Tripleseat Internal Sync,Account Planning,0.5,Tripleseat - Pipeline Agent #Agentforce,Tripleseat,2025-10-31,Sam Argo,nan,Austin Ricci,nan,<NA>,Sam Argo,True
+00Ued00000aEqutEAC,2025-10-22,LinkSquares- Readback Sync,Account Planning,0.5,"LinkSquares, Inc- Data Cloud + Full Copy Sandbox","LinkSquares, Inc.",2025-10-31,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000aEyu4EAC,2025-10-22,Starburst x Salesforce 12/14 Renewal,Account Planning,0.5,Starburst + Agentforce,Starburst Data,2025-10-31,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000aFFDLEA4,2025-10-22,Corissa : Hannah Weekly,V2MOM Initiatives,0.5,nan,SYNCELL,2025-10-31,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000aFIb2EAG,2025-10-22,Trinity Partners - Salesforce Pricing Call,Customer Discovery,0.5,Trinity Real Estate - Sales Cloud New Logo,Trinity Partners Commercial Real Estate - New Logo,2025-10-31,Sam Argo,nan,Austin Ricci,nan,<NA>,Sam Argo,True
+00Ued00000aFS5hEAG,2025-10-22,Charles / Sam : Engageware Sync,Account Planning,0.5,TimeTrade Systems (Engageware) - Sales Engagement (+33) + Agentforce for Sales (+70) + Sales Dialer (+24),TimeTrade Systems (Engageware),2025-10-31,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000YKaOpEAL,2025-10-23,Vulncheck x Salesforce Temp hold for Onsite,nan,1.5,nan,ninety10 LLC,2025-10-09,Sam Argo,AE meeting,Partner Trail Guide,Justin Sadler,Founder & CEO,Jared McPherson,True
+00Ued00000YZgyWEAT,2025-10-23,Vulncheck Onsite Room,nan,1.5,nan,ninety10 LLC,2025-10-13,Sam Argo,AE meeting,Partner Trail Guide,Justin Sadler,Founder & CEO,Jared McPherson,True
+00Ued00000aEFvREAW,2025-10-23,Svc Voice Chat,Account Planning,0.5,nan,TimeTrade Systems (Engageware),2025-10-31,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000aEHJ2EAO,2025-10-23,Whitney / Jared,Account Planning,0.5,nan,VulnCheck,2025-10-31,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000aFSwvEAG,2025-10-23,Vulncheck Onsite Room,Customer Presentation,1.5,nan,VulnCheck,2025-10-31,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000aEjWrEAK,2025-10-24,LinkSquares: Prep (If needed),Solution Creation,0.75,"LinkSquares, Inc- Data Cloud + Full Copy Sandbox","LinkSquares, Inc.",2025-10-31,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000aF7scEAC,2025-10-24,Natalie / Sam - Slack Activity Integrations,Account Planning,0.4166666666666667,nan,VulnCheck,2025-10-31,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000aFUKPEA4,2025-10-24,Demo Build: Phoenix Forge,Customer Presentation,1.5,Phoenix Forge Group - +20 Sales Cloud EE - New Logo #FY26JumpStartSWE,"Phoenix Forging Company, Inc.",2025-10-31,Sam Argo,nan,Austin Ricci,nan,<NA>,Sam Argo,True
+00Ued00000Z5Os4EAF,2025-10-27,Salesforce Demo Next Week,nan,1.0,nan,"Phoenix Forging Company, Inc.",2025-10-20,Sam Argo,AE meeting,Austin Ricci,Robert Stahler,IT Director,Austin Ricci,True
+00Ued00000ZB4KJEA1,2025-10-27,Tripleseat x Salesforce Meeting (updated),nan,0.5,nan,Tripleseat,2025-10-21,Sam Argo,AE meeting,Austin Ricci,Lacey Larson,VP Revenue Operations,Austin Ricci,True
+00Ued00000aEkSwEAK,2025-10-27,Tripleseat x Salesforce Meeting (updated),Customer Discovery,0.5,Tripleseat - Pipeline Agent #Agentforce,Tripleseat,2025-10-31,Sam Argo,nan,Austin Ricci,nan,<NA>,Sam Argo,True
+00Ued00000aF9G0EAK,2025-10-27,Salesforce Demo Next Week,Customer Presentation,1.0,Phoenix Forge Group - +20 Sales Cloud EE - New Logo #FY26JumpStartSWE,"Phoenix Forging Company, Inc.",2025-10-31,Sam Argo,nan,Austin Ricci,nan,<NA>,Sam Argo,True
+00Ued00000aFVZrEAO,2025-10-27,Dry run- LinkSquares,Dry Run,1.0,"LinkSquares, Inc- Data Cloud + Full Copy Sandbox","LinkSquares, Inc.",2025-10-31,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000YgGRgEAN,2025-10-28,Salesforce + Captivate | Agentforce Pricing sync,nan,0.5,nan,Captivate,2025-10-14,Sam Argo,AE meeting,Vance Cassell,Scott Yapp,Creative Tech & Analytics,Vance Cassell,True
+00Ued00000aEU6OEAW,2025-10-28,LinkSquares Final Sync,Account Planning,0.5,"LinkSquares, Inc- Data Cloud + Full Copy Sandbox","LinkSquares, Inc.",2025-10-31,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000aErREEA0,2025-10-28,Deck Build: Linksquares,Solution Creation,1.5,"LinkSquares, Inc- Data Cloud + Full Copy Sandbox","LinkSquares, Inc.",2025-10-31,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000aFapdEAC,2025-10-28,Salesforce + Captivate | Agentforce Pricing sync,Customer Presentation,0.5,Captivate - (+50 Agentforce for Service) 50 Agentforce for Service,Captivate,2025-10-31,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000YPapfEAD,2025-10-29,LinkSquares-Salesforce Readback,nan,1.0,nan,"LinkSquares, Inc.",2025-10-10,Sam Argo,AE meeting,Hannah Frey,Simon Schanche,VP Operations,Hannah Frey,True
+00Ued00000aDfF9EAK,2025-10-29,Sam | Caroline Bi-Weekly,Account Planning,0.5,"LinkSquares, Inc- Data Cloud + Full Copy Sandbox","LinkSquares, Inc.",2025-10-31,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000aEkMREA0,2025-10-29,Sam/Michelle Transition Sync,Account Planning,0.5,nan,TimeTrade Systems (Engageware),2025-10-31,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000aEtJJEA0,2025-10-29,[Internal] Linksquares Quick Sync,Solution Creation,0.5,"LinkSquares, Inc- Data Cloud + Full Copy Sandbox","LinkSquares, Inc.",2025-10-31,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000aFB9iEAG,2025-10-29,LinkSquares-Salesforce Readback,Customer Presentation,1.0,"LinkSquares, Inc- Data Cloud + Full Copy Sandbox","LinkSquares, Inc.",2025-10-31,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000ZvghiEAB,2025-10-30,Adeption x Salesforce/Slack,nan,0.5,nan,Adeption,2025-10-29,Sam Argo,AE meeting,Jared McPherson,Matt Murphy,"GM, Americas",Jared McPherson,True
+00Ued00000a2gT7EAI,2025-10-30,Salesforce + Captivate | Agentforce sync,nan,0.5,nan,Captivate,2025-10-30,Sam Argo,AE meeting,Vance Cassell,Scott Yapp,Creative Tech & Analytics,Vance Cassell,True
+00Ued00000aFCCPEA4,2025-10-30,Sam / Casey,Account Planning,0.5,nan,TimeTrade Systems (Engageware),2025-10-31,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000aFMTNEA4,2025-10-30,Sam / Jared,Account Planning,0.5,nan,Adeption,2025-10-31,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000aFRpcEAG,2025-10-30,SF/VG Sync - Engageware,Account Planning,1.0,nan,TimeTrade Systems (Engageware),2025-10-31,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000aFjbBEAS,2025-10-30,Salesforce + Captivate | Agentforce sync,Customer Discovery,0.5,nan,Captivate,2025-10-31,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000aFjjFEAS,2025-10-30,Adeption x Salesforce/Slack,Customer Discovery,0.5,nan,Adeption,2025-10-31,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000aEJ1HEAW,2025-10-31,Starburst Agentforce Prep,Account Planning,0.5,Starburst + Agentforce,Starburst Data,2025-10-31,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000aFkCHEA0,2025-10-31,Stablepoint Partners Sync,Account Planning,0.5,Stablepoint Partners - Sales Cloud EE (+9) 9,Stablepoint Partners,2025-10-31,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000aFtPFEA0,2025-10-31,Deck Build: Starburst Data,Solution Creation,1.0,Starburst + Agentforce,Starburst Data,2025-10-31,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000aFtvVEAS,2025-10-31,Deck Build: Stablepoint Partners,Solution Creation,1.0,Stablepoint Partners - Sales Cloud EE (+9) 9,Stablepoint Partners,2025-10-31,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000a4JqiEAE,2025-11-03,Starburst x Salesforce Agentforce Sync,nan,1.0,nan,SALESFORCE.COM,2025-10-30,Sam Argo,AE meeting,MyPatch Hold,Sam Argo,Account Solution Engineer,Jared McPherson,True
+00Ued00000aUGQrEAO,2025-11-03,Sam / Casey,Account Planning,0.25,Stablepoint Partners - Sales Cloud EE (+9) 9,Stablepoint Partners,2025-11-04,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000aUH8MEAW,2025-11-03,Stablepoint Customer Presentation Prep,Solution Creation,0.5,Stablepoint Partners - Sales Cloud EE (+9) 9,Stablepoint Partners,2025-11-04,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000aUULkEAO,2025-11-03,Deck Build: Starburst Data AI,Solution Creation,1.5,Starburst + Agentforce,Starburst Data,2025-11-04,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000aUu3FEAS,2025-11-03,Starburst x Salesforce Agentforce Sync,Customer Presentation,1.0,Starburst + Agentforce,Starburst Data,2025-11-04,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000ahrIwEAI,2025-11-04,Sam x Anna - Weekly Sync,Account Planning,0.5,Starburst + Agentforce,Starburst Data,2025-11-06,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000aiPM9EAM,2025-11-04,Agentforce Demo Build: Employee FAQ,Solution Creation,2.0,Captivate - (+50 Agentforce for Service) 50 Agentforce for Service,Captivate,2025-11-06,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000aiPVpEAM,2025-11-04,Charles/Sam Agentforce Opps Sync,Account Planning,0.4166666666666667,Starburst + Agentforce,Starburst Data,2025-11-06,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000XfyqeEAB,2025-11-05,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,True
+00Ued00000ZoSJZEA3,2025-11-05,Salesforce Pricing Call,nan,0.5,nan,"Phoenix Forging Company, Inc.",2025-10-28,Sam Argo,AE meeting,Austin Ricci,Robert Stahler,IT Director,Austin Ricci,True
+00Ued00000aPZ7bEAG,2025-11-05,Starburst x Agentforce Usecase Deep dive,nan,1.0,nan,SALESFORCE.COM,2025-11-03,Sam Argo,AE meeting,MyPatch Hold,Sam Argo,Account Solution Engineer,Jared McPherson,True
+00Ued00000ahlNAEAY,2025-11-05,Starburst x Agentforce Usecase Deep dive,Customer Presentation,1.0,Starburst + Agentforce,Starburst Data,2025-11-06,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000ahpB5EAI,2025-11-05,Sam x Hannah 1:1,Account Planning,0.5,nan,"LinkSquares, Inc.",2025-11-06,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000ahudNEAQ,2025-11-05,Salesforce Pricing Call,Customer Presentation,0.5,Phoenix Forge Group - +20 Sales Cloud EE - New Logo #FY26JumpStartSWE,"Phoenix Forging Company, Inc.",2025-11-06,Sam Argo,nan,Austin Ricci,nan,<NA>,Sam Argo,True
+00Ued00000ahwDmEAI,2025-11-05,Sam / Jenny - Weekly 1:1,Account Planning,0.5,nan,TimeTrade Systems (Engageware),2025-11-06,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000ai0cKEAQ,2025-11-05,Solution Creation: Starburst Data Use Case Workshop,Solution Creation,0.5,Starburst + Agentforce,Starburst Data,2025-11-06,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000ai3VOEAY,2025-11-05,Starburst Data: Account Planning,Account Planning,0.5,Starburst + Agentforce,Starburst Data,2025-11-06,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000aiRB3EAM,2025-11-05,Starburst Data Demo Build,Solution Creation,0.5,Starburst + Agentforce,Starburst Data,2025-11-06,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000aiRarEAE,2025-11-05,Sam + Michelle Transition Sync,Account Planning,0.5,nan,Stablepoint Partners,2025-11-06,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000aiRpNEAU,2025-11-05,Salesforce x Evolv Bi-Weekly Sync,Customer Discovery,0.5,nan,"Evolv Technologies Holdings, Inc.",2025-11-06,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000ajFvpEAE,2025-11-06,Align on Tripleseat Next Steps,Account Planning,0.5,Tripleseat - Pipeline Agent #Agentforce,Tripleseat,2025-11-06,Sam Argo,nan,Austin Ricci,nan,<NA>,Sam Argo,True
+00Ued00000ajGFBEA2,2025-11-06,Sam / Casey - Quantix,Account Planning,0.5,nan,"Quantix SCS, LLC.",2025-11-06,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000ajhqTEAQ,2025-11-06,LinkSquares- Internal Debrief,Account Planning,0.5,nan,"LinkSquares, Inc.",2025-11-06,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000b4IAmEAM,2025-11-06,Starburst Data x Agentforce Sync,Account Planning,0.5,Starburst + Agentforce,Starburst Data,2025-11-11,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000b4molEAA,2025-11-06,Sam x Jared 1:1,Account Planning,0.5,nan,Starburst Data,2025-11-11,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000b5O1EEAU,2025-11-06,Demo Build: Starburst Data Contracts Agent,Solution Creation,1.0,Starburst + Agentforce,Starburst Data,2025-11-11,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000b5XHNEA2,2025-11-06,Demo Build: Employee Agent,Solution Creation,1.0,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-11-11,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000b5TDlEAM,2025-11-07,Demo Build: Employee Agent,Solution Creation,2.0,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-11-11,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000ajO6IEAU,2025-11-10,Dillon & Austin Sync,nan,0.5,nan,Tripleseat,2025-11-06,Sam Argo,AE meeting,Austin Ricci,Dillon Mentzer,Administrator,Austin Ricci,True
+00Ued00000b5cDsEAI,2025-11-10,Dillon & Austin Sync,Customer Discovery,0.5,Tripleseat - Pipeline Agent #Agentforce,Tripleseat,2025-11-11,Sam Argo,nan,Austin Ricci,nan,<NA>,Sam Argo,True
+00Ued00000b5cvNEAQ,2025-11-10,BRN Forecast Call,Account Planning,1.0,Starburst + Agentforce,Starburst Data,2025-11-11,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000bxONZEA2,2025-11-10,Sam / Maxwell,Account Planning,0.5,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-11-21,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000bxPUwEAM,2025-11-10,Focus Block,Solution Creation,1.5,Starburst + Agentforce,Starburst Data,2025-11-21,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000cBGJsEAO,2025-11-10,Tripleseat Discovery Prep,Customer Discovery,0.5,Tripleseat - Pipeline Agent #Agentforce,Tripleseat,2025-11-25,Sam Argo,nan,Austin Ricci,nan,<NA>,Sam Argo,True
+00Ued00000Xb7cYEAR,2025-11-11,Captivate / Salesforce Bi Weekly,nan,0.5,nan,Captivate,2025-09-30,Sam Argo,AE meeting,Vance Cassell,Scott Yapp,Creative Tech & Analytics,Vance Cassell,True
+00Ued00000b5cybEAA,2025-11-11,Starburst x Agentforce Quoting Sync,Account Planning,0.5,Starburst + Agentforce,Starburst Data,2025-11-11,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000b8BkCEAU,2025-11-11,Captivate / Salesforce Bi Weekly,Customer Discovery,0.5,Captivate - (+50 Agentforce for Service) 50 Agentforce for Service,Captivate,2025-11-11,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000b8COUEA2,2025-11-11,Charles / Sam: Starburst Data Demo Strategy,Solution Creation,0.5,Starburst + Agentforce,Starburst Data,2025-11-11,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000bx2oVEAQ,2025-11-11,Starburst Agent Focus Block,Solution Creation,0.5,Starburst + Agentforce,Starburst Data,2025-11-21,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000bxQlxEAE,2025-11-11,Sam + Michelle Quantix Sync,Account Planning,0.5,nan,"Quantix SCS, LLC.",2025-11-21,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000XfyqdEAB,2025-11-12,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,True
+00Ued00000aWUcbEAG,2025-11-12,Salesforce AI Agentforce x Tripleseat,nan,0.5,nan,Tripleseat,2025-11-04,Sam Argo,AE meeting,Austin Ricci,Julie DiNicola,Director of Sales Operations,Austin Ricci,True
+00Ued00000akO7REAU,2025-11-12,Quantix + Salesforce,nan,1.0,nan,"Quantix SCS, LLC.",2025-11-06,Sam Argo,AE meeting,Casey Garfinkel,Heather Glenn,Sales Operations,Casey Garfinkel,True
+00Ued00000bwbmgEAA,2025-11-12,Sam x Austin 1:1,Account Planning,0.5,Tripleseat - Pipeline Agent #Agentforce,Tripleseat,2025-11-21,Sam Argo,nan,Austin Ricci,nan,<NA>,Sam Argo,True
+00Ued00000bxGl0EAE,2025-11-12,Sam x Anna - Weekly Sync,Account Planning,0.5,Starburst + Agentforce,Starburst Data,2025-11-21,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000bxTS5EAM,2025-11-12,Salesforce AI Agentforce x Tripleseat,Customer Discovery,0.5,Tripleseat - Pipeline Agent #Agentforce,Tripleseat,2025-11-21,Sam Argo,nan,Austin Ricci,nan,<NA>,Sam Argo,True
+00Ued00000bxTqHEAU,2025-11-12,Quantix + Salesforce,Customer Presentation,1.0,"Quantix SCS, LLC. - (+Agentforce) #Agentforce","Quantix SCS, LLC.",2025-11-21,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000cAuhPEAS,2025-11-12,Tripleseat Discovery Prep,Customer Discovery,0.5,Tripleseat - Pipeline Agent #Agentforce,Tripleseat,2025-11-25,Sam Argo,nan,Austin Ricci,nan,<NA>,Sam Argo,True
+00Ued00000cBAiyEAG,2025-11-12,Quantix Agentforce Discovery Prep,Customer Presentation,1.0,"Quantix SCS, LLC. - (+Agentforce) #Agentforce","Quantix SCS, LLC.",2025-11-25,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000YesvoEAB,2025-11-13,BRN Patriots Game vs. Jets Sponsored by Ninety-Ten,nan,6.0,nan,SALESFORCE.COM,2025-10-14,Sam Argo,AE meeting,MyPatch Hold,Hannah Frey,Territory Account Executive 4,Anna Winthrop,True
+00Ued00000bxVX7EAM,2025-11-14,Charles / Sam: Starburst Contract Agent Check-in,Solution Creation,0.5,Starburst + Agentforce,Starburst Data,2025-11-21,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000cBhQOEA0,2025-11-14,Block,Account Planning,0.5,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-11-25,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000cBhQPEA0,2025-11-14,Weekly Wrap Up,Account Planning,1.0,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-11-25,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000cC12TEAS,2025-11-14,Block,Solution Creation,1.0,Starburst + Agentforce,Starburst Data,2025-11-25,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000TbZRDEA3,2025-11-17,StablePoint Partners + Salesforce - Follow-Up,nan,1.0,nan,Stablepoint Partners,2025-08-08,Sam Argo,AE meeting,Casey Garfinkel,Gina Mackey,VP,Casey Garfinkel,True
+00Ued00000bXyvSEAS,2025-11-17,Compliance Week x Salesforce,nan,0.5,nan,Compliance Week,2025-11-17,Sam Argo,AE meeting,Jared McPherson,Robert Vaillancourt,<NA>,Jared McPherson,True
+00Ued00000bYdSwEAK,2025-11-17,Jared x Katie Sync,nan,0.5,nan,Starburst Data,2025-11-17,Sam Argo,AE meeting,Jared McPherson,Katie Nichols*,Director of Business Applications,Jared McPherson,True
+00Ued00000cBaAREA0,2025-11-17,StablePoint Partners + Salesforce - Follow-Up,Customer Presentation,1.0,Stablepoint Partners - Sales Cloud EE (+9) 9,Stablepoint Partners,2025-11-25,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000cC3FZEA0,2025-11-17,Compliance Week x Salesforce,Customer Discovery,0.5,Compliance Week - MCAE Advanced - NB,Compliance Week,2025-11-25,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000cC3HBEA0,2025-11-17,Charles / Sam: Starburst Contract Agent,Solution Creation,1.5,Starburst + Agentforce,Starburst Data,2025-11-25,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000cVVkqEAG,2025-11-17,Account Planning: Compliance Week,Account Planning,0.5,Compliance Week - MCAE Advanced - NB,Compliance Week,2025-11-30,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000cVWTxEAO,2025-11-17,Stablepoint Prep,Solution Creation,1.0,nan,Stablepoint Partners,2025-11-30,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000cVWaPEAW,2025-11-17,Pan | Salesforce Monthly Digital Connect,Customer Discovery,0.5,PAN- Tableau (+5),Pan Communications Inc.,2025-11-30,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000bZ9xZEAS,2025-11-18,Salesforce x CMC,nan,0.75,nan,All Access Equipment,2025-11-17,Sam Argo,AE meeting,Jared McPherson,Nicole Romanuk,Executive Assistant,Jared McPherson,True
+00Ued00000cBKqZEAW,2025-11-18,Sam x Hannah 1:1,Account Planning,0.5,Dosespot - Digital Engagement,Dosespot,2025-11-25,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000cBaoiEAC,2025-11-18,Salesforce x CMC,Customer Discovery,0.75,"All Access Equipment Renewal 43 Full CRM, 40 Call Center, 7 Pardot...",All Access Equipment,2025-11-25,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000cBsAWEA0,2025-11-18,Sam x Jared Starburst Sync,Account Planning,0.5,Starburst + Agentforce,Starburst Data,2025-11-25,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000cC3kDEAS,2025-11-18,Starburst Demo Block,Solution Creation,1.0,Starburst + Agentforce,Starburst Data,2025-11-25,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000cVWfFEAW,2025-11-18,CMC Discovery Prep,Account Planning,0.5,All Access Equipment - + 10 UE,All Access Equipment,2025-11-30,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000XfyqnEAB,2025-11-19,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,True
+00Ued00000XrwMWEAZ,2025-11-19,Salesforce x Evolv Bi-Weekly Sync,nan,0.5,nan,"Evolv Technologies Holdings, Inc.",2025-10-03,Sam Argo,AE meeting,Jared McPherson,Peter Vittands,VP of CyberSecurity and IT,Jared McPherson,True
+00Ued00000c9Ko2EAE,2025-11-19,Sam x Nolan 1:1,Account Planning,0.5,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-11-24,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000c9VxxEAE,2025-11-19,Ben/Sam Linksquares Brainstorm,Account Planning,0.5,nan,"LinkSquares, Inc.",2025-11-24,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000c9W7dEAE,2025-11-19,Quantix Sync,Account Planning,0.5,nan,"Quantix SCS, LLC.",2025-11-24,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000cC3NeEAK,2025-11-19,Salesforce x Evolv Bi-Weekly Sync,Customer Discovery,0.5,Evolv + Agentforce,"Evolv Technologies Holdings, Inc.",2025-11-25,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000bZZP2EAO,2025-11-20,BRNers Agentforce Crawl-Walk-Run Enablement,nan,0.5,nan,Trail Consult Inc,2025-11-17,Sam Argo,AE meeting,Partner Trail Guide,Ludzi Bokete,Architect,Anna Winthrop,True
+00Ued00000cBbHkEAK,2025-11-20,Sam x Jared 1:1,Account Planning,0.5,Starburst + Agentforce,Starburst Data,2025-11-25,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000cBvBcEAK,2025-11-20,Evolv Weekly Internal Team Sync,Account Planning,0.5,Evolv + Agentforce,"Evolv Technologies Holdings, Inc.",2025-11-25,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000bYxzfEAC,2025-11-21,Sam / Anna / Ludzi Agentforce Debrief,nan,0.5,nan,Trail Consult Inc,2025-11-17,Sam Argo,AE meeting,Partner Trail Guide,Ludzi Bokete,Architect,Anna Winthrop,True
+00Ued00000cBFFjEAO,2025-11-21,Demo Dry Run: Starburst,Dry Run,1.0,Starburst + Agentforce,Starburst Data,2025-11-25,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000cBs8sEAC,2025-11-21,Sam / Anna / Ludzi Agentforce Debrief,Account Planning,0.5,nan,"[INTERNAL USE] salesforce.com Co.,Ltd. - CRM",2025-11-25,Sam Argo,nan,Sales Alignment,nan,<NA>,Sam Argo,True
+00Ued00000cVSa3EAG,2025-11-21,Solution Creation: Linksquares,Solution Creation,1.0,nan,"LinkSquares, Inc.",2025-11-30,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000cVWgrEAG,2025-11-21,Demo Build: Captivate,Solution Creation,1.5,Captivate - (+50 Agentforce for Service) 50 Agentforce for Service,Captivate,2025-11-30,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000bsKXaEAM,2025-11-24,Starburst x Agentforce,nan,0.5,nan,Starburst Data,2025-11-20,Sam Argo,AE meeting,Jared McPherson,Katie Nichols*,Director of Business Applications,Jared McPherson,True
+00Ued00000cUpLtEAK,2025-11-24,Sam / Hannah,Solution Creation,0.5,"LinkSquares, Inc- Data Cloud + Full Copy Sandbox","LinkSquares, Inc.",2025-11-30,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000cVAy6EAG,2025-11-24,Starburst x Agentforce,Customer Presentation,0.5,Starburst + Agentforce,Starburst Data,2025-11-30,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000by1aGEAQ,2025-11-25,Quantix + Salesforce,nan,0.5,nan,"Quantix SCS, LLC.",2025-11-21,Sam Argo,AE meeting,Casey Garfinkel,Heather Glenn,Sales Operations,Casey Garfinkel,True
+00Ued00000cCkE8EAK,2025-11-25,Captivate / Salesforce Bi Weekly,nan,0.5,nan,Captivate,2025-11-25,Sam Argo,AE meeting,Vance Cassell,Scott Yapp,Creative Tech & Analytics,Vance Cassell,True
+00Ued00000cCoSzEAK,2025-11-25,Starburst x Salesforce Shield,nan,0.5,nan,Starburst Data,2025-11-25,Sam Argo,AE meeting,Jared McPherson,Shane Dizer,Security Engineering Manager,Jared McPherson,True
+00Ued00000cUYJKEA4,2025-11-25,Starburst x Salesforce Shield,Customer Presentation,0.5,Starburst + Shield,Starburst Data,2025-11-30,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000cVHrdEAG,2025-11-25,Captivate / Salesforce Bi Weekly,Customer Presentation,0.5,Captivate - (+50 Agentforce for Service) 50 Agentforce for Service,Captivate,2025-11-30,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000cVQy1EAG,2025-11-25,Quantix + Salesforce,Customer Discovery,0.5,"Quantix SCS, LLC. - Agentforce for Sales +30 (+30)","Quantix SCS, LLC.",2025-11-30,Sam Argo,nan,Casey Garfinkel,nan,<NA>,Sam Argo,True
+00Ued00000XfyqmEAB,2025-11-26,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,True
+00Ued00000cVRPREA4,2025-11-26,Starburst Data x Shield: Account Planning,Account Planning,0.5,Starburst + Shield,Starburst Data,2025-11-30,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000cVRajEAG,2025-11-26,Demo Build,Solution Creation,1.0,Starburst + Agentforce,Starburst Data,2025-11-30,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000YlaywEAB,2025-12-01,Pan Communication x Salesforce,nan,0.5,nan,SALESFORCE.COM,2025-10-15,Sam Argo,AE meeting,MyPatch Hold,Sam Argo,Account Solution Engineer,Jared McPherson,True
+00Ued00000cezdBEAQ,2025-12-01,Pan Communication Prep,Account Planning,0.5,"Pan Communications, Inc. Renewal 47 SFA","Pan Communications, Inc.",2025-12-02,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000cf1DZEAY,2025-12-01,Starburst Data x Shield Planning,Account Planning,0.5,Starburst + Shield,Starburst Data,2025-12-02,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000cf1S5EAI,2025-12-01,Mulesoft Fabric  x Captivate,Solution Creation,0.5,Captivate - (+50 Agentforce for Service) 50 Agentforce for Service,Captivate,2025-12-02,Sam Argo,nan,Vance Cassell,nan,<NA>,Sam Argo,True
+00Ued00000cf1VJEAY,2025-12-01,Focus: Starburst Agentforce Resources,Post Sales Support,1.0,Starburst + Agentforce,Starburst Data,2025-12-02,Sam Argo,nan,Jared McPherson,nan,<NA>,Sam Argo,True
+00Ued00000cfidVEAQ,2025-12-02,Sam x Hannah 1:1,Account Planning,0.5,Ampion- Privacy Center,Ampion CRM,2025-12-02,Sam Argo,nan,Hannah Frey,nan,<NA>,Sam Argo,True
+00Ued00000cEPaBEAW,2025-12-03,Salesforce + Captivate | Agentforce sync,nan,0.5,nan,Captivate,2025-11-25,Sam Argo,AE meeting,Vance Cassell,Scott Yapp,Creative Tech & Analytics,Vance Cassell,False
+00Ued00000cYTEhEAO,2025-12-03,Salesforce + Storage Squad | check-in,nan,0.5,nan,Storage Squad,2025-12-01,Sam Argo,AE meeting,Vance Cassell,Beny Hipolito,"Director, Business Operations",Vance Cassell,False
+00Ued00000cYhXjEAK,2025-12-03,Capital Construction | Salesforce Connect,nan,0.5,nan,Jacuzzi Bath Remodel,2025-12-01,Sam Argo,AE meeting,Victor Ruso,Mitch Lindsay,Chief Technology Officer,Nolan Pizzi,False
+00Ued00000caIweEAE,2025-12-03,Shield/Security Center - POC Criteria,nan,0.5,nan,Starburst Data,2025-12-01,Sam Argo,AE meeting,Jared McPherson,Shane Dizer,Security Engineering Manager,Jared McPherson,False
+00Ued00000bYbPkEAK,2025-12-04,Stablepoint Partners + Salesforce,nan,1.0,nan,Stablepoint Partners,2025-11-17,Sam Argo,AE meeting,Casey Garfinkel,Gina Mackey,VP,Casey Garfinkel,False
+00Ued00000cIjaJEAS,2025-12-04,Salesforce + Artisan Industries | Security Review,nan,0.5,nan,Artisan IND (DUPE),2025-11-26,Sam Argo,AE meeting,Vance Cassell,Ned Cleary,Director Of Information Technology,Vance Cassell,False
+00Ued00000cYTEgEAO,2025-12-04,Salesforce + Viken Detection | Intro + Contract Review,nan,0.5,nan,Viken Detection,2025-12-01,Sam Argo,AE meeting,Vance Cassell,Lane Marsden,Program Detector,Vance Cassell,False
+00Ued00000caFPGEA2,2025-12-05,Veson & Salesforce Meeting,nan,0.5,nan,Veson Nautical LLC,2025-12-01,Sam Argo,AE meeting,Austin Ricci,Raffi Kiredjian,Salesforce Solution Architect,Austin Ricci,False
+00Ued00000Xb7cSEAR,2025-12-09,Captivate / Salesforce Bi Weekly,nan,0.5,nan,Captivate,2025-09-30,Sam Argo,AE meeting,Vance Cassell,Scott Yapp,Creative Tech & Analytics,Vance Cassell,False
+00Ued00000XfyqoEAB,2025-12-10,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XfyqjEAB,2025-12-17,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XrwMSEAZ,2025-12-17,Salesforce x Evolv Bi-Weekly Sync,nan,0.5,nan,"Evolv Technologies Holdings, Inc.",2025-10-03,Sam Argo,AE meeting,Jared McPherson,Peter Vittands,VP of CyberSecurity and IT,Jared McPherson,False
+00Ued00000Xb7cVEAR,2025-12-23,Captivate / Salesforce Bi Weekly,nan,0.5,nan,Captivate,2025-09-30,Sam Argo,AE meeting,Vance Cassell,Scott Yapp,Creative Tech & Analytics,Vance Cassell,False
+00Ued00000XfyqiEAB,2025-12-24,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XfyqlEAB,2025-12-31,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XrwMUEAZ,2025-12-31,Salesforce x Evolv Bi-Weekly Sync,nan,0.5,nan,"Evolv Technologies Holdings, Inc.",2025-10-03,Sam Argo,AE meeting,Jared McPherson,Peter Vittands,VP of CyberSecurity and IT,Jared McPherson,False
+00Ued00000Xb7ceEAB,2026-01-06,Captivate / Salesforce Bi Weekly,nan,0.5,nan,Captivate,2025-09-30,Sam Argo,AE meeting,Vance Cassell,Scott Yapp,Creative Tech & Analytics,Vance Cassell,False
+00Ued00000XfyqkEAB,2026-01-07,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XfyqYEAR,2026-01-14,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XrwMaEAJ,2026-01-14,Salesforce x Evolv Bi-Weekly Sync,nan,0.5,nan,"Evolv Technologies Holdings, Inc.",2025-10-03,Sam Argo,AE meeting,Jared McPherson,Peter Vittands,VP of CyberSecurity and IT,Jared McPherson,False
+00Ued00000Xb7chEAB,2026-01-20,Captivate / Salesforce Bi Weekly,nan,0.5,nan,Captivate,2025-09-30,Sam Argo,AE meeting,Vance Cassell,Scott Yapp,Creative Tech & Analytics,Vance Cassell,False
+00Ued00000XfyqXEAR,2026-01-21,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XfyqaEAB,2026-01-28,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XrwMcEAJ,2026-01-28,Salesforce x Evolv Bi-Weekly Sync,nan,0.5,nan,"Evolv Technologies Holdings, Inc.",2025-10-03,Sam Argo,AE meeting,Jared McPherson,Peter Vittands,VP of CyberSecurity and IT,Jared McPherson,False
+00Ued00000XfyqZEAR,2026-02-04,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XfyqWEAR,2026-02-11,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XfyrREAR,2026-02-18,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XfyrJEAR,2026-02-25,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XfyrHEAR,2026-03-04,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XfyrNEAR,2026-03-11,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XfyrLEAR,2026-03-18,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XfyrCEAR,2026-03-25,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XfyrAEAR,2026-04-01,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XfyrFEAR,2026-04-08,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XfyrEEAR,2026-04-15,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XfyrPEAR,2026-04-22,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XfyrQEAR,2026-04-29,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XfyrTEAR,2026-05-06,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XfyrSEAR,2026-05-13,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XfyrKEAR,2026-05-20,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XfyrIEAR,2026-05-27,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XfyrOEAR,2026-06-03,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XfyrMEAR,2026-06-10,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XfyrDEAR,2026-06-17,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XfyrBEAR,2026-06-24,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XfyrGEAR,2026-07-01,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000Xghc3EAB,2026-07-08,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000Xghc2EAB,2026-07-15,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XghbxEAB,2026-07-22,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XghbwEAB,2026-07-29,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XghbzEAB,2026-08-05,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XghbyEAB,2026-08-12,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000Xghc5EAB,2026-08-19,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000Xghc4EAB,2026-08-26,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000Xghc6EAB,2026-09-02,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XghcBEAR,2026-09-09,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000Xghc8EAB,2026-09-16,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000Xghc7EAB,2026-09-23,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000XghcAEAR,2026-09-30,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000Xghc9EAB,2026-10-07,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000Xghc1EAB,2026-10-14,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000Xghc0EAB,2026-10-21,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000ZBSRWEA5,2026-10-28,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-21,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000ZBSRXEA5,2026-11-04,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-21,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000Zl4gnEAB,2026-11-11,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-28,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000ZpOSWEA3,2026-11-18,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-10-28,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000bfjaDEAQ,2026-11-25,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-11-18,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000bfjaEEAQ,2026-12-02,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-11-18,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000bfjaFEAQ,2026-12-09,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-11-18,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ued00000cYU94EAG,2026-12-16,Corissa : Hannah Weekly,nan,0.5,nan,SYNCELL,2025-12-01,Sam Argo,AE meeting,Hannah Frey,Corissa McCann,"Associate Director, CommOps",Hannah Frey,False
+00Ted00000ogsqiEAA,2025-10-22,00Ted00000ogsqiEAA,nan,,nan,IQ3 Connect,2025-10-22,Sam Argo,nan,Nolan Pizzi,Ali Merchant,Chief Executive Officer & Founder,Sam Argo,True

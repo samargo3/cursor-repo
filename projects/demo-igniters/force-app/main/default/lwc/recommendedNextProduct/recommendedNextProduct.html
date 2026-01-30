@@ -1,0 +1,41 @@
+<template>
+    <lightning-card title="Recommended Next Product" icon-name="standard:product">
+        <template if:true={loading}>
+            <div class="slds-p-around_medium slds-text-body_regular">Loading...</div>
+        </template>
+        <template if:true={error}>
+            <div class="slds-p-around_medium slds-text-color_error">{error}</div>
+        </template>
+        <template if:true={product}>
+            <div class="slds-p-around_medium">
+                <div class="slds-text-heading_small">{product.name}</div>
+                <div class="slds-m-top_x-small slds-text-body_small">Family: {product.family}</div>
+                <template if:true={product.unitPrice}>
+                    <div class="slds-m-top_x-small slds-text-body_small">
+                        Price: {formattedPrice}
+                    </div>
+                </template>
+                <div class="slds-m-top_small">
+                    <lightning-button variant="brand" label="View Product" onclick={handleView}></lightning-button>
+                </div>
+            </div>
+        </template>
+        <template if:false={product}>
+            <div class="slds-p-around_medium slds-text-body_regular">No products available.</div>
+        </template>
+    </lightning-card>
+</template>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

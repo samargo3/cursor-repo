@@ -1,0 +1,6 @@
+SELECT Id, FirstName, LastName, Company, Title, Status, LeadSource 
+FROM Lead 
+WHERE Industry = 'Technology' 
+ORDER BY CreatedDate DESC 
+LIMIT 15
+

@@ -1,0 +1,9 @@
+{
+  "timestamp": "2025-12-02T18:47:09.866209Z",
+  "config_path": "configs/weekly_activity.yaml",
+  "exported_count": 1,
+  "transformed_count": 1,
+  "appended_rows": 537,
+  "published_count": 0,
+  "status": "success"
+}

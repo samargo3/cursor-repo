@@ -1,0 +1,16 @@
+<apex:page lightningStylesheets="true" showHeader="false" sidebar="false" standardStylesheets="false">
+    <apex:includeLightning />
+    <div id="lightning" style="height: 100vh;" />
+    <script>
+        $Lightning.use("c:Demo_Admin_App", function() {
+            $Lightning.createComponent("c:demoAdminPanel",
+                {},
+                "lightning",
+                function(cmp) {
+                    console.log("Demo Admin Panel loaded");
+                }
+            );
+        });
+    </script>
+</apex:page>
+

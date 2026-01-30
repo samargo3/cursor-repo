@@ -1,0 +1,30 @@
+:host {
+    display: block;
+}
+
+.jira-wrapper {
+    border: 2px solid #0176d3; /* Salesforce brand blue */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem; /* space between border and card edge */
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.greyed-out {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.jira-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.jira-logo {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+}
+

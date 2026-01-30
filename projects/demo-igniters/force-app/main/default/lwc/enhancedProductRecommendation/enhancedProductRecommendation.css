@@ -1,0 +1,130 @@
+/* Enhanced Product Recommendation Styles */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.product-card {
+    border: 1px solid #dddbda;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.product-card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+.product-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.product-checkbox {
+    margin-right: 0.5rem;
+}
+
+.product-title {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #181818;
+    flex: 1;
+}
+
+.product-details {
+    margin: 0.5rem 0;
+}
+
+.product-family {
+    color: #706e6b;
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+}
+
+.product-price {
+    color: #0176d3;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.product-description {
+    color: #514f4d;
+    font-size: 0.875rem;
+    line-height: 1.4;
+    margin-top: 0.5rem;
+}
+
+.product-actions {
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid #dddbda;
+}
+
+/* Comparison Modal Styles */
+.comparison-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.comparison-product {
+    border: 1px solid #dddbda;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+}
+
+.comparison-product h3 {
+    color: #0176d3;
+    margin-bottom: 0.5rem;
+}
+
+.comparison-details div {
+    margin-bottom: 0.25rem;
+    font-size: 0.875rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .comparison-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Selection State */
+.product-card.selected {
+    border-color: #0176d3;
+    background-color: #f3f9ff;
+}
+
+/* Loading and Error States */
+.slds-spinner {
+    margin-right: 0.5rem;
+}
+
+.slds-text-color_error {
+    display: flex;
+    align-items: center;
+}
+
+/* Modal Enhancements */
+.slds-modal__container {
+    max-width: 90vw;
+    width: 90vw;
+}
+
+.slds-modal__content {
+    max-height: 70vh;
+    overflow-y: auto;
+}

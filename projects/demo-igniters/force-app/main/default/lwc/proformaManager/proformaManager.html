@@ -1,0 +1,203 @@
+<template>
+    <lightning-card>
+        
+        <!-- Custom Title with Better Formatting -->
+        <div slot="title">
+            <div class="card-title">
+                <lightning-icon icon-name="standard:forecasts" size="small" class="title-icon"></lightning-icon>
+                <span class="title-text">Resource Forecasting</span>
+            </div>
+        </div>
+        
+        <!-- Action Buttons -->
+        <div slot="actions">
+            <lightning-button-group>
+                <lightning-button 
+                    label="Add Resource" 
+                    icon-name="utility:add"
+                    onclick={handleAddRow}
+                    disabled={isLoading}
+                    class="action-button">
+                </lightning-button>
+                <lightning-button 
+                    label="Save" 
+                    variant="brand"
+                    icon-name="utility:save"
+                    onclick={handleSave}
+                    disabled={isLoading}
+                    class="action-button">
+                </lightning-button>
+                <lightning-button 
+                    label="Cancel" 
+                    onclick={handleCancel}
+                    disabled={isLoading}
+                    class="action-button">
+                </lightning-button>
+            </lightning-button-group>
+        </div>
+        
+        <!-- Loading Spinner -->
+        <template if:true={isLoading}>
+            <div class="spinner-container">
+                <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+            </div>
+        </template>
+        
+        <!-- Summary Cards -->
+        <div class="summary-section">
+            <div class="slds-grid slds-wrap slds-gutters_small">
+                
+                <!-- Opportunity Amount Card -->
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-3">
+                    <div class="summary-card card-blue">
+                        <div class="card-icon-wrapper">
+                            <lightning-icon icon-name="utility:moneybag" size="x-small" class="card-icon"></lightning-icon>
+                        </div>
+                        <div class="card-label">OPPORTUNITY AMOUNT</div>
+                        <div class="card-value">
+                            {opportunityAmountFormatted}
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Total Resource Cost Card -->
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-3">
+                    <div class="summary-card card-orange">
+                        <div class="card-icon-wrapper">
+                            <lightning-icon icon-name="utility:resource_capacity" size="x-small" class="card-icon"></lightning-icon>
+                        </div>
+                        <div class="card-label">TOTAL RESOURCE COST</div>
+                        <div class="card-value">
+                            {totalResourceCostFormatted}
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Deal Profitability Card -->
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-3">
+                    <div class={profitabilityCardClass}>
+                        <div class="card-icon-wrapper">
+                            <lightning-icon icon-name="utility:chart" size="x-small" class="card-icon"></lightning-icon>
+                        </div>
+                        <div class="card-label">DEAL PROFITABILITY</div>
+                        <div class="card-value">
+                            {dealProfitabilityFormatted}
+                        </div>
+                        <div class="card-sublabel">
+                            Margin: {profitMarginPercentage}%
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <!-- Resource Forecasts Table -->
+        <div class="table-section">
+            <template if:true={hasForecastsForDisplay}>
+                <div class="forecast-table-wrapper">
+                    <table class="slds-table slds-table_cell-buffer forecast-table">
+                        <thead>
+                            <tr class="table-header">
+                                <th scope="col" class="header-cell">
+                                    <div class="header-content">Role</div>
+                                </th>
+                                <th scope="col" class="header-cell">
+                                    <div class="header-content">Expected Hours</div>
+                                </th>
+                                <th scope="col" class="header-cell">
+                                    <div class="header-content">Hourly Cost</div>
+                                </th>
+                                <th scope="col" class="header-cell">
+                                    <div class="header-content">Total Cost</div>
+                                </th>
+                                <th scope="col" class="header-cell action-column">
+                                    <span class="slds-assistive-text">Actions</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <template for:each={forecasts} for:item="forecast">
+                                <tr key={forecast.Id} class="table-row">
+                                    <td data-label="Role" class="table-cell">
+                                        <lightning-combobox
+                                            name="role"
+                                            value={forecast.Role__c}
+                                            placeholder="Select Role"
+                                            options={roleOptions}
+                                            data-id={forecast.Id}
+                                            onchange={handleRoleChange}
+                                            variant="label-hidden"
+                                            class="table-input"
+                                            required>
+                                        </lightning-combobox>
+                                    </td>
+                                    <td data-label="Expected Hours" class="table-cell">
+                                        <lightning-input
+                                            type="number"
+                                            value={forecast.Expected_Hours__c}
+                                            data-id={forecast.Id}
+                                            onchange={handleHoursChange}
+                                            variant="label-hidden"
+                                            formatter="decimal"
+                                            step="0.01"
+                                            min="0"
+                                            class="table-input"
+                                            required>
+                                        </lightning-input>
+                                    </td>
+                                    <td data-label="Hourly Cost" class="table-cell">
+                                        <lightning-input
+                                            type="number"
+                                            value={forecast.Hourly_Cost__c}
+                                            data-id={forecast.Id}
+                                            onchange={handleCostChange}
+                                            variant="label-hidden"
+                                            formatter="currency"
+                                            step="0.01"
+                                            min="0"
+                                            class="table-input"
+                                            required>
+                                        </lightning-input>
+                                    </td>
+                                    <td data-label="Total Estimated Cost" class="table-cell">
+                                        <div class="calculated-value">
+                                            <lightning-formatted-number
+                                                value={forecast.Total_Estimated_Cost__c}
+                                                format-style="currency"
+                                                currency-code="USD">
+                                            </lightning-formatted-number>
+                                        </div>
+                                    </td>
+                                    <td class="table-cell action-cell">
+                                        <lightning-button-icon
+                                            icon-name="utility:delete"
+                                            alternative-text="Delete"
+                                            title="Delete"
+                                            variant="border-filled"
+                                            data-id={forecast.Id}
+                                            onclick={handleDeleteRow}
+                                            class="delete-button">
+                                        </lightning-button-icon>
+                                    </td>
+                                </tr>
+                            </template>
+                        </tbody>
+                    </table>
+                </div>
+            </template>
+            
+            <!-- Empty State -->
+            <template if:false={hasForecastsForDisplay}>
+                <div class="empty-state">
+                    <lightning-icon icon-name="utility:resource_capacity" size="large" class="empty-icon"></lightning-icon>
+                    <h3 class="empty-title">No Resource Forecasts Yet</h3>
+                    <p class="empty-message">
+                        Click "Add Resource" above to start planning resource allocation for this opportunity.
+                    </p>
+                </div>
+            </template>
+        </div>
+        
+    </lightning-card>
+</template>

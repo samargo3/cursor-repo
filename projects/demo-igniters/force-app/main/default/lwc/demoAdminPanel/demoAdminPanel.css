@@ -1,0 +1,250 @@
+/* Gold Theme Variables */
+:host {
+    --gold-primary: #D4AF37;
+    --gold-secondary: #FFD700;
+    --gold-dark: #B8941E;
+    --gold-light: #F5E6D3;
+}
+
+/* Info Banner */
+.info-banner {
+    background: linear-gradient(135deg, var(--gold-light) 0%, #FFF8E7 100%);
+    border-left: 4px solid var(--gold-primary);
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+.info-icon {
+    margin-right: 0.75rem;
+    margin-top: 0.25rem;
+}
+
+.info-icon {
+    --slds-c-icon-color-foreground-default: var(--gold-dark);
+}
+
+.info-content {
+    flex: 1;
+}
+
+.info-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #181818;
+    margin-bottom: 0.25rem;
+}
+
+.info-text {
+    font-size: 0.875rem;
+    color: #706e6b;
+    margin: 0;
+}
+
+/* Action Cards */
+.action-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    border: 2px solid #e5e5e5;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.action-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    border-color: var(--gold-primary);
+}
+
+.action-icon-container {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.seed-bg {
+    background: linear-gradient(135deg, #00A1E0 0%, #0070D2 100%);
+}
+
+.reset-bg {
+    background: linear-gradient(135deg, var(--gold-primary) 0%, var(--gold-secondary) 100%);
+}
+
+.clear-bg {
+    background: linear-gradient(135deg, #EA001E 0%, #C23934 100%);
+}
+
+.white-icon {
+    --slds-c-icon-color-foreground-default: white;
+}
+
+.action-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #181818;
+    margin-bottom: 0.5rem;
+}
+
+.action-description {
+    font-size: 0.875rem;
+    color: #706e6b;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.action-button {
+    width: 100%;
+}
+
+/* Loading Overlay */
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.loading-content {
+    background: white;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+}
+
+.loading-message {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #181818;
+}
+
+/* Results Section */
+.results-section {
+    padding-top: 1.5rem;
+    border-top: 2px solid var(--gold-light);
+}
+
+.results-card {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 1.5rem;
+    border: 2px solid var(--gold-light);
+}
+
+.results-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.results-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #181818;
+    margin-left: 0.5rem;
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.result-item {
+    background: white;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.result-label {
+    font-size: 0.875rem;
+    color: #706e6b;
+    font-weight: 500;
+}
+
+.result-value {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--gold-dark);
+}
+
+.result-value.deleted {
+    color: #C23934;
+}
+
+/* Stats Section */
+.stats-section {
+    padding-top: 1.5rem;
+    border-top: 2px solid #e5e5e5;
+}
+
+.stats-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #181818;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+}
+
+.stat-item {
+    background: white;
+    border: 2px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.stat-item lightning-icon {
+    --slds-c-icon-color-foreground-default: var(--gold-primary);
+}
+
+.stat-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #181818;
+}
+
+.stat-label {
+    font-size: 0.75rem;
+    color: #706e6b;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .action-card {
+        margin-bottom: 1rem;
+    }
+}
+

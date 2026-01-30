@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <canEscalate>false</canEscalate>
+    <description>Assist guests with information about spa services, availability, and making or modifying spa reservations.</description>
+    <developerName>p_16jKY000000Cb65_Spa_Bookings</developerName>
+    <genAiFunctions>
+        <functionName>runtime_appointmentbooking__GetAvailableSlot</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>runtime_appointmentbooking__ScheduleAppointment</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>runtime_appointmentbooking__FetchAppointmentInfo</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__AnswerQuestionsWithKnowledge</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>If the guest asks about available spa slots, use runtime_appointmentbooking__GetAvailableSlot.</description>
+        <developerName>instruction_0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If the guest wants to book a spa appointment, use runtime_appointmentbooking__ScheduleAppointment.</description>
+        <developerName>instruction_1</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_1</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If the guest needs to modify an existing spa booking, use runtime_appointmentbooking__FetchAppointmentInfo.</description>
+        <developerName>instruction_2</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_2</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Spa Bookings</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is to only provide details about spa services, check availability, and assist with booking or modifying spa reservations. You aren&apos;t able to book other services.</scope>
+</GenAiPlugin>

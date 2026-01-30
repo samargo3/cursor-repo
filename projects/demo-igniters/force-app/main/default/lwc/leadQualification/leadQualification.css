@@ -1,0 +1,151 @@
+.score-display {
+    display: flex;
+    align-items: baseline;
+}
+
+.grade-display {
+    text-align: center;
+}
+
+.score-high {
+    color: #4bca81;
+    font-weight: bold;
+}
+
+.score-medium {
+    color: #ffb75d;
+    font-weight: bold;
+}
+
+.score-low {
+    color: #ea001e;
+    font-weight: bold;
+}
+
+.grade-a {
+    color: #4bca81;
+    font-weight: bold;
+}
+
+.grade-b {
+    color: #4bca81;
+    font-weight: bold;
+}
+
+.grade-c {
+    color: #ffb75d;
+    font-weight: bold;
+}
+
+.grade-d {
+    color: #ea001e;
+    font-weight: bold;
+}
+
+.qualification-results {
+    background-color: #f3f3f3;
+    border-left: 4px solid #0176d3;
+}
+
+.slds-list_dotted {
+    list-style-type: disc;
+    padding-left: 1rem;
+}
+
+.slds-list_dotted .slds-item {
+    margin-bottom: 0.25rem;
+}
+
+/* Lead Information Layout Fixes */
+.lead-info-section {
+    margin-bottom: 1rem;
+}
+
+.lead-info-grid {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 1rem !important;
+    margin-top: 0.5rem !important;
+    width: 100% !important;
+}
+
+.lead-info-item {
+    display: flex !important;
+    flex-direction: column !important;
+    margin-bottom: 0.5rem !important;
+    width: 100% !important;
+    min-width: 0 !important;
+}
+
+.lead-info-label {
+    font-size: 0.75rem !important;
+    color: #706e6b !important;
+    font-weight: 400 !important;
+    margin-bottom: 0.25rem !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.025rem !important;
+    display: block !important;
+    width: 100% !important;
+}
+
+.lead-info-value {
+    font-size: 0.875rem !important;
+    color: #181818 !important;
+    font-weight: 400 !important;
+    word-break: break-word !important;
+    display: block !important;
+    width: 100% !important;
+    overflow-wrap: break-word !important;
+    white-space: normal !important;
+}
+
+/* Override Salesforce default styles */
+.lead-info-grid * {
+    box-sizing: border-box !important;
+}
+
+.lead-info-item * {
+    box-sizing: border-box !important;
+}
+
+/* Ensure no horizontal layout interference */
+.lead-info-grid .slds-list_horizontal,
+.lead-info-grid .slds-list_horizontal .slds-item_label,
+.lead-info-grid .slds-list_horizontal .slds-item_detail {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .lead-info-grid {
+        grid-template-columns: 1fr !important;
+        gap: 0.5rem !important;
+    }
+}
+
+/* Ensure proper spacing for qualification results */
+.qualification-section {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 0.25rem;
+    border: 1px solid #e5e5e5;
+}
+
+.qualification-header {
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+    color: #181818;
+}
+
+.strengths-list {
+    margin: 0.5rem 0;
+}
+
+.strengths-list .slds-item {
+    margin-bottom: 0.25rem;
+    padding-left: 0.5rem;
+}

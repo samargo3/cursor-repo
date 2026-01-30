@@ -1,0 +1,6 @@
+SELECT Id, FirstName, LastName, Company, AnnualRevenue, Industry, Status 
+FROM Lead 
+WHERE AnnualRevenue > 50000 
+ORDER BY AnnualRevenue DESC 
+LIMIT 20
+

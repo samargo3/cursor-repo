@@ -1,0 +1,230 @@
+Subject,StartDateTime,EndDateTime,Description,OwnerId,WhatId,IsAllDayEvent,ShowAs
+Discovery call,2025-10-14T13:00:56.534Z,2025-10-14T14:00:56.534Z,Hands-on workshop to validate integration approach.,005Kj00000D7vfMIAR,006Kj000015eeI3IAI,false,Busy
+Proposal review,2025-10-11T13:00:56.534Z,2025-10-11T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000D7vfMIAR,006Kj000015eeM4IAI,false,Busy
+Discovery call,2025-10-05T13:00:56.534Z,2025-10-05T14:00:56.534Z,Hands-on workshop to validate integration approach.,005Kj00000D7vfMIAR,006Kj000015eeMwIAI,false,Busy
+Negotiation meeting,2025-10-06T13:00:56.534Z,2025-10-06T14:00:56.534Z,Walkthrough of product capabilities with the buying team.,005Kj00000D7vfMIAR,006Kj000015eeGDIAY,false,Busy
+Technical workshop,2025-10-08T13:00:56.534Z,2025-10-08T14:00:56.534Z,Hands-on workshop to validate integration approach.,005Kj00000D7vfMIAR,006Kj000015eeI4IAI,false,Busy
+Executive alignment call,2025-10-03T13:00:56.534Z,2025-10-03T14:00:56.534Z,"Discuss terms, pricing, and close plan.",005Kj00000D7vfMIAR,006Kj000015eeKKIAY,false,Busy
+Discovery call,2025-10-12T13:00:56.534Z,2025-10-12T14:00:56.534Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5e7IAB,006Kj000015eeJjIAI,false,Busy
+Technical workshop,2025-10-13T13:00:56.534Z,2025-10-13T14:00:56.534Z,Hands-on workshop to validate integration approach.,005Kj00000D7vfMIAR,006Kj000015eeK5IAI,false,Busy
+Demo with stakeholders,2025-10-08T13:00:56.534Z,2025-10-08T14:00:56.534Z,Align executives on business case and rollout.,005Kj00000D7vfMIAR,006Kj000015eeHeIAI,false,Busy
+Executive alignment call,2025-10-17T13:00:56.534Z,2025-10-17T14:00:56.534Z,Review final proposal and address open questions.,005Kj00000D7vfMIAR,006Kj000015eeHqIAI,false,Busy
+Negotiation meeting,2025-10-10T13:00:56.534Z,2025-10-10T14:00:56.534Z,"Discuss terms, pricing, and close plan.",005Kj00000D7vfMIAR,006Kj000015eeKPIAY,false,Busy
+Discovery call,2025-10-05T13:00:56.534Z,2025-10-05T14:00:56.534Z,"Discuss terms, pricing, and close plan.",005Kj00000D7vfMIAR,006Kj000015eeKuIAI,false,Busy
+Technical workshop,2025-10-07T13:00:56.534Z,2025-10-07T14:00:56.534Z,Hands-on workshop to validate integration approach.,005Kj00000D7vfMIAR,006Kj000015eeKLIAY,false,Busy
+Executive alignment call,2025-10-07T13:00:56.534Z,2025-10-07T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000D7vfMIAR,006Kj000015eeKMIAY,false,Busy
+Discovery call,2025-10-11T13:00:56.534Z,2025-10-11T14:00:56.534Z,"Discuss terms, pricing, and close plan.",005Kj00000D7vfMIAR,006Kj000015eeI5IAI,false,Busy
+Executive alignment call,2025-10-14T13:00:56.534Z,2025-10-14T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000D7vfMIAR,006Kj000015eeM5IAI,false,Busy
+Discovery call,2025-10-15T13:00:56.534Z,2025-10-15T14:00:56.534Z,Review final proposal and address open questions.,005Kj00000D7vfMIAR,006Kj000015eeJpIAI,false,Busy
+Demo with stakeholders,2025-10-15T13:00:56.534Z,2025-10-15T14:00:56.534Z,Walkthrough of product capabilities with the buying team.,005Kj00000D7vfMIAR,006Kj000015eeIpIAI,false,Busy
+Proposal review,2025-10-07T13:00:56.534Z,2025-10-07T14:00:56.534Z,Walkthrough of product capabilities with the buying team.,005Kj00000Dy5e7IAB,006Kj000015eeJIIAY,false,Busy
+Executive alignment call,2025-10-10T13:00:56.534Z,2025-10-10T14:00:56.534Z,Review final proposal and address open questions.,005Kj00000D7vfMIAR,006Kj000015eeGxIAI,false,Busy
+Executive alignment call,2025-10-11T13:00:56.534Z,2025-10-11T14:00:56.534Z,Hands-on workshop to validate integration approach.,005Kj00000D7vfMIAR,006Kj000015eeKkIAI,false,Busy
+Demo with stakeholders,2025-10-11T13:00:56.534Z,2025-10-11T14:00:56.534Z,Align executives on business case and rollout.,005Kj00000Dy5e8IAB,006Kj000015eeJdIAI,false,Busy
+Proposal review,2025-10-05T13:00:56.534Z,2025-10-05T14:00:56.534Z,Hands-on workshop to validate integration approach.,005Kj00000D7vfMIAR,006Kj000015eeM6IAI,false,Busy
+Proposal review,2025-10-10T13:00:56.534Z,2025-10-10T14:00:56.534Z,Hands-on workshop to validate integration approach.,005Kj00000D7vfMIAR,006Kj000015eeIbIAI,false,Busy
+Demo with stakeholders,2025-10-13T13:00:56.534Z,2025-10-13T14:00:56.534Z,Align executives on business case and rollout.,005Kj00000Dy5e8IAB,006Kj000015eeIrIAI,false,Busy
+Executive alignment call,2025-10-14T13:00:56.534Z,2025-10-14T14:00:56.534Z,Align executives on business case and rollout.,005Kj00000D7vfMIAR,006Kj000015eeKaIAI,false,Busy
+Discovery call,2025-10-14T13:00:56.534Z,2025-10-14T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000D7vfMIAR,006Kj000015eeMFIAY,false,Busy
+Demo with stakeholders,2025-10-09T13:00:56.534Z,2025-10-09T14:00:56.534Z,Align executives on business case and rollout.,005Kj00000D7vfMIAR,006Kj000015eeKjIAI,false,Busy
+Executive alignment call,2025-10-09T13:00:56.534Z,2025-10-09T14:00:56.534Z,Review final proposal and address open questions.,005Kj00000D7vfMIAR,006Kj000015eeFLIAY,false,Busy
+Negotiation meeting,2025-10-05T13:00:56.534Z,2025-10-05T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000D7vfMIAR,006Kj000015eeJFIAY,false,Busy
+Discovery call,2025-10-15T13:00:56.534Z,2025-10-15T14:00:56.534Z,"Discuss terms, pricing, and close plan.",005Kj00000D7vfMIAR,006Kj000015eeKcIAI,false,Busy
+Proposal review,2025-10-13T13:00:56.534Z,2025-10-13T14:00:56.534Z,Align executives on business case and rollout.,005Kj00000Dy5e7IAB,006Kj000015eeGgIAI,false,Busy
+Proposal review,2025-10-16T13:00:56.534Z,2025-10-16T14:00:56.534Z,"Discuss terms, pricing, and close plan.",005Kj00000D7vfMIAR,006Kj000015eeEwIAI,false,Busy
+Technical workshop,2025-10-07T13:00:56.534Z,2025-10-07T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000D7vfMIAR,006Kj000015eeFiIAI,false,Busy
+Discovery call,2025-10-16T13:00:56.534Z,2025-10-16T14:00:56.534Z,Align executives on business case and rollout.,005Kj00000Dy5e8IAB,006Kj000015eeK2IAI,false,Busy
+Demo with stakeholders,2025-10-03T13:00:56.534Z,2025-10-03T14:00:56.534Z,Review final proposal and address open questions.,005Kj00000Dy5e6IAB,006Kj000015eeNnIAI,false,Busy
+Proposal review,2025-10-13T13:00:56.534Z,2025-10-13T14:00:56.534Z,"Discuss terms, pricing, and close plan.",005Kj00000Dy5f4IAB,006Kj0000130XvpIAE,false,Busy
+Executive alignment call,2025-10-05T13:00:56.534Z,2025-10-05T14:00:56.534Z,Walkthrough of product capabilities with the buying team.,005Kj00000Dy5e2IAB,006Kj000015eeOLIAY,false,Busy
+Discovery call,2025-10-11T13:00:56.534Z,2025-10-11T14:00:56.534Z,Review final proposal and address open questions.,005Kj00000Dy5e2IAB,006Kj000015eeOXIAY,false,Busy
+Negotiation meeting,2025-10-12T13:00:56.534Z,2025-10-12T14:00:56.534Z,"Discuss terms, pricing, and close plan.",005Kj00000D7vfMIAR,006Kj000015eeLAIAY,false,Busy
+Demo with stakeholders,2025-10-06T13:00:56.534Z,2025-10-06T14:00:56.534Z,Walkthrough of product capabilities with the buying team.,005Kj00000D7vfMIAR,006Kj000015eeJPIAY,false,Busy
+Demo with stakeholders,2025-10-04T13:00:56.534Z,2025-10-04T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000D7vfMIAR,006Kj000015eeF4IAI,false,Busy
+Negotiation meeting,2025-10-11T13:00:56.534Z,2025-10-11T14:00:56.534Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5e8IAB,006Kj000015eeIzIAI,false,Busy
+Technical workshop,2025-10-03T13:00:56.534Z,2025-10-03T14:00:56.534Z,Align executives on business case and rollout.,005Kj00000D7vfMIAR,006Kj000015eeItIAI,false,Busy
+Technical workshop,2025-10-14T13:00:56.534Z,2025-10-14T14:00:56.534Z,Walkthrough of product capabilities with the buying team.,005Kj00000Dy5e8IAB,006Kj000015eeMEIAY,false,Busy
+Negotiation meeting,2025-10-05T13:00:56.534Z,2025-10-05T14:00:56.534Z,Review final proposal and address open questions.,005Kj00000D7vfMIAR,006Kj000015eeLyIAI,false,Busy
+Proposal review,2025-10-03T13:00:56.534Z,2025-10-03T14:00:56.534Z,Review final proposal and address open questions.,005Kj00000D7vfMIAR,006Kj000015eeFnIAI,false,Busy
+Negotiation meeting,2025-10-15T13:00:56.534Z,2025-10-15T14:00:56.534Z,Align executives on business case and rollout.,005Kj00000D7vfMIAR,006Kj000015eeGyIAI,false,Busy
+Executive alignment call,2025-10-11T13:00:56.534Z,2025-10-11T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000Dy5e7IAB,006Kj000015eeM7IAI,false,Busy
+Negotiation meeting,2025-10-08T13:00:56.534Z,2025-10-08T14:00:56.534Z,Align executives on business case and rollout.,005Kj00000Dy5e8IAB,006Kj000015eeGSIAY,false,Busy
+Demo with stakeholders,2025-10-12T13:00:56.534Z,2025-10-12T14:00:56.534Z,Hands-on workshop to validate integration approach.,005Kj00000D7vfMIAR,006Kj000015eeLrIAI,false,Busy
+Demo with stakeholders,2025-10-14T13:00:56.534Z,2025-10-14T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000D7vfMIAR,006Kj000015eeMiIAI,false,Busy
+Discovery call,2025-10-15T13:00:56.534Z,2025-10-15T14:00:56.534Z,Align executives on business case and rollout.,005Kj00000D7vfMIAR,006Kj000015eeJqIAI,false,Busy
+Technical workshop,2025-10-17T13:00:56.534Z,2025-10-17T14:00:56.534Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5e2IAB,006Kj000015eeOFIAY,false,Busy
+Discovery call,2025-10-16T13:00:56.534Z,2025-10-16T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000Dy5f4IAB,006Kj0000130XvrIAE,false,Busy
+Negotiation meeting,2025-10-13T13:00:56.534Z,2025-10-13T14:00:56.534Z,Align executives on business case and rollout.,005Kj00000Dy5e2IAB,006Kj000015eeOzIAI,false,Busy
+Executive alignment call,2025-10-16T13:00:56.534Z,2025-10-16T14:00:56.534Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5f4IAB,006Kj0000130XvsIAE,false,Busy
+Technical workshop,2025-10-13T13:00:56.534Z,2025-10-13T14:00:56.534Z,"Discuss terms, pricing, and close plan.",005Kj00000Dy5e2IAB,006Kj000015eeP0IAI,false,Busy
+Proposal review,2025-10-11T13:00:56.534Z,2025-10-11T14:00:56.534Z,Align executives on business case and rollout.,005Kj00000Dy5e2IAB,006Kj000015eeNmIAI,false,Busy
+Proposal review,2025-10-07T13:00:56.534Z,2025-10-07T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000Dy5e2IAB,006Kj000015eeNjIAI,false,Busy
+Negotiation meeting,2025-10-14T13:00:56.534Z,2025-10-14T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000Dy5e2IAB,006Kj000015eeP6IAI,false,Busy
+Negotiation meeting,2025-10-04T13:00:56.534Z,2025-10-04T14:00:56.534Z,Review final proposal and address open questions.,005Kj00000Dy5e3IAB,006Kj000015eeOWIAY,false,Busy
+Proposal review,2025-10-11T13:00:56.534Z,2025-10-11T14:00:56.534Z,"Discuss terms, pricing, and close plan.",005Kj00000Dy5e2IAB,006Kj0000130Xv7IAE,false,Busy
+Proposal review,2025-10-08T13:00:56.534Z,2025-10-08T14:00:56.534Z,"Discuss terms, pricing, and close plan.",005Kj00000Dy5e2IAB,006Kj000015eeP7IAI,false,Busy
+Discovery call,2025-10-04T13:00:56.534Z,2025-10-04T14:00:56.534Z,Review final proposal and address open questions.,005Kj00000D7vfMIAR,006Kj000015eeJBIAY,false,Busy
+Negotiation meeting,2025-10-09T13:00:56.534Z,2025-10-09T14:00:56.534Z,Align executives on business case and rollout.,005Kj00000D7vfMIAR,006Kj000015eeIlIAI,false,Busy
+Technical workshop,2025-10-16T13:00:56.534Z,2025-10-16T14:00:56.534Z,Review final proposal and address open questions.,005Kj00000D7vfMIAR,006Kj000015eeI7IAI,false,Busy
+Executive alignment call,2025-10-17T13:00:56.534Z,2025-10-17T14:00:56.534Z,Hands-on workshop to validate integration approach.,005Kj00000D7vfMIAR,006Kj000015eeKpIAI,false,Busy
+Proposal review,2025-10-08T13:00:56.534Z,2025-10-08T14:00:56.534Z,"Discuss terms, pricing, and close plan.",005Kj00000D7vfMIAR,006Kj000015eeHpIAI,false,Busy
+Discovery call,2025-10-06T13:00:56.534Z,2025-10-06T14:00:56.534Z,Align executives on business case and rollout.,005Kj00000D7vfMIAR,006Kj000015eeG3IAI,false,Busy
+Negotiation meeting,2025-10-14T13:00:56.534Z,2025-10-14T14:00:56.534Z,"Discuss terms, pricing, and close plan.",005Kj00000Dy5e8IAB,006Kj000015eeG0IAI,false,Busy
+Executive alignment call,2025-10-04T13:00:56.534Z,2025-10-04T14:00:56.534Z,Align executives on business case and rollout.,005Kj00000D7vfMIAR,006Kj000015eeJKIAY,false,Busy
+Discovery call,2025-10-05T13:00:56.534Z,2025-10-05T14:00:56.534Z,Align executives on business case and rollout.,005Kj00000D7vfMIAR,006Kj000015eeKhIAI,false,Busy
+Executive alignment call,2025-10-10T13:00:56.534Z,2025-10-10T14:00:56.534Z,Walkthrough of product capabilities with the buying team.,005Kj00000D7vfMIAR,006Kj000015eeIAIAY,false,Busy
+Technical workshop,2025-10-13T13:00:56.534Z,2025-10-13T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000Dy5e8IAB,006Kj000015eeExIAI,false,Busy
+Discovery call,2025-10-05T13:00:56.534Z,2025-10-05T14:00:56.534Z,Walkthrough of product capabilities with the buying team.,005Kj00000D7vfMIAR,006Kj000015eeKbIAI,false,Busy
+Negotiation meeting,2025-10-09T13:00:56.534Z,2025-10-09T14:00:56.534Z,"Discuss terms, pricing, and close plan.",005Kj00000D7vfMIAR,006Kj000015eeJrIAI,false,Busy
+Executive alignment call,2025-10-07T13:00:56.534Z,2025-10-07T14:00:56.534Z,Review final proposal and address open questions.,005Kj00000D7vfMIAR,006Kj000015eeLjIAI,false,Busy
+Discovery call,2025-10-12T13:00:56.534Z,2025-10-12T14:00:56.534Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5e7IAB,006Kj000015eeHmIAI,false,Busy
+Executive alignment call,2025-10-07T13:00:56.534Z,2025-10-07T14:00:56.534Z,"Discuss terms, pricing, and close plan.",005Kj00000D7vfMIAR,006Kj000015eeHnIAI,false,Busy
+Negotiation meeting,2025-10-12T13:00:56.534Z,2025-10-12T14:00:56.534Z,Review final proposal and address open questions.,005Kj00000D7vfMIAR,006Kj000015eeG9IAI,false,Busy
+Discovery call,2025-10-04T13:00:56.534Z,2025-10-04T14:00:56.534Z,Align executives on business case and rollout.,005Kj00000D7vfMIAR,006Kj000015eeHoIAI,false,Busy
+Proposal review,2025-10-03T13:00:56.534Z,2025-10-03T14:00:56.534Z,Walkthrough of product capabilities with the buying team.,005Kj00000D7vfMIAR,006Kj000015eeMlIAI,false,Busy
+Demo with stakeholders,2025-10-16T13:00:56.534Z,2025-10-16T14:00:56.534Z,Walkthrough of product capabilities with the buying team.,005Kj00000D7vfMIAR,006Kj000015eeLkIAI,false,Busy
+Executive alignment call,2025-10-08T13:00:56.534Z,2025-10-08T14:00:56.534Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5e6IAB,006Kj000015eeORIAY,false,Busy
+Technical workshop,2025-10-17T13:00:56.534Z,2025-10-17T14:00:56.534Z,Walkthrough of product capabilities with the buying team.,005Kj00000Dy5e2IAB,006Kj0000130XvCIAU,false,Busy
+Demo with stakeholders,2025-10-14T13:00:56.534Z,2025-10-14T14:00:56.534Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5e2IAB,006Kj0000130XvDIAU,false,Busy
+Demo with stakeholders,2025-10-04T13:00:56.534Z,2025-10-04T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000Dy5e5IAB,006Kj000015eeOfIAI,false,Busy
+Proposal review,2025-10-17T13:00:56.534Z,2025-10-17T14:00:56.534Z,Walkthrough of product capabilities with the buying team.,005Kj00000Dy5f4IAB,006Kj000015eeFaIAI,false,Busy
+Executive alignment call,2025-10-15T13:00:56.534Z,2025-10-15T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000Dy5e2IAB,006Kj000015eeNzIAI,false,Busy
+Negotiation meeting,2025-10-15T13:00:56.534Z,2025-10-15T14:00:56.534Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5e2IAB,006Kj000015eeP8IAI,false,Busy
+Executive alignment call,2025-10-13T13:00:56.534Z,2025-10-13T14:00:56.534Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5e2IAB,006Kj0000130Xv8IAE,false,Busy
+Technical workshop,2025-10-06T13:00:56.534Z,2025-10-06T14:00:56.534Z,Align executives on business case and rollout.,005Kj00000D7vfMIAR,006Kj000015eeGWIAY,false,Busy
+Executive alignment call,2025-10-04T13:00:56.534Z,2025-10-04T14:00:56.534Z,Align executives on business case and rollout.,005Kj00000Dy5f4IAB,006Kj0000130XvtIAE,false,Busy
+Discovery call,2025-10-11T13:00:56.534Z,2025-10-11T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000Dy5e2IAB,006Kj0000130XvBIAU,false,Busy
+Discovery call,2025-10-10T13:00:56.534Z,2025-10-10T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000Dy5e2IAB,006Kj000015eeOCIAY,false,Busy
+Negotiation meeting,2025-10-14T13:00:56.534Z,2025-10-14T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000Dy5e2IAB,006Kj000015eeOcIAI,false,Busy
+Demo with stakeholders,2025-10-15T13:00:56.534Z,2025-10-15T14:00:56.534Z,"Discuss terms, pricing, and close plan.",005Kj00000Dy5e2IAB,006Kj000015eeOsIAI,false,Busy
+Discovery call,2025-10-11T13:00:56.534Z,2025-10-11T14:00:56.534Z,Review final proposal and address open questions.,005Kj00000Dy5e5IAB,006Kj000015eeO0IAI,false,Busy
+Demo with stakeholders,2025-10-06T13:00:56.534Z,2025-10-06T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000Dy5e2IAB,006Kj000015eeOrIAI,false,Busy
+Demo with stakeholders,2025-10-14T13:00:56.534Z,2025-10-14T14:00:56.534Z,Review final proposal and address open questions.,005Kj00000D7vfMIAR,006Kj000015eeFNIAY,false,Busy
+Negotiation meeting,2025-10-09T13:00:56.534Z,2025-10-09T14:00:56.534Z,Walkthrough of product capabilities with the buying team.,005Kj00000Dy5e3IAB,006Kj000015eeOqIAI,false,Busy
+Executive alignment call,2025-10-08T13:00:56.534Z,2025-10-08T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000Dy5e2IAB,006Kj000015eeOuIAI,false,Busy
+Discovery call,2025-10-06T13:00:56.534Z,2025-10-06T14:00:56.534Z,Walkthrough of product capabilities with the buying team.,005Kj00000D7vfMIAR,006Kj000015eeKmIAI,false,Busy
+Executive alignment call,2025-10-14T13:00:56.534Z,2025-10-14T14:00:56.534Z,Review final proposal and address open questions.,005Kj00000D7vfMIAR,006Kj000015eeKoIAI,false,Busy
+Discovery call,2025-10-15T13:00:56.534Z,2025-10-15T14:00:56.534Z,Hands-on workshop to validate integration approach.,005Kj00000D7vfMIAR,006Kj000015eeIWIAY,false,Busy
+Demo with stakeholders,2025-10-07T13:00:56.534Z,2025-10-07T14:00:56.534Z,Walkthrough of product capabilities with the buying team.,005Kj00000D7vfMIAR,006Kj000015eeErIAI,false,Busy
+Demo with stakeholders,2025-10-06T13:00:56.534Z,2025-10-06T14:00:56.534Z,Review final proposal and address open questions.,005Kj00000D7vfMIAR,006Kj000015eeIIIAY,false,Busy
+Negotiation meeting,2025-10-11T13:00:56.534Z,2025-10-11T14:00:56.534Z,Align executives on business case and rollout.,005Kj00000Dy5e7IAB,006Kj000015eeN4IAI,false,Busy
+Discovery call,2025-10-05T13:00:56.534Z,2025-10-05T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000Dy5e5IAB,006Kj000015eeHAIAY,false,Busy
+Executive alignment call,2025-10-15T13:00:56.534Z,2025-10-15T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000Dy5e6IAB,006Kj000015eeJCIAY,false,Busy
+Negotiation meeting,2025-10-03T13:00:56.534Z,2025-10-03T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000Dy5e3IAB,006Kj000015eeLJIAY,false,Busy
+Negotiation meeting,2025-10-08T13:00:56.534Z,2025-10-08T14:00:56.534Z,Align executives on business case and rollout.,005Kj00000D7w1rIAB,006Kj000015eeLFIAY,false,Busy
+Technical workshop,2025-10-15T13:00:56.534Z,2025-10-15T14:00:56.534Z,Align executives on business case and rollout.,005Kj00000Dy5e7IAB,006Kj000015eeKrIAI,false,Busy
+Discovery call,2025-10-08T13:00:56.534Z,2025-10-08T14:00:56.534Z,"Discuss terms, pricing, and close plan.",005Kj00000Dy5e8IAB,006Kj000015eeK6IAI,false,Busy
+Negotiation meeting,2025-10-03T13:00:56.534Z,2025-10-03T14:00:56.534Z,Review final proposal and address open questions.,005Kj00000Dy5e3IAB,006Kj000015eeLoIAI,false,Busy
+Executive alignment call,2025-10-07T13:00:56.534Z,2025-10-07T14:00:56.534Z,Hands-on workshop to validate integration approach.,005Kj00000D7w1rIAB,006Kj000015eeMnIAI,false,Busy
+Proposal review,2025-10-06T13:00:56.534Z,2025-10-06T14:00:56.534Z,"Discuss terms, pricing, and close plan.",005Kj00000Dy5e8IAB,006Kj000015eeIoIAI,false,Busy
+Executive alignment call,2025-10-05T13:00:56.534Z,2025-10-05T14:00:56.534Z,"Discuss terms, pricing, and close plan.",005Kj00000Dy5e2IAB,006Kj000015eeOpIAI,false,Busy
+Proposal review,2025-10-03T13:00:56.534Z,2025-10-03T14:00:56.534Z,Walkthrough of product capabilities with the buying team.,005Kj00000Dy5f4IAB,006Kj0000130XvuIAE,false,Busy
+Discovery call,2025-10-07T13:00:56.534Z,2025-10-07T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000Dy5e5IAB,006Kj000015eeO2IAI,false,Busy
+Executive alignment call,2025-10-17T13:00:56.534Z,2025-10-17T14:00:56.534Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5f4IAB,006Kj0000130XvwIAE,false,Busy
+Negotiation meeting,2025-10-03T13:00:56.534Z,2025-10-03T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000Dy5e2IAB,006Kj0000130XvFIAU,false,Busy
+Executive alignment call,2025-10-10T13:00:56.534Z,2025-10-10T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000Dy5e2IAB,006Kj0000130XvIIAU,false,Busy
+Executive alignment call,2025-10-06T13:00:56.534Z,2025-10-06T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000Dy5e2IAB,006Kj000015eeP1IAI,false,Busy
+Demo with stakeholders,2025-10-05T13:00:56.534Z,2025-10-05T14:00:56.534Z,"Discuss terms, pricing, and close plan.",005Kj00000Dy5f4IAB,006Kj0000130XvgIAE,false,Busy
+Proposal review,2025-10-04T13:00:56.534Z,2025-10-04T14:00:56.534Z,"Discuss terms, pricing, and close plan.",005Kj00000Dy5e2IAB,006Kj000015eeOxIAI,false,Busy
+Proposal review,2025-10-12T13:00:56.534Z,2025-10-12T14:00:56.534Z,Align executives on business case and rollout.,005Kj00000Dy5f4IAB,006Kj000015eeFrIAI,false,Busy
+Proposal review,2025-10-12T13:00:56.534Z,2025-10-12T14:00:56.534Z,Review final proposal and address open questions.,005Kj00000Dy5e2IAB,006Kj000015eeP2IAI,false,Busy
+Technical workshop,2025-10-06T13:00:56.534Z,2025-10-06T14:00:56.534Z,Align executives on business case and rollout.,005Kj00000Dy5e2IAB,006Kj000015eeP3IAI,false,Busy
+Discovery call,2025-10-11T13:00:56.534Z,2025-10-11T14:00:56.534Z,"Discuss terms, pricing, and close plan.",005Kj00000Dy5e2IAB,006Kj000015eeP5IAI,false,Busy
+Technical workshop,2025-10-08T13:00:56.534Z,2025-10-08T14:00:56.534Z,Walkthrough of product capabilities with the buying team.,005Kj00000Dy5e6IAB,006Kj0000130XvYIAU,false,Busy
+Executive alignment call,2025-10-11T13:00:56.534Z,2025-10-11T14:00:56.534Z,Walkthrough of product capabilities with the buying team.,005Kj00000Dy5e2IAB,006Kj0000130Xv5IAE,false,Busy
+Proposal review,2025-10-03T13:00:56.534Z,2025-10-03T14:00:56.534Z,Walkthrough of product capabilities with the buying team.,005Kj00000Dy5e6IAB,006Kj000015eeLbIAI,false,Busy
+Demo with stakeholders,2025-10-10T13:00:56.534Z,2025-10-10T14:00:56.534Z,"Discuss terms, pricing, and close plan.",005Kj00000Dy5e3IAB,006Kj000015eeHcIAI,false,Busy
+Demo with stakeholders,2025-10-11T13:00:56.534Z,2025-10-11T14:00:56.534Z,Walkthrough of product capabilities with the buying team.,005Kj00000Dy5e8IAB,006Kj000015eeLiIAI,false,Busy
+Demo with stakeholders,2025-10-15T13:00:56.534Z,2025-10-15T14:00:56.534Z,Live session to confirm requirements and scope.,005Kj00000Dy5e5IAB,006Kj000015eeJfIAI,false,Busy
+Negotiation meeting,2025-10-12T13:00:56.535Z,2025-10-12T14:00:56.535Z,Review final proposal and address open questions.,005Kj00000Dy5e6IAB,006Kj000015eeJAIAY,false,Busy
+Technical workshop,2025-10-16T13:00:56.535Z,2025-10-16T14:00:56.535Z,Align executives on business case and rollout.,005Kj00000D7w1tIAB,006Kj000015eeN1IAI,false,Busy
+Negotiation meeting,2025-10-10T13:00:56.535Z,2025-10-10T14:00:56.535Z,Align executives on business case and rollout.,005Kj00000Dy5e8IAB,006Kj000015eeH7IAI,false,Busy
+Technical workshop,2025-10-06T13:00:56.535Z,2025-10-06T14:00:56.535Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5e7IAB,006Kj000015eeIiIAI,false,Busy
+Technical workshop,2025-10-14T13:00:56.535Z,2025-10-14T14:00:56.535Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5e2IAB,006Kj000015eeHDIAY,false,Busy
+Demo with stakeholders,2025-10-03T13:00:56.535Z,2025-10-03T14:00:56.535Z,Review final proposal and address open questions.,005Kj00000Dy5e5IAB,006Kj000015eeEpIAI,false,Busy
+Executive alignment call,2025-10-03T13:00:56.535Z,2025-10-03T14:00:56.535Z,Live session to confirm requirements and scope.,005Kj00000D7w1rIAB,006Kj000015eeMeIAI,false,Busy
+Executive alignment call,2025-10-06T13:00:56.535Z,2025-10-06T14:00:56.535Z,Align executives on business case and rollout.,005Kj00000D7w1tIAB,006Kj000015eeMjIAI,false,Busy
+Technical workshop,2025-10-10T13:00:56.535Z,2025-10-10T14:00:56.535Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5e7IAB,006Kj000015eeKAIAY,false,Busy
+Discovery call,2025-10-04T13:00:56.535Z,2025-10-04T14:00:56.535Z,Align executives on business case and rollout.,005Kj00000Dy5e3IAB,006Kj000015eeGRIAY,false,Busy
+Executive alignment call,2025-10-14T13:00:56.535Z,2025-10-14T14:00:56.535Z,Hands-on workshop to validate integration approach.,005Kj00000D7w1rIAB,006Kj000015eeLEIAY,false,Busy
+Proposal review,2025-10-16T13:00:56.535Z,2025-10-16T14:00:56.535Z,Align executives on business case and rollout.,005Kj00000Dy5f4IAB,006Kj0000130XvjIAE,false,Busy
+Discovery call,2025-10-09T13:00:56.535Z,2025-10-09T14:00:56.535Z,Walkthrough of product capabilities with the buying team.,005Kj00000Dy5e7IAB,006Kj000015eeJ7IAI,false,Busy
+Proposal review,2025-10-17T13:00:56.535Z,2025-10-17T14:00:56.535Z,Walkthrough of product capabilities with the buying team.,005Kj00000Dy5e3IAB,006Kj000015eeK3IAI,false,Busy
+Technical workshop,2025-10-07T13:00:56.535Z,2025-10-07T14:00:56.535Z,Walkthrough of product capabilities with the buying team.,005Kj00000Dy5e8IAB,006Kj000015eeGvIAI,false,Busy
+Executive alignment call,2025-10-07T13:00:56.535Z,2025-10-07T14:00:56.535Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5e8IAB,006Kj000015eeInIAI,false,Busy
+Discovery call,2025-10-15T13:00:56.535Z,2025-10-15T14:00:56.535Z,Live session to confirm requirements and scope.,005Kj00000Dy5e8IAB,006Kj000015eeIQIAY,false,Busy
+Technical workshop,2025-10-08T13:00:56.535Z,2025-10-08T14:00:56.535Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5e5IAB,006Kj000015eeGTIAY,false,Busy
+Demo with stakeholders,2025-10-07T13:00:56.535Z,2025-10-07T14:00:56.535Z,Align executives on business case and rollout.,005Kj00000Dy5e6IAB,006Kj000015eeKOIAY,false,Busy
+Discovery call,2025-10-08T13:00:56.535Z,2025-10-08T14:00:56.535Z,Review final proposal and address open questions.,005Kj00000Dy5e7IAB,006Kj000015eeHtIAI,false,Busy
+Executive alignment call,2025-10-12T13:00:56.535Z,2025-10-12T14:00:56.535Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5e8IAB,006Kj000015eeKWIAY,false,Busy
+Negotiation meeting,2025-10-04T13:00:56.535Z,2025-10-04T14:00:56.535Z,Walkthrough of product capabilities with the buying team.,005Kj00000Dy5e6IAB,006Kj000015eeIhIAI,false,Busy
+Executive alignment call,2025-10-09T13:00:56.535Z,2025-10-09T14:00:56.535Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5e7IAB,006Kj000015eeFmIAI,false,Busy
+Executive alignment call,2025-10-09T13:00:56.535Z,2025-10-09T14:00:56.535Z,"Discuss terms, pricing, and close plan.",005Kj00000Dy5e8IAB,006Kj000015eeKiIAI,false,Busy
+Negotiation meeting,2025-10-16T13:00:56.535Z,2025-10-16T14:00:56.535Z,Live session to confirm requirements and scope.,005Kj00000Dy5e5IAB,006Kj000015eeFzIAI,false,Busy
+Demo with stakeholders,2025-10-04T13:00:56.535Z,2025-10-04T14:00:56.535Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5e7IAB,006Kj000015eeK7IAI,false,Busy
+Technical workshop,2025-10-16T13:00:56.535Z,2025-10-16T14:00:56.535Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5e7IAB,006Kj000015eeJ8IAI,false,Busy
+Demo with stakeholders,2025-10-06T13:00:56.535Z,2025-10-06T14:00:56.535Z,Review final proposal and address open questions.,005Kj00000Dy5e2IAB,006Kj000015eeIXIAY,false,Busy
+Proposal review,2025-10-07T13:00:56.535Z,2025-10-07T14:00:56.535Z,Walkthrough of product capabilities with the buying team.,005Kj00000Dy5f4IAB,006Kj000015eeF5IAI,false,Busy
+Negotiation meeting,2025-10-11T13:00:56.535Z,2025-10-11T14:00:56.535Z,Live session to confirm requirements and scope.,005Kj00000Dy5e6IAB,006Kj000015eeNsIAI,false,Busy
+Proposal review,2025-10-12T13:00:56.535Z,2025-10-12T14:00:56.535Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5f4IAB,006Kj0000130XwQIAU,false,Busy
+Negotiation meeting,2025-10-10T13:00:56.535Z,2025-10-10T14:00:56.535Z,Review final proposal and address open questions.,005Kj00000Dy5f4IAB,006Kj0000130XwRIAU,false,Busy
+Technical workshop,2025-10-06T13:00:56.535Z,2025-10-06T14:00:56.535Z,Review final proposal and address open questions.,005Kj00000D7w1rIAB,006Kj000015eeIDIAY,false,Busy
+Proposal review,2025-10-14T13:00:56.535Z,2025-10-14T14:00:56.535Z,Review final proposal and address open questions.,005Kj00000D7w1tIAB,006Kj000015eeFZIAY,false,Busy
+Executive alignment call,2025-10-10T13:00:56.535Z,2025-10-10T14:00:56.535Z,"Discuss terms, pricing, and close plan.",005Kj00000Dy5e8IAB,006Kj000015eeIUIAY,false,Busy
+Executive alignment call,2025-10-16T13:00:56.535Z,2025-10-16T14:00:56.535Z,Align executives on business case and rollout.,005Kj00000Dy5e6IAB,006Kj000015eeIvIAI,false,Busy
+Negotiation meeting,2025-10-03T13:00:56.535Z,2025-10-03T14:00:56.535Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5e3IAB,006Kj000015eeISIAY,false,Busy
+Proposal review,2025-10-15T13:00:56.535Z,2025-10-15T14:00:56.535Z,Live session to confirm requirements and scope.,005Kj00000D7w1tIAB,006Kj000015eeF1IAI,false,Busy
+Executive alignment call,2025-10-06T13:00:56.535Z,2025-10-06T14:00:56.535Z,Walkthrough of product capabilities with the buying team.,005Kj00000Dy5e8IAB,006Kj000015eeIjIAI,false,Busy
+Proposal review,2025-10-14T13:00:56.535Z,2025-10-14T14:00:56.535Z,Review final proposal and address open questions.,005Kj00000Dy5e7IAB,006Kj000015eeL2IAI,false,Busy
+Negotiation meeting,2025-10-07T13:00:56.535Z,2025-10-07T14:00:56.535Z,Live session to confirm requirements and scope.,005Kj00000Dy5e5IAB,006Kj000015eeHYIAY,false,Busy
+Demo with stakeholders,2025-10-12T13:00:56.535Z,2025-10-12T14:00:56.535Z,Review final proposal and address open questions.,005Kj00000Dy5e7IAB,006Kj000015eeKzIAI,false,Busy
+Proposal review,2025-10-09T13:00:56.535Z,2025-10-09T14:00:56.535Z,Live session to confirm requirements and scope.,005Kj00000Dy5e5IAB,006Kj000015eeOSIAY,false,Busy
+Proposal review,2025-10-06T13:00:56.535Z,2025-10-06T14:00:56.535Z,Live session to confirm requirements and scope.,005Kj00000Dy5e6IAB,006Kj000015eeOkIAI,false,Busy
+Negotiation meeting,2025-10-15T13:00:56.535Z,2025-10-15T14:00:56.535Z,Live session to confirm requirements and scope.,005Kj00000Dy5e2IAB,006Kj0000130XvWIAU,false,Busy
+Negotiation meeting,2025-10-06T13:00:56.535Z,2025-10-06T14:00:56.535Z,Live session to confirm requirements and scope.,005Kj00000Dy5f4IAB,006Kj0000130XwUIAU,false,Busy
+Demo with stakeholders,2025-10-11T13:00:56.535Z,2025-10-11T14:00:56.535Z,Review final proposal and address open questions.,005Kj00000Dy5f4IAB,006Kj0000130XwVIAU,false,Busy
+Proposal review,2025-10-13T13:00:56.535Z,2025-10-13T14:00:56.535Z,Walkthrough of product capabilities with the buying team.,005Kj00000Dy5e2IAB,006Kj000015eeNqIAI,false,Busy
+Discovery call,2025-10-10T13:00:56.535Z,2025-10-10T14:00:56.535Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5e6IAB,006Kj000015eeO3IAI,false,Busy
+Executive alignment call,2025-10-15T13:00:56.535Z,2025-10-15T14:00:56.535Z,Align executives on business case and rollout.,005Kj00000D7w1rIAB,006Kj000015eeJEIAY,false,Busy
+Demo with stakeholders,2025-10-14T13:00:56.535Z,2025-10-14T14:00:56.535Z,Align executives on business case and rollout.,005Kj00000Dy5e8IAB,006Kj000015eeJGIAY,false,Busy
+Proposal review,2025-10-09T13:00:56.535Z,2025-10-09T14:00:56.535Z,Review final proposal and address open questions.,005Kj00000Dy5e2IAB,006Kj000015eeJ5IAI,false,Busy
+Demo with stakeholders,2025-10-13T13:00:56.535Z,2025-10-13T14:00:56.535Z,Walkthrough of product capabilities with the buying team.,005Kj00000Dy5f4IAB,006Kj0000130XvlIAE,false,Busy
+Discovery call,2025-10-17T13:00:56.535Z,2025-10-17T14:00:56.535Z,Walkthrough of product capabilities with the buying team.,005Kj00000Dy5e6IAB,006Kj000015eeIVIAY,false,Busy
+Negotiation meeting,2025-10-11T13:00:56.535Z,2025-10-11T14:00:56.535Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5e8IAB,006Kj000015eeFWIAY,false,Busy
+Discovery call,2025-10-05T13:00:56.535Z,2025-10-05T14:00:56.535Z,Align executives on business case and rollout.,005Kj00000Dy5e6IAB,006Kj000015eeIYIAY,false,Busy
+Technical workshop,2025-10-10T13:00:56.535Z,2025-10-10T14:00:56.535Z,Live session to confirm requirements and scope.,005Kj00000Dy5e3IAB,006Kj000015eeKlIAI,false,Busy
+Demo with stakeholders,2025-10-13T13:00:56.535Z,2025-10-13T14:00:56.535Z,Live session to confirm requirements and scope.,005Kj00000Dy5e8IAB,006Kj000015eeMyIAI,false,Busy
+Executive alignment call,2025-10-08T13:00:56.535Z,2025-10-08T14:00:56.535Z,Hands-on workshop to validate integration approach.,005Kj00000D7w1rIAB,006Kj000015eeK4IAI,false,Busy
+Technical workshop,2025-10-07T13:00:56.535Z,2025-10-07T14:00:56.535Z,Walkthrough of product capabilities with the buying team.,005Kj00000Dy5e2IAB,006Kj000015eeNhIAI,false,Busy
+Technical workshop,2025-10-09T13:00:56.535Z,2025-10-09T14:00:56.535Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5e2IAB,006Kj000015eeNyIAI,false,Busy
+Proposal review,2025-10-03T13:00:56.535Z,2025-10-03T14:00:56.535Z,Walkthrough of product capabilities with the buying team.,005Kj00000Dy5e2IAB,006Kj000015eeO6IAI,false,Busy
+Demo with stakeholders,2025-10-16T13:00:56.535Z,2025-10-16T14:00:56.535Z,Live session to confirm requirements and scope.,005Kj00000Dy5e2IAB,006Kj000015eeOwIAI,false,Busy
+Executive alignment call,2025-10-04T13:00:56.535Z,2025-10-04T14:00:56.535Z,Live session to confirm requirements and scope.,005Kj00000Dy5e2IAB,006Kj000015eeNuIAI,false,Busy
+Executive alignment call,2025-10-03T13:00:56.535Z,2025-10-03T14:00:56.535Z,Live session to confirm requirements and scope.,005Kj00000Dy5e2IAB,006Kj000015eeNpIAI,false,Busy
+Proposal review,2025-10-06T13:00:56.535Z,2025-10-06T14:00:56.535Z,Live session to confirm requirements and scope.,005Kj00000Dy5e2IAB,006Kj000015eeOoIAI,false,Busy
+Negotiation meeting,2025-10-12T13:00:56.535Z,2025-10-12T14:00:56.535Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5e2IAB,006Kj000015eeNwIAI,false,Busy
+Discovery call,2025-10-13T13:00:56.535Z,2025-10-13T14:00:56.535Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5e2IAB,006Kj000015eeOHIAY,false,Busy
+Negotiation meeting,2025-10-09T13:00:56.535Z,2025-10-09T14:00:56.535Z,Live session to confirm requirements and scope.,005Kj00000Dy5e7IAB,006Kj000015eeHsIAI,false,Busy
+Negotiation meeting,2025-10-03T13:00:56.535Z,2025-10-03T14:00:56.535Z,Live session to confirm requirements and scope.,005Kj00000Dy5e2IAB,006Kj000015eeJzIAI,false,Busy
+Proposal review,2025-10-07T13:00:56.535Z,2025-10-07T14:00:56.535Z,"Discuss terms, pricing, and close plan.",005Kj00000Dy5e6IAB,006Kj000015eeJ4IAI,false,Busy
+Negotiation meeting,2025-10-12T13:00:56.535Z,2025-10-12T14:00:56.535Z,Live session to confirm requirements and scope.,005Kj00000Dy5e8IAB,006Kj000015eeKdIAI,false,Busy
+Demo with stakeholders,2025-10-16T13:00:56.535Z,2025-10-16T14:00:56.535Z,Align executives on business case and rollout.,005Kj00000Dy5e7IAB,006Kj000015eeImIAI,false,Busy
+Discovery call,2025-10-10T13:00:56.535Z,2025-10-10T14:00:56.535Z,Review final proposal and address open questions.,005Kj00000Dy5e6IAB,006Kj000015eeIfIAI,false,Busy
+Executive alignment call,2025-10-12T13:00:56.535Z,2025-10-12T14:00:56.535Z,Review final proposal and address open questions.,005Kj00000Dy5e3IAB,006Kj000015eeG1IAI,false,Busy
+Technical workshop,2025-10-04T13:00:56.535Z,2025-10-04T14:00:56.535Z,"Discuss terms, pricing, and close plan.",005Kj00000Dy5e8IAB,006Kj000015eeEsIAI,false,Busy
+Negotiation meeting,2025-10-16T13:00:56.535Z,2025-10-16T14:00:56.535Z,Align executives on business case and rollout.,005Kj00000Dy5e7IAB,006Kj000015eeFjIAI,false,Busy
+Discovery call,2025-10-05T13:00:56.535Z,2025-10-05T14:00:56.535Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5e2IAB,006Kj000015eeLGIAY,false,Busy
+Technical workshop,2025-10-07T13:00:56.535Z,2025-10-07T14:00:56.535Z,Live session to confirm requirements and scope.,005Kj00000Dy5e6IAB,006Kj000015eeIsIAI,false,Busy
+Discovery call,2025-10-10T13:00:56.535Z,2025-10-10T14:00:56.535Z,Align executives on business case and rollout.,005Kj00000D7w1tIAB,006Kj000015eeKUIAY,false,Busy
+Executive alignment call,2025-10-03T13:00:56.535Z,2025-10-03T14:00:56.535Z,Review final proposal and address open questions.,005Kj00000Dy5e2IAB,006Kj000015eeOjIAI,false,Busy
+Technical workshop,2025-10-03T13:00:56.535Z,2025-10-03T14:00:56.535Z,Hands-on workshop to validate integration approach.,005Kj00000Dy5e2IAB,006Kj000015eeOeIAI,false,Busy
+Proposal review,2025-10-09T13:00:56.535Z,2025-10-09T14:00:56.535Z,Live session to confirm requirements and scope.,005Kj00000Dy5e2IAB,006Kj000015eeIKIAY,false,Busy
+Executive alignment call,2025-10-05T13:00:56.535Z,2025-10-05T14:00:56.535Z,Live session to confirm requirements and scope.,005Kj00000Dy5e5IAB,006Kj000015eeIFIAY,false,Busy
+Discovery call,2025-10-17T13:00:56.535Z,2025-10-17T14:00:56.535Z,Walkthrough of product capabilities with the buying team.,005Kj00000Dy5e6IAB,006Kj000015eeKeIAI,false,Busy
+Executive alignment call,2025-10-15T13:00:56.535Z,2025-10-15T14:00:56.535Z,Align executives on business case and rollout.,005Kj00000D7w1rIAB,006Kj000015eeFdIAI,false,Busy
+Negotiation meeting,2025-10-14T13:00:56.535Z,2025-10-14T14:00:56.535Z,Walkthrough of product capabilities with the buying team.,005Kj00000Dy5e8IAB,006Kj000015eeK0IAI,false,Busy
+Negotiation meeting,2025-10-11T13:00:56.535Z,2025-10-11T14:00:56.535Z,Review final proposal and address open questions.,005Kj00000Dy5f4IAB,006Kj0000130XwXIAU,false,Busy
+Proposal review,2025-10-11T13:00:56.535Z,2025-10-11T14:00:56.535Z,Align executives on business case and rollout.,005Kj00000Dy5f4IAB,006Kj000015eeFMIAY,false,Busy
+Demo with stakeholders,2025-10-09T13:00:56.535Z,2025-10-09T14:00:56.535Z,Align executives on business case and rollout.,005Kj00000Dy5e5IAB,006Kj000015eeMCIAY,false,Busy
+Technical workshop,2025-10-10T13:00:56.535Z,2025-10-10T14:00:56.535Z,Walkthrough of product capabilities with the buying team.,005Kj00000Dy5e6IAB,006Kj000015eeLxIAI,false,Busy
+Technical workshop,2025-10-17T13:00:56.535Z,2025-10-17T14:00:56.535Z,Review final proposal and address open questions.,005Kj00000Dy5e5IAB,006Kj000015eeITIAY,false,Busy

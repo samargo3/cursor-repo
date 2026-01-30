@@ -1,0 +1,151 @@
+<template>
+    <lightning-card title="Sales Demo Hub Dashboard" icon-name="custom:custom85">
+        <div class="slds-var-p-horizontal_medium">
+            <!-- Loading Spinner -->
+            <template if:true={isLoading}>
+                <div class="slds-align_absolute-center slds-var-p-around_large">
+                    <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+                </div>
+            </template>
+
+            <!-- Error Message -->
+            <template if:true={error}>
+                <div class="slds-var-m-bottom_medium">
+                    <div class="slds-notify slds-notify_alert slds-alert_error" role="alert">
+                        <span class="slds-assistive-text">error</span>
+                        <h2>{error}</h2>
+                    </div>
+                </div>
+            </template>
+
+            <!-- Main KPI Cards -->
+            <template if:true={kpiData}>
+                <!-- Top KPI Metrics -->
+                <div class="slds-grid slds-wrap slds-gutters slds-var-m-bottom_large">
+                    <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2 slds-large-size_1-of-4">
+                        <div class="kpi-card gold-border">
+                            <div class="kpi-icon-container gold-bg">
+                                <lightning-icon icon-name="standard:opportunity" size="small"></lightning-icon>
+                            </div>
+                            <div class="kpi-content">
+                                <div class="kpi-label">Total Revenue</div>
+                                <div class="kpi-value">{formattedRevenue}</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2 slds-large-size_1-of-4">
+                        <div class="kpi-card gold-border">
+                            <div class="kpi-icon-container gold-bg">
+                                <lightning-icon icon-name="standard:goals" size="small"></lightning-icon>
+                            </div>
+                            <div class="kpi-content">
+                                <div class="kpi-label">Win Rate</div>
+                                <div class="kpi-value">{kpiData.winRate}%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2 slds-large-size_1-of-4">
+                        <div class="kpi-card gold-border">
+                            <div class="kpi-icon-container gold-bg">
+                                <lightning-icon icon-name="standard:currency" size="small"></lightning-icon>
+                            </div>
+                            <div class="kpi-content">
+                                <div class="kpi-label">Avg Deal Size</div>
+                                <div class="kpi-value">{formattedAvgDeal}</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2 slds-large-size_1-of-4">
+                        <div class="kpi-card gold-border">
+                            <div class="kpi-icon-container gold-bg">
+                                <lightning-icon icon-name="standard:account" size="small"></lightning-icon>
+                            </div>
+                            <div class="kpi-content">
+                                <div class="kpi-label">Active Accounts</div>
+                                <div class="kpi-value">{kpiData.totalAccounts}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pipeline Section -->
+                <div class="slds-grid slds-wrap slds-gutters">
+                    <!-- Pipeline Chart -->
+                    <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-2">
+                        <div class="section-card">
+                            <h3 class="section-title">Sales Pipeline</h3>
+                            <template if:true={hasPipelineData}>
+                                <div class="pipeline-container">
+                                    <template for:each={kpiData.pipelineData} for:item="stage">
+                                        <div key={stage.stage} class="pipeline-stage">
+                                            <div class="stage-header">
+                                                <span class="stage-name">{stage.stage}</span>
+                                                <span class="stage-count">{stage.count} opps</span>
+                                            </div>
+                                            <div class="stage-bar-container">
+                                                <div class="stage-bar gold-bg" data-value={stage.value}></div>
+                                            </div>
+                                            <div class="stage-value" data-value={stage.value}></div>
+                                        </div>
+                                    </template>
+                                </div>
+                            </template>
+                            <template if:false={hasPipelineData}>
+                                <p class="slds-var-p-vertical_medium slds-text-color_weak">No pipeline data available</p>
+                            </template>
+                        </div>
+                    </div>
+
+                    <!-- Recent Activities -->
+                    <div class="slds-col slds-size_1-of-1 slds-large-size_1-of-2">
+                        <div class="section-card">
+                            <h3 class="section-title">Recent Activity</h3>
+                            <template if:true={hasRecentActivities}>
+                                <div class="activity-list">
+                                    <template for:each={kpiData.recentActivities} for:item="activity">
+                                        <div key={activity.id} class="activity-item" onclick={handleActivityClick} data-id={activity.id}>
+                                            <div class="activity-icon">
+                                                <lightning-icon icon-name="standard:opportunity" size="x-small"></lightning-icon>
+                                            </div>
+                                            <div class="activity-details">
+                                                <div class="activity-name">{activity.name}</div>
+                                                <div class="activity-meta">
+                                                    <span class="activity-status">{activity.status}</span>
+                                                    <span class="activity-amount" data-amount={activity.amount}></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </template>
+                                </div>
+                            </template>
+                            <template if:false={hasRecentActivities}>
+                                <p class="slds-var-p-vertical_medium slds-text-color_weak">No recent activity</p>
+                            </template>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quick Actions -->
+                <div class="slds-var-m-top_large slds-align_absolute-center">
+                    <lightning-button
+                        label="Create Sample Opportunity"
+                        variant="brand"
+                        icon-name="utility:add"
+                        onclick={handleCreateSampleOpp}
+                        class="gold-button"
+                    ></lightning-button>
+                    <lightning-button
+                        label="Refresh Dashboard"
+                        icon-name="utility:refresh"
+                        onclick={handleRefresh}
+                        class="slds-var-m-left_small"
+                    ></lightning-button>
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>
+

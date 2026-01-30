@@ -1,0 +1,999 @@
+Subject,Status,Priority,ActivityDate,Description,OwnerId,WhatId,Type
+Call: qualification discussion,Completed,Normal,2025-09-17,Identified champions and potential blockers.,005Kj00000D7vfMIAR,006Kj000015eeMvIAI,Call
+Call: qualification discussion,Completed,Normal,2025-09-19,Identified champions and potential blockers.,005Kj00000D7vfMIAR,006Kj000015eeMvIAI,Email
+Email: proposal follow-up,Completed,Normal,2025-08-26,Validated decision makers and approval chain.,005Kj00000D7vfMIAR,006Kj000015eeMvIAI,Call
+Email: send product deck,Completed,Normal,2025-08-22,Validated decision makers and approval chain.,005Kj00000D7vfMIAR,006Kj000015eeI3IAI,Email
+Email: proposal follow-up,Completed,Normal,2025-09-05,Shared deck and case studies relevant to their industry.,005Kj00000D7vfMIAR,006Kj000015eeI3IAI,Call
+Email: pricing/discounts thread,Completed,Normal,2025-08-20,Shared deck and case studies relevant to their industry.,005Kj00000D7vfMIAR,006Kj000015eeI3IAI,Call
+Next step: Technical workshop,Not Started,Normal,2025-10-06,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeI3IAI,Task
+Task: confirm decision process,Completed,Normal,2025-08-29,Negotiated pricing bands and discount approvals.,005Kj00000D7vfMIAR,006Kj000015eeM4IAI,Call
+Next step: Negotiation meeting,Not Started,Normal,2025-10-10,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeM4IAI,Task
+Email: send product deck,Completed,Normal,2025-08-13,Captured notes from discovery call with project team.,005Kj00000D7vfMIAR,006Kj000015eeMwIAI,Call
+Call: technical deep-dive,Completed,Normal,2025-08-29,Deep dive into technical requirements and integrations.,005Kj00000D7vfMIAR,006Kj000015eeMwIAI,Email
+Next step: Discovery call,Not Started,Normal,2025-10-03,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeMwIAI,Task
+Task: confirm legal/security review,Completed,Normal,2025-09-09,Reviewed proposal details and procurement steps.,005Kj00000D7vfMIAR,006Kj000015eeGDIAY,Call
+Email: send product deck,Completed,Normal,2025-08-16,Discussed pain points and success criteria.,005Kj00000D7vfMIAR,006Kj000015eeGDIAY,Call
+Note: discovery insights,Completed,Normal,2025-09-19,Captured notes from discovery call with project team.,005Kj00000D7vfMIAR,006Kj000015eeGDIAY,Email
+Email: pricing/discounts thread,Completed,Normal,2025-08-17,"Coordinated security, legal, and compliance review.",005Kj00000D7vfMIAR,006Kj000015eeI4IAI,Email
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeI4IAI,Task
+Email: send product deck,Completed,Normal,2025-08-28,Reviewed proposal details and procurement steps.,005Kj00000D7vfMIAR,006Kj000015eeF0IAI,Call
+Task: confirm legal/security review,Completed,Normal,2025-09-15,Discussed pain points and success criteria.,005Kj00000D7vfMIAR,006Kj000015eeF0IAI,Email
+Next step: Discovery call,Not Started,Normal,2025-10-08,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeF0IAI,Task
+Call: qualification discussion,Completed,Normal,2025-09-03,"Coordinated security, legal, and compliance review.",005Kj00000D7vfMIAR,006Kj000015eeKKIAY,Email
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-07,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeKKIAY,Task
+Email: send product deck,Completed,Normal,2025-09-01,Reviewed proposal details and procurement steps.,005Kj00000Dy5e8IAB,006Kj000015eeH2IAI,Call
+Note: discovery insights,Completed,Normal,2025-09-06,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e8IAB,006Kj000015eeH2IAI,Email
+Call: qualification discussion,Completed,Normal,2025-09-18,Reviewed proposal details and procurement steps.,005Kj00000Dy5e8IAB,006Kj000015eeH2IAI,Call
+Next step: Proposal review,Not Started,Normal,2025-10-08,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeH2IAI,Task
+Email: pricing/discounts thread,Completed,Normal,2025-08-16,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e7IAB,006Kj000015eeJjIAI,Call
+Call: technical deep-dive,Completed,Normal,2025-08-21,Reviewed proposal details and procurement steps.,005Kj00000Dy5e7IAB,006Kj000015eeJjIAI,Call
+Task: confirm decision process,Completed,Normal,2025-08-27,Reviewed proposal details and procurement steps.,005Kj00000Dy5e7IAB,006Kj000015eeJjIAI,Call
+Next step: Negotiation meeting,Not Started,Normal,2025-10-08,Planned follow-up aligned to stage progression.,005Kj00000Dy5e7IAB,006Kj000015eeJjIAI,Task
+Task: confirm legal/security review,Completed,Normal,2025-09-08,Shared deck and case studies relevant to their industry.,005Kj00000D7vfMIAR,006Kj000015eeEzIAI,Call
+Task: confirm legal/security review,Completed,Normal,2025-09-16,Identified champions and potential blockers.,005Kj00000D7vfMIAR,006Kj000015eeEzIAI,Other
+Call: qualification discussion,Completed,Normal,2025-08-24,Deep dive into technical requirements and integrations.,005Kj00000D7vfMIAR,006Kj000015eeEzIAI,Email
+Task: confirm legal/security review,Completed,Normal,2025-08-15,"Coordinated security, legal, and compliance review.",005Kj00000D7vfMIAR,006Kj000015eeK5IAI,Email
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-01,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeK5IAI,Task
+Email: send product deck,Completed,Normal,2025-09-15,Identified champions and potential blockers.,005Kj00000D7vfMIAR,006Kj000015eeHeIAI,Other
+Email: pricing/discounts thread,Completed,Normal,2025-08-21,Validated decision makers and approval chain.,005Kj00000D7vfMIAR,006Kj000015eeHeIAI,Call
+Next step: Proposal review,Not Started,Normal,2025-10-10,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeHeIAI,Task
+Log: stakeholder mapping,Completed,Normal,2025-08-28,Validated decision makers and approval chain.,005Kj00000D7vfMIAR,006Kj000015eeKvIAI,Email
+Task: confirm decision process,Completed,Normal,2025-09-05,Aligned on evaluation timeline and key milestones.,005Kj00000D7vfMIAR,006Kj000015eeKvIAI,Other
+Next step: Negotiation meeting,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeKvIAI,Task
+Log: stakeholder mapping,Completed,Normal,2025-08-17,Captured notes from discovery call with project team.,005Kj00000D7vfMIAR,006Kj000015eeHqIAI,Call
+Email: send product deck,Completed,Normal,2025-09-11,Validated decision makers and approval chain.,005Kj00000D7vfMIAR,006Kj000015eeHqIAI,Call
+Next step: Demo with stakeholders,Not Started,Normal,2025-09-30,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeHqIAI,Task
+Log: stakeholder mapping,Completed,Normal,2025-09-21,Discussed pain points and success criteria.,005Kj00000D7vfMIAR,006Kj000015eeKPIAY,Email
+Task: confirm decision process,Completed,Normal,2025-08-20,Aligned on evaluation timeline and key milestones.,005Kj00000D7vfMIAR,006Kj000015eeKPIAY,Email
+Note: discovery insights,Completed,Normal,2025-09-15,Discussed pain points and success criteria.,005Kj00000D7vfMIAR,006Kj000015eeKPIAY,Email
+Next step: Discovery call,Not Started,Normal,2025-10-09,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeKPIAY,Task
+Call: technical deep-dive,Completed,Normal,2025-08-27,Validated decision makers and approval chain.,005Kj00000D7vfMIAR,006Kj000015eeKuIAI,Email
+Call: technical deep-dive,Completed,Normal,2025-09-20,Negotiated pricing bands and discount approvals.,005Kj00000D7vfMIAR,006Kj000015eeKuIAI,Other
+Next step: Negotiation meeting,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeKuIAI,Task
+Task: confirm legal/security review,Completed,Normal,2025-09-17,Validated decision makers and approval chain.,005Kj00000D7vfMIAR,006Kj000015eeKLIAY,Email
+Task: confirm legal/security review,Completed,Normal,2025-08-19,"Coordinated security, legal, and compliance review.",005Kj00000D7vfMIAR,006Kj000015eeKLIAY,Email
+Note: discovery insights,Completed,Normal,2025-09-02,Identified champions and potential blockers.,005Kj00000D7vfMIAR,006Kj000015eeKLIAY,Other
+Email: send product deck,Completed,Normal,2025-08-28,Discussed pain points and success criteria.,005Kj00000D7vfMIAR,006Kj000015eeMxIAI,Email
+Log: stakeholder mapping,Completed,Normal,2025-09-01,Captured notes from discovery call with project team.,005Kj00000D7vfMIAR,006Kj000015eeMxIAI,Email
+Call: technical deep-dive,Completed,Normal,2025-09-06,Reviewed proposal details and procurement steps.,005Kj00000D7vfMIAR,006Kj000015eeMxIAI,Call
+Next step: Discovery call,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeMxIAI,Task
+Call: qualification discussion,Completed,Normal,2025-08-13,Negotiated pricing bands and discount approvals.,005Kj00000D7vfMIAR,006Kj000015eeKMIAY,Other
+Email: send product deck,Completed,Normal,2025-09-02,Reviewed proposal details and procurement steps.,005Kj00000D7vfMIAR,006Kj000015eeKMIAY,Email
+Call: technical deep-dive,Completed,Normal,2025-09-13,Identified champions and potential blockers.,005Kj00000D7vfMIAR,006Kj000015eeKMIAY,Email
+Call: technical deep-dive,Completed,Normal,2025-08-24,Reviewed proposal details and procurement steps.,005Kj00000D7vfMIAR,006Kj000015eeI5IAI,Email
+Email: pricing/discounts thread,Completed,Normal,2025-08-19,"Coordinated security, legal, and compliance review.",005Kj00000D7vfMIAR,006Kj000015eeI5IAI,Email
+Next step: Proposal review,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeI5IAI,Task
+Task: confirm decision process,Completed,Normal,2025-08-24,Identified champions and potential blockers.,005Kj00000Dy5e7IAB,006Kj000015eeKNIAY,Email
+Next step: Discovery call,Not Started,Normal,2025-09-29,Planned follow-up aligned to stage progression.,005Kj00000Dy5e7IAB,006Kj000015eeKNIAY,Task
+Task: confirm decision process,Completed,Normal,2025-09-19,Aligned on evaluation timeline and key milestones.,005Kj00000D7vfMIAR,006Kj000015eeM5IAI,Email
+Call: budget and timeline,Completed,Normal,2025-09-15,Reviewed proposal details and procurement steps.,005Kj00000D7vfMIAR,006Kj000015eeM5IAI,Email
+Email: send product deck,Completed,Normal,2025-08-22,Validated decision makers and approval chain.,005Kj00000D7vfMIAR,006Kj000015eeM5IAI,Call
+Next step: Negotiation meeting,Not Started,Normal,2025-10-10,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeM5IAI,Task
+Call: technical deep-dive,Completed,Normal,2025-08-20,Aligned on evaluation timeline and key milestones.,005Kj00000D7vfMIAR,006Kj000015eeJpIAI,Email
+Call: technical deep-dive,Completed,Normal,2025-09-18,Validated decision makers and approval chain.,005Kj00000D7vfMIAR,006Kj000015eeJpIAI,Other
+Call: qualification discussion,Completed,Normal,2025-08-16,"Coordinated security, legal, and compliance review.",005Kj00000D7vfMIAR,006Kj000015eeL0IAI,Email
+Note: discovery insights,Completed,Normal,2025-09-06,Negotiated pricing bands and discount approvals.,005Kj00000D7vfMIAR,006Kj000015eeMLIAY,Email
+Next step: Proposal review,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeMLIAY,Task
+Call: budget and timeline,Completed,Normal,2025-09-14,Reviewed proposal details and procurement steps.,005Kj00000D7vfMIAR,006Kj000015eeEqIAI,Call
+Call: qualification discussion,Completed,Normal,2025-08-16,"Coordinated security, legal, and compliance review.",005Kj00000D7vfMIAR,006Kj000015eeEqIAI,Email
+Call: technical deep-dive,Completed,Normal,2025-09-02,Discussed pain points and success criteria.,005Kj00000D7vfMIAR,006Kj000015eeEqIAI,Email
+Next step: Discovery call,Not Started,Normal,2025-10-10,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeEqIAI,Task
+Note: discovery insights,Completed,Normal,2025-09-07,Shared deck and case studies relevant to their industry.,005Kj00000D7vfMIAR,006Kj000015eeIpIAI,Email
+Call: budget and timeline,Completed,Normal,2025-08-22,"Coordinated security, legal, and compliance review.",005Kj00000D7vfMIAR,006Kj000015eeIpIAI,Call
+Email: pricing/discounts thread,Completed,Normal,2025-09-13,Shared deck and case studies relevant to their industry.,005Kj00000D7vfMIAR,006Kj000015eeIpIAI,Call
+Next step: Proposal review,Not Started,Normal,2025-10-10,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeIpIAI,Task
+Note: discovery insights,Completed,Normal,2025-09-11,Validated decision makers and approval chain.,005Kj00000Dy5e7IAB,006Kj000015eeJIIAY,Other
+Email: send product deck,Completed,Normal,2025-09-16,Validated decision makers and approval chain.,005Kj00000D7vfMIAR,006Kj000015eeGxIAI,Call
+Next step: Technical workshop,Not Started,Normal,2025-09-29,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeGxIAI,Task
+Email: send product deck,Completed,Normal,2025-09-06,Aligned on evaluation timeline and key milestones.,005Kj00000D7vfMIAR,006Kj000015eeKkIAI,Email
+Task: confirm decision process,Completed,Normal,2025-09-20,Aligned on evaluation timeline and key milestones.,005Kj00000D7vfMIAR,006Kj000015eeKkIAI,Email
+Email: proposal follow-up,Completed,Normal,2025-09-19,Identified champions and potential blockers.,005Kj00000D7vfMIAR,006Kj000015eeKkIAI,Email
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-03,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeKkIAI,Task
+Call: budget and timeline,Completed,Normal,2025-08-18,Aligned on evaluation timeline and key milestones.,005Kj00000D7vfMIAR,006Kj000015eeKRIAY,Call
+Next step: Negotiation meeting,Not Started,Normal,2025-10-01,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeKRIAY,Task
+Call: technical deep-dive,Completed,Normal,2025-08-30,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e8IAB,006Kj000015eeJdIAI,Call
+Email: proposal follow-up,Completed,Normal,2025-08-12,Deep dive into technical requirements and integrations.,005Kj00000Dy5e8IAB,006Kj000015eeJdIAI,Call
+Next step: Discovery call,Not Started,Normal,2025-10-01,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeJdIAI,Task
+Email: send product deck,Completed,Normal,2025-08-15,Validated decision makers and approval chain.,005Kj00000D7vfMIAR,006Kj000015eeM6IAI,Call
+Next step: Executive alignment call,Not Started,Normal,2025-10-07,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeM6IAI,Task
+Note: discovery insights,Completed,Normal,2025-09-02,Captured notes from discovery call with project team.,005Kj00000D7vfMIAR,006Kj000015eeHWIAY,Email
+Email: send product deck,Completed,Normal,2025-09-08,Reviewed proposal details and procurement steps.,005Kj00000D7vfMIAR,006Kj000015eeIbIAI,Other
+Next step: Technical workshop,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeIbIAI,Task
+Task: confirm legal/security review,Completed,Normal,2025-08-23,Discussed pain points and success criteria.,005Kj00000D7vfMIAR,006Kj000015eeLUIAY,Call
+Email: send product deck,Completed,Normal,2025-08-19,Discussed pain points and success criteria.,005Kj00000D7vfMIAR,006Kj000015eeLUIAY,Email
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-10,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeLUIAY,Task
+Email: send product deck,Completed,Normal,2025-08-23,Aligned on evaluation timeline and key milestones.,005Kj00000D7vfMIAR,006Kj000015eeKfIAI,Email
+Next step: Executive alignment call,Not Started,Normal,2025-10-08,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeKfIAI,Task
+Note: discovery insights,Completed,Normal,2025-08-23,Shared deck and case studies relevant to their industry.,005Kj00000D7vfMIAR,006Kj000015eeGCIAY,Call
+Email: proposal follow-up,Completed,Normal,2025-09-11,Negotiated pricing bands and discount approvals.,005Kj00000D7vfMIAR,006Kj000015eeGCIAY,Email
+Email: send product deck,Completed,Normal,2025-09-03,"Coordinated security, legal, and compliance review.",005Kj00000D7vfMIAR,006Kj000015eeGCIAY,Email
+Next step: Discovery call,Not Started,Normal,2025-10-01,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeGCIAY,Task
+Email: proposal follow-up,Completed,Normal,2025-08-13,Deep dive into technical requirements and integrations.,005Kj00000Dy5e6IAB,006Kj0000130XvbIAE,Other
+Next step: Discovery call,Not Started,Normal,2025-10-06,Planned follow-up aligned to stage progression.,005Kj00000Dy5e6IAB,006Kj0000130XvbIAE,Task
+Email: send product deck,Completed,Normal,2025-09-21,Discussed pain points and success criteria.,005Kj00000Dy5e8IAB,006Kj000015eeIrIAI,Email
+Log: stakeholder mapping,Completed,Normal,2025-09-18,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e8IAB,006Kj000015eeIrIAI,Email
+Task: confirm legal/security review,Completed,Normal,2025-08-26,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e8IAB,006Kj000015eeIrIAI,Email
+Note: discovery insights,Completed,Normal,2025-09-09,Validated decision makers and approval chain.,005Kj00000D7vfMIAR,006Kj000015eeEyIAI,Call
+Email: send product deck,Completed,Normal,2025-09-03,Reviewed proposal details and procurement steps.,005Kj00000D7vfMIAR,006Kj000015eeEyIAI,Call
+Email: pricing/discounts thread,Completed,Normal,2025-08-13,Captured notes from discovery call with project team.,005Kj00000D7vfMIAR,006Kj000015eeEyIAI,Email
+Log: stakeholder mapping,Completed,Normal,2025-08-16,Captured notes from discovery call with project team.,005Kj00000D7vfMIAR,006Kj000015eeI9IAI,Other
+Call: technical deep-dive,Completed,Normal,2025-08-25,Negotiated pricing bands and discount approvals.,005Kj00000D7vfMIAR,006Kj000015eeI9IAI,Call
+Email: pricing/discounts thread,Completed,Normal,2025-08-26,Negotiated pricing bands and discount approvals.,005Kj00000D7vfMIAR,006Kj000015eeKaIAI,Call
+Next step: Discovery call,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeKaIAI,Task
+Email: proposal follow-up,Completed,Normal,2025-08-21,Deep dive into technical requirements and integrations.,005Kj00000D7vfMIAR,006Kj000015eeMFIAY,Email
+Next step: Executive alignment call,Not Started,Normal,2025-10-08,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeMFIAY,Task
+Note: discovery insights,Completed,Normal,2025-09-07,Reviewed proposal details and procurement steps.,005Kj00000D7vfMIAR,006Kj000015eeKjIAI,Call
+Next step: Executive alignment call,Not Started,Normal,2025-10-09,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeKjIAI,Task
+Log: stakeholder mapping,Completed,Normal,2025-09-12,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e8IAB,006Kj000015eeIaIAI,Call
+Task: confirm legal/security review,Completed,Normal,2025-08-24,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e8IAB,006Kj000015eeIaIAI,Email
+Note: discovery insights,Completed,Normal,2025-09-10,Identified champions and potential blockers.,005Kj00000Dy5e8IAB,006Kj000015eeIaIAI,Call
+Next step: Technical workshop,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeIaIAI,Task
+Log: stakeholder mapping,Completed,Normal,2025-08-21,Identified champions and potential blockers.,005Kj00000D7vfMIAR,006Kj000015eeJDIAY,Email
+Note: discovery insights,Completed,Normal,2025-09-15,Reviewed proposal details and procurement steps.,005Kj00000D7vfMIAR,006Kj000015eeJDIAY,Call
+Call: qualification discussion,Completed,Normal,2025-09-17,Validated decision makers and approval chain.,005Kj00000D7vfMIAR,006Kj000015eeFLIAY,Email
+Email: send product deck,Completed,Normal,2025-08-18,Reviewed proposal details and procurement steps.,005Kj00000D7vfMIAR,006Kj000015eeFLIAY,Other
+Email: send product deck,Completed,Normal,2025-09-21,Reviewed proposal details and procurement steps.,005Kj00000D7vfMIAR,006Kj000015eeFLIAY,Email
+Next step: Negotiation meeting,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeFLIAY,Task
+Note: discovery insights,Completed,Normal,2025-08-21,Aligned on evaluation timeline and key milestones.,005Kj00000D7vfMIAR,006Kj000015eeJFIAY,Email
+Email: send product deck,Completed,Normal,2025-09-17,Reviewed proposal details and procurement steps.,005Kj00000D7vfMIAR,006Kj000015eeJFIAY,Call
+Next step: Discovery call,Not Started,Normal,2025-10-07,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeJFIAY,Task
+Task: confirm legal/security review,Completed,Normal,2025-08-31,Shared deck and case studies relevant to their industry.,005Kj00000D7vfMIAR,006Kj000015eeKcIAI,Email
+Call: qualification discussion,Completed,Normal,2025-08-22,Discussed pain points and success criteria.,005Kj00000D7vfMIAR,006Kj000015eeKcIAI,Email
+Call: technical deep-dive,Completed,Normal,2025-08-26,Deep dive into technical requirements and integrations.,005Kj00000D7vfMIAR,006Kj000015eeKcIAI,Call
+Next step: Negotiation meeting,Not Started,Normal,2025-10-01,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeKcIAI,Task
+Log: stakeholder mapping,Completed,Normal,2025-08-17,"Coordinated security, legal, and compliance review.",005Kj00000D7vfMIAR,006Kj000015eeIEIAY,Call
+Call: budget and timeline,Completed,Normal,2025-09-04,Identified champions and potential blockers.,005Kj00000D7vfMIAR,006Kj000015eeIEIAY,Email
+Next step: Technical workshop,Not Started,Normal,2025-10-03,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeIEIAY,Task
+Call: budget and timeline,Completed,Normal,2025-08-20,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e7IAB,006Kj000015eeGgIAI,Other
+Note: discovery insights,Completed,Normal,2025-08-23,Reviewed proposal details and procurement steps.,005Kj00000Dy5e7IAB,006Kj000015eeGgIAI,Email
+Email: send product deck,Completed,Normal,2025-08-23,Reviewed proposal details and procurement steps.,005Kj00000Dy5e7IAB,006Kj000015eeGgIAI,Other
+Call: budget and timeline,Completed,Normal,2025-08-26,Discussed pain points and success criteria.,005Kj00000D7vfMIAR,006Kj000015eeEwIAI,Email
+Call: technical deep-dive,Completed,Normal,2025-09-17,"Coordinated security, legal, and compliance review.",005Kj00000D7vfMIAR,006Kj000015eeJHIAY,Email
+Task: confirm legal/security review,Completed,Normal,2025-09-04,Validated decision makers and approval chain.,005Kj00000D7vfMIAR,006Kj000015eeFiIAI,Email
+Next step: Executive alignment call,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeFiIAI,Task
+Log: stakeholder mapping,Completed,Normal,2025-08-21,Captured notes from discovery call with project team.,005Kj00000Dy5e8IAB,006Kj000015eeK2IAI,Email
+Next step: Proposal review,Not Started,Normal,2025-10-06,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeK2IAI,Task
+Email: pricing/discounts thread,Completed,Normal,2025-08-25,Negotiated pricing bands and discount approvals.,005Kj00000D7vfMIAR,006Kj000015eeFgIAI,Call
+Next step: Executive alignment call,Not Started,Normal,2025-09-29,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeFgIAI,Task
+Email: proposal follow-up,Completed,Normal,2025-09-16,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e6IAB,006Kj000015eeNnIAI,Other
+Task: confirm legal/security review,Completed,Normal,2025-09-07,Validated decision makers and approval chain.,005Kj00000Dy5e6IAB,006Kj000015eeNnIAI,Call
+Next step: Technical workshop,Not Started,Normal,2025-10-03,Planned follow-up aligned to stage progression.,005Kj00000Dy5e6IAB,006Kj000015eeNnIAI,Task
+Email: send product deck,Completed,Normal,2025-08-21,Captured notes from discovery call with project team.,005Kj00000Dy5f4IAB,006Kj0000130XvoIAE,Call
+Call: technical deep-dive,Completed,Normal,2025-09-21,Captured notes from discovery call with project team.,005Kj00000Dy5f4IAB,006Kj0000130XvoIAE,Other
+Next step: Proposal review,Not Started,Normal,2025-10-01,Planned follow-up aligned to stage progression.,005Kj00000Dy5f4IAB,006Kj0000130XvoIAE,Task
+Email: pricing/discounts thread,Completed,Normal,2025-09-19,Deep dive into technical requirements and integrations.,005Kj00000Dy5e2IAB,006Kj0000130Xv6IAE,Call
+Call: technical deep-dive,Completed,Normal,2025-09-03,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e2IAB,006Kj0000130Xv6IAE,Other
+Task: confirm decision process,Completed,Normal,2025-09-19,Shared deck and case studies relevant to their industry.,005Kj00000Dy5f4IAB,006Kj0000130XvpIAE,Email
+Task: confirm legal/security review,Completed,Normal,2025-08-12,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5f4IAB,006Kj0000130XvpIAE,Call
+Task: confirm legal/security review,Completed,Normal,2025-08-25,Captured notes from discovery call with project team.,005Kj00000Dy5f4IAB,006Kj0000130XvpIAE,Email
+Next step: Proposal review,Not Started,Normal,2025-10-06,Planned follow-up aligned to stage progression.,005Kj00000Dy5f4IAB,006Kj0000130XvpIAE,Task
+Call: technical deep-dive,Completed,Normal,2025-08-24,Reviewed proposal details and procurement steps.,005Kj00000Dy5e2IAB,006Kj000015eeOLIAY,Call
+Task: confirm decision process,Completed,Normal,2025-09-16,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e2IAB,006Kj000015eeONIAY,Other
+Log: stakeholder mapping,Completed,Normal,2025-08-29,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e2IAB,006Kj000015eeONIAY,Other
+Next step: Executive alignment call,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeONIAY,Task
+Call: technical deep-dive,Completed,Normal,2025-09-20,Reviewed proposal details and procurement steps.,005Kj00000Dy5e2IAB,006Kj000015eeO4IAI,Email
+Email: send product deck,Completed,Normal,2025-08-13,Reviewed proposal details and procurement steps.,005Kj00000Dy5e2IAB,006Kj000015eeO4IAI,Email
+Next step: Demo with stakeholders,Not Started,Normal,2025-09-29,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeO4IAI,Task
+Log: stakeholder mapping,Completed,Normal,2025-09-16,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e2IAB,006Kj000015eeOXIAY,Email
+Next step: Technical workshop,Not Started,Normal,2025-10-05,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeOXIAY,Task
+Note: discovery insights,Completed,Normal,2025-09-16,"Coordinated security, legal, and compliance review.",005Kj00000D7vfMIAR,006Kj000015eeLAIAY,Email
+Task: confirm decision process,Completed,Normal,2025-09-08,"Coordinated security, legal, and compliance review.",005Kj00000D7vfMIAR,006Kj000015eeLAIAY,Call
+Next step: Negotiation meeting,Not Started,Normal,2025-10-01,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeLAIAY,Task
+Email: send product deck,Completed,Normal,2025-09-17,Shared deck and case studies relevant to their industry.,005Kj00000D7vfMIAR,006Kj000015eeJPIAY,Email
+Call: budget and timeline,Completed,Normal,2025-08-28,Deep dive into technical requirements and integrations.,005Kj00000D7vfMIAR,006Kj000015eeJPIAY,Call
+Email: send product deck,Completed,Normal,2025-08-13,Negotiated pricing bands and discount approvals.,005Kj00000D7vfMIAR,006Kj000015eeL6IAI,Call
+Task: confirm decision process,Completed,Normal,2025-08-17,Shared deck and case studies relevant to their industry.,005Kj00000D7vfMIAR,006Kj000015eeL6IAI,Other
+Email: pricing/discounts thread,Completed,Normal,2025-08-30,Validated decision makers and approval chain.,005Kj00000D7vfMIAR,006Kj000015eeL6IAI,Email
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeL6IAI,Task
+Call: qualification discussion,Completed,Normal,2025-08-16,Discussed pain points and success criteria.,005Kj00000D7vfMIAR,006Kj000015eeMBIAY,Call
+Call: qualification discussion,Completed,Normal,2025-09-09,Identified champions and potential blockers.,005Kj00000D7vfMIAR,006Kj000015eeMBIAY,Other
+Task: confirm legal/security review,Completed,Normal,2025-08-22,Captured notes from discovery call with project team.,005Kj00000D7vfMIAR,006Kj000015eeMBIAY,Call
+Next step: Proposal review,Not Started,Normal,2025-09-29,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeMBIAY,Task
+Email: send product deck,Completed,Normal,2025-08-18,"Coordinated security, legal, and compliance review.",005Kj00000D7vfMIAR,006Kj000015eeF4IAI,Call
+Call: qualification discussion,Completed,Normal,2025-08-22,Reviewed proposal details and procurement steps.,005Kj00000D7vfMIAR,006Kj000015eeF4IAI,Other
+Next step: Negotiation meeting,Not Started,Normal,2025-09-29,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeF4IAI,Task
+Call: technical deep-dive,Completed,Normal,2025-09-17,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e8IAB,006Kj000015eeIzIAI,Email
+Call: budget and timeline,Completed,Normal,2025-08-12,Reviewed proposal details and procurement steps.,005Kj00000Dy5e8IAB,006Kj000015eeIzIAI,Call
+Email: send product deck,Completed,Normal,2025-08-26,Validated decision makers and approval chain.,005Kj00000Dy5e8IAB,006Kj000015eeIzIAI,Other
+Next step: Executive alignment call,Not Started,Normal,2025-10-01,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeIzIAI,Task
+Task: confirm legal/security review,Completed,Normal,2025-09-14,Reviewed proposal details and procurement steps.,005Kj00000D7vfMIAR,006Kj000015eeLIIAY,Email
+Next step: Executive alignment call,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeLIIAY,Task
+Task: confirm legal/security review,Completed,Normal,2025-09-01,Negotiated pricing bands and discount approvals.,005Kj00000D7vfMIAR,006Kj000015eeIHIAY,Call
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-05,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeIHIAY,Task
+Task: confirm legal/security review,Completed,Normal,2025-08-14,"Coordinated security, legal, and compliance review.",005Kj00000D7vfMIAR,006Kj000015eeFkIAI,Email
+Call: qualification discussion,Completed,Normal,2025-09-20,Deep dive into technical requirements and integrations.,005Kj00000D7vfMIAR,006Kj000015eeFkIAI,Email
+Task: confirm decision process,Completed,Normal,2025-09-09,Negotiated pricing bands and discount approvals.,005Kj00000D7vfMIAR,006Kj000015eeFkIAI,Call
+Next step: Technical workshop,Not Started,Normal,2025-10-03,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeFkIAI,Task
+Task: confirm legal/security review,Completed,Normal,2025-09-15,Reviewed proposal details and procurement steps.,005Kj00000D7vfMIAR,006Kj000015eeItIAI,Call
+Note: discovery insights,Completed,Normal,2025-08-24,Negotiated pricing bands and discount approvals.,005Kj00000D7vfMIAR,006Kj000015eeGwIAI,Call
+Next step: Negotiation meeting,Not Started,Normal,2025-10-07,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeGwIAI,Task
+Note: discovery insights,Completed,Normal,2025-09-16,Identified champions and potential blockers.,005Kj00000Dy5e8IAB,006Kj000015eeMzIAI,Email
+Note: discovery insights,Completed,Normal,2025-08-13,Validated decision makers and approval chain.,005Kj00000Dy5e8IAB,006Kj000015eeMzIAI,Email
+Email: proposal follow-up,Completed,Normal,2025-09-13,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e8IAB,006Kj000015eeMzIAI,Call
+Next step: Technical workshop,Not Started,Normal,2025-09-29,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeMzIAI,Task
+Call: qualification discussion,Completed,Normal,2025-08-16,Negotiated pricing bands and discount approvals.,005Kj00000D7vfMIAR,006Kj000015eeL1IAI,Call
+Next step: Technical workshop,Not Started,Normal,2025-10-08,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeL1IAI,Task
+Email: send product deck,Completed,Normal,2025-08-22,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e8IAB,006Kj000015eeMEIAY,Call
+Task: confirm decision process,Completed,Normal,2025-08-28,Deep dive into technical requirements and integrations.,005Kj00000Dy5e8IAB,006Kj000015eeMEIAY,Call
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-01,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeMEIAY,Task
+Task: confirm legal/security review,Completed,Normal,2025-08-20,Negotiated pricing bands and discount approvals.,005Kj00000D7vfMIAR,006Kj000015eeLyIAI,Call
+Email: proposal follow-up,Completed,Normal,2025-08-19,Aligned on evaluation timeline and key milestones.,005Kj00000D7vfMIAR,006Kj000015eeLyIAI,Call
+Next step: Proposal review,Not Started,Normal,2025-10-07,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeLyIAI,Task
+Call: qualification discussion,Completed,Normal,2025-09-20,Deep dive into technical requirements and integrations.,005Kj00000D7vfMIAR,006Kj000015eeFnIAI,Other
+Next step: Discovery call,Not Started,Normal,2025-10-09,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeFnIAI,Task
+Email: send product deck,Completed,Normal,2025-09-03,Aligned on evaluation timeline and key milestones.,005Kj00000D7vfMIAR,006Kj000015eeGyIAI,Other
+Email: pricing/discounts thread,Completed,Normal,2025-08-18,Deep dive into technical requirements and integrations.,005Kj00000D7vfMIAR,006Kj000015eeGyIAI,Email
+Task: confirm decision process,Completed,Normal,2025-09-17,Validated decision makers and approval chain.,005Kj00000D7vfMIAR,006Kj000015eeGyIAI,Email
+Call: qualification discussion,Completed,Normal,2025-08-15,Discussed pain points and success criteria.,005Kj00000Dy5e7IAB,006Kj000015eeM7IAI,Email
+Email: send product deck,Completed,Normal,2025-09-07,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e7IAB,006Kj000015eeM7IAI,Other
+Next step: Discovery call,Not Started,Normal,2025-10-01,Planned follow-up aligned to stage progression.,005Kj00000Dy5e7IAB,006Kj000015eeM7IAI,Task
+Email: pricing/discounts thread,Completed,Normal,2025-09-19,Identified champions and potential blockers.,005Kj00000D7vfMIAR,006Kj000015eeGqIAI,Other
+Email: send product deck,Completed,Normal,2025-08-31,Aligned on evaluation timeline and key milestones.,005Kj00000D7vfMIAR,006Kj000015eeGqIAI,Other
+Task: confirm legal/security review,Completed,Normal,2025-08-17,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e8IAB,006Kj000015eeGSIAY,Email
+Call: qualification discussion,Completed,Normal,2025-09-10,Identified champions and potential blockers.,005Kj00000Dy5e8IAB,006Kj000015eeGSIAY,Call
+Next step: Executive alignment call,Not Started,Normal,2025-09-29,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeGSIAY,Task
+Email: send product deck,Completed,Normal,2025-09-21,Reviewed proposal details and procurement steps.,005Kj00000D7vfMIAR,006Kj000015eeLqIAI,Call
+Call: qualification discussion,Completed,Normal,2025-09-08,"Coordinated security, legal, and compliance review.",005Kj00000D7vfMIAR,006Kj000015eeLqIAI,Email
+Next step: Proposal review,Not Started,Normal,2025-10-09,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeLqIAI,Task
+Email: send product deck,Completed,Normal,2025-08-13,Discussed pain points and success criteria.,005Kj00000D7vfMIAR,006Kj000015eeLrIAI,Other
+Call: qualification discussion,Completed,Normal,2025-08-22,"Coordinated security, legal, and compliance review.",005Kj00000D7vfMIAR,006Kj000015eeLrIAI,Email
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeLrIAI,Task
+Task: confirm decision process,Completed,Normal,2025-09-10,"Coordinated security, legal, and compliance review.",005Kj00000D7vfMIAR,006Kj000015eeMiIAI,Call
+Call: budget and timeline,Completed,Normal,2025-09-05,Validated decision makers and approval chain.,005Kj00000D7vfMIAR,006Kj000015eeMiIAI,Email
+Task: confirm legal/security review,Completed,Normal,2025-09-03,Deep dive into technical requirements and integrations.,005Kj00000D7vfMIAR,006Kj000015eeMiIAI,Call
+Next step: Executive alignment call,Not Started,Normal,2025-09-29,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeMiIAI,Task
+Log: stakeholder mapping,Completed,Normal,2025-09-05,Identified champions and potential blockers.,005Kj00000D7vfMIAR,006Kj000015eeJqIAI,Email
+Email: pricing/discounts thread,Completed,Normal,2025-08-13,Identified champions and potential blockers.,005Kj00000D7vfMIAR,006Kj000015eeJqIAI,Other
+Call: technical deep-dive,Completed,Normal,2025-08-31,"Coordinated security, legal, and compliance review.",005Kj00000D7vfMIAR,006Kj000015eeJqIAI,Call
+Email: send product deck,Completed,Normal,2025-09-14,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e2IAB,006Kj000015eeOFIAY,Call
+Next step: Executive alignment call,Not Started,Normal,2025-10-10,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeOFIAY,Task
+Task: confirm decision process,Completed,Normal,2025-08-13,Validated decision makers and approval chain.,005Kj00000Dy5e2IAB,006Kj000015eeOyIAI,Call
+Next step: Discovery call,Not Started,Normal,2025-10-07,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeOyIAI,Task
+Log: stakeholder mapping,Completed,Normal,2025-09-21,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5f4IAB,006Kj0000130XvqIAE,Other
+Email: pricing/discounts thread,Completed,Normal,2025-08-31,Shared deck and case studies relevant to their industry.,005Kj00000Dy5f4IAB,006Kj0000130XvqIAE,Call
+Next step: Proposal review,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000Dy5f4IAB,006Kj0000130XvqIAE,Task
+Task: confirm decision process,Completed,Normal,2025-08-29,Validated decision makers and approval chain.,005Kj00000Dy5f4IAB,006Kj0000130XvrIAE,Email
+Call: budget and timeline,Completed,Normal,2025-08-17,Shared deck and case studies relevant to their industry.,005Kj00000Dy5f4IAB,006Kj0000130XvrIAE,Email
+Call: budget and timeline,Completed,Normal,2025-08-15,Negotiated pricing bands and discount approvals.,005Kj00000Dy5f4IAB,006Kj0000130XvrIAE,Call
+Next step: Discovery call,Not Started,Normal,2025-10-08,Planned follow-up aligned to stage progression.,005Kj00000Dy5f4IAB,006Kj0000130XvrIAE,Task
+Call: budget and timeline,Completed,Normal,2025-09-08,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e2IAB,006Kj000015eeOzIAI,Call
+Call: qualification discussion,Completed,Normal,2025-08-12,Discussed pain points and success criteria.,005Kj00000Dy5e2IAB,006Kj000015eeOzIAI,Call
+Next step: Proposal review,Not Started,Normal,2025-10-07,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeOzIAI,Task
+Call: budget and timeline,Completed,Normal,2025-08-22,Captured notes from discovery call with project team.,005Kj00000Dy5f4IAB,006Kj0000130XvsIAE,Call
+Call: budget and timeline,Completed,Normal,2025-09-04,"Coordinated security, legal, and compliance review.",005Kj00000Dy5f4IAB,006Kj0000130XvsIAE,Call
+Next step: Proposal review,Not Started,Normal,2025-10-08,Planned follow-up aligned to stage progression.,005Kj00000Dy5f4IAB,006Kj0000130XvsIAE,Task
+Task: confirm decision process,Completed,Normal,2025-09-04,Validated decision makers and approval chain.,005Kj00000Dy5e2IAB,006Kj000015eeP0IAI,Email
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-08,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeP0IAI,Task
+Email: pricing/discounts thread,Completed,Normal,2025-09-16,Captured notes from discovery call with project team.,005Kj00000Dy5e2IAB,006Kj000015eeNmIAI,Other
+Next step: Discovery call,Not Started,Normal,2025-10-06,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeNmIAI,Task
+Note: discovery insights,Completed,Normal,2025-08-12,Identified champions and potential blockers.,005Kj00000Dy5e2IAB,006Kj000015eeNjIAI,Call
+Next step: Technical workshop,Not Started,Normal,2025-10-03,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeNjIAI,Task
+Email: proposal follow-up,Completed,Normal,2025-09-06,Discussed pain points and success criteria.,005Kj00000Dy5e2IAB,006Kj000015eeP6IAI,Call
+Email: send product deck,Completed,Normal,2025-09-12,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e2IAB,006Kj000015eeP6IAI,Call
+Call: budget and timeline,Completed,Normal,2025-08-26,Reviewed proposal details and procurement steps.,005Kj00000Dy5e2IAB,006Kj000015eeP6IAI,Email
+Next step: Negotiation meeting,Not Started,Normal,2025-10-07,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeP6IAI,Task
+Log: stakeholder mapping,Completed,Normal,2025-08-18,Deep dive into technical requirements and integrations.,005Kj00000Dy5e3IAB,006Kj000015eeOWIAY,Call
+Call: qualification discussion,Completed,Normal,2025-08-15,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e3IAB,006Kj000015eeOWIAY,Call
+Note: discovery insights,Completed,Normal,2025-09-19,Discussed pain points and success criteria.,005Kj00000Dy5e2IAB,006Kj0000130Xv7IAE,Call
+Next step: Discovery call,Not Started,Normal,2025-09-29,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj0000130Xv7IAE,Task
+Email: proposal follow-up,Completed,Normal,2025-08-14,Captured notes from discovery call with project team.,005Kj00000Dy5e2IAB,006Kj000015eeP7IAI,Email
+Note: discovery insights,Completed,Normal,2025-09-19,Reviewed proposal details and procurement steps.,005Kj00000Dy5e2IAB,006Kj000015eeP7IAI,Email
+Next step: Negotiation meeting,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeP7IAI,Task
+Email: send product deck,Completed,Normal,2025-08-13,Identified champions and potential blockers.,005Kj00000D7vfMIAR,006Kj000015eeJBIAY,Email
+Task: confirm decision process,Completed,Normal,2025-08-26,Discussed pain points and success criteria.,005Kj00000D7vfMIAR,006Kj000015eeJBIAY,Other
+Next step: Proposal review,Not Started,Normal,2025-10-01,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeJBIAY,Task
+Task: confirm decision process,Completed,Normal,2025-09-14,Aligned on evaluation timeline and key milestones.,005Kj00000D7vfMIAR,006Kj000015eeIlIAI,Call
+Next step: Proposal review,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeIlIAI,Task
+Task: confirm legal/security review,Completed,Normal,2025-08-26,Validated decision makers and approval chain.,005Kj00000D7vfMIAR,006Kj000015eeI7IAI,Call
+Next step: Executive alignment call,Not Started,Normal,2025-10-03,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeI7IAI,Task
+Email: pricing/discounts thread,Completed,Normal,2025-09-08,Validated decision makers and approval chain.,005Kj00000D7vfMIAR,006Kj000015eeKpIAI,Email
+Log: stakeholder mapping,Completed,Normal,2025-09-18,Discussed pain points and success criteria.,005Kj00000D7vfMIAR,006Kj000015eeKpIAI,Call
+Next step: Discovery call,Not Started,Normal,2025-10-09,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeKpIAI,Task
+Email: pricing/discounts thread,Completed,Normal,2025-08-28,Identified champions and potential blockers.,005Kj00000D7vfMIAR,006Kj000015eeHpIAI,Call
+Task: confirm legal/security review,Completed,Normal,2025-08-17,"Coordinated security, legal, and compliance review.",005Kj00000D7vfMIAR,006Kj000015eeHpIAI,Call
+Email: proposal follow-up,Completed,Normal,2025-08-13,Discussed pain points and success criteria.,005Kj00000D7vfMIAR,006Kj000015eeG3IAI,Call
+Email: pricing/discounts thread,Completed,Normal,2025-08-23,Shared deck and case studies relevant to their industry.,005Kj00000D7vfMIAR,006Kj000015eeG3IAI,Other
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeG3IAI,Task
+Task: confirm legal/security review,Completed,Normal,2025-09-16,Validated decision makers and approval chain.,005Kj00000Dy5e8IAB,006Kj000015eeG0IAI,Call
+Email: send product deck,Completed,Normal,2025-08-15,Shared deck and case studies relevant to their industry.,005Kj00000D7vfMIAR,006Kj000015eeJKIAY,Other
+Task: confirm legal/security review,Completed,Normal,2025-09-14,Deep dive into technical requirements and integrations.,005Kj00000D7vfMIAR,006Kj000015eeJKIAY,Other
+Next step: Negotiation meeting,Not Started,Normal,2025-10-10,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeJKIAY,Task
+Call: qualification discussion,Completed,Normal,2025-09-05,Negotiated pricing bands and discount approvals.,005Kj00000D7vfMIAR,006Kj000015eeKhIAI,Call
+Call: technical deep-dive,Completed,Normal,2025-09-08,Negotiated pricing bands and discount approvals.,005Kj00000D7vfMIAR,006Kj000015eeKhIAI,Call
+Task: confirm decision process,Completed,Normal,2025-09-11,"Coordinated security, legal, and compliance review.",005Kj00000D7vfMIAR,006Kj000015eeKhIAI,Call
+Next step: Negotiation meeting,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeKhIAI,Task
+Task: confirm decision process,Completed,Normal,2025-08-24,Validated decision makers and approval chain.,005Kj00000D7vfMIAR,006Kj000015eeIMIAY,Call
+Log: stakeholder mapping,Completed,Normal,2025-08-30,Discussed pain points and success criteria.,005Kj00000D7vfMIAR,006Kj000015eeIMIAY,Call
+Next step: Discovery call,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeIMIAY,Task
+Email: proposal follow-up,Completed,Normal,2025-09-15,Reviewed proposal details and procurement steps.,005Kj00000Dy5e8IAB,006Kj000015eeJTIAY,Other
+Next step: Technical workshop,Not Started,Normal,2025-10-08,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeJTIAY,Task
+Call: budget and timeline,Completed,Normal,2025-09-03,Reviewed proposal details and procurement steps.,005Kj00000D7vfMIAR,006Kj000015eeIAIAY,Other
+Log: stakeholder mapping,Completed,Normal,2025-08-28,Validated decision makers and approval chain.,005Kj00000D7vfMIAR,006Kj000015eeIAIAY,Call
+Call: technical deep-dive,Completed,Normal,2025-08-31,Reviewed proposal details and procurement steps.,005Kj00000D7vfMIAR,006Kj000015eeIAIAY,Email
+Next step: Negotiation meeting,Not Started,Normal,2025-10-08,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeIAIAY,Task
+Call: technical deep-dive,Completed,Normal,2025-08-21,Reviewed proposal details and procurement steps.,005Kj00000D7vfMIAR,006Kj000015eeKnIAI,Call
+Log: stakeholder mapping,Completed,Normal,2025-09-03,Reviewed proposal details and procurement steps.,005Kj00000D7vfMIAR,006Kj000015eeKnIAI,Email
+Next step: Executive alignment call,Not Started,Normal,2025-10-10,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeKnIAI,Task
+Call: qualification discussion,Completed,Normal,2025-08-19,Captured notes from discovery call with project team.,005Kj00000Dy5e8IAB,006Kj000015eeExIAI,Call
+Next step: Executive alignment call,Not Started,Normal,2025-10-03,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeExIAI,Task
+Email: pricing/discounts thread,Completed,Normal,2025-08-14,Deep dive into technical requirements and integrations.,005Kj00000D7vfMIAR,006Kj000015eeJoIAI,Email
+Next step: Negotiation meeting,Not Started,Normal,2025-10-07,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeJoIAI,Task
+Email: proposal follow-up,Completed,Normal,2025-09-01,Deep dive into technical requirements and integrations.,005Kj00000D7vfMIAR,006Kj000015eeHkIAI,Email
+Email: send product deck,Completed,Normal,2025-09-20,Reviewed proposal details and procurement steps.,005Kj00000D7vfMIAR,006Kj000015eeKbIAI,Call
+Call: qualification discussion,Completed,Normal,2025-08-29,Captured notes from discovery call with project team.,005Kj00000D7vfMIAR,006Kj000015eeKbIAI,Email
+Next step: Proposal review,Not Started,Normal,2025-10-07,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeKbIAI,Task
+Task: confirm decision process,Completed,Normal,2025-08-28,Deep dive into technical requirements and integrations.,005Kj00000D7vfMIAR,006Kj000015eeHlIAI,Call
+Call: technical deep-dive,Completed,Normal,2025-09-07,Discussed pain points and success criteria.,005Kj00000D7vfMIAR,006Kj000015eeHlIAI,Call
+Email: proposal follow-up,Completed,Normal,2025-08-28,"Coordinated security, legal, and compliance review.",005Kj00000D7vfMIAR,006Kj000015eeHlIAI,Call
+Call: qualification discussion,Completed,Normal,2025-08-21,"Coordinated security, legal, and compliance review.",005Kj00000D7vfMIAR,006Kj000015eeJrIAI,Call
+Call: budget and timeline,Completed,Normal,2025-09-13,Deep dive into technical requirements and integrations.,005Kj00000D7vfMIAR,006Kj000015eeJrIAI,Email
+Next step: Technical workshop,Not Started,Normal,2025-10-09,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeJrIAI,Task
+Email: proposal follow-up,Completed,Normal,2025-08-21,Discussed pain points and success criteria.,005Kj00000D7vfMIAR,006Kj000015eeLjIAI,Email
+Note: discovery insights,Completed,Normal,2025-09-21,Deep dive into technical requirements and integrations.,005Kj00000D7vfMIAR,006Kj000015eeLjIAI,Email
+Next step: Negotiation meeting,Not Started,Normal,2025-10-09,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeLjIAI,Task
+Email: pricing/discounts thread,Completed,Normal,2025-08-30,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e7IAB,006Kj000015eeHmIAI,Email
+Call: technical deep-dive,Completed,Normal,2025-09-04,Validated decision makers and approval chain.,005Kj00000Dy5e7IAB,006Kj000015eeHmIAI,Other
+Log: stakeholder mapping,Completed,Normal,2025-08-17,Identified champions and potential blockers.,005Kj00000Dy5e7IAB,006Kj000015eeHmIAI,Email
+Next step: Discovery call,Not Started,Normal,2025-10-06,Planned follow-up aligned to stage progression.,005Kj00000Dy5e7IAB,006Kj000015eeHmIAI,Task
+Email: pricing/discounts thread,Completed,Normal,2025-09-13,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e7IAB,006Kj000015eeMkIAI,Other
+Note: discovery insights,Completed,Normal,2025-09-20,Deep dive into technical requirements and integrations.,005Kj00000Dy5e7IAB,006Kj000015eeMkIAI,Call
+Call: qualification discussion,Completed,Normal,2025-08-13,Deep dive into technical requirements and integrations.,005Kj00000Dy5e7IAB,006Kj000015eeMkIAI,Email
+Next step: Technical workshop,Not Started,Normal,2025-10-05,Planned follow-up aligned to stage progression.,005Kj00000Dy5e7IAB,006Kj000015eeMkIAI,Task
+Call: qualification discussion,Completed,Normal,2025-08-17,Captured notes from discovery call with project team.,005Kj00000D7vfMIAR,006Kj000015eeHnIAI,Call
+Task: confirm decision process,Completed,Normal,2025-09-15,Discussed pain points and success criteria.,005Kj00000D7vfMIAR,006Kj000015eeHnIAI,Email
+Email: proposal follow-up,Completed,Normal,2025-08-28,Deep dive into technical requirements and integrations.,005Kj00000D7vfMIAR,006Kj000015eeG9IAI,Other
+Next step: Negotiation meeting,Not Started,Normal,2025-10-07,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeG9IAI,Task
+Log: stakeholder mapping,Completed,Normal,2025-08-23,Identified champions and potential blockers.,005Kj00000D7vfMIAR,006Kj000015eeHoIAI,Email
+Email: proposal follow-up,Completed,Normal,2025-09-08,Validated decision makers and approval chain.,005Kj00000D7vfMIAR,006Kj000015eeHoIAI,Other
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-05,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeHoIAI,Task
+Email: proposal follow-up,Completed,Normal,2025-08-14,Captured notes from discovery call with project team.,005Kj00000D7vfMIAR,006Kj000015eeMlIAI,Email
+Next step: Proposal review,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeMlIAI,Task
+Email: send product deck,Completed,Normal,2025-08-31,Discussed pain points and success criteria.,005Kj00000D7vfMIAR,006Kj000015eeLkIAI,Other
+Call: qualification discussion,Completed,Normal,2025-09-15,Aligned on evaluation timeline and key milestones.,005Kj00000D7vfMIAR,006Kj000015eeLkIAI,Email
+Call: budget and timeline,Completed,Normal,2025-09-05,Validated decision makers and approval chain.,005Kj00000D7vfMIAR,006Kj000015eeLkIAI,Email
+Next step: Technical workshop,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeLkIAI,Task
+Call: qualification discussion,Completed,Normal,2025-09-12,Discussed pain points and success criteria.,005Kj00000Dy5e6IAB,006Kj000015eeORIAY,Email
+Call: budget and timeline,Completed,Normal,2025-09-04,Reviewed proposal details and procurement steps.,005Kj00000Dy5e6IAB,006Kj000015eeORIAY,Other
+Next step: Negotiation meeting,Not Started,Normal,2025-09-29,Planned follow-up aligned to stage progression.,005Kj00000Dy5e6IAB,006Kj000015eeORIAY,Task
+Note: discovery insights,Completed,Normal,2025-09-09,Captured notes from discovery call with project team.,005Kj00000Dy5e2IAB,006Kj0000130XvCIAU,Call
+Note: discovery insights,Completed,Normal,2025-09-13,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e2IAB,006Kj0000130XvCIAU,Other
+Next step: Proposal review,Not Started,Normal,2025-10-09,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj0000130XvCIAU,Task
+Call: budget and timeline,Completed,Normal,2025-09-18,Validated decision makers and approval chain.,005Kj00000Dy5e2IAB,006Kj0000130XvDIAU,Call
+Call: qualification discussion,Completed,Normal,2025-08-29,Reviewed proposal details and procurement steps.,005Kj00000Dy5e2IAB,006Kj0000130XvDIAU,Call
+Log: stakeholder mapping,Completed,Normal,2025-08-27,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e2IAB,006Kj0000130XvDIAU,Other
+Next step: Proposal review,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj0000130XvDIAU,Task
+Call: budget and timeline,Completed,Normal,2025-09-12,Identified champions and potential blockers.,005Kj00000Dy5e5IAB,006Kj000015eeOfIAI,Email
+Next step: Technical workshop,Not Started,Normal,2025-10-06,Planned follow-up aligned to stage progression.,005Kj00000Dy5e5IAB,006Kj000015eeOfIAI,Task
+Note: discovery insights,Completed,Normal,2025-08-24,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5f4IAB,006Kj000015eeFaIAI,Call
+Call: qualification discussion,Completed,Normal,2025-09-11,"Coordinated security, legal, and compliance review.",005Kj00000Dy5f4IAB,006Kj000015eeFaIAI,Email
+Call: budget and timeline,Completed,Normal,2025-08-31,Shared deck and case studies relevant to their industry.,005Kj00000Dy5f4IAB,006Kj000015eeFaIAI,Email
+Next step: Negotiation meeting,Not Started,Normal,2025-10-05,Planned follow-up aligned to stage progression.,005Kj00000Dy5f4IAB,006Kj000015eeFaIAI,Task
+Email: pricing/discounts thread,Completed,Normal,2025-08-13,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e2IAB,006Kj000015eeObIAI,Email
+Task: confirm legal/security review,Completed,Normal,2025-09-18,Captured notes from discovery call with project team.,005Kj00000Dy5e6IAB,006Kj0000130XvcIAE,Other
+Email: pricing/discounts thread,Completed,Normal,2025-09-16,Deep dive into technical requirements and integrations.,005Kj00000Dy5e6IAB,006Kj0000130XvcIAE,Email
+Task: confirm decision process,Completed,Normal,2025-08-19,Captured notes from discovery call with project team.,005Kj00000Dy5e6IAB,006Kj0000130XvcIAE,Email
+Next step: Technical workshop,Not Started,Normal,2025-09-29,Planned follow-up aligned to stage progression.,005Kj00000Dy5e6IAB,006Kj0000130XvcIAE,Task
+Email: send product deck,Completed,Normal,2025-08-12,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e2IAB,006Kj000015eeNzIAI,Call
+Call: budget and timeline,Completed,Normal,2025-08-25,Captured notes from discovery call with project team.,005Kj00000Dy5e2IAB,006Kj000015eeNzIAI,Call
+Email: pricing/discounts thread,Completed,Normal,2025-09-04,Deep dive into technical requirements and integrations.,005Kj00000Dy5e2IAB,006Kj000015eeNzIAI,Call
+Next step: Technical workshop,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeNzIAI,Task
+Email: send product deck,Completed,Normal,2025-08-13,Discussed pain points and success criteria.,005Kj00000Dy5e2IAB,006Kj000015eeP8IAI,Call
+Email: pricing/discounts thread,Completed,Normal,2025-08-23,Discussed pain points and success criteria.,005Kj00000Dy5e2IAB,006Kj000015eeP8IAI,Other
+Next step: Proposal review,Not Started,Normal,2025-09-29,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeP8IAI,Task
+Call: technical deep-dive,Completed,Normal,2025-08-14,Discussed pain points and success criteria.,005Kj00000Dy5e2IAB,006Kj0000130Xv8IAE,Email
+Email: pricing/discounts thread,Completed,Normal,2025-08-24,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e2IAB,006Kj0000130Xv8IAE,Call
+Email: proposal follow-up,Completed,Normal,2025-09-13,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e2IAB,006Kj0000130Xv8IAE,Email
+Next step: Negotiation meeting,Not Started,Normal,2025-10-01,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj0000130Xv8IAE,Task
+Call: technical deep-dive,Completed,Normal,2025-09-14,"Coordinated security, legal, and compliance review.",005Kj00000D7vfMIAR,006Kj000015eeGWIAY,Email
+Task: confirm decision process,Completed,Normal,2025-08-21,Deep dive into technical requirements and integrations.,005Kj00000D7vfMIAR,006Kj000015eeGWIAY,Other
+Call: qualification discussion,Completed,Normal,2025-08-19,Deep dive into technical requirements and integrations.,005Kj00000D7vfMIAR,006Kj000015eeGWIAY,Email
+Task: confirm legal/security review,Completed,Normal,2025-08-31,Reviewed proposal details and procurement steps.,005Kj00000Dy5f4IAB,006Kj0000130XvtIAE,Email
+Task: confirm decision process,Completed,Normal,2025-08-22,Identified champions and potential blockers.,005Kj00000Dy5f4IAB,006Kj0000130XvtIAE,Email
+Call: budget and timeline,Completed,Normal,2025-09-10,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5f4IAB,006Kj0000130XvtIAE,Other
+Email: proposal follow-up,Completed,Normal,2025-09-20,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e2IAB,006Kj0000130XvBIAU,Email
+Task: confirm decision process,Completed,Normal,2025-09-18,Reviewed proposal details and procurement steps.,005Kj00000Dy5e2IAB,006Kj0000130XvBIAU,Other
+Next step: Negotiation meeting,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj0000130XvBIAU,Task
+Email: send product deck,Completed,Normal,2025-09-11,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e2IAB,006Kj000015eeOCIAY,Email
+Next step: Proposal review,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeOCIAY,Task
+Call: technical deep-dive,Completed,Normal,2025-08-23,Identified champions and potential blockers.,005Kj00000Dy5e3IAB,006Kj000015eeOVIAY,Call
+Call: budget and timeline,Completed,Normal,2025-09-02,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e3IAB,006Kj000015eeOVIAY,Email
+Call: budget and timeline,Completed,Normal,2025-09-19,Captured notes from discovery call with project team.,005Kj00000Dy5e2IAB,006Kj000015eeOcIAI,Email
+Call: qualification discussion,Completed,Normal,2025-08-22,Validated decision makers and approval chain.,005Kj00000Dy5e2IAB,006Kj000015eeOcIAI,Call
+Call: qualification discussion,Completed,Normal,2025-08-30,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e2IAB,006Kj000015eeOcIAI,Call
+Next step: Discovery call,Not Started,Normal,2025-09-30,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeOcIAI,Task
+Log: stakeholder mapping,Completed,Normal,2025-09-14,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e2IAB,006Kj000015eeOBIAY,Call
+Next step: Discovery call,Not Started,Normal,2025-09-29,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeOBIAY,Task
+Call: technical deep-dive,Completed,Normal,2025-08-12,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e2IAB,006Kj000015eeOsIAI,Other
+Next step: Executive alignment call,Not Started,Normal,2025-09-29,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeOsIAI,Task
+Email: send product deck,Completed,Normal,2025-08-22,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e2IAB,006Kj000015eeOtIAI,Email
+Task: confirm legal/security review,Completed,Normal,2025-08-30,Identified champions and potential blockers.,005Kj00000Dy5e2IAB,006Kj000015eeOtIAI,Email
+Task: confirm decision process,Completed,Normal,2025-09-02,Reviewed proposal details and procurement steps.,005Kj00000Dy5e2IAB,006Kj000015eeOtIAI,Email
+Next step: Proposal review,Not Started,Normal,2025-10-01,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeOtIAI,Task
+Task: confirm decision process,Completed,Normal,2025-08-24,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e5IAB,006Kj000015eeO0IAI,Email
+Log: stakeholder mapping,Completed,Normal,2025-08-13,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e5IAB,006Kj000015eeO0IAI,Email
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-09,Planned follow-up aligned to stage progression.,005Kj00000Dy5e5IAB,006Kj000015eeO0IAI,Task
+Call: qualification discussion,Completed,Normal,2025-08-12,Validated decision makers and approval chain.,005Kj00000Dy5e2IAB,006Kj000015eeO5IAI,Call
+Note: discovery insights,Completed,Normal,2025-09-05,Discussed pain points and success criteria.,005Kj00000Dy5e2IAB,006Kj000015eeO5IAI,Other
+Note: discovery insights,Completed,Normal,2025-08-21,Deep dive into technical requirements and integrations.,005Kj00000Dy5e2IAB,006Kj000015eeO5IAI,Call
+Next step: Negotiation meeting,Not Started,Normal,2025-10-01,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeO5IAI,Task
+Task: confirm legal/security review,Completed,Normal,2025-08-22,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e2IAB,006Kj000015eeOvIAI,Call
+Next step: Executive alignment call,Not Started,Normal,2025-09-30,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeOvIAI,Task
+Task: confirm legal/security review,Completed,Normal,2025-09-15,Identified champions and potential blockers.,005Kj00000Dy5e2IAB,006Kj000015eeOrIAI,Call
+Email: send product deck,Completed,Normal,2025-09-19,Negotiated pricing bands and discount approvals.,005Kj00000D7vfMIAR,006Kj000015eeFNIAY,Email
+Email: pricing/discounts thread,Completed,Normal,2025-09-06,Captured notes from discovery call with project team.,005Kj00000D7vfMIAR,006Kj000015eeFNIAY,Email
+Next step: Negotiation meeting,Not Started,Normal,2025-10-05,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeFNIAY,Task
+Call: qualification discussion,Completed,Normal,2025-09-16,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e3IAB,006Kj000015eeOqIAI,Call
+Email: pricing/discounts thread,Completed,Normal,2025-09-09,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e3IAB,006Kj000015eeOqIAI,Call
+Next step: Technical workshop,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000Dy5e3IAB,006Kj000015eeOqIAI,Task
+Email: pricing/discounts thread,Completed,Normal,2025-09-16,Validated decision makers and approval chain.,005Kj00000Dy5e2IAB,006Kj000015eeOuIAI,Email
+Task: confirm legal/security review,Completed,Normal,2025-08-13,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e2IAB,006Kj000015eeOuIAI,Call
+Next step: Negotiation meeting,Not Started,Normal,2025-10-08,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeOuIAI,Task
+Log: stakeholder mapping,Completed,Normal,2025-09-09,Deep dive into technical requirements and integrations.,005Kj00000D7vfMIAR,006Kj000015eeKmIAI,Other
+Call: qualification discussion,Completed,Normal,2025-08-13,Identified champions and potential blockers.,005Kj00000D7vfMIAR,006Kj000015eeKmIAI,Call
+Email: pricing/discounts thread,Completed,Normal,2025-08-28,Captured notes from discovery call with project team.,005Kj00000D7vfMIAR,006Kj000015eeKmIAI,Email
+Task: confirm decision process,Completed,Normal,2025-09-10,Captured notes from discovery call with project team.,005Kj00000D7vfMIAR,006Kj000015eeKoIAI,Call
+Next step: Proposal review,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeKoIAI,Task
+Email: proposal follow-up,Completed,Normal,2025-09-14,"Coordinated security, legal, and compliance review.",005Kj00000D7vfMIAR,006Kj000015eeIWIAY,Call
+Note: discovery insights,Completed,Normal,2025-09-17,Reviewed proposal details and procurement steps.,005Kj00000D7vfMIAR,006Kj000015eeIWIAY,Email
+Email: pricing/discounts thread,Completed,Normal,2025-09-10,Deep dive into technical requirements and integrations.,005Kj00000D7vfMIAR,006Kj000015eeErIAI,Call
+Email: send product deck,Completed,Normal,2025-09-11,Captured notes from discovery call with project team.,005Kj00000D7vfMIAR,006Kj000015eeErIAI,Other
+Call: qualification discussion,Completed,Normal,2025-08-30,Shared deck and case studies relevant to their industry.,005Kj00000D7vfMIAR,006Kj000015eeErIAI,Call
+Next step: Proposal review,Not Started,Normal,2025-10-05,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeErIAI,Task
+Email: send product deck,Completed,Normal,2025-09-07,Shared deck and case studies relevant to their industry.,005Kj00000D7vfMIAR,006Kj000015eeIIIAY,Call
+Task: confirm decision process,Completed,Normal,2025-09-13,Captured notes from discovery call with project team.,005Kj00000D7vfMIAR,006Kj000015eeIIIAY,Other
+Next step: Technical workshop,Not Started,Normal,2025-10-05,Planned follow-up aligned to stage progression.,005Kj00000D7vfMIAR,006Kj000015eeIIIAY,Task
+Email: proposal follow-up,Completed,Normal,2025-09-11,Discussed pain points and success criteria.,005Kj00000Dy5e8IAB,006Kj000015eeIBIAY,Email
+Call: technical deep-dive,Completed,Normal,2025-09-17,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e8IAB,006Kj000015eeIBIAY,Email
+Next step: Executive alignment call,Not Started,Normal,2025-10-10,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeIBIAY,Task
+Email: send product deck,Completed,Normal,2025-09-03,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e7IAB,006Kj000015eeN4IAI,Call
+Email: send product deck,Completed,Normal,2025-09-14,Identified champions and potential blockers.,005Kj00000Dy5e7IAB,006Kj000015eeN4IAI,Email
+Call: technical deep-dive,Completed,Normal,2025-08-26,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e7IAB,006Kj000015eeN4IAI,Email
+Next step: Discovery call,Not Started,Normal,2025-10-08,Planned follow-up aligned to stage progression.,005Kj00000Dy5e7IAB,006Kj000015eeN4IAI,Task
+Call: qualification discussion,Completed,Normal,2025-08-26,Reviewed proposal details and procurement steps.,005Kj00000Dy5e2IAB,006Kj000015eeKZIAY,Call
+Log: stakeholder mapping,Completed,Normal,2025-09-14,Captured notes from discovery call with project team.,005Kj00000Dy5e2IAB,006Kj000015eeKZIAY,Call
+Next step: Negotiation meeting,Not Started,Normal,2025-10-03,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeKZIAY,Task
+Task: confirm legal/security review,Completed,Normal,2025-08-19,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e5IAB,006Kj000015eeHAIAY,Call
+Call: budget and timeline,Completed,Normal,2025-08-29,Deep dive into technical requirements and integrations.,005Kj00000Dy5e5IAB,006Kj000015eeHAIAY,Call
+Task: confirm legal/security review,Completed,Normal,2025-09-17,Reviewed proposal details and procurement steps.,005Kj00000Dy5e5IAB,006Kj000015eeHAIAY,Call
+Next step: Proposal review,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000Dy5e5IAB,006Kj000015eeHAIAY,Task
+Email: send product deck,Completed,Normal,2025-08-19,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e6IAB,006Kj000015eeJCIAY,Email
+Task: confirm decision process,Completed,Normal,2025-09-03,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e6IAB,006Kj000015eeJCIAY,Other
+Email: send product deck,Completed,Normal,2025-09-07,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e3IAB,006Kj000015eeLJIAY,Call
+Log: stakeholder mapping,Completed,Normal,2025-09-12,Deep dive into technical requirements and integrations.,005Kj00000Dy5e3IAB,006Kj000015eeLJIAY,Email
+Call: technical deep-dive,Completed,Normal,2025-08-29,Captured notes from discovery call with project team.,005Kj00000D7w1rIAB,006Kj000015eeLFIAY,Call
+Next step: Discovery call,Not Started,Normal,2025-10-08,Planned follow-up aligned to stage progression.,005Kj00000D7w1rIAB,006Kj000015eeLFIAY,Task
+Email: pricing/discounts thread,Completed,Normal,2025-08-28,Captured notes from discovery call with project team.,005Kj00000D7w1tIAB,006Kj000015eeKYIAY,Call
+Note: discovery insights,Completed,Normal,2025-09-15,Discussed pain points and success criteria.,005Kj00000D7w1tIAB,006Kj000015eeKYIAY,Call
+Call: budget and timeline,Completed,Normal,2025-08-19,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e7IAB,006Kj000015eeKrIAI,Call
+Log: stakeholder mapping,Completed,Normal,2025-08-25,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e7IAB,006Kj000015eeKrIAI,Call
+Next step: Executive alignment call,Not Started,Normal,2025-10-09,Planned follow-up aligned to stage progression.,005Kj00000Dy5e7IAB,006Kj000015eeKrIAI,Task
+Call: budget and timeline,Completed,Normal,2025-08-18,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e8IAB,006Kj000015eeK6IAI,Email
+Email: proposal follow-up,Completed,Normal,2025-08-29,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e8IAB,006Kj000015eeK6IAI,Call
+Email: proposal follow-up,Completed,Normal,2025-08-29,Discussed pain points and success criteria.,005Kj00000Dy5e8IAB,006Kj000015eeK6IAI,Other
+Call: budget and timeline,Completed,Normal,2025-09-13,Discussed pain points and success criteria.,005Kj00000Dy5e7IAB,006Kj000015eeLnIAI,Other
+Call: budget and timeline,Completed,Normal,2025-09-04,Validated decision makers and approval chain.,005Kj00000Dy5e7IAB,006Kj000015eeLnIAI,Call
+Next step: Technical workshop,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000Dy5e7IAB,006Kj000015eeLnIAI,Task
+Log: stakeholder mapping,Completed,Normal,2025-08-21,Deep dive into technical requirements and integrations.,005Kj00000Dy5e2IAB,006Kj000015eeK8IAI,Email
+Log: stakeholder mapping,Completed,Normal,2025-09-07,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e5IAB,006Kj000015eeHvIAI,Email
+Log: stakeholder mapping,Completed,Normal,2025-09-02,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e5IAB,006Kj000015eeHvIAI,Other
+Next step: Discovery call,Not Started,Normal,2025-10-08,Planned follow-up aligned to stage progression.,005Kj00000Dy5e5IAB,006Kj000015eeHvIAI,Task
+Call: qualification discussion,Completed,Normal,2025-09-16,Reviewed proposal details and procurement steps.,005Kj00000Dy5e6IAB,006Kj000015eeK9IAI,Call
+Next step: Negotiation meeting,Not Started,Normal,2025-10-10,Planned follow-up aligned to stage progression.,005Kj00000Dy5e6IAB,006Kj000015eeK9IAI,Task
+Call: qualification discussion,Completed,Normal,2025-09-04,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e3IAB,006Kj000015eeLoIAI,Call
+Call: budget and timeline,Completed,Normal,2025-08-24,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e3IAB,006Kj000015eeLoIAI,Email
+Task: confirm decision process,Completed,Normal,2025-09-09,Reviewed proposal details and procurement steps.,005Kj00000Dy5e3IAB,006Kj000015eeLoIAI,Other
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000Dy5e3IAB,006Kj000015eeLoIAI,Task
+Call: technical deep-dive,Completed,Normal,2025-09-13,Discussed pain points and success criteria.,005Kj00000D7w1rIAB,006Kj000015eeMnIAI,Other
+Log: stakeholder mapping,Completed,Normal,2025-08-30,Reviewed proposal details and procurement steps.,005Kj00000D7w1rIAB,006Kj000015eeMnIAI,Email
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-09,Planned follow-up aligned to stage progression.,005Kj00000D7w1rIAB,006Kj000015eeMnIAI,Task
+Task: confirm decision process,Completed,Normal,2025-08-17,Validated decision makers and approval chain.,005Kj00000D7w1tIAB,006Kj000015eeJsIAI,Call
+Call: qualification discussion,Completed,Normal,2025-08-12,Identified champions and potential blockers.,005Kj00000D7w1tIAB,006Kj000015eeJsIAI,Other
+Log: stakeholder mapping,Completed,Normal,2025-09-15,Reviewed proposal details and procurement steps.,005Kj00000D7w1tIAB,006Kj000015eeJsIAI,Email
+Next step: Negotiation meeting,Not Started,Normal,2025-10-08,Planned follow-up aligned to stage progression.,005Kj00000D7w1tIAB,006Kj000015eeJsIAI,Task
+Email: proposal follow-up,Completed,Normal,2025-08-28,Identified champions and potential blockers.,005Kj00000Dy5e7IAB,006Kj000015eeLlIAI,Call
+Call: qualification discussion,Completed,Normal,2025-08-16,Reviewed proposal details and procurement steps.,005Kj00000Dy5e7IAB,006Kj000015eeLlIAI,Other
+Task: confirm legal/security review,Completed,Normal,2025-08-18,Discussed pain points and success criteria.,005Kj00000Dy5e7IAB,006Kj000015eeLlIAI,Call
+Email: pricing/discounts thread,Completed,Normal,2025-08-22,Reviewed proposal details and procurement steps.,005Kj00000Dy5e8IAB,006Kj000015eeIoIAI,Email
+Task: confirm legal/security review,Completed,Normal,2025-08-23,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e8IAB,006Kj000015eeIoIAI,Email
+Call: qualification discussion,Completed,Normal,2025-08-19,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e8IAB,006Kj000015eeIoIAI,Email
+Next step: Negotiation meeting,Not Started,Normal,2025-10-07,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeIoIAI,Task
+Email: pricing/discounts thread,Completed,Normal,2025-08-13,Reviewed proposal details and procurement steps.,005Kj00000Dy5e8IAB,006Kj000015eeIeIAI,Other
+Next step: Discovery call,Not Started,Normal,2025-09-29,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeIeIAI,Task
+Call: budget and timeline,Completed,Normal,2025-09-12,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e7IAB,006Kj000015eeGaIAI,Call
+Next step: Technical workshop,Not Started,Normal,2025-10-07,Planned follow-up aligned to stage progression.,005Kj00000Dy5e7IAB,006Kj000015eeGaIAI,Task
+Call: technical deep-dive,Completed,Normal,2025-08-31,Discussed pain points and success criteria.,005Kj00000Dy5e2IAB,006Kj000015eeJtIAI,Email
+Next step: Technical workshop,Not Started,Normal,2025-10-08,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeJtIAI,Task
+Log: stakeholder mapping,Completed,Normal,2025-08-25,Identified champions and potential blockers.,005Kj00000Dy5e7IAB,006Kj000015eeMmIAI,Other
+Task: confirm legal/security review,Completed,Normal,2025-08-12,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e7IAB,006Kj000015eeMmIAI,Call
+Next step: Proposal review,Not Started,Normal,2025-10-08,Planned follow-up aligned to stage progression.,005Kj00000Dy5e7IAB,006Kj000015eeMmIAI,Task
+Note: discovery insights,Completed,Normal,2025-09-08,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e5IAB,006Kj000015eeJuIAI,Email
+Email: proposal follow-up,Completed,Normal,2025-09-09,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e5IAB,006Kj000015eeJuIAI,Email
+Task: confirm legal/security review,Completed,Normal,2025-08-20,Deep dive into technical requirements and integrations.,005Kj00000Dy5e5IAB,006Kj000015eeJuIAI,Call
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-08,Planned follow-up aligned to stage progression.,005Kj00000Dy5e5IAB,006Kj000015eeJuIAI,Task
+Task: confirm decision process,Completed,Normal,2025-09-04,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e2IAB,006Kj000015eeOpIAI,Other
+Call: budget and timeline,Completed,Normal,2025-09-03,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e2IAB,006Kj000015eeOpIAI,Email
+Next step: Executive alignment call,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeOpIAI,Task
+Call: technical deep-dive,Completed,Normal,2025-09-05,Deep dive into technical requirements and integrations.,005Kj00000Dy5f4IAB,006Kj0000130XvuIAE,Other
+Call: technical deep-dive,Completed,Normal,2025-09-12,Captured notes from discovery call with project team.,005Kj00000Dy5f4IAB,006Kj0000130XvuIAE,Other
+Log: stakeholder mapping,Completed,Normal,2025-08-17,Discussed pain points and success criteria.,005Kj00000Dy5f4IAB,006Kj0000130XvuIAE,Email
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-07,Planned follow-up aligned to stage progression.,005Kj00000Dy5f4IAB,006Kj0000130XvuIAE,Task
+Call: technical deep-dive,Completed,Normal,2025-08-29,Negotiated pricing bands and discount approvals.,005Kj00000Dy5f4IAB,006Kj0000130XvvIAE,Call
+Next step: Executive alignment call,Not Started,Normal,2025-10-10,Planned follow-up aligned to stage progression.,005Kj00000Dy5f4IAB,006Kj0000130XvvIAE,Task
+Call: qualification discussion,Completed,Normal,2025-08-26,Validated decision makers and approval chain.,005Kj00000Dy5e5IAB,006Kj000015eeO2IAI,Email
+Call: qualification discussion,Completed,Normal,2025-09-04,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e5IAB,006Kj000015eeO2IAI,Other
+Log: stakeholder mapping,Completed,Normal,2025-08-21,Reviewed proposal details and procurement steps.,005Kj00000Dy5e3IAB,006Kj000015eeOnIAI,Call
+Log: stakeholder mapping,Completed,Normal,2025-09-05,Identified champions and potential blockers.,005Kj00000Dy5e3IAB,006Kj000015eeOnIAI,Call
+Call: qualification discussion,Completed,Normal,2025-09-19,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e2IAB,006Kj000015eeNtIAI,Call
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-06,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeNtIAI,Task
+Email: send product deck,Completed,Normal,2025-09-06,Deep dive into technical requirements and integrations.,005Kj00000Dy5e3IAB,006Kj0000130XvTIAU,Email
+Log: stakeholder mapping,Completed,Normal,2025-08-23,Deep dive into technical requirements and integrations.,005Kj00000Dy5e3IAB,006Kj0000130XvTIAU,Call
+Email: pricing/discounts thread,Completed,Normal,2025-08-13,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e3IAB,006Kj0000130XvTIAU,Other
+Next step: Technical workshop,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000Dy5e3IAB,006Kj0000130XvTIAU,Task
+Call: budget and timeline,Completed,Normal,2025-08-17,Captured notes from discovery call with project team.,005Kj00000Dy5e3IAB,006Kj0000130XvUIAU,Call
+Call: qualification discussion,Completed,Normal,2025-08-29,Discussed pain points and success criteria.,005Kj00000Dy5e3IAB,006Kj0000130XvUIAU,Call
+Call: budget and timeline,Completed,Normal,2025-08-26,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e2IAB,006Kj0000130XvLIAU,Call
+Task: confirm legal/security review,Completed,Normal,2025-09-10,Deep dive into technical requirements and integrations.,005Kj00000Dy5e2IAB,006Kj0000130XvHIAU,Email
+Email: pricing/discounts thread,Completed,Normal,2025-09-11,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e2IAB,006Kj0000130XvHIAU,Email
+Note: discovery insights,Completed,Normal,2025-09-20,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e2IAB,006Kj0000130XvHIAU,Email
+Task: confirm decision process,Completed,Normal,2025-08-17,Shared deck and case studies relevant to their industry.,005Kj00000Dy5f4IAB,006Kj0000130XvwIAE,Email
+Next step: Discovery call,Not Started,Normal,2025-10-05,Planned follow-up aligned to stage progression.,005Kj00000Dy5f4IAB,006Kj0000130XvwIAE,Task
+Task: confirm legal/security review,Completed,Normal,2025-08-14,Shared deck and case studies relevant to their industry.,005Kj00000Dy5f4IAB,006Kj000015eeF8IAI,Call
+Call: qualification discussion,Completed,Normal,2025-09-08,"Coordinated security, legal, and compliance review.",005Kj00000Dy5f4IAB,006Kj000015eeF8IAI,Other
+Email: send product deck,Completed,Normal,2025-09-16,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5f4IAB,006Kj000015eeF8IAI,Call
+Next step: Technical workshop,Not Started,Normal,2025-09-29,Planned follow-up aligned to stage progression.,005Kj00000Dy5f4IAB,006Kj000015eeF8IAI,Task
+Note: discovery insights,Completed,Normal,2025-08-19,Identified champions and potential blockers.,005Kj00000Dy5e2IAB,006Kj0000130XvEIAU,Email
+Next step: Executive alignment call,Not Started,Normal,2025-10-09,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj0000130XvEIAU,Task
+Email: proposal follow-up,Completed,Normal,2025-08-20,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e2IAB,006Kj0000130XvFIAU,Other
+Note: discovery insights,Completed,Normal,2025-09-18,Identified champions and potential blockers.,005Kj00000Dy5e2IAB,006Kj0000130XvFIAU,Email
+Next step: Technical workshop,Not Started,Normal,2025-10-08,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj0000130XvFIAU,Task
+Task: confirm legal/security review,Completed,Normal,2025-08-12,Validated decision makers and approval chain.,005Kj00000Dy5e2IAB,006Kj0000130XvGIAU,Email
+Log: stakeholder mapping,Completed,Normal,2025-08-15,Validated decision makers and approval chain.,005Kj00000Dy5e2IAB,006Kj0000130XvGIAU,Email
+Next step: Technical workshop,Not Started,Normal,2025-10-03,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj0000130XvGIAU,Task
+Email: pricing/discounts thread,Completed,Normal,2025-08-31,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e2IAB,006Kj0000130XvIIAU,Email
+Note: discovery insights,Completed,Normal,2025-09-10,Captured notes from discovery call with project team.,005Kj00000Dy5e2IAB,006Kj000015eeP1IAI,Email
+Call: technical deep-dive,Completed,Normal,2025-09-10,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e2IAB,006Kj000015eeP1IAI,Other
+Task: confirm decision process,Completed,Normal,2025-08-19,Reviewed proposal details and procurement steps.,005Kj00000Dy5e2IAB,006Kj000015eeP1IAI,Email
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-09,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeP1IAI,Task
+Email: pricing/discounts thread,Completed,Normal,2025-08-14,Reviewed proposal details and procurement steps.,005Kj00000Dy5f4IAB,006Kj0000130XvfIAE,Email
+Next step: Discovery call,Not Started,Normal,2025-09-29,Planned follow-up aligned to stage progression.,005Kj00000Dy5f4IAB,006Kj0000130XvfIAE,Task
+Call: budget and timeline,Completed,Normal,2025-09-21,"Coordinated security, legal, and compliance review.",005Kj00000Dy5f4IAB,006Kj0000130XvgIAE,Email
+Task: confirm legal/security review,Completed,Normal,2025-08-30,Reviewed proposal details and procurement steps.,005Kj00000Dy5f4IAB,006Kj0000130XvgIAE,Other
+Task: confirm legal/security review,Completed,Normal,2025-09-03,Reviewed proposal details and procurement steps.,005Kj00000Dy5f4IAB,006Kj0000130XvgIAE,Other
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000Dy5f4IAB,006Kj0000130XvgIAE,Task
+Email: send product deck,Completed,Normal,2025-08-20,Captured notes from discovery call with project team.,005Kj00000Dy5e2IAB,006Kj000015eeOxIAI,Email
+Note: discovery insights,Completed,Normal,2025-09-06,Discussed pain points and success criteria.,005Kj00000Dy5e2IAB,006Kj000015eeOxIAI,Email
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeOxIAI,Task
+Call: technical deep-dive,Completed,Normal,2025-09-18,Deep dive into technical requirements and integrations.,005Kj00000Dy5f4IAB,006Kj000015eeFrIAI,Other
+Note: discovery insights,Completed,Normal,2025-08-29,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e2IAB,006Kj000015eeP2IAI,Call
+Email: pricing/discounts thread,Completed,Normal,2025-09-03,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e2IAB,006Kj000015eeP2IAI,Email
+Next step: Technical workshop,Not Started,Normal,2025-10-08,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeP2IAI,Task
+Call: qualification discussion,Completed,Normal,2025-09-07,Identified champions and potential blockers.,005Kj00000Dy5e2IAB,006Kj000015eeP3IAI,Email
+Call: qualification discussion,Completed,Normal,2025-08-25,Validated decision makers and approval chain.,005Kj00000Dy5e2IAB,006Kj000015eeP3IAI,Email
+Next step: Negotiation meeting,Not Started,Normal,2025-10-09,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeP3IAI,Task
+Note: discovery insights,Completed,Normal,2025-08-28,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e2IAB,006Kj000015eeP4IAI,Email
+Call: qualification discussion,Completed,Normal,2025-09-05,Reviewed proposal details and procurement steps.,005Kj00000Dy5e2IAB,006Kj000015eeP4IAI,Email
+Call: technical deep-dive,Completed,Normal,2025-08-29,Discussed pain points and success criteria.,005Kj00000Dy5e2IAB,006Kj000015eeP4IAI,Call
+Next step: Demo with stakeholders,Not Started,Normal,2025-09-30,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeP4IAI,Task
+Call: qualification discussion,Completed,Normal,2025-08-25,Discussed pain points and success criteria.,005Kj00000Dy5e2IAB,006Kj000015eeP5IAI,Email
+Email: pricing/discounts thread,Completed,Normal,2025-09-03,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e2IAB,006Kj000015eeP5IAI,Call
+Log: stakeholder mapping,Completed,Normal,2025-09-13,Deep dive into technical requirements and integrations.,005Kj00000Dy5e6IAB,006Kj0000130XvYIAU,Email
+Email: proposal follow-up,Completed,Normal,2025-09-11,Validated decision makers and approval chain.,005Kj00000Dy5e6IAB,006Kj0000130XvYIAU,Call
+Call: qualification discussion,Completed,Normal,2025-09-13,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e6IAB,006Kj0000130XvYIAU,Other
+Next step: Demo with stakeholders,Not Started,Normal,2025-09-30,Planned follow-up aligned to stage progression.,005Kj00000Dy5e6IAB,006Kj0000130XvYIAU,Task
+Email: proposal follow-up,Completed,Normal,2025-08-19,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e2IAB,006Kj0000130Xv4IAE,Other
+Note: discovery insights,Completed,Normal,2025-08-23,Captured notes from discovery call with project team.,005Kj00000Dy5e2IAB,006Kj0000130Xv4IAE,Call
+Task: confirm decision process,Completed,Normal,2025-08-28,Captured notes from discovery call with project team.,005Kj00000Dy5e2IAB,006Kj0000130Xv5IAE,Other
+Log: stakeholder mapping,Completed,Normal,2025-08-28,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e2IAB,006Kj0000130Xv5IAE,Other
+Next step: Technical workshop,Not Started,Normal,2025-09-29,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj0000130Xv5IAE,Task
+Email: send product deck,Completed,Normal,2025-08-12,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e6IAB,006Kj000015eeLbIAI,Email
+Call: budget and timeline,Completed,Normal,2025-08-14,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e6IAB,006Kj000015eeLbIAI,Email
+Call: qualification discussion,Completed,Normal,2025-09-13,Identified champions and potential blockers.,005Kj00000Dy5e6IAB,006Kj000015eeLbIAI,Call
+Next step: Executive alignment call,Not Started,Normal,2025-10-10,Planned follow-up aligned to stage progression.,005Kj00000Dy5e6IAB,006Kj000015eeLbIAI,Task
+Note: discovery insights,Completed,Normal,2025-09-08,Reviewed proposal details and procurement steps.,005Kj00000Dy5e3IAB,006Kj000015eeHcIAI,Other
+Log: stakeholder mapping,Completed,Normal,2025-08-29,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e3IAB,006Kj000015eeHcIAI,Email
+Email: pricing/discounts thread,Completed,Normal,2025-08-17,Validated decision makers and approval chain.,005Kj00000Dy5e3IAB,006Kj000015eeHcIAI,Call
+Next step: Proposal review,Not Started,Normal,2025-09-30,Planned follow-up aligned to stage progression.,005Kj00000Dy5e3IAB,006Kj000015eeHcIAI,Task
+Email: send product deck,Completed,Normal,2025-09-11,Discussed pain points and success criteria.,005Kj00000Dy5e7IAB,006Kj000015eeK1IAI,Call
+Task: confirm decision process,Completed,Normal,2025-08-19,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e7IAB,006Kj000015eeK1IAI,Call
+Call: technical deep-dive,Completed,Normal,2025-08-18,Validated decision makers and approval chain.,005Kj00000Dy5e7IAB,006Kj000015eeK1IAI,Call
+Call: budget and timeline,Completed,Normal,2025-09-15,Captured notes from discovery call with project team.,005Kj00000Dy5e8IAB,006Kj000015eeLiIAI,Call
+Next step: Technical workshop,Not Started,Normal,2025-10-06,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeLiIAI,Task
+Email: send product deck,Completed,Normal,2025-09-01,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e7IAB,006Kj000015eeFsIAI,Call
+Email: send product deck,Completed,Normal,2025-08-15,Identified champions and potential blockers.,005Kj00000Dy5e7IAB,006Kj000015eeFsIAI,Call
+Call: qualification discussion,Completed,Normal,2025-08-17,Discussed pain points and success criteria.,005Kj00000Dy5e7IAB,006Kj000015eeFsIAI,Email
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-03,Planned follow-up aligned to stage progression.,005Kj00000Dy5e7IAB,006Kj000015eeFsIAI,Task
+Call: technical deep-dive,Completed,Normal,2025-09-15,Reviewed proposal details and procurement steps.,005Kj00000Dy5e2IAB,006Kj000015eeGjIAI,Other
+Log: stakeholder mapping,Completed,Normal,2025-08-19,Identified champions and potential blockers.,005Kj00000Dy5e2IAB,006Kj000015eeGjIAI,Call
+Next step: Discovery call,Not Started,Normal,2025-09-30,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeGjIAI,Task
+Call: qualification discussion,Completed,Normal,2025-09-01,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e5IAB,006Kj000015eeJfIAI,Email
+Next step: Proposal review,Not Started,Normal,2025-10-07,Planned follow-up aligned to stage progression.,005Kj00000Dy5e5IAB,006Kj000015eeJfIAI,Task
+Task: confirm legal/security review,Completed,Normal,2025-08-20,Deep dive into technical requirements and integrations.,005Kj00000Dy5e6IAB,006Kj000015eeJAIAY,Email
+Email: proposal follow-up,Completed,Normal,2025-08-13,Reviewed proposal details and procurement steps.,005Kj00000Dy5e6IAB,006Kj000015eeJAIAY,Email
+Task: confirm legal/security review,Completed,Normal,2025-09-18,Validated decision makers and approval chain.,005Kj00000Dy5e3IAB,006Kj000015eeN0IAI,Other
+Note: discovery insights,Completed,Normal,2025-08-18,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e3IAB,006Kj000015eeN0IAI,Call
+Task: confirm legal/security review,Completed,Normal,2025-09-13,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e3IAB,006Kj000015eeN0IAI,Email
+Next step: Executive alignment call,Not Started,Normal,2025-09-29,Planned follow-up aligned to stage progression.,005Kj00000Dy5e3IAB,006Kj000015eeN0IAI,Task
+Call: budget and timeline,Completed,Normal,2025-08-25,Identified champions and potential blockers.,005Kj00000D7w1rIAB,006Kj000015eeM8IAI,Call
+Email: proposal follow-up,Completed,Normal,2025-09-10,Validated decision makers and approval chain.,005Kj00000D7w1rIAB,006Kj000015eeM8IAI,Call
+Call: budget and timeline,Completed,Normal,2025-09-08,Captured notes from discovery call with project team.,005Kj00000D7w1rIAB,006Kj000015eeM8IAI,Email
+Next step: Technical workshop,Not Started,Normal,2025-10-09,Planned follow-up aligned to stage progression.,005Kj00000D7w1rIAB,006Kj000015eeM8IAI,Task
+Email: pricing/discounts thread,Completed,Normal,2025-09-19,Captured notes from discovery call with project team.,005Kj00000D7w1tIAB,006Kj000015eeN1IAI,Call
+Next step: Discovery call,Not Started,Normal,2025-10-01,Planned follow-up aligned to stage progression.,005Kj00000D7w1tIAB,006Kj000015eeN1IAI,Task
+Call: budget and timeline,Completed,Normal,2025-08-15,Reviewed proposal details and procurement steps.,005Kj00000Dy5e8IAB,006Kj000015eeH7IAI,Other
+Call: technical deep-dive,Completed,Normal,2025-08-26,Discussed pain points and success criteria.,005Kj00000Dy5e8IAB,006Kj000015eeH7IAI,Call
+Next step: Executive alignment call,Not Started,Normal,2025-10-09,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeH7IAI,Task
+Call: qualification discussion,Completed,Normal,2025-08-22,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e7IAB,006Kj000015eeIiIAI,Call
+Next step: Technical workshop,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000Dy5e7IAB,006Kj000015eeIiIAI,Task
+Log: stakeholder mapping,Completed,Normal,2025-09-17,Discussed pain points and success criteria.,005Kj00000Dy5e2IAB,006Kj000015eeHDIAY,Email
+Note: discovery insights,Completed,Normal,2025-09-11,Identified champions and potential blockers.,005Kj00000Dy5e2IAB,006Kj000015eeHDIAY,Call
+Call: technical deep-dive,Completed,Normal,2025-08-29,Reviewed proposal details and procurement steps.,005Kj00000Dy5e2IAB,006Kj000015eeHDIAY,Call
+Email: proposal follow-up,Completed,Normal,2025-08-22,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e5IAB,006Kj000015eeEpIAI,Email
+Task: confirm legal/security review,Completed,Normal,2025-08-12,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e5IAB,006Kj000015eeEpIAI,Email
+Email: send product deck,Completed,Normal,2025-08-14,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e5IAB,006Kj000015eeEpIAI,Call
+Next step: Discovery call,Not Started,Normal,2025-10-03,Planned follow-up aligned to stage progression.,005Kj00000Dy5e5IAB,006Kj000015eeEpIAI,Task
+Email: pricing/discounts thread,Completed,Normal,2025-08-29,Identified champions and potential blockers.,005Kj00000Dy5e6IAB,006Kj000015eeFoIAI,Email
+Email: send product deck,Completed,Normal,2025-09-04,Reviewed proposal details and procurement steps.,005Kj00000Dy5e6IAB,006Kj000015eeFoIAI,Call
+Email: proposal follow-up,Completed,Normal,2025-09-12,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e6IAB,006Kj000015eeFoIAI,Other
+Next step: Negotiation meeting,Not Started,Normal,2025-10-10,Planned follow-up aligned to stage progression.,005Kj00000Dy5e6IAB,006Kj000015eeFoIAI,Task
+Call: technical deep-dive,Completed,Normal,2025-09-14,Reviewed proposal details and procurement steps.,005Kj00000Dy5e3IAB,006Kj000015eeJlIAI,Email
+Task: confirm decision process,Completed,Normal,2025-09-01,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e3IAB,006Kj000015eeJlIAI,Email
+Email: pricing/discounts thread,Completed,Normal,2025-08-16,Discussed pain points and success criteria.,005Kj00000Dy5e3IAB,006Kj000015eeJlIAI,Other
+Next step: Executive alignment call,Not Started,Normal,2025-10-10,Planned follow-up aligned to stage progression.,005Kj00000Dy5e3IAB,006Kj000015eeJlIAI,Task
+Call: qualification discussion,Completed,Normal,2025-08-22,Validated decision makers and approval chain.,005Kj00000D7w1rIAB,006Kj000015eeMeIAI,Email
+Task: confirm legal/security review,Completed,Normal,2025-08-19,Captured notes from discovery call with project team.,005Kj00000D7w1rIAB,006Kj000015eeMeIAI,Call
+Next step: Technical workshop,Not Started,Normal,2025-10-08,Planned follow-up aligned to stage progression.,005Kj00000D7w1rIAB,006Kj000015eeMeIAI,Task
+Email: pricing/discounts thread,Completed,Normal,2025-08-26,Identified champions and potential blockers.,005Kj00000D7w1tIAB,006Kj000015eeMjIAI,Other
+Note: discovery insights,Completed,Normal,2025-08-29,Captured notes from discovery call with project team.,005Kj00000D7w1tIAB,006Kj000015eeMjIAI,Other
+Email: send product deck,Completed,Normal,2025-09-03,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e8IAB,006Kj000015eeG4IAI,Call
+Next step: Negotiation meeting,Not Started,Normal,2025-10-03,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeG4IAI,Task
+Call: budget and timeline,Completed,Normal,2025-08-22,Discussed pain points and success criteria.,005Kj00000Dy5e8IAB,006Kj000015eeFxIAI,Other
+Task: confirm decision process,Completed,Normal,2025-08-14,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e8IAB,006Kj000015eeFxIAI,Email
+Note: discovery insights,Completed,Normal,2025-08-27,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e8IAB,006Kj000015eeFxIAI,Email
+Next step: Negotiation meeting,Not Started,Normal,2025-10-03,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeFxIAI,Task
+Task: confirm decision process,Completed,Normal,2025-09-13,Validated decision makers and approval chain.,005Kj00000Dy5e7IAB,006Kj000015eeKAIAY,Email
+Call: budget and timeline,Completed,Normal,2025-09-13,Validated decision makers and approval chain.,005Kj00000Dy5e2IAB,006Kj000015eeMoIAI,Other
+Email: send product deck,Completed,Normal,2025-08-20,Identified champions and potential blockers.,005Kj00000Dy5e2IAB,006Kj000015eeMoIAI,Other
+Log: stakeholder mapping,Completed,Normal,2025-08-29,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e2IAB,006Kj000015eeMoIAI,Other
+Next step: Proposal review,Not Started,Normal,2025-09-29,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeMoIAI,Task
+Task: confirm decision process,Completed,Normal,2025-09-17,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e5IAB,006Kj000015eeEhIAI,Email
+Task: confirm legal/security review,Completed,Normal,2025-09-02,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e5IAB,006Kj000015eeEhIAI,Other
+Task: confirm decision process,Completed,Normal,2025-08-26,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e5IAB,006Kj000015eeEhIAI,Other
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000Dy5e5IAB,006Kj000015eeEhIAI,Task
+Email: send product deck,Completed,Normal,2025-08-20,Discussed pain points and success criteria.,005Kj00000Dy5e6IAB,006Kj000015eeGQIAY,Email
+Next step: Technical workshop,Not Started,Normal,2025-09-29,Planned follow-up aligned to stage progression.,005Kj00000Dy5e6IAB,006Kj000015eeGQIAY,Task
+Task: confirm decision process,Completed,Normal,2025-09-13,Captured notes from discovery call with project team.,005Kj00000Dy5e3IAB,006Kj000015eeGRIAY,Call
+Task: confirm legal/security review,Completed,Normal,2025-09-01,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e3IAB,006Kj000015eeGRIAY,Call
+Next step: Executive alignment call,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000Dy5e3IAB,006Kj000015eeGRIAY,Task
+Email: proposal follow-up,Completed,Normal,2025-08-15,Discussed pain points and success criteria.,005Kj00000D7w1rIAB,006Kj000015eeLEIAY,Other
+Call: budget and timeline,Completed,Normal,2025-09-09,Captured notes from discovery call with project team.,005Kj00000D7w1rIAB,006Kj000015eeLEIAY,Email
+Email: proposal follow-up,Completed,Normal,2025-09-09,Identified champions and potential blockers.,005Kj00000D7w1rIAB,006Kj000015eeLEIAY,Email
+Call: technical deep-dive,Completed,Normal,2025-09-04,Captured notes from discovery call with project team.,005Kj00000Dy5e2IAB,006Kj000015eeOgIAI,Call
+Next step: Executive alignment call,Not Started,Normal,2025-09-30,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeOgIAI,Task
+Note: discovery insights,Completed,Normal,2025-08-13,Reviewed proposal details and procurement steps.,005Kj00000Dy5f4IAB,006Kj0000130XvjIAE,Call
+Call: qualification discussion,Completed,Normal,2025-08-15,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5f4IAB,006Kj0000130XvjIAE,Email
+Call: budget and timeline,Completed,Normal,2025-08-18,Identified champions and potential blockers.,005Kj00000Dy5f4IAB,006Kj0000130XvjIAE,Email
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-09,Planned follow-up aligned to stage progression.,005Kj00000Dy5f4IAB,006Kj0000130XvjIAE,Task
+Task: confirm decision process,Completed,Normal,2025-08-20,Discussed pain points and success criteria.,005Kj00000Dy5e7IAB,006Kj000015eeJ7IAI,Email
+Call: qualification discussion,Completed,Normal,2025-08-17,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e7IAB,006Kj000015eeJ7IAI,Email
+Email: send product deck,Completed,Normal,2025-09-15,Deep dive into technical requirements and integrations.,005Kj00000Dy5e5IAB,006Kj000015eeKTIAY,Call
+Task: confirm legal/security review,Completed,Normal,2025-09-18,Reviewed proposal details and procurement steps.,005Kj00000Dy5e3IAB,006Kj000015eeK3IAI,Call
+Email: send product deck,Completed,Normal,2025-08-30,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e3IAB,006Kj000015eeK3IAI,Call
+Call: technical deep-dive,Completed,Normal,2025-08-28,Reviewed proposal details and procurement steps.,005Kj00000Dy5e3IAB,006Kj000015eeK3IAI,Email
+Next step: Executive alignment call,Not Started,Normal,2025-09-30,Planned follow-up aligned to stage progression.,005Kj00000Dy5e3IAB,006Kj000015eeK3IAI,Task
+Call: technical deep-dive,Completed,Normal,2025-09-08,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e8IAB,006Kj000015eeGvIAI,Email
+Note: discovery insights,Completed,Normal,2025-08-18,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e8IAB,006Kj000015eeGvIAI,Email
+Call: technical deep-dive,Completed,Normal,2025-09-07,Identified champions and potential blockers.,005Kj00000Dy5e8IAB,006Kj000015eeGvIAI,Call
+Next step: Negotiation meeting,Not Started,Normal,2025-10-06,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeGvIAI,Task
+Task: confirm decision process,Completed,Normal,2025-09-15,Captured notes from discovery call with project team.,005Kj00000Dy5e8IAB,006Kj000015eeInIAI,Other
+Next step: Negotiation meeting,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeInIAI,Task
+Task: confirm legal/security review,Completed,Normal,2025-09-01,Reviewed proposal details and procurement steps.,005Kj00000Dy5e2IAB,006Kj000015eeL3IAI,Other
+Email: pricing/discounts thread,Completed,Normal,2025-09-17,Reviewed proposal details and procurement steps.,005Kj00000Dy5e2IAB,006Kj000015eeL3IAI,Call
+Log: stakeholder mapping,Completed,Normal,2025-08-17,Deep dive into technical requirements and integrations.,005Kj00000Dy5e2IAB,006Kj000015eeL3IAI,Other
+Next step: Discovery call,Not Started,Normal,2025-10-10,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeL3IAI,Task
+Note: discovery insights,Completed,Normal,2025-08-23,Identified champions and potential blockers.,005Kj00000Dy5e8IAB,006Kj000015eeIQIAY,Email
+Log: stakeholder mapping,Completed,Normal,2025-09-19,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e8IAB,006Kj000015eeIQIAY,Call
+Task: confirm legal/security review,Completed,Normal,2025-09-10,Deep dive into technical requirements and integrations.,005Kj00000Dy5e8IAB,006Kj000015eeIQIAY,Email
+Next step: Proposal review,Not Started,Normal,2025-10-06,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeIQIAY,Task
+Call: qualification discussion,Completed,Normal,2025-09-02,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e5IAB,006Kj000015eeGTIAY,Email
+Email: pricing/discounts thread,Completed,Normal,2025-08-16,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e5IAB,006Kj000015eeGTIAY,Email
+Next step: Technical workshop,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000Dy5e5IAB,006Kj000015eeGTIAY,Task
+Task: confirm decision process,Completed,Normal,2025-09-02,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e7IAB,006Kj000015eeKQIAY,Other
+Email: proposal follow-up,Completed,Normal,2025-09-10,Reviewed proposal details and procurement steps.,005Kj00000Dy5e7IAB,006Kj000015eeKQIAY,Call
+Next step: Discovery call,Not Started,Normal,2025-10-10,Planned follow-up aligned to stage progression.,005Kj00000Dy5e7IAB,006Kj000015eeKQIAY,Task
+Email: proposal follow-up,Completed,Normal,2025-08-24,Identified champions and potential blockers.,005Kj00000Dy5e6IAB,006Kj000015eeKOIAY,Other
+Call: budget and timeline,Completed,Normal,2025-09-21,Identified champions and potential blockers.,005Kj00000Dy5e3IAB,006Kj000015eeHrIAI,Call
+Next step: Negotiation meeting,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000Dy5e3IAB,006Kj000015eeHrIAI,Task
+Email: send product deck,Completed,Normal,2025-09-04,Deep dive into technical requirements and integrations.,005Kj00000Dy5e7IAB,006Kj000015eeHtIAI,Email
+Task: confirm decision process,Completed,Normal,2025-08-15,Discussed pain points and success criteria.,005Kj00000Dy5e7IAB,006Kj000015eeHtIAI,Call
+Note: discovery insights,Completed,Normal,2025-09-16,Identified champions and potential blockers.,005Kj00000Dy5e7IAB,006Kj000015eeHtIAI,Other
+Next step: Negotiation meeting,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000Dy5e7IAB,006Kj000015eeHtIAI,Task
+Email: pricing/discounts thread,Completed,Normal,2025-09-02,Reviewed proposal details and procurement steps.,005Kj00000Dy5e8IAB,006Kj000015eeKWIAY,Call
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-01,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeKWIAY,Task
+Email: proposal follow-up,Completed,Normal,2025-08-16,Identified champions and potential blockers.,005Kj00000Dy5e6IAB,006Kj000015eeIhIAI,Other
+Call: technical deep-dive,Completed,Normal,2025-09-03,Identified champions and potential blockers.,005Kj00000Dy5e6IAB,006Kj000015eeIhIAI,Email
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000Dy5e6IAB,006Kj000015eeIhIAI,Task
+Call: technical deep-dive,Completed,Normal,2025-09-17,Deep dive into technical requirements and integrations.,005Kj00000Dy5e7IAB,006Kj000015eeFmIAI,Email
+Email: proposal follow-up,Completed,Normal,2025-09-03,Discussed pain points and success criteria.,005Kj00000D7w1rIAB,006Kj000015eeKxIAI,Call
+Call: qualification discussion,Completed,Normal,2025-08-26,Aligned on evaluation timeline and key milestones.,005Kj00000D7w1rIAB,006Kj000015eeKxIAI,Email
+Call: technical deep-dive,Completed,Normal,2025-09-10,Reviewed proposal details and procurement steps.,005Kj00000D7w1rIAB,006Kj000015eeKxIAI,Call
+Next step: Discovery call,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000D7w1rIAB,006Kj000015eeKxIAI,Task
+Note: discovery insights,Completed,Normal,2025-09-04,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e8IAB,006Kj000015eeKiIAI,Call
+Call: technical deep-dive,Completed,Normal,2025-09-09,Reviewed proposal details and procurement steps.,005Kj00000Dy5e8IAB,006Kj000015eeKiIAI,Call
+Call: technical deep-dive,Completed,Normal,2025-08-22,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e8IAB,006Kj000015eeKiIAI,Email
+Next step: Technical workshop,Not Started,Normal,2025-10-01,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeKiIAI,Task
+Email: pricing/discounts thread,Completed,Normal,2025-09-19,Discussed pain points and success criteria.,005Kj00000Dy5e5IAB,006Kj000015eeFzIAI,Email
+Next step: Proposal review,Not Started,Normal,2025-10-03,Planned follow-up aligned to stage progression.,005Kj00000Dy5e5IAB,006Kj000015eeFzIAI,Task
+Email: proposal follow-up,Completed,Normal,2025-08-16,Reviewed proposal details and procurement steps.,005Kj00000Dy5e7IAB,006Kj000015eeK7IAI,Email
+Task: confirm decision process,Completed,Normal,2025-08-30,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e7IAB,006Kj000015eeK7IAI,Call
+Next step: Executive alignment call,Not Started,Normal,2025-10-03,Planned follow-up aligned to stage progression.,005Kj00000Dy5e7IAB,006Kj000015eeK7IAI,Task
+Task: confirm legal/security review,Completed,Normal,2025-08-14,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e8IAB,006Kj000015eeMAIAY,Call
+Next step: Negotiation meeting,Not Started,Normal,2025-10-08,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeMAIAY,Task
+Task: confirm decision process,Completed,Normal,2025-08-15,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e2IAB,006Kj000015eeMDIAY,Email
+Log: stakeholder mapping,Completed,Normal,2025-08-29,Captured notes from discovery call with project team.,005Kj00000Dy5e2IAB,006Kj000015eeMDIAY,Email
+Call: technical deep-dive,Completed,Normal,2025-08-31,Deep dive into technical requirements and integrations.,005Kj00000Dy5e3IAB,006Kj000015eeIqIAI,Email
+Call: technical deep-dive,Completed,Normal,2025-08-27,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e7IAB,006Kj000015eeJ8IAI,Other
+Email: pricing/discounts thread,Completed,Normal,2025-08-29,Deep dive into technical requirements and integrations.,005Kj00000Dy5e7IAB,006Kj000015eeJ8IAI,Email
+Next step: Discovery call,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000Dy5e7IAB,006Kj000015eeJ8IAI,Task
+Log: stakeholder mapping,Completed,Normal,2025-08-16,Captured notes from discovery call with project team.,005Kj00000Dy5e2IAB,006Kj000015eeIXIAY,Email
+Task: confirm decision process,Completed,Normal,2025-08-19,Reviewed proposal details and procurement steps.,005Kj00000Dy5e2IAB,006Kj000015eeIXIAY,Call
+Next step: Proposal review,Not Started,Normal,2025-10-06,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeIXIAY,Task
+Task: confirm decision process,Completed,Normal,2025-09-20,Discussed pain points and success criteria.,005Kj00000Dy5f4IAB,006Kj000015eeF5IAI,Other
+Task: confirm decision process,Completed,Normal,2025-09-10,"Coordinated security, legal, and compliance review.",005Kj00000Dy5f4IAB,006Kj000015eeF5IAI,Email
+Note: discovery insights,Completed,Normal,2025-08-14,Discussed pain points and success criteria.,005Kj00000Dy5f4IAB,006Kj000015eeF5IAI,Call
+Next step: Negotiation meeting,Not Started,Normal,2025-10-10,Planned follow-up aligned to stage progression.,005Kj00000Dy5f4IAB,006Kj000015eeF5IAI,Task
+Task: confirm legal/security review,Completed,Normal,2025-09-05,Captured notes from discovery call with project team.,005Kj00000Dy5e2IAB,006Kj000015eeO9IAI,Call
+Next step: Negotiation meeting,Not Started,Normal,2025-10-09,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeO9IAI,Task
+Email: send product deck,Completed,Normal,2025-08-27,Deep dive into technical requirements and integrations.,005Kj00000Dy5e2IAB,006Kj000015eeOAIAY,Call
+Next step: Technical workshop,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeOAIAY,Task
+Log: stakeholder mapping,Completed,Normal,2025-09-04,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e6IAB,006Kj000015eeNsIAI,Email
+Next step: Proposal review,Not Started,Normal,2025-10-05,Planned follow-up aligned to stage progression.,005Kj00000Dy5e6IAB,006Kj000015eeNsIAI,Task
+Call: technical deep-dive,Completed,Normal,2025-08-27,Deep dive into technical requirements and integrations.,005Kj00000Dy5f4IAB,006Kj0000130XwQIAU,Call
+Note: discovery insights,Completed,Normal,2025-09-09,Discussed pain points and success criteria.,005Kj00000Dy5f4IAB,006Kj0000130XwRIAU,Email
+Email: pricing/discounts thread,Completed,Normal,2025-08-16,Validated decision makers and approval chain.,005Kj00000Dy5f4IAB,006Kj0000130XwRIAU,Email
+Note: discovery insights,Completed,Normal,2025-08-16,Reviewed proposal details and procurement steps.,005Kj00000Dy5f4IAB,006Kj0000130XwRIAU,Email
+Next step: Executive alignment call,Not Started,Normal,2025-10-06,Planned follow-up aligned to stage progression.,005Kj00000Dy5f4IAB,006Kj0000130XwRIAU,Task
+Call: qualification discussion,Completed,Normal,2025-08-26,Captured notes from discovery call with project team.,005Kj00000D7w1rIAB,006Kj000015eeIDIAY,Call
+Next step: Executive alignment call,Not Started,Normal,2025-10-09,Planned follow-up aligned to stage progression.,005Kj00000D7w1rIAB,006Kj000015eeIDIAY,Task
+Task: confirm legal/security review,Completed,Normal,2025-09-16,Discussed pain points and success criteria.,005Kj00000D7w1tIAB,006Kj000015eeFZIAY,Call
+Call: qualification discussion,Completed,Normal,2025-08-20,Reviewed proposal details and procurement steps.,005Kj00000Dy5e8IAB,006Kj000015eeIUIAY,Email
+Email: pricing/discounts thread,Completed,Normal,2025-09-10,Deep dive into technical requirements and integrations.,005Kj00000Dy5e8IAB,006Kj000015eeIUIAY,Call
+Call: qualification discussion,Completed,Normal,2025-09-05,Identified champions and potential blockers.,005Kj00000Dy5e2IAB,006Kj000015eeIuIAI,Call
+Email: send product deck,Completed,Normal,2025-08-25,Identified champions and potential blockers.,005Kj00000Dy5e2IAB,006Kj000015eeIuIAI,Call
+Email: pricing/discounts thread,Completed,Normal,2025-08-14,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e2IAB,006Kj000015eeIuIAI,Other
+Note: discovery insights,Completed,Normal,2025-08-26,Captured notes from discovery call with project team.,005Kj00000Dy5e5IAB,006Kj000015eeI6IAI,Call
+Task: confirm legal/security review,Completed,Normal,2025-08-19,Identified champions and potential blockers.,005Kj00000Dy5e5IAB,006Kj000015eeI6IAI,Other
+Note: discovery insights,Completed,Normal,2025-09-20,Deep dive into technical requirements and integrations.,005Kj00000Dy5e5IAB,006Kj000015eeI6IAI,Email
+Call: technical deep-dive,Completed,Normal,2025-08-25,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e6IAB,006Kj000015eeIvIAI,Email
+Note: discovery insights,Completed,Normal,2025-08-25,Captured notes from discovery call with project team.,005Kj00000Dy5e6IAB,006Kj000015eeIvIAI,Call
+Next step: Technical workshop,Not Started,Normal,2025-10-08,Planned follow-up aligned to stage progression.,005Kj00000Dy5e6IAB,006Kj000015eeIvIAI,Task
+Task: confirm decision process,Completed,Normal,2025-08-12,Reviewed proposal details and procurement steps.,005Kj00000Dy5e3IAB,006Kj000015eeISIAY,Call
+Email: pricing/discounts thread,Completed,Normal,2025-09-10,Validated decision makers and approval chain.,005Kj00000Dy5e3IAB,006Kj000015eeISIAY,Email
+Next step: Negotiation meeting,Not Started,Normal,2025-10-03,Planned follow-up aligned to stage progression.,005Kj00000Dy5e3IAB,006Kj000015eeISIAY,Task
+Email: proposal follow-up,Completed,Normal,2025-08-12,"Coordinated security, legal, and compliance review.",005Kj00000D7w1rIAB,006Kj000015eeILIAY,Email
+Call: budget and timeline,Completed,Normal,2025-08-26,Captured notes from discovery call with project team.,005Kj00000D7w1rIAB,006Kj000015eeILIAY,Other
+Call: technical deep-dive,Completed,Normal,2025-08-16,Captured notes from discovery call with project team.,005Kj00000D7w1rIAB,006Kj000015eeILIAY,Email
+Next step: Executive alignment call,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000D7w1rIAB,006Kj000015eeILIAY,Task
+Call: budget and timeline,Completed,Normal,2025-09-21,Discussed pain points and success criteria.,005Kj00000D7w1tIAB,006Kj000015eeF1IAI,Email
+Call: budget and timeline,Completed,Normal,2025-08-16,Reviewed proposal details and procurement steps.,005Kj00000Dy5e8IAB,006Kj000015eeIjIAI,Email
+Call: budget and timeline,Completed,Normal,2025-08-15,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e8IAB,006Kj000015eeIjIAI,Call
+Note: discovery insights,Completed,Normal,2025-08-13,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e8IAB,006Kj000015eeIjIAI,Other
+Next step: Discovery call,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeIjIAI,Task
+Log: stakeholder mapping,Completed,Normal,2025-09-16,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e7IAB,006Kj000015eeL2IAI,Other
+Email: send product deck,Completed,Normal,2025-08-23,Captured notes from discovery call with project team.,005Kj00000Dy5e7IAB,006Kj000015eeL2IAI,Email
+Note: discovery insights,Completed,Normal,2025-09-05,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e7IAB,006Kj000015eeL2IAI,Email
+Next step: Negotiation meeting,Not Started,Normal,2025-10-03,Planned follow-up aligned to stage progression.,005Kj00000Dy5e7IAB,006Kj000015eeL2IAI,Task
+Task: confirm decision process,Completed,Normal,2025-09-17,Validated decision makers and approval chain.,005Kj00000Dy5e5IAB,006Kj000015eeHYIAY,Call
+Email: send product deck,Completed,Normal,2025-09-17,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e5IAB,006Kj000015eeHYIAY,Call
+Log: stakeholder mapping,Completed,Normal,2025-09-09,Reviewed proposal details and procurement steps.,005Kj00000Dy5e8IAB,006Kj000015eeINIAY,Email
+Call: budget and timeline,Completed,Normal,2025-09-07,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e8IAB,006Kj000015eeINIAY,Email
+Log: stakeholder mapping,Completed,Normal,2025-09-11,Discussed pain points and success criteria.,005Kj00000Dy5e8IAB,006Kj000015eeINIAY,Call
+Next step: Discovery call,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeINIAY,Task
+Email: proposal follow-up,Completed,Normal,2025-09-03,Discussed pain points and success criteria.,005Kj00000Dy5e7IAB,006Kj000015eeKzIAI,Other
+Note: discovery insights,Completed,Normal,2025-09-03,Deep dive into technical requirements and integrations.,005Kj00000Dy5e7IAB,006Kj000015eeKzIAI,Other
+Next step: Discovery call,Not Started,Normal,2025-10-06,Planned follow-up aligned to stage progression.,005Kj00000Dy5e7IAB,006Kj000015eeKzIAI,Task
+Email: pricing/discounts thread,Completed,Normal,2025-08-31,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e5IAB,006Kj000015eeOSIAY,Call
+Next step: Discovery call,Not Started,Normal,2025-10-01,Planned follow-up aligned to stage progression.,005Kj00000Dy5e5IAB,006Kj000015eeOSIAY,Task
+Email: pricing/discounts thread,Completed,Normal,2025-08-24,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e6IAB,006Kj000015eeOkIAI,Email
+Call: qualification discussion,Completed,Normal,2025-09-20,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e6IAB,006Kj000015eeOkIAI,Other
+Next step: Technical workshop,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000Dy5e6IAB,006Kj000015eeOkIAI,Task
+Task: confirm legal/security review,Completed,Normal,2025-08-12,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e2IAB,006Kj0000130XvWIAU,Call
+Note: discovery insights,Completed,Normal,2025-08-24,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e2IAB,006Kj0000130XvWIAU,Email
+Next step: Proposal review,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj0000130XvWIAU,Task
+Task: confirm legal/security review,Completed,Normal,2025-09-12,"Coordinated security, legal, and compliance review.",005Kj00000Dy5f4IAB,006Kj0000130XwUIAU,Email
+Email: send product deck,Completed,Normal,2025-08-20,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5f4IAB,006Kj0000130XwUIAU,Call
+Email: proposal follow-up,Completed,Normal,2025-09-15,Reviewed proposal details and procurement steps.,005Kj00000Dy5f4IAB,006Kj0000130XwUIAU,Call
+Next step: Proposal review,Not Started,Normal,2025-10-03,Planned follow-up aligned to stage progression.,005Kj00000Dy5f4IAB,006Kj0000130XwUIAU,Task
+Call: budget and timeline,Completed,Normal,2025-09-18,Deep dive into technical requirements and integrations.,005Kj00000Dy5f4IAB,006Kj0000130XwVIAU,Call
+Task: confirm legal/security review,Completed,Normal,2025-08-25,Validated decision makers and approval chain.,005Kj00000Dy5f4IAB,006Kj0000130XwVIAU,Email
+Next step: Discovery call,Not Started,Normal,2025-09-30,Planned follow-up aligned to stage progression.,005Kj00000Dy5f4IAB,006Kj0000130XwVIAU,Task
+Note: discovery insights,Completed,Normal,2025-08-20,Captured notes from discovery call with project team.,005Kj00000Dy5e2IAB,006Kj000015eeNqIAI,Email
+Call: qualification discussion,Completed,Normal,2025-09-18,Captured notes from discovery call with project team.,005Kj00000Dy5e2IAB,006Kj000015eeNqIAI,Other
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-01,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeNqIAI,Task
+Email: send product deck,Completed,Normal,2025-08-16,Deep dive into technical requirements and integrations.,005Kj00000Dy5e6IAB,006Kj000015eeO3IAI,Email
+Note: discovery insights,Completed,Normal,2025-09-04,Reviewed proposal details and procurement steps.,005Kj00000Dy5e6IAB,006Kj000015eeO3IAI,Call
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000Dy5e6IAB,006Kj000015eeO3IAI,Task
+Log: stakeholder mapping,Completed,Normal,2025-08-27,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e7IAB,006Kj000015eeLmIAI,Email
+Call: budget and timeline,Completed,Normal,2025-09-18,Reviewed proposal details and procurement steps.,005Kj00000Dy5e7IAB,006Kj000015eeLmIAI,Call
+Next step: Technical workshop,Not Started,Normal,2025-10-10,Planned follow-up aligned to stage progression.,005Kj00000Dy5e7IAB,006Kj000015eeLmIAI,Task
+Task: confirm decision process,Completed,Normal,2025-08-25,Shared deck and case studies relevant to their industry.,005Kj00000D7w1rIAB,006Kj000015eeJEIAY,Email
+Note: discovery insights,Completed,Normal,2025-09-14,Shared deck and case studies relevant to their industry.,005Kj00000D7w1rIAB,006Kj000015eeJEIAY,Call
+Note: discovery insights,Completed,Normal,2025-08-27,Reviewed proposal details and procurement steps.,005Kj00000D7w1rIAB,006Kj000015eeJEIAY,Call
+Note: discovery insights,Completed,Normal,2025-08-31,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e8IAB,006Kj000015eeJGIAY,Call
+Next step: Technical workshop,Not Started,Normal,2025-10-05,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeJGIAY,Task
+Email: proposal follow-up,Completed,Normal,2025-08-23,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e2IAB,006Kj000015eeJ5IAI,Other
+Task: confirm legal/security review,Completed,Normal,2025-08-17,Discussed pain points and success criteria.,005Kj00000Dy5e2IAB,006Kj000015eeJ5IAI,Email
+Task: confirm legal/security review,Completed,Normal,2025-09-14,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e2IAB,006Kj000015eeJ5IAI,Call
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-06,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeJ5IAI,Task
+Email: send product deck,Completed,Normal,2025-08-21,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5f4IAB,006Kj0000130XvlIAE,Email
+Note: discovery insights,Completed,Normal,2025-08-22,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5f4IAB,006Kj0000130XvlIAE,Other
+Task: confirm decision process,Completed,Normal,2025-09-05,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5f4IAB,006Kj0000130XvlIAE,Call
+Next step: Executive alignment call,Not Started,Normal,2025-10-05,Planned follow-up aligned to stage progression.,005Kj00000Dy5f4IAB,006Kj0000130XvlIAE,Task
+Email: proposal follow-up,Completed,Normal,2025-08-14,Discussed pain points and success criteria.,005Kj00000Dy5e5IAB,006Kj000015eeIOIAY,Call
+Task: confirm decision process,Completed,Normal,2025-08-17,Captured notes from discovery call with project team.,005Kj00000Dy5e5IAB,006Kj000015eeIOIAY,Email
+Call: budget and timeline,Completed,Normal,2025-08-17,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e5IAB,006Kj000015eeIOIAY,Call
+Next step: Executive alignment call,Not Started,Normal,2025-09-30,Planned follow-up aligned to stage progression.,005Kj00000Dy5e5IAB,006Kj000015eeIOIAY,Task
+Email: pricing/discounts thread,Completed,Normal,2025-09-01,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e6IAB,006Kj000015eeIVIAY,Call
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-05,Planned follow-up aligned to stage progression.,005Kj00000Dy5e6IAB,006Kj000015eeIVIAY,Task
+Log: stakeholder mapping,Completed,Normal,2025-09-09,Identified champions and potential blockers.,005Kj00000D7w1rIAB,006Kj000015eeIkIAI,Other
+Task: confirm legal/security review,Completed,Normal,2025-09-21,Deep dive into technical requirements and integrations.,005Kj00000Dy5e8IAB,006Kj000015eeFWIAY,Call
+Email: proposal follow-up,Completed,Normal,2025-09-21,Captured notes from discovery call with project team.,005Kj00000Dy5e8IAB,006Kj000015eeFWIAY,Call
+Call: budget and timeline,Completed,Normal,2025-08-26,Validated decision makers and approval chain.,005Kj00000Dy5e8IAB,006Kj000015eeFWIAY,Call
+Next step: Proposal review,Not Started,Normal,2025-09-30,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeFWIAY,Task
+Email: pricing/discounts thread,Completed,Normal,2025-09-07,Discussed pain points and success criteria.,005Kj00000Dy5e2IAB,006Kj000015eeI8IAI,Call
+Call: qualification discussion,Completed,Normal,2025-09-02,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e5IAB,006Kj000015eeIJIAY,Other
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-06,Planned follow-up aligned to stage progression.,005Kj00000Dy5e5IAB,006Kj000015eeIJIAY,Task
+Log: stakeholder mapping,Completed,Normal,2025-09-21,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e6IAB,006Kj000015eeIYIAY,Other
+Next step: Executive alignment call,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000Dy5e6IAB,006Kj000015eeIYIAY,Task
+Call: qualification discussion,Completed,Normal,2025-09-07,Captured notes from discovery call with project team.,005Kj00000Dy5e3IAB,006Kj000015eeKlIAI,Email
+Call: budget and timeline,Completed,Normal,2025-09-12,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e3IAB,006Kj000015eeKlIAI,Email
+Next step: Technical workshop,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000Dy5e3IAB,006Kj000015eeKlIAI,Task
+Log: stakeholder mapping,Completed,Normal,2025-09-03,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e8IAB,006Kj000015eeMyIAI,Call
+Next step: Technical workshop,Not Started,Normal,2025-10-01,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeMyIAI,Task
+Task: confirm decision process,Completed,Normal,2025-09-11,Aligned on evaluation timeline and key milestones.,005Kj00000D7w1rIAB,006Kj000015eeK4IAI,Email
+Note: discovery insights,Completed,Normal,2025-08-14,Discussed pain points and success criteria.,005Kj00000D7w1rIAB,006Kj000015eeK4IAI,Email
+Email: proposal follow-up,Completed,Normal,2025-09-11,Negotiated pricing bands and discount approvals.,005Kj00000D7w1rIAB,006Kj000015eeK4IAI,Call
+Next step: Negotiation meeting,Not Started,Normal,2025-09-30,Planned follow-up aligned to stage progression.,005Kj00000D7w1rIAB,006Kj000015eeK4IAI,Task
+Log: stakeholder mapping,Completed,Normal,2025-08-31,Discussed pain points and success criteria.,005Kj00000Dy5e2IAB,006Kj000015eeOIIAY,Call
+Task: confirm decision process,Completed,Normal,2025-09-03,Identified champions and potential blockers.,005Kj00000Dy5e2IAB,006Kj000015eeOIIAY,Email
+Call: qualification discussion,Completed,Normal,2025-08-13,Identified champions and potential blockers.,005Kj00000Dy5e2IAB,006Kj000015eeNhIAI,Email
+Next step: Negotiation meeting,Not Started,Normal,2025-10-03,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeNhIAI,Task
+Email: pricing/discounts thread,Completed,Normal,2025-09-03,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e6IAB,006Kj000015eeNxIAI,Other
+Task: confirm decision process,Completed,Normal,2025-09-07,Deep dive into technical requirements and integrations.,005Kj00000Dy5e6IAB,006Kj000015eeNxIAI,Email
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-09,Planned follow-up aligned to stage progression.,005Kj00000Dy5e6IAB,006Kj000015eeNxIAI,Task
+Task: confirm legal/security review,Completed,Normal,2025-08-22,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e2IAB,006Kj000015eeNyIAI,Call
+Email: send product deck,Completed,Normal,2025-09-12,Captured notes from discovery call with project team.,005Kj00000Dy5e2IAB,006Kj000015eeNyIAI,Call
+Call: budget and timeline,Completed,Normal,2025-08-21,Captured notes from discovery call with project team.,005Kj00000Dy5e2IAB,006Kj000015eeNyIAI,Email
+Next step: Executive alignment call,Not Started,Normal,2025-10-03,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeNyIAI,Task
+Task: confirm legal/security review,Completed,Normal,2025-09-03,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e2IAB,006Kj000015eeO6IAI,Other
+Next step: Negotiation meeting,Not Started,Normal,2025-09-30,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeO6IAI,Task
+Email: send product deck,Completed,Normal,2025-08-26,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e2IAB,006Kj000015eeOwIAI,Other
+Call: budget and timeline,Completed,Normal,2025-09-05,Discussed pain points and success criteria.,005Kj00000Dy5e2IAB,006Kj000015eeO8IAI,Call
+Email: proposal follow-up,Completed,Normal,2025-08-22,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e2IAB,006Kj000015eeO8IAI,Call
+Next step: Discovery call,Not Started,Normal,2025-10-08,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeO8IAI,Task
+Task: confirm legal/security review,Completed,Normal,2025-08-14,Validated decision makers and approval chain.,005Kj00000Dy5e2IAB,006Kj000015eeNuIAI,Call
+Note: discovery insights,Completed,Normal,2025-08-14,Discussed pain points and success criteria.,005Kj00000Dy5e2IAB,006Kj000015eeNuIAI,Other
+Email: send product deck,Completed,Normal,2025-09-01,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e2IAB,006Kj000015eeNuIAI,Other
+Call: technical deep-dive,Completed,Normal,2025-09-01,Discussed pain points and success criteria.,005Kj00000Dy5e2IAB,006Kj000015eeNpIAI,Email
+Email: pricing/discounts thread,Completed,Normal,2025-08-27,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e2IAB,006Kj000015eeNpIAI,Call
+Task: confirm legal/security review,Completed,Normal,2025-08-21,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e2IAB,006Kj000015eeNpIAI,Call
+Call: qualification discussion,Completed,Normal,2025-08-13,Identified champions and potential blockers.,005Kj00000Dy5e2IAB,006Kj000015eeOoIAI,Email
+Task: confirm decision process,Completed,Normal,2025-08-12,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e2IAB,006Kj000015eeOoIAI,Call
+Next step: Executive alignment call,Not Started,Normal,2025-10-10,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeOoIAI,Task
+Email: proposal follow-up,Completed,Normal,2025-09-10,Validated decision makers and approval chain.,005Kj00000Dy5e2IAB,006Kj000015eeNwIAI,Call
+Call: technical deep-dive,Completed,Normal,2025-08-28,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e2IAB,006Kj000015eeNwIAI,Email
+Task: confirm decision process,Completed,Normal,2025-09-15,Discussed pain points and success criteria.,005Kj00000Dy5e2IAB,006Kj000015eeOHIAY,Other
+Email: send product deck,Completed,Normal,2025-09-14,Captured notes from discovery call with project team.,005Kj00000Dy5e2IAB,006Kj000015eeOHIAY,Email
+Call: qualification discussion,Completed,Normal,2025-08-30,Deep dive into technical requirements and integrations.,005Kj00000Dy5e2IAB,006Kj000015eeOHIAY,Other
+Call: qualification discussion,Completed,Normal,2025-09-17,Captured notes from discovery call with project team.,005Kj00000Dy5e7IAB,006Kj000015eeHsIAI,Other
+Note: discovery insights,Completed,Normal,2025-09-11,Validated decision makers and approval chain.,005Kj00000Dy5e7IAB,006Kj000015eeHsIAI,Call
+Next step: Executive alignment call,Not Started,Normal,2025-10-10,Planned follow-up aligned to stage progression.,005Kj00000Dy5e7IAB,006Kj000015eeHsIAI,Task
+Email: send product deck,Completed,Normal,2025-09-07,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e2IAB,006Kj000015eeJzIAI,Email
+Call: qualification discussion,Completed,Normal,2025-09-11,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e2IAB,006Kj000015eeJzIAI,Email
+Task: confirm legal/security review,Completed,Normal,2025-09-14,Validated decision makers and approval chain.,005Kj00000Dy5e2IAB,006Kj000015eeJzIAI,Email
+Next step: Executive alignment call,Not Started,Normal,2025-10-09,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeJzIAI,Task
+Log: stakeholder mapping,Completed,Normal,2025-09-03,Discussed pain points and success criteria.,005Kj00000Dy5e5IAB,006Kj000015eeKgIAI,Call
+Note: discovery insights,Completed,Normal,2025-09-14,Captured notes from discovery call with project team.,005Kj00000Dy5e5IAB,006Kj000015eeKgIAI,Email
+Log: stakeholder mapping,Completed,Normal,2025-09-01,Identified champions and potential blockers.,005Kj00000Dy5e5IAB,006Kj000015eeKgIAI,Other
+Task: confirm legal/security review,Completed,Normal,2025-09-20,Captured notes from discovery call with project team.,005Kj00000Dy5e6IAB,006Kj000015eeJ4IAI,Other
+Email: proposal follow-up,Completed,Normal,2025-08-27,Aligned on evaluation timeline and key milestones.,005Kj00000D7w1rIAB,006Kj000015eeHUIAY,Email
+Note: discovery insights,Completed,Normal,2025-08-30,Aligned on evaluation timeline and key milestones.,005Kj00000D7w1rIAB,006Kj000015eeHUIAY,Call
+Log: stakeholder mapping,Completed,Normal,2025-08-16,Shared deck and case studies relevant to their industry.,005Kj00000D7w1rIAB,006Kj000015eeHUIAY,Email
+Call: technical deep-dive,Completed,Normal,2025-09-20,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e8IAB,006Kj000015eeKdIAI,Email
+Next step: Technical workshop,Not Started,Normal,2025-09-30,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeKdIAI,Task
+Email: pricing/discounts thread,Completed,Normal,2025-08-29,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e7IAB,006Kj000015eeM9IAI,Other
+Next step: Executive alignment call,Not Started,Normal,2025-10-03,Planned follow-up aligned to stage progression.,005Kj00000Dy5e7IAB,006Kj000015eeM9IAI,Task
+Note: discovery insights,Completed,Normal,2025-09-12,Identified champions and potential blockers.,005Kj00000Dy5e7IAB,006Kj000015eeImIAI,Other
+Email: pricing/discounts thread,Completed,Normal,2025-08-15,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e7IAB,006Kj000015eeImIAI,Other
+Next step: Executive alignment call,Not Started,Normal,2025-10-01,Planned follow-up aligned to stage progression.,005Kj00000Dy5e7IAB,006Kj000015eeImIAI,Task
+Task: confirm decision process,Completed,Normal,2025-08-29,Discussed pain points and success criteria.,005Kj00000Dy5e5IAB,006Kj000015eeG8IAI,Email
+Email: send product deck,Completed,Normal,2025-09-16,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e5IAB,006Kj000015eeG8IAI,Other
+Next step: Executive alignment call,Not Started,Normal,2025-09-30,Planned follow-up aligned to stage progression.,005Kj00000Dy5e5IAB,006Kj000015eeG8IAI,Task
+Log: stakeholder mapping,Completed,Normal,2025-09-05,Discussed pain points and success criteria.,005Kj00000Dy5e6IAB,006Kj000015eeIfIAI,Other
+Task: confirm legal/security review,Completed,Normal,2025-08-19,Captured notes from discovery call with project team.,005Kj00000Dy5e6IAB,006Kj000015eeIfIAI,Other
+Email: pricing/discounts thread,Completed,Normal,2025-09-09,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e3IAB,006Kj000015eeG1IAI,Call
+Next step: Negotiation meeting,Not Started,Normal,2025-10-04,Planned follow-up aligned to stage progression.,005Kj00000Dy5e3IAB,006Kj000015eeG1IAI,Task
+Email: send product deck,Completed,Normal,2025-09-02,Discussed pain points and success criteria.,005Kj00000D7w1tIAB,006Kj000015eeHdIAI,Email
+Note: discovery insights,Completed,Normal,2025-08-18,"Coordinated security, legal, and compliance review.",005Kj00000D7w1tIAB,006Kj000015eeHdIAI,Other
+Log: stakeholder mapping,Completed,Normal,2025-09-09,Aligned on evaluation timeline and key milestones.,005Kj00000D7w1tIAB,006Kj000015eeHdIAI,Email
+Call: technical deep-dive,Completed,Normal,2025-08-19,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e8IAB,006Kj000015eeEsIAI,Call
+Task: confirm decision process,Completed,Normal,2025-09-07,Validated decision makers and approval chain.,005Kj00000Dy5e8IAB,006Kj000015eeEsIAI,Call
+Email: send product deck,Completed,Normal,2025-08-15,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e8IAB,006Kj000015eeEsIAI,Call
+Next step: Technical workshop,Not Started,Normal,2025-09-30,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeEsIAI,Task
+Email: pricing/discounts thread,Completed,Normal,2025-08-19,Deep dive into technical requirements and integrations.,005Kj00000Dy5e7IAB,006Kj000015eeFjIAI,Call
+Call: technical deep-dive,Completed,Normal,2025-08-31,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e7IAB,006Kj000015eeFjIAI,Call
+Call: technical deep-dive,Completed,Normal,2025-08-29,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e2IAB,006Kj000015eeLGIAY,Email
+Task: confirm legal/security review,Completed,Normal,2025-08-30,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e2IAB,006Kj000015eeLGIAY,Email
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-07,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeLGIAY,Task
+Note: discovery insights,Completed,Normal,2025-08-17,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e6IAB,006Kj000015eeIsIAI,Call
+Log: stakeholder mapping,Completed,Normal,2025-09-12,Identified champions and potential blockers.,005Kj00000Dy5e6IAB,006Kj000015eeIsIAI,Other
+Email: pricing/discounts thread,Completed,Normal,2025-08-22,Validated decision makers and approval chain.,005Kj00000Dy5e6IAB,006Kj000015eeIsIAI,Email
+Next step: Proposal review,Not Started,Normal,2025-10-05,Planned follow-up aligned to stage progression.,005Kj00000Dy5e6IAB,006Kj000015eeIsIAI,Task
+Call: budget and timeline,Completed,Normal,2025-08-25,Captured notes from discovery call with project team.,005Kj00000D7w1rIAB,006Kj000015eeJ3IAI,Call
+Call: technical deep-dive,Completed,Normal,2025-09-14,Aligned on evaluation timeline and key milestones.,005Kj00000D7w1rIAB,006Kj000015eeJ3IAI,Call
+Next step: Technical workshop,Not Started,Normal,2025-10-06,Planned follow-up aligned to stage progression.,005Kj00000D7w1rIAB,006Kj000015eeJ3IAI,Task
+Call: technical deep-dive,Completed,Normal,2025-08-17,Negotiated pricing bands and discount approvals.,005Kj00000D7w1tIAB,006Kj000015eeKUIAY,Call
+Task: confirm decision process,Completed,Normal,2025-09-16,Validated decision makers and approval chain.,005Kj00000D7w1tIAB,006Kj000015eeKUIAY,Call
+Note: discovery insights,Completed,Normal,2025-08-15,Identified champions and potential blockers.,005Kj00000D7w1tIAB,006Kj000015eeKUIAY,Call
+Next step: Proposal review,Not Started,Normal,2025-09-29,Planned follow-up aligned to stage progression.,005Kj00000D7w1tIAB,006Kj000015eeKUIAY,Task
+Task: confirm decision process,Completed,Normal,2025-09-03,Discussed pain points and success criteria.,005Kj00000Dy5e8IAB,006Kj000015eeKVIAY,Email
+Call: budget and timeline,Completed,Normal,2025-08-24,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e2IAB,006Kj0000130XvSIAU,Email
+Call: technical deep-dive,Completed,Normal,2025-08-13,Identified champions and potential blockers.,005Kj00000Dy5e2IAB,006Kj0000130XvSIAU,Call
+Log: stakeholder mapping,Completed,Normal,2025-08-25,Deep dive into technical requirements and integrations.,005Kj00000Dy5e2IAB,006Kj0000130XvSIAU,Email
+Log: stakeholder mapping,Completed,Normal,2025-08-13,Validated decision makers and approval chain.,005Kj00000Dy5e2IAB,006Kj000015eeOjIAI,Email
+Log: stakeholder mapping,Completed,Normal,2025-09-15,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e2IAB,006Kj000015eeOjIAI,Email
+Call: budget and timeline,Completed,Normal,2025-09-04,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e2IAB,006Kj000015eeOjIAI,Call
+Call: technical deep-dive,Completed,Normal,2025-09-01,Deep dive into technical requirements and integrations.,005Kj00000Dy5e2IAB,006Kj000015eeOeIAI,Email
+Task: confirm decision process,Completed,Normal,2025-08-20,Identified champions and potential blockers.,005Kj00000Dy5e2IAB,006Kj000015eeOeIAI,Email
+Next step: Negotiation meeting,Not Started,Normal,2025-09-30,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeOeIAI,Task
+Note: discovery insights,Completed,Normal,2025-09-19,Discussed pain points and success criteria.,005Kj00000D7w1tIAB,006Kj000015eeKSIAY,Call
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-07,Planned follow-up aligned to stage progression.,005Kj00000D7w1tIAB,006Kj000015eeKSIAY,Task
+Call: budget and timeline,Completed,Normal,2025-09-06,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e8IAB,006Kj000015eeN2IAI,Other
+Next step: Proposal review,Not Started,Normal,2025-10-06,Planned follow-up aligned to stage progression.,005Kj00000Dy5e8IAB,006Kj000015eeN2IAI,Task
+Email: pricing/discounts thread,Completed,Normal,2025-09-04,Reviewed proposal details and procurement steps.,005Kj00000Dy5e7IAB,006Kj000015eeIRIAY,Call
+Call: budget and timeline,Completed,Normal,2025-09-20,Discussed pain points and success criteria.,005Kj00000Dy5e7IAB,006Kj000015eeIRIAY,Call
+Next step: Technical workshop,Not Started,Normal,2025-10-02,Planned follow-up aligned to stage progression.,005Kj00000Dy5e7IAB,006Kj000015eeIRIAY,Task
+Call: technical deep-dive,Completed,Normal,2025-09-12,Identified champions and potential blockers.,005Kj00000Dy5e2IAB,006Kj000015eeIKIAY,Call
+Email: send product deck,Completed,Normal,2025-09-20,Identified champions and potential blockers.,005Kj00000Dy5e2IAB,006Kj000015eeIKIAY,Call
+Task: confirm legal/security review,Completed,Normal,2025-09-11,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e2IAB,006Kj000015eeIKIAY,Call
+Next step: Negotiation meeting,Not Started,Normal,2025-09-29,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeIKIAY,Task
+Log: stakeholder mapping,Completed,Normal,2025-08-17,Negotiated pricing bands and discount approvals.,005Kj00000Dy5e5IAB,006Kj000015eeIFIAY,Other
+Call: qualification discussion,Completed,Normal,2025-09-19,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e5IAB,006Kj000015eeIFIAY,Email
+Call: budget and timeline,Completed,Normal,2025-08-12,Reviewed proposal details and procurement steps.,005Kj00000Dy5e6IAB,006Kj000015eeKeIAI,Email
+Call: budget and timeline,Completed,Normal,2025-09-16,Identified champions and potential blockers.,005Kj00000Dy5e6IAB,006Kj000015eeKeIAI,Email
+Next step: Discovery call,Not Started,Normal,2025-10-05,Planned follow-up aligned to stage progression.,005Kj00000Dy5e6IAB,006Kj000015eeKeIAI,Task
+Log: stakeholder mapping,Completed,Normal,2025-09-01,Captured notes from discovery call with project team.,005Kj00000D7w1rIAB,006Kj000015eeFdIAI,Other
+Email: proposal follow-up,Completed,Normal,2025-09-02,Negotiated pricing bands and discount approvals.,005Kj00000D7w1rIAB,006Kj000015eeFdIAI,Other
+Call: technical deep-dive,Completed,Normal,2025-09-02,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e8IAB,006Kj000015eeK0IAI,Email
+Call: qualification discussion,Completed,Normal,2025-08-29,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e8IAB,006Kj000015eeK0IAI,Other
+Call: budget and timeline,Completed,Normal,2025-08-23,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e8IAB,006Kj000015eeK0IAI,Email
+Call: technical deep-dive,Completed,Normal,2025-08-24,Shared deck and case studies relevant to their industry.,005Kj00000Dy5f4IAB,006Kj000015eeFYIAY,Email
+Task: confirm decision process,Completed,Normal,2025-08-23,Identified champions and potential blockers.,005Kj00000Dy5f4IAB,006Kj000015eeFYIAY,Email
+Email: send product deck,Completed,Normal,2025-09-10,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e7IAB,006Kj000015eeFXIAY,Call
+Call: budget and timeline,Completed,Normal,2025-08-12,Deep dive into technical requirements and integrations.,005Kj00000Dy5e5IAB,006Kj000015eeFJIAY,Email
+Next step: Proposal review,Not Started,Normal,2025-09-29,Planned follow-up aligned to stage progression.,005Kj00000Dy5e5IAB,006Kj000015eeFJIAY,Task
+Task: confirm decision process,Completed,Normal,2025-08-21,Reviewed proposal details and procurement steps.,005Kj00000Dy5f4IAB,006Kj0000130XwXIAU,Email
+Next step: Proposal review,Not Started,Normal,2025-10-07,Planned follow-up aligned to stage progression.,005Kj00000Dy5f4IAB,006Kj0000130XwXIAU,Task
+Log: stakeholder mapping,Completed,Normal,2025-09-21,Negotiated pricing bands and discount approvals.,005Kj00000Dy5f4IAB,006Kj000015eeFMIAY,Email
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-08,Planned follow-up aligned to stage progression.,005Kj00000Dy5f4IAB,006Kj000015eeFMIAY,Task
+Call: technical deep-dive,Completed,Normal,2025-09-17,Identified champions and potential blockers.,005Kj00000Dy5e2IAB,006Kj000015eeIyIAI,Other
+Task: confirm legal/security review,Completed,Normal,2025-09-19,Identified champions and potential blockers.,005Kj00000Dy5e2IAB,006Kj000015eeIyIAI,Call
+Email: pricing/discounts thread,Completed,Normal,2025-08-26,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e2IAB,006Kj000015eeIyIAI,Call
+Next step: Executive alignment call,Not Started,Normal,2025-10-05,Planned follow-up aligned to stage progression.,005Kj00000Dy5e2IAB,006Kj000015eeIyIAI,Task
+Email: pricing/discounts thread,Completed,Normal,2025-08-14,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e5IAB,006Kj000015eeJ6IAI,Call
+Email: pricing/discounts thread,Completed,Normal,2025-09-19,Reviewed proposal details and procurement steps.,005Kj00000Dy5e5IAB,006Kj000015eeJ6IAI,Email
+Next step: Executive alignment call,Not Started,Normal,2025-10-05,Planned follow-up aligned to stage progression.,005Kj00000Dy5e5IAB,006Kj000015eeJ6IAI,Task
+Task: confirm decision process,Completed,Normal,2025-09-18,"Coordinated security, legal, and compliance review.",005Kj00000Dy5e6IAB,006Kj000015eeLpIAI,Call
+Next step: Executive alignment call,Not Started,Normal,2025-09-30,Planned follow-up aligned to stage progression.,005Kj00000Dy5e6IAB,006Kj000015eeLpIAI,Task
+Email: pricing/discounts thread,Completed,Normal,2025-09-13,Deep dive into technical requirements and integrations.,005Kj00000Dy5e7IAB,006Kj000015eeJJIAY,Email
+Task: confirm decision process,Completed,Normal,2025-08-31,Captured notes from discovery call with project team.,005Kj00000Dy5e7IAB,006Kj000015eeJJIAY,Email
+Call: qualification discussion,Completed,Normal,2025-08-28,Discussed pain points and success criteria.,005Kj00000Dy5e7IAB,006Kj000015eeJJIAY,Call
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-05,Planned follow-up aligned to stage progression.,005Kj00000Dy5e7IAB,006Kj000015eeJJIAY,Task
+Task: confirm legal/security review,Completed,Normal,2025-09-03,Shared deck and case studies relevant to their industry.,005Kj00000Dy5e5IAB,006Kj000015eeMCIAY,Other
+Call: budget and timeline,Completed,Normal,2025-09-11,Captured notes from discovery call with project team.,005Kj00000Dy5e5IAB,006Kj000015eeMCIAY,Email
+Next step: Proposal review,Not Started,Normal,2025-10-10,Planned follow-up aligned to stage progression.,005Kj00000Dy5e5IAB,006Kj000015eeMCIAY,Task
+Task: confirm legal/security review,Completed,Normal,2025-08-29,Identified champions and potential blockers.,005Kj00000Dy5e6IAB,006Kj000015eeLxIAI,Call
+Next step: Negotiation meeting,Not Started,Normal,2025-10-10,Planned follow-up aligned to stage progression.,005Kj00000Dy5e6IAB,006Kj000015eeLxIAI,Task
+Email: send product deck,Completed,Normal,2025-08-17,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e3IAB,006Kj000015eeIwIAI,Call
+Email: send product deck,Completed,Normal,2025-08-24,Aligned on evaluation timeline and key milestones.,005Kj00000Dy5e3IAB,006Kj000015eeIwIAI,Other
+Call: technical deep-dive,Completed,Normal,2025-09-02,Reviewed proposal details and procurement steps.,005Kj00000Dy5e5IAB,006Kj000015eeITIAY,Email
+Next step: Demo with stakeholders,Not Started,Normal,2025-10-09,Planned follow-up aligned to stage progression.,005Kj00000Dy5e5IAB,006Kj000015eeITIAY,Task

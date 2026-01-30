@@ -1,0 +1,124 @@
+# Weekly export for Deal Contribution with schema mirroring manual export
+reports:
+  - name: Argo - Weekly Export - Deal Contribution
+    report_id: 00Oed000005aqGXEAY
+    output: data/output/history/deal_contribution_{date}.csv
+
+transforms:
+  - input: data/output/history/deal_contribution_{date}.csv
+    output: data/output/history/deal_contribution_{date}.csv
+    steps:
+      - type: add_constant_column
+        name: snapshot_date
+        value: {date}
+
+      # Extract currency amounts and codes from OrderedDict-like strings
+      - type: extract_currency
+        column: Deal_Contribution__c.Split_Amount__c
+        output_column: split_amount_numeric
+      - type: extract_currency
+        column: Deal_Contribution__c.Opportunity_Amount__c
+        output_column: opp_amount_numeric
+      - type: extract_currency
+        column: Deal_Contribution__c.Opportunity_Amount__c.CONVERT
+        output_column: opp_amount_conv_numeric
+      - type: extract_currency_code
+        column: Deal_Contribution__c.Split_Amount__c
+        output_column: "Split Amount Currency"
+      - type: extract_currency_code
+        column: Deal_Contribution__c.Opportunity_Amount__c
+        output_column: "Opportunity Amount Currency"
+      - type: extract_currency_code
+        column: Deal_Contribution__c.Opportunity_Amount__c.CONVERT
+        output_column: "Opportunity Amount (converted) Currency"
+
+      # Rename to match manual export headers exactly
+      - type: rename_columns
+        mapping:
+          CUST_ID: "Deal Contribution: ID"
+          Deal_Contribution__c.SE_Name__c: Contributor
+          CDF1: "Weighted Value"
+          FK_OPP_ID: "Opportunity: Opportunity ID"
+          FK_NAME: "Opportunity: Opportunity Name"
+          FK_ACC_NAME: "Opportunity: Account Name"
+          FK_OPP_OWNER_NAME: "Opportunity: Opportunity Owner"
+          split_amount_numeric: "Split Amount"
+          opp_amount_numeric: "Opportunity Amount"
+          opp_amount_conv_numeric: "Opportunity Amount (converted)"
+          Deal_Contribution__c.Split_Percentage__c: "Split Percentage"
+          BucketField_5981375: "Opp Status"
+          FK_OPP_STAGE_NAME: "Opportunity: Stage"
+          FK_OPP_ROLLUP_DESCRIPTION: "Opportunity: Owner Role"
+          Deal_Contribution__c.Opportunity_Close_Date__c: "Opportunity Close Date"
+
+      # Coalesce converted amount from base amount if empty
+      - type: coalesce_columns
+        target: "Opportunity Amount (converted)"
+        sources: ["Opportunity Amount (converted)", "Opportunity Amount"]
+
+      # Cast to match manual export types
+      - type: cast_dtypes
+        dtypes:
+          "Deal Contribution: ID": string
+          Contributor: string
+          "Weighted Value": float64
+          "Opportunity: Opportunity ID": string
+          "Opportunity: Opportunity Name": string
+          "Opportunity: Account Name": string
+          "Opportunity: Opportunity Owner": string
+          "Split Amount Currency": string
+          "Split Amount": float64
+          "Opportunity Amount Currency": string
+          "Opportunity Amount": float64
+          "Opportunity Amount (converted) Currency": string
+          "Opportunity Amount (converted)": float64
+          "Split Percentage": int64
+          "Opp Status": string
+          "Opportunity: Stage": string
+          "Opportunity: Owner Role": string
+          "Opportunity Close Date": datetime64[ns]
+
+      # Select and order columns exactly per manual export
+      - type: select_columns
+        columns:
+          - "Deal Contribution: ID"
+          - Contributor
+          - "Weighted Value"
+          - "Opportunity: Opportunity ID"
+          - "Opportunity: Opportunity Name"
+          - "Opportunity: Account Name"
+          - "Opportunity: Opportunity Owner"
+          - "Split Amount Currency"
+          - "Split Amount"
+          - "Opportunity Amount Currency"
+          - "Opportunity Amount"
+          - "Opportunity Amount (converted) Currency"
+          - "Opportunity Amount (converted)"
+          - "Split Percentage"
+          - "Opp Status"
+          - "Opportunity: Stage"
+          - "Opportunity: Owner Role"
+          - "Opportunity Close Date"
+
+      # Basic data quality checks
+      - type: data_quality_check
+        checks:
+          - name: Row Count Check
+            type: row_count_check
+            min_rows: 1
+            max_rows: 20000
+          - name: Required Fields Null Check
+            type: null_check
+            columns: ["Deal Contribution: ID", "Opportunity: Opportunity ID", "Split Amount"]
+
+postprocess:
+  append:
+    - source: data/output/history/deal_contribution_{date}.csv
+      master: data/output/deal_contribution_master.csv
+      dedupe:
+        key: "Deal Contribution: ID"
+        keep: latest
+
+publish:
+  enabled: false
+

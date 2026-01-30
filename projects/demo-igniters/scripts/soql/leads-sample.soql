@@ -1,0 +1,4 @@
+SELECT Id, FirstName, LastName, Company, Email, Status, Industry, LeadSource 
+FROM Lead 
+LIMIT 10
+

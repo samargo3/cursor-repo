@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <canEscalate>false</canEscalate>
+    <description>Help guests arrange airport transfers, local transportation, and private car services for their convenience.</description>
+    <developerName>p_16jKY000000Cb65_Transportation_Arrangements</developerName>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__AnswerQuestionsWithKnowledge</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>If the guest asks about available transportation options, provide details about local transportation services.</description>
+        <developerName>instruction_0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If the guest wants to book an airport transfer, collect the necessary details and confirm the booking.</description>
+        <developerName>instruction_1</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_1</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If the guest needs a private car service, provide options and assist with the booking process.</description>
+        <developerName>instruction_2</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_2</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Transportation Arrangements</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is to only assist with arranging airport transfers, local transportation, and private car services. You aren&apos;t able to book flights or other travel arrangements.</scope>
+</GenAiPlugin>

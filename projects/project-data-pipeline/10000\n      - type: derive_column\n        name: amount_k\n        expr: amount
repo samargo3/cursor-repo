@@ -1,0 +1,12 @@
+reports:
+  - name: Sample Opportunities
+    report_id: 00OXXXXXXXXXXXX
+    output: data/output/opportunities.csv
+
+transforms:
+  - input: data/output/opportunities.csv
+    steps:
+      - type: rename_columns
+        mapping: {Amount:amount,StageName:stage}
+      - type: filter_rows
+        expr: amount

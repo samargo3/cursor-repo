@@ -1,0 +1,82 @@
+{
+  "flow": {
+    "apiVersion": "64.0",
+    "description": "Demo flow for sending notifications on high-value leads",
+    "environments": "Default",
+    "interviewLabel": "Demo Notification Flow {!$Flow.CurrentDateTime}",
+    "label": "Demo Notification Flow",
+    "processMetadataValues": [
+      {
+        "name": "BuilderType",
+        "value": {
+          "stringValue": "LightningFlowBuilder"
+        }
+      }
+    ],
+    "processType": "AutoLaunchedFlow",
+    "start": {
+      "locationX": 50,
+      "locationY": 0,
+      "connector": {
+        "targetReference": "Check_Lead_Value"
+      }
+    },
+    "decisions": [
+      {
+        "name": "Check_Lead_Value",
+        "label": "Check Lead Value",
+        "locationX": 176,
+        "locationY": 0,
+        "defaultConnector": {
+          "targetReference": "End"
+        },
+        "defaultConnectorLabel": "Low Value",
+        "rules": [
+          {
+            "name": "High_Value_Lead",
+            "conditionLogic": "and",
+            "conditions": [
+              {
+                "leftValueReference": "{!$Record.AnnualRevenue}",
+                "operator": "GreaterThan",
+                "rightValue": {
+                  "numberValue": 1000000
+                }
+              }
+            ],
+            "connector": {
+              "targetReference": "Send_Notification"
+            },
+            "label": "High Value Lead"
+          }
+        ]
+      }
+    ],
+    "actionCalls": [
+      {
+        "name": "Send_Notification",
+        "label": "Send Notification",
+        "locationX": 302,
+        "locationY": 0,
+        "inputParameters": [
+          {
+            "name": "title",
+            "value": {
+              "stringValue": "High Value Lead Alert"
+            }
+          },
+          {
+            "name": "body",
+            "value": {
+              "stringValue": "New high-value lead: {!$Record.Company}"
+            }
+          }
+        ],
+        "storeOutputAutomatically": true,
+        "connector": {
+          "targetReference": "End"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Demo Data Administration Panel</description>
+    <label>Demo Admin</label>
+    <motif>Custom48:Gears</motif>
+    <page>Demo_Admin_Page</page>
+</CustomTab>

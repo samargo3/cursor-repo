@@ -1,0 +1,36 @@
+{
+  "agentType": "customer",
+  "companyName": "Coral Cloud Resorts",
+  "companyDescription": "A luxury resort offering world-class accommodations, amenities, and personalized guest services.",
+  "role": "Help guests with reservations and local activities.",
+  "topics": [
+    {
+      "name": "SpaServices",
+      "description": "Provide information about spa treatments and book appointments."
+    },
+    {
+      "name": "Transportation Arrangements",
+      "description": "Arrange airport transfers, private car services, and local transportation for guests."
+    },
+    {
+      "name": "Dining Reservations",
+      "description": "Book tables at on-site and local restaurants."
+    },
+    {
+      "name": "Event Planning",
+      "description": "Assist with organizing private events, celebrations, or meetings."
+    },
+    {
+      "name": "Local Recommendations",
+      "description": "Suggest local attractions, tours, and experiences."
+    },
+    {
+      "name": "Room Customization",
+      "description": "Assist guests with in-room amenities, upgrades, and personalized requests."
+    },
+    {
+      "name": "Childcare & Family Services",
+      "description": "Arrange babysitting, kids activities, and family-friendly experiences."
+    }
+  ]
+}

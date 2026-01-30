@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#D4AF37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B8941E;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGradient2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5E6D3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D4AF37;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#goldGradient)" />
+  
+  <!-- Inner Circle -->
+  <circle cx="100" cy="100" r="75" fill="#FFFFFF" opacity="0.95" />
+  
+  <!-- Trophy/Award Shape -->
+  <path d="M 70 60 L 70 90 Q 70 110, 100 110 Q 130 110, 130 90 L 130 60 Z" 
+        fill="url(#goldGradient2)" 
+        stroke="url(#goldGradient)" 
+        stroke-width="3"/>
+  
+  <!-- Trophy Handles -->
+  <path d="M 65 70 Q 50 70, 50 85 Q 50 95, 60 95" 
+        fill="none" 
+        stroke="url(#goldGradient)" 
+        stroke-width="3"/>
+  <path d="M 135 70 Q 150 70, 150 85 Q 150 95, 140 95" 
+        fill="none" 
+        stroke="url(#goldGradient)" 
+        stroke-width="3"/>
+  
+  <!-- Trophy Base -->
+  <rect x="90" y="110" width="20" height="15" fill="url(#goldGradient)" />
+  <rect x="75" y="125" width="50" height="8" rx="2" fill="url(#goldGradient)" />
+  
+  <!-- Star Icon -->
+  <path d="M 100 75 L 105 85 L 115 87 L 107 95 L 109 105 L 100 100 L 91 105 L 93 95 L 85 87 L 95 85 Z" 
+        fill="#FFFFFF" 
+        opacity="0.9"/>
+  
+  <!-- Text "DEMO" (Optional) -->
+  <text x="100" y="155" 
+        font-family="Arial, sans-serif" 
+        font-size="16" 
+        font-weight="bold" 
+        fill="url(#goldGradient)" 
+        text-anchor="middle">SALES</text>
+</svg>

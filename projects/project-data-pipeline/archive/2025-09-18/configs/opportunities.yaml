@@ -1,0 +1,46 @@
+# Example configuration for Opportunities report pipeline
+# Copy this file and modify for your specific reports
+
+reports:
+  - name: "Opportunities Report"
+    report_id: "00OXXXXXXXXXXXX"  # Replace with your actual report ID
+    output: "data/output/opportunities_raw.csv"
+
+transforms:
+  - input: "data/output/opportunities_raw.csv"
+    steps:
+      # Rename columns for consistency
+      - type: rename_columns
+        mapping:
+          "Amount": "amount"
+          "StageName": "stage"
+          "CloseDate": "close_date"
+          "Account.Name": "account_name"
+          "Owner.Name": "owner_name"
+      
+      # Filter for qualified opportunities
+      - type: filter_rows
+        expr: "amount > 10000 and stage in ['Proposal/Price Quote', 'Negotiation/Review', 'Closed Won']"
+      
+      # Create derived columns
+      - type: derive_column
+        name: "amount_k"
+        expr: "amount / 1000"
+      
+      - type: derive_column
+        name: "days_to_close"
+        expr: "(close_date - pd.Timestamp.now()).dt.days"
+      
+      # Sort by amount descending
+      - type: sort_rows
+        by: ["amount"]
+        ascending: false
+    
+    output: "data/output/opportunities_transformed.csv"
+
+publish:
+  enabled: true
+  project: "Sales Analytics"
+  workbook: "Opportunities Dashboard"
+  datasource: "Opportunities Transformed"
+  file: "data/output/opportunities_transformed.csv"

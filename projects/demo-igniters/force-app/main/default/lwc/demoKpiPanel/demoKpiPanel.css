@@ -1,0 +1,225 @@
+/* Gold Theme Variables */
+:host {
+    --gold-primary: #D4AF37;
+    --gold-secondary: #FFD700;
+    --gold-dark: #B8941E;
+    --gold-light: #F5E6D3;
+}
+
+/* KPI Card Styles */
+.kpi-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.kpi-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(212, 175, 55, 0.2);
+}
+
+.gold-border {
+    border-left: 4px solid var(--gold-primary);
+}
+
+.kpi-icon-container {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+}
+
+.gold-bg {
+    background: linear-gradient(135deg, var(--gold-primary) 0%, var(--gold-secondary) 100%);
+}
+
+.kpi-icon-container lightning-icon {
+    --slds-c-icon-color-foreground-default: white;
+}
+
+.kpi-content {
+    flex: 1;
+}
+
+.kpi-label {
+    font-size: 0.75rem;
+    color: #706e6b;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.25rem;
+}
+
+.kpi-value {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #181818;
+    line-height: 1;
+}
+
+/* Section Card Styles */
+.section-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    height: 100%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #181818;
+    margin-bottom: 1rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 2px solid var(--gold-light);
+}
+
+/* Pipeline Styles */
+.pipeline-container {
+    margin-top: 1rem;
+}
+
+.pipeline-stage {
+    margin-bottom: 1.25rem;
+}
+
+.pipeline-stage:last-child {
+    margin-bottom: 0;
+}
+
+.stage-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.stage-name {
+    font-weight: 600;
+    color: #181818;
+    font-size: 0.875rem;
+}
+
+.stage-count {
+    font-size: 0.75rem;
+    color: #706e6b;
+}
+
+.stage-bar-container {
+    background: #f3f3f3;
+    height: 24px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 0.25rem;
+}
+
+.stage-bar {
+    height: 100%;
+    transition: width 0.5s ease;
+    width: 80%; /* Default width, will be overridden by JS */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 0.5rem;
+}
+
+.stage-value {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--gold-dark);
+    text-align: right;
+}
+
+/* Activity List Styles */
+.activity-list {
+    margin-top: 1rem;
+}
+
+.activity-item {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    background: #f9f9f9;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.activity-item:hover {
+    background: var(--gold-light);
+    transform: translateX(4px);
+}
+
+.activity-item:last-child {
+    margin-bottom: 0;
+}
+
+.activity-icon {
+    margin-right: 0.75rem;
+}
+
+.activity-icon lightning-icon {
+    --slds-c-icon-color-foreground-default: var(--gold-primary);
+}
+
+.activity-details {
+    flex: 1;
+}
+
+.activity-name {
+    font-weight: 600;
+    color: #181818;
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.activity-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    color: #706e6b;
+}
+
+.activity-status {
+    background: var(--gold-light);
+    padding: 0.125rem 0.5rem;
+    border-radius: 12px;
+    color: var(--gold-dark);
+}
+
+.activity-amount {
+    font-weight: 600;
+    color: var(--gold-dark);
+}
+
+/* Button Styles */
+.gold-button {
+    --sds-c-button-brand-color-background: var(--gold-primary);
+    --sds-c-button-brand-color-border: var(--gold-primary);
+    --sds-c-button-brand-color-background-hover: var(--gold-dark);
+    --sds-c-button-brand-color-border-hover: var(--gold-dark);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .kpi-value {
+        font-size: 1.5rem;
+    }
+    
+    .section-card {
+        margin-bottom: 1rem;
+    }
+}
+

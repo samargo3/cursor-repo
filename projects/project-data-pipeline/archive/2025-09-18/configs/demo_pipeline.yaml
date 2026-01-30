@@ -1,0 +1,34 @@
+# Demo pipeline using sample data (no Salesforce export needed)
+reports: []
+
+transforms:
+  - input: data/input/sample_opportunities.csv
+    output: data/output/opportunities_clean.csv
+    steps:
+      - type: rename_columns
+        mapping: 
+          Amount: amount
+          StageName: stage
+          CloseDate: close_date
+          AccountName: account_name
+          OpportunityName: opp_name
+      - type: filter_rows
+        expr: amount > 20000
+      - type: derive_column
+        name: amount_k
+        expr: amount / 1000
+      - type: derive_column
+        name: is_large_deal
+        expr: amount > 50000
+      - type: sort_rows
+        by: [amount]
+        ascending: false
+
+# Optional: Publish to Tableau (disabled by default)
+publish:
+  enabled: false
+  # Uncomment and fill these if you want to publish to Tableau:
+  # datasource: Sample Opportunities
+  # file: data/output/opportunities_clean.csv
+  # project: Default
+  # workbook: Opportunities Analysis

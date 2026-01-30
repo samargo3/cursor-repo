@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <canEscalate>false</canEscalate>
+    <description>This topic is selected when guests need help arranging airport transfers, private car services, or local transportation.</description>
+    <developerName>p_16jKY000000Cb50_Transportation_Arrangements</developerName>
+    <genAiFunctions>
+        <functionName>runtime_appointmentbooking__CollectAppointmentDetails</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>EmployeeCopilot__AnswerQuestionsWithKnowledge</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>If the guest needs airport transfer, confirm the pickup details.</description>
+        <developerName>instruction_0</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>Use runtime_appointmentbooking__CollectAppointmentDetails to gather necessary information.</description>
+        <developerName>instruction_1</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_1</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>When a guest requests local transportation, provide available options.</description>
+        <developerName>instruction_2</developerName>
+        <language xsi:nil="true"/>
+        <masterLabel>instruction_2</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Transportation Arrangements</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is to only arrange transportation services for guests, including airport transfers and local transport. You aren&apos;t able to book activities or events.</scope>
+</GenAiPlugin>

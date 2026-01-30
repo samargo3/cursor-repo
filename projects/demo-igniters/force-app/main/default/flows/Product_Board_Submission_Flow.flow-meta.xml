@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>60.0</apiVersion>
+    <description>Screen flow for Product Board submissions</description>
+    <label>Product Board Submission Flow</label>
+    <processType>Flow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Screen_Product_Board_Form</targetReference>
+        </connector>
+    </start>
+    <status>Draft</status>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>selectedCategories</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>quickSummary</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>productBoardSubmission</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <screens>
+        <name>Screen_Product_Board_Form</name>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>selectedCategories</name>
+            <fieldText>Categories</fieldText>
+            <fieldType>MultiSelectPicklist</fieldType>
+            <choiceReferences>
+                <name>Sales_Training</name>
+            </choiceReferences>
+            <choiceReferences>
+                <name>Sales_Technology</name>
+            </choiceReferences>
+            <choiceReferences>
+                <name>Sales_Analytics</name>
+            </choiceReferences>
+            <isRequired>true</isRequired>
+            <scale>0</scale>
+        </fields>
+        <fields>
+            <name>quickSummary</name>
+            <fieldText>Quick Summary</fieldText>
+            <fieldType>TextArea</fieldType>
+            <isRequired>false</isRequired>
+            <scale>0</scale>
+        </fields>
+        <label>Send to Product Board</label>
+        <locationX>50</locationX>
+        <locationY>200</locationY>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <choices>
+        <name>Sales_Training</name>
+        <choiceText>Sales Training</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Sales Training</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Sales_Technology</name>
+        <choiceText>Sales Technology</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Sales Technology</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Sales_Analytics</name>
+        <choiceText>Sales Analytics</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Sales Analytics</stringValue>
+        </value>
+    </choices>
+    <recordCreates>
+        <name>Create_Product_Board_Submission</name>
+        <label>Create Product Board Submission</label>
+        <locationX>50</locationX>
+        <locationY>400</locationY>
+        <inputReference>productBoardSubmission</inputReference>
+    </recordCreates>
+    <assignments>
+        <name>Assignment_1</name>
+        <assignmentItems>
+            <name>productBoardSubmission.Case__c</name>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <name>productBoardSubmission.Categories__c</name>
+            <value>
+                <elementReference>selectedCategories</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <name>productBoardSubmission.Quick_Summary__c</name>
+            <value>
+                <elementReference>quickSummary</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <name>productBoardSubmission.Name</name>
+            <value>
+                <stringValue>PBS-{!$Flow.CurrentDateTime}</stringValue>
+            </value>
+        </assignmentItems>
+        <locationX>50</locationX>
+        <locationY>300</locationY>
+    </assignments>
+    <connectors>
+        <name>Screen_Product_Board_Form_to_Assignment_1</name>
+        <targetReference>Assignment_1</targetReference>
+    </connectors>
+    <connectors>
+        <name>Assignment_1_to_Create_Product_Board_Submission</name>
+        <targetReference>Create_Product_Board_Submission</targetReference>
+    </connectors>
+</Flow>

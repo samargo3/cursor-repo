@@ -1,0 +1,117 @@
+<template>
+    <lightning-card title="Enhanced Product Recommendations" icon-name="standard:product">
+        <template if:true={loading}>
+            <div class="slds-p-around_medium slds-text-body_regular">
+                <lightning-spinner alternative-text="Loading recommendations..." size="small"></lightning-spinner>
+                Loading product recommendations...
+            </div>
+        </template>
+        
+        <template if:true={error}>
+            <div class="slds-p-around_medium slds-text-color_error">
+                <lightning-icon icon-name="utility:error" size="small" class="slds-m-right_x-small"></lightning-icon>
+                {error}
+            </div>
+        </template>
+        
+        <template if:true={hasProducts}>
+            <div class="slds-p-around_medium">
+                <!-- Product Selection Controls -->
+                <div class="slds-m-bottom_medium">
+                    <lightning-button 
+                        variant="brand" 
+                        label="Compare Selected Products" 
+                        onclick={handleCompareProducts}
+                        disabled={canCompare}>
+                    </lightning-button>
+                    <template if:true={selectedProducts.length}>
+                        <span class="slds-m-left_small slds-text-body_small">
+                            {selectedProducts.length} product(s) selected
+                        </span>
+                    </template>
+                </div>
+
+                <!-- Product Grid -->
+                <div class="product-grid">
+                    <template for:each={formattedProducts} for:item="product">
+                        <div key={product.id} class="product-card">
+                            <div class="product-header">
+                                <div class="product-checkbox">
+                                    <lightning-input 
+                                        type="checkbox" 
+                                        data-product-id={product.id}
+                                        checked={product.isSelected}
+                                        onchange={handleProductSelect}>
+                                    </lightning-input>
+                                </div>
+                                <div class="product-title">{product.name}</div>
+                            </div>
+                            
+                            <div class="product-details">
+                                <div class="product-family">Family: {product.family}</div>
+                                <template if:true={product.unitPrice}>
+                                    <div class="product-price">Price: {product.formattedPrice}</div>
+                                </template>
+                                <template if:true={product.description}>
+                                    <div class="product-description">{product.description}</div>
+                                </template>
+                            </div>
+                            
+                            <div class="product-actions">
+                                <lightning-button 
+                                    variant="neutral" 
+                                    label="View Details" 
+                                    data-product-id={product.id}
+                                    onclick={handleViewProduct}>
+                                </lightning-button>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </template>
+        
+        <template if:false={hasProducts}>
+            <div class="slds-p-around_medium slds-text-body_regular">
+                <lightning-icon icon-name="utility:info" size="small" class="slds-m-right_x-small"></lightning-icon>
+                No product recommendations available.
+            </div>
+        </template>
+    </lightning-card>
+
+    <!-- Product Comparison Modal -->
+    <template if:true={showComparison}>
+        <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container">
+                <header class="slds-modal__header">
+                    <h2 class="slds-text-heading_medium">Product Comparison</h2>
+                    <button class="slds-button slds-button_icon slds-modal__close" onclick={handleCloseComparison}>
+                        <lightning-icon icon-name="utility:close" size="small"></lightning-icon>
+                    </button>
+                </header>
+                
+                <div class="slds-modal__content slds-p-around_medium">
+                    <div class="comparison-grid">
+                        <template for:each={comparisonProducts} for:item="product">
+                            <div key={product.id} class="comparison-product">
+                                <h3 class="slds-text-heading_small">{product.name}</h3>
+                                <div class="comparison-details">
+                                    <div><strong>Family:</strong> {product.family}</div>
+                                    <div><strong>Price:</strong> {product.formattedPrice}</div>
+                                    <template if:true={product.description}>
+                                        <div><strong>Description:</strong> {product.description}</div>
+                                    </template>
+                                </div>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+                
+                <footer class="slds-modal__footer">
+                    <lightning-button variant="brand" label="Close" onclick={handleCloseComparison}></lightning-button>
+                </footer>
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>
+</template>

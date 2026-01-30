@@ -1,0 +1,20 @@
+<apex:page controller="BuildingServicesController">
+    <apex:form>
+        <apex:pageBlock title="Building Services">
+            <apex:pageBlockSection>
+                <apex:outputField value="{!buildingservice.Controls__c}"/>
+                <apex:outputField value="{!buildingservice.Energy_Management__c}"/>
+                <apex:outputField value="{!buildingservice.Engineering_Phasing_Out__c}"/>
+                <apex:outputField value="{!buildingservice.Engineering_Analysis__c}"/>
+                <apex:outputField value="{!buildingservice.Engineering_Projects__c}"/>
+                <apex:outputField value="{!buildingservice.Lighting__c}"/>
+                <apex:outputField value="{!buildingservice.LL84_Current_Year__c}"/>
+                <apex:outputField value="{!buildingservice.LL87__c}"/>
+                <apex:outputField value="{!buildingservice.LL97_Filing__c}"/>
+                <apex:outputField value="{!buildingservice.MPP__c}"/>
+                <apex:outputField value="{!buildingservice.RCM_Repairs__c}"/>
+                <apex:outputField value="{!buildingservice.Rebate_Facilitation__c}"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page> 

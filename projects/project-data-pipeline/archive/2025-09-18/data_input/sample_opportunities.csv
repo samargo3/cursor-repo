@@ -1,0 +1,6 @@
+AccountName,Amount,StageName,CloseDate,OpportunityName
+Acme Corp,50000,Prospecting,2024-12-31,Acme Q4 Deal
+Beta Inc,75000,Qualification,2024-11-15,Beta Enterprise
+Gamma LLC,25000,Proposal,2024-10-30,Gamma SMB
+Delta Corp,100000,Negotiation,2024-12-15,Delta Large Deal
+Epsilon Inc,15000,Closed Won,2024-09-30,Epsilon Small Win

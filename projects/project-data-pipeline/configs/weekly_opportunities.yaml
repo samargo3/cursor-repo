@@ -1,0 +1,193 @@
+# Weekly export with snapshot + append to master for Tableau refresh
+reports:
+  - name: Opportunities Weekly Export
+    report_id: 00Oed000005ZUErEAO
+    output: data/output/history/opportunities_{date}.csv
+
+transforms:
+  - input: data/output/history/opportunities_{date}.csv
+    output: data/output/history/opportunities_{date}.csv
+    steps:
+      - type: add_constant_column
+        name: snapshot_date
+        value: {date}
+
+      # Clean HTML content from text fields
+      - type: clean_html_content
+        columns:
+          - Opportunity.Next_Steps__c
+          - Opportunity.SE_Comments__c
+          - Opportunity.Solutions_Judgement__c
+          - Opportunity.Manager_Forecast_Judgement__c
+      
+      # Extract currency values from Salesforce OrderedDict format (before renaming)
+      - type: extract_currency
+        column: Opportunity.Amount
+        output_column: amount_numeric
+      - type: extract_currency
+        column: Opportunity.sfbase__ACV__c
+        output_column: acv_numeric
+      - type: extract_currency_code
+        column: Opportunity.Amount
+        output_column: "Amount Currency"
+      - type: extract_currency_code
+        column: Opportunity.sfbase__ACV__c
+        output_column: "ACV Currency"
+      
+      # Resolve IDs to actual names (before renaming columns)
+      - type: resolve_ids_to_names
+        mappings:
+          - column: "Opportunity.Name"
+            object_type: "Opportunity"
+            name_field: "Name"
+          - column: "Opportunity.Account.Name"
+            object_type: "Account"
+            name_field: "Name"
+          - column: "Opportunity.Owner.Name"
+            object_type: "User"
+            name_field: "Name"
+          - column: "Opportunity.Account.Owner.Name__lookup"
+            object_type: "User"
+            name_field: "Name"
+      
+      # Column renames for cleaner names
+      - type: rename_columns
+        mapping:
+          Opportunity.Id: "Opportunity ID"
+          Opportunity.Name: "Opportunity Name"
+          Opportunity.CloseDate: "Close Date"
+          Opportunity.CreatedDate: "Created Date"
+          Opportunity.Account.Name: "Account Name: Account Name"
+          Opportunity.Account.Owner.Name__lookup: "Account Name: Account Owner: Full Name"
+          Opportunity.StageName: "Stage"
+          Opportunity.Owner.Name: "Opportunity Owner: Full Name"
+          Opportunity.Amount.CONVERT: "Amount (converted)"
+          Opportunity.Next_Steps__c: "Next Steps"
+          Opportunity.SE_Comments__c: "SE Comments"
+          Opportunity.Solutions_Judgement__c: "Solutions Judgement"
+          Opportunity.Manager_Forecast_Judgement__c: "Manager Forecast Judgement"
+          Opportunity.SE_Attached__c: "SE Attached"
+          Opportunity.SE_Comment_Update_Date__c: "SE Comment Update Date"
+          Scorecard__c.Indicator__c: "Indicator"
+          Scorecard__c.Name: "Scorecard Number"
+          Scorecard__c.As_Of_Date__c: "As of Date"
+          Scorecard__c.Owner.Name: "Owner: Full Name"
+          Opportunity.Total_Deal_Contribution__c: "Total Deal Contribution"
+          BucketField_61748239: "Inspection Report ACV Band"
+          acv_numeric: "ACV"
+          amount_numeric: "Amount"
+      
+      # Create derived columns
+      - type: derive_column
+        name: is_large_deal
+        expr: "Amount > 50000"
+      - type: derive_column
+        name: "Amount (converted) Currency"
+        expr: "`Amount Currency`"
+      
+      # Cast dtypes to mirror manual export
+      - type: cast_dtypes
+        dtypes:
+          "Opportunity ID": string
+          "Opportunity Name": string
+          "Close Date": datetime64[ns]
+          "Created Date": datetime64[ns]
+          "Account Name: Account Name": string
+          "Account Name: Account Owner: Full Name": string
+          "Stage": string
+          "Opportunity Owner: Full Name": string
+          "Amount (converted) Currency": string
+          "Amount (converted)": float64
+          "Next Steps": string
+          "SE Comments": string
+          "Solutions Judgement": string
+          "Manager Forecast Judgement": string
+          "SE Attached": int64
+          "SE Comment Update Date": datetime64[ns]
+          "Indicator": float64
+          "Scorecard Number": float64
+          "As of Date": float64
+          "Owner: Full Name": float64
+          "Total Deal Contribution": float64
+          "Inspection Report ACV Band": string
+          "ACV Currency": string
+          "ACV": float64
+          "Amount Currency": string
+          "Amount": float64
+
+      # Backfill Amount (converted) from Amount if missing
+      - type: coalesce_columns
+        target: "Amount (converted)"
+        sources:
+          - "Amount (converted)"
+          - "Amount"
+      
+      # Select and order columns to match manual export
+      - type: select_columns
+        columns:
+          - "Opportunity ID"
+          - "Opportunity Name"
+          - "Close Date"
+          - "Created Date"
+          - "Account Name: Account Name"
+          - "Account Name: Account Owner: Full Name"
+          - "Stage"
+          - "Opportunity Owner: Full Name"
+          - "Amount (converted) Currency"
+          - "Amount (converted)"
+          - "Next Steps"
+          - "SE Comments"
+          - "Solutions Judgement"
+          - "Manager Forecast Judgement"
+          - "SE Attached"
+          - "SE Comment Update Date"
+          - "Indicator"
+          - "Scorecard Number"
+          - "As of Date"
+          - "Owner: Full Name"
+          - "Total Deal Contribution"
+          - "Inspection Report ACV Band"
+          - "ACV Currency"
+          - "ACV"
+          - "Amount Currency"
+          - "Amount"
+      
+      # Data quality checks
+      - type: data_quality_check
+        checks:
+          - name: "Row Count Check"
+            type: row_count_check
+            min_rows: 100
+            max_rows: 1000
+          - name: "Required Fields Null Check"
+            type: null_check
+            columns: [opportunity_id, opportunity_name, account_name, stage_name]
+          - name: "Amount Range Check"
+            type: range_check
+            column: amount_numeric
+            min: 0
+            max: 10000000
+          - name: "ACV Range Check"
+            type: range_check
+            column: acv_numeric
+            min: 0
+            max: 10000000
+          - name: "Stage Name Validation"
+            type: value_check
+            column: stage_name
+            allowed_values: ["Prospecting", "Qualification", "Proposal", "Negotiation", "Closed Won", "Closed Lost"]
+
+postprocess:
+  append:
+    - source: data/output/history/opportunities_{date}.csv
+      master: data/output/opportunities_weekly_master.csv
+      dedupe:
+        key: "Opportunity ID"
+        keep: latest
+
+publish:
+  enabled: false
+  # When ready, enable and set these to publish to Tableau Server/Cloud
+  # datasource: Opportunities Weekly Master
+  # file: data/output/opportunities_weekly_master.csv
+  # project: Sales Analytics

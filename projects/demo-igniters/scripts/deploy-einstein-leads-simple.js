@@ -1,0 +1,170 @@
+#!/usr/bin/env node
+
+const fs = require('fs');
+const path = require('path');
+const { execSync } = require('child_process');
+
+console.log('🚀 Starting Einstein-optimized lead import using simplified Apex method...\n');
+
+// Read the Einstein-optimized CSV file
+const csvPath = path.join(__dirname, '..', 'data', 'einstein-leads.csv');
+if (!fs.existsSync(csvPath)) {
+  console.error('❌ einstein-leads.csv not found. Please run generate-einstein-leads.js first.');
+  process.exit(1);
+}
+
+const csvContent = fs.readFileSync(csvPath, 'utf8');
+const lines = csvContent.split('\n');
+const header = lines[0];
+const dataLines = lines.slice(1).filter(line => line.trim() !== '');
+
+console.log(`📊 Found ${dataLines.length} Einstein-optimized leads to import`);
+
+// Split into smaller batches of 25 (to avoid Apex script size limits)
+const BATCH_SIZE = 25;
+const batches = [];
+
+for (let i = 0; i < dataLines.length; i += BATCH_SIZE) {
+  batches.push(dataLines.slice(i, i + BATCH_SIZE));
+}
+
+console.log(`📦 Creating ${batches.length} batches of ${BATCH_SIZE} leads each\n`);
+
+// Process each batch
+let totalImported = 0;
+
+for (let batchIndex = 0; batchIndex < batches.length; batchIndex++) {
+  const batch = batches[batchIndex];
+  const batchNumber = batchIndex + 1;
+  
+  console.log(`🔄 Processing Batch ${batchNumber}/${batches.length} (${batch.length} leads)...`);
+  
+  // Create simplified Apex script for this batch (only essential fields)
+  const apexScript = createSimplifiedApexScript(batch, header, batchNumber);
+  const apexPath = path.join(__dirname, `batch-${batchNumber}.apex`);
+  fs.writeFileSync(apexPath, apexScript);
+  
+  // Execute the Apex script
+  try {
+    console.log(`📤 Executing Batch ${batchNumber}...`);
+    const result = execSync(`sfdx force:apex:execute -f ${apexPath} --target-org agentforce-for-sales-demo-org`, { 
+      stdio: 'pipe',
+      encoding: 'utf8'
+    });
+    
+    // Check if leads were inserted successfully
+    if (result.includes('Successfully inserted')) {
+      const match = result.match(/Successfully inserted (\d+) leads/);
+      if (match) {
+        const imported = parseInt(match[1]);
+        totalImported += imported;
+        console.log(`✅ Batch ${batchNumber} completed: ${imported} leads imported`);
+      } else {
+        console.log(`✅ Batch ${batchNumber} completed`);
+        totalImported += batch.length;
+      }
+    } else {
+      console.log(`⚠️  Batch ${batchNumber} may have had issues. Check the output above.`);
+    }
+    
+  } catch (error) {
+    console.error(`❌ Error executing Batch ${batchNumber}:`, error.message);
+  }
+  
+  // Clean up the temporary Apex file
+  try {
+    fs.unlinkSync(apexPath);
+  } catch (error) {
+    // Ignore cleanup errors
+  }
+  
+  console.log(''); // Empty line for readability
+}
+
+console.log(`🎉 Einstein-optimized lead import completed!`);
+console.log(`📊 Total leads processed: ${dataLines.length}`);
+console.log(`✅ Total leads imported: ${totalImported}`);
+
+// Verify the final count
+try {
+  const countResult = execSync('sfdx force:data:soql:query --query "SELECT COUNT() FROM Lead" --target-org agentforce-for-sales-demo-org', { 
+    stdio: 'pipe',
+    encoding: 'utf8'
+  });
+  
+  const match = countResult.match(/Total number of records retrieved: (\d+)/);
+  if (match) {
+    const finalCount = parseInt(match[1]);
+    console.log(`📈 Final lead count in org: ${finalCount}`);
+  }
+} catch (error) {
+  console.log('⚠️  Could not verify final lead count');
+}
+
+console.log('\n📋 Next steps:');
+console.log('1. Check your Salesforce org to verify the leads were imported');
+console.log('2. Enable Einstein Lead Scoring if not already enabled');
+console.log('3. Wait for Einstein to process the leads (24-48 hours)');
+console.log('4. Monitor lead scores in the Lead object');
+console.log('5. Set up Einstein Lead Scoring models and rules');
+
+function createSimplifiedApexScript(batch, header, batchNumber) {
+  const csvData = header + '\n' + batch.join('\n');
+  
+  return `// Batch ${batchNumber} - Import ${batch.length} Einstein-optimized leads
+String csvData = '${csvData.replace(/'/g, "\\'").replace(/\n/g, "\\n")}';
+
+String[] lines = csvData.split('\\n');
+List<Lead> leadsToInsert = new List<Lead>();
+
+// Skip header
+for(Integer i = 1; i < lines.size(); i++) {
+    String line = lines[i];
+    if(String.isNotBlank(line)) {
+        String[] fields = line.split(',');
+        if(fields.size() >= 15) {
+            Lead l = new Lead();
+            
+            // Standard fields (essential for Einstein)
+            l.FirstName = fields[0].removeStart('"').removeEnd('"');
+            l.LastName = fields[1].removeStart('"').removeEnd('"');
+            l.Company = fields[2].removeStart('"').removeEnd('"');
+            l.Email = fields[3].removeStart('"').removeEnd('"');
+            l.Phone = fields[4].removeStart('"').removeEnd('"');
+            l.Industry = fields[5].removeStart('"').removeEnd('"');
+            l.LeadSource = fields[6].removeStart('"').removeEnd('"');
+            l.Status = fields[7].removeStart('"').removeEnd('"');
+            l.Title = fields[8].removeStart('"').removeEnd('"');
+            l.State = fields[9].removeStart('"').removeEnd('"');
+            l.City = fields[10].removeStart('"').removeEnd('"');
+            l.Country = fields[11].removeStart('"').removeEnd('"');
+            l.Website = fields[12].removeStart('"').removeEnd('"');
+            l.Description = fields[13].removeStart('"').removeEnd('"');
+            l.AnnualRevenue = Decimal.valueOf(fields[14]);
+            l.NumberOfEmployees = Integer.valueOf(fields[15]);
+            
+            // Key Einstein fields (if available)
+            if(fields.size() > 16) {
+                l.Lead_Score__c = Decimal.valueOf(fields[16]);
+            }
+            if(fields.size() > 17) {
+                l.Company_Size__c = fields[17].removeStart('"').removeEnd('"');
+            }
+            if(fields.size() > 20) {
+                l.Decision_Maker__c = Boolean.valueOf(fields[20]);
+            }
+            
+            leadsToInsert.add(l);
+        }
+    }
+}
+
+if(!leadsToInsert.isEmpty()) {
+    try {
+        insert leadsToInsert;
+        System.debug('Successfully inserted ' + leadsToInsert.size() + ' Einstein-optimized leads (Batch ${batchNumber})');
+    } catch(Exception e) {
+        System.debug('Error inserting leads: ' + e.getMessage());
+    }
+}`;
+}

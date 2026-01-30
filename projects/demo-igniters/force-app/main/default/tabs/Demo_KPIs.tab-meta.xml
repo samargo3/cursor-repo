@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Sales Demo Hub KPI Dashboard</description>
+    <label>Demo KPIs</label>
+    <motif>Custom85:Goal</motif>
+    <page>Demo_Home</page>
+</CustomTab>

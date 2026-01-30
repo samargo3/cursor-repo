@@ -1,0 +1,116 @@
+{
+  "flow": {
+    "apiVersion": "64.0",
+    "description": "Demo flow for automatic lead assignment based on industry",
+    "environments": "Default",
+    "interviewLabel": "Demo Lead Assignment Flow {!$Flow.CurrentDateTime}",
+    "label": "Demo Lead Assignment Flow",
+    "processMetadataValues": [
+      {
+        "name": "BuilderType",
+        "value": {
+          "stringValue": "LightningFlowBuilder"
+        }
+      }
+    ],
+    "processType": "AutoLaunchedFlow",
+    "start": {
+      "locationX": 50,
+      "locationY": 0,
+      "connector": {
+        "targetReference": "Lead_Assignment_Decision"
+      }
+    },
+    "variables": [
+      {
+        "name": "LeadOwner",
+        "dataType": "String",
+        "isCollection": false,
+        "isInput": false,
+        "isOutput": false
+      }
+    ],
+    "decisions": [
+      {
+        "name": "Lead_Assignment_Decision",
+        "label": "Lead Assignment Decision",
+        "locationX": 176,
+        "locationY": 0,
+        "defaultConnector": {
+          "targetReference": "Assign_To_Sales_Team"
+        },
+        "defaultConnectorLabel": "Default",
+        "rules": [
+          {
+            "name": "Technology_Leads",
+            "conditionLogic": "and",
+            "conditions": [
+              {
+                "leftValueReference": "{!$Record.Industry}",
+                "operator": "EqualTo",
+                "rightValue": {
+                  "stringValue": "Technology"
+                }
+              }
+            ],
+            "connector": {
+              "targetReference": "Assign_To_Tech_Team"
+            },
+            "label": "Technology Leads"
+          }
+        ]
+      }
+    ],
+    "assignments": [
+      {
+        "name": "Assign_To_Tech_Team",
+        "label": "Assign to Tech Team",
+        "locationX": 302,
+        "locationY": -50,
+        "assignmentItems": [
+          {
+            "assignToReference": "{!$Record.Id}",
+            "field": "OwnerId",
+            "operator": "Assign"
+          }
+        ],
+        "connector": {
+          "targetReference": "Success_Message"
+        }
+      },
+      {
+        "name": "Assign_To_Sales_Team",
+        "label": "Assign to Sales Team",
+        "locationX": 302,
+        "locationY": 50,
+        "assignmentItems": [
+          {
+            "assignToReference": "{!$Record.Id}",
+            "field": "OwnerId",
+            "operator": "Assign"
+          }
+        ],
+        "connector": {
+          "targetReference": "Success_Message"
+        }
+      }
+    ],
+    "actionCalls": [
+      {
+        "name": "Success_Message",
+        "label": "Success Message",
+        "locationX": 428,
+        "locationY": 0,
+        "inputParameters": [
+          {
+            "name": "message",
+            "value": {
+              "stringValue": "Lead assigned successfully!"
+            }
+          }
+        ],
+        "storeOutputAutomatically": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+pandas
+pyyaml
+simple-salesforce
+python-dotenv
+tableauserverclient==0.30.0
+tabulate

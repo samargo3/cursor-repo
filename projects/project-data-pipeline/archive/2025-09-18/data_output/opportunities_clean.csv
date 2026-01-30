@@ -1,0 +1,5 @@
+account_name,amount,stage,close_date,opp_name,amount_k,is_large_deal
+Delta Corp,100000,Negotiation,2024-12-15,Delta Large Deal,100.0,True
+Beta Inc,75000,Qualification,2024-11-15,Beta Enterprise,75.0,True
+Acme Corp,50000,Prospecting,2024-12-31,Acme Q4 Deal,50.0,False
+Gamma LLC,25000,Proposal,2024-10-30,Gamma SMB,25.0,False

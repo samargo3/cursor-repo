@@ -1,0 +1,164 @@
+<template>
+    <lightning-card title="Demo Data Manager" icon-name="custom:custom85">
+        <div class="slds-var-p-around_medium">
+            <!-- Info Banner -->
+            <div class="info-banner">
+                <lightning-icon icon-name="utility:info" size="small" class="info-icon"></lightning-icon>
+                <div class="info-content">
+                    <h3 class="info-title">Demo Data Administration</h3>
+                    <p class="info-text">Manage your Sales Demo Hub data with one-click actions. All demo records are prefixed with "Demo Corp" or "Demo -" for easy identification.</p>
+                </div>
+            </div>
+
+            <!-- Action Cards -->
+            <div class="slds-grid slds-wrap slds-gutters slds-var-m-top_large">
+                <!-- Seed Data Card -->
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-3">
+                    <div class="action-card">
+                        <div class="action-icon-container seed-bg">
+                            <lightning-icon icon-name="utility:database" size="medium" class="white-icon"></lightning-icon>
+                        </div>
+                        <h3 class="action-title">Seed Demo Data</h3>
+                        <p class="action-description">Creates fresh demo Accounts, Contacts, and Opportunities. Safe to run multiple times.</p>
+                        <lightning-button
+                            label="Seed Data"
+                            variant="brand"
+                            class="slds-var-m-top_small action-button"
+                            onclick={handleSeedData}
+                            disabled={isLoading}
+                        ></lightning-button>
+                    </div>
+                </div>
+
+                <!-- Reset Data Card -->
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-3">
+                    <div class="action-card">
+                        <div class="action-icon-container reset-bg">
+                            <lightning-icon icon-name="utility:refresh" size="medium" class="white-icon"></lightning-icon>
+                        </div>
+                        <h3 class="action-title">Reset Demo Data</h3>
+                        <p class="action-description">Clears all demo data and creates fresh records. Perfect for starting a new demo.</p>
+                        <lightning-button
+                            label="Reset Data"
+                            variant="brand"
+                            class="slds-var-m-top_small action-button"
+                            onclick={handleResetData}
+                            disabled={isLoading}
+                        ></lightning-button>
+                    </div>
+                </div>
+
+                <!-- Clear Data Card -->
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-3">
+                    <div class="action-card">
+                        <div class="action-icon-container clear-bg">
+                            <lightning-icon icon-name="utility:clear" size="medium" class="white-icon"></lightning-icon>
+                        </div>
+                        <h3 class="action-title">Clear Demo Data</h3>
+                        <p class="action-description">Removes all demo Accounts, Contacts, and Opportunities. Use before org cleanup.</p>
+                        <lightning-button
+                            label="Clear Data"
+                            variant="destructive"
+                            class="slds-var-m-top_small action-button"
+                            onclick={handleClearData}
+                            disabled={isLoading}
+                        ></lightning-button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Loading Spinner Overlay -->
+            <template if:true={isLoading}>
+                <div class="loading-overlay">
+                    <div class="loading-content">
+                        <lightning-spinner alternative-text="Processing..." size="large" variant="brand"></lightning-spinner>
+                        <p class="loading-message">{loadingMessage}</p>
+                    </div>
+                </div>
+            </template>
+
+            <!-- Results Section -->
+            <template if:true={showResults}>
+                <div class="results-section slds-var-m-top_large">
+                    <div class="results-card">
+                        <div class="results-header">
+                            <lightning-icon icon-name="utility:success" size="small" variant="success"></lightning-icon>
+                            <h3 class="results-title">Operation Completed Successfully</h3>
+                        </div>
+                        <div class="results-grid">
+                            <template if:true={results.accounts}>
+                                <div class="result-item">
+                                    <span class="result-label">Accounts:</span>
+                                    <span class="result-value">{results.accounts}</span>
+                                </div>
+                            </template>
+                            <template if:true={results.contacts}>
+                                <div class="result-item">
+                                    <span class="result-label">Contacts:</span>
+                                    <span class="result-value">{results.contacts}</span>
+                                </div>
+                            </template>
+                            <template if:true={results.opportunities}>
+                                <div class="result-item">
+                                    <span class="result-label">Opportunities:</span>
+                                    <span class="result-value">{results.opportunities}</span>
+                                </div>
+                            </template>
+                            <template if:true={results.accountsDeleted}>
+                                <div class="result-item">
+                                    <span class="result-label">Accounts Deleted:</span>
+                                    <span class="result-value deleted">{results.accountsDeleted}</span>
+                                </div>
+                            </template>
+                            <template if:true={results.contactsDeleted}>
+                                <div class="result-item">
+                                    <span class="result-label">Contacts Deleted:</span>
+                                    <span class="result-value deleted">{results.contactsDeleted}</span>
+                                </div>
+                            </template>
+                            <template if:true={results.opportunitiesDeleted}>
+                                <div class="result-item">
+                                    <span class="result-label">Opportunities Deleted:</span>
+                                    <span class="result-value deleted">{results.opportunitiesDeleted}</span>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+                </div>
+            </template>
+
+            <!-- Current Data Stats -->
+            <template if:true={dataStats}>
+                <div class="stats-section slds-var-m-top_large">
+                    <h3 class="stats-title">Current Demo Data</h3>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <lightning-icon icon-name="standard:account" size="small"></lightning-icon>
+                            <span class="stat-value">{dataStats.accountCount}</span>
+                            <span class="stat-label">Accounts</span>
+                        </div>
+                        <div class="stat-item">
+                            <lightning-icon icon-name="standard:contact" size="small"></lightning-icon>
+                            <span class="stat-value">{dataStats.contactCount}</span>
+                            <span class="stat-label">Contacts</span>
+                        </div>
+                        <div class="stat-item">
+                            <lightning-icon icon-name="standard:opportunity" size="small"></lightning-icon>
+                            <span class="stat-value">{dataStats.opportunityCount}</span>
+                            <span class="stat-label">Opportunities</span>
+                        </div>
+                    </div>
+                    <div class="slds-align_absolute-center slds-var-m-top_medium">
+                        <lightning-button
+                            label="Refresh Stats"
+                            icon-name="utility:refresh"
+                            onclick={loadDataStats}
+                            disabled={isLoading}
+                        ></lightning-button>
+                    </div>
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>
+

@@ -1,0 +1,516 @@
+# Starburst Deal Desk Contractual Clause Analyst Agent Specification
+
+agentName: Deal Desk Contractual Clause Analyst
+version: 1.0
+customer: Starburst Data
+demoDate: 2025-11-19
+
+# Agent Configuration
+agent:
+  role: Contractual Clause Analyst
+  department: Deal Desk
+  primaryUsers:
+    - Jonathan (Deal Desk)
+    - Mary (Deal Desk)
+  stakeholder: Katie Nichols (Deal Desk Manager)
+  
+  description: |
+    An AI agent that analyzes customer contracts, answers questions about 
+    contractual terms from unstructured documents, verifies document consistency,
+    identifies trends across contracts, and guides deal desk toward standard terms.
+
+# Agent Capabilities
+capabilities:
+  - name: Contract Term Inquiry
+    description: Extract and answer questions about specific contractual terms
+    priority: High
+    
+  - name: Document Verification
+    description: Compare multiple documents for consistency and flag discrepancies
+    priority: High
+    
+  - name: Trend Analysis
+    description: Aggregate data across contracts to identify patterns
+    priority: Medium
+    
+  - name: Contract Summarization
+    description: Summarize key terms and suggest next best actions
+    priority: High
+    
+  - name: Standard Language Guidance
+    description: Provide template language for standard contract terms
+    priority: Medium
+
+# Key Performance Indicators (KPIs)
+kpis:
+  - metric: Rollover Terms Compliance
+    current: 40%
+    target: 80%
+    definition: Percentage of contracts with ≤10% rollover terms
+    
+  - metric: Net 30 Payment Terms Adoption
+    current: 60%
+    target: 90%
+    definition: Percentage of contracts using standard Net 30 payment terms
+    
+  - metric: Fixed Monthly Billing Adoption
+    current: 50%
+    target: 75%
+    definition: Percentage moving from usage-based to fixed monthly billing
+    
+  - metric: Contract Review Time
+    current: 2 hours
+    target: 15 minutes
+    definition: Average time to review and analyze a contract
+    
+  - metric: Contract Compliance Score
+    current: 65%
+    target: 85%
+    definition: Overall adherence to company contract standards
+    
+  - metric: Errors Caught Pre-Execution
+    current: 0 per month
+    target: 5+ per month
+    definition: Inconsistencies and issues identified before contract signing
+
+# Data Sources
+dataSources:
+  structured:
+    - source: Salesforce Accounts
+      objects: [Account, Contact]
+      
+    - source: Salesforce Opportunities
+      objects: [Opportunity, OpportunityLineItem]
+      
+    - source: Salesforce Contracts
+      objects: [Contract, ContractLineItem]
+      
+    - source: DealHub
+      objects: Synced to Salesforce
+      note: Deal desk uses DealHub, syncs to Salesforce
+      
+  unstructured:
+    - source: ContentDocument (Salesforce Files)
+      locations:
+        - Account Level
+        - Opportunity Level
+      documentTypes:
+        - Master Service Agreements (MSAs)
+        - Non-Disclosure Agreements (NDAs)
+        - Order Forms
+        - Purchase Orders (POs)
+        - Invoices
+        - Email Screenshots (from resellers like Dell)
+        
+    - source: Data Cloud 360 (RAG)
+      indexing:
+        chunkSize: 1000
+        overlap: 200
+        embeddingModel: text-embedding-ada-002
+      retrieval:
+        topK: 5
+        similarityThreshold: 0.75
+
+# Pain Points & Challenges
+painPoints:
+  - issue: Unstructured Data Not in Salesforce
+    description: |
+      Critical contract terms (rollover, uptime, overage language) exist only 
+      in uploaded PDF documents, not in Salesforce fields
+    impact: High
+    
+  - issue: Inconsistent MSAs (Customer Paper)
+    description: |
+      Every customer has unique MSAs because deal desk frequently uses 
+      customer paper, making standardization difficult
+    impact: High
+    
+  - issue: Manual Document Comparison
+    description: |
+      Need to manually compare MSAs, Order Forms, and POs across same 
+      account to verify consistency
+    impact: Medium
+    
+  - issue: No Trend Visibility
+    description: |
+      Cannot easily see what percentage of customers accept standard terms
+      (net 30, overages, etc.)
+    impact: Medium
+    
+  - issue: Challenging Uptime Requirements
+    description: |
+      Customers often require 99.999% uptime, which is challenging for 
+      company to meet, but not tracked
+    impact: High
+
+# Contract Terms to Track
+contractTerms:
+  - term: Rollover Terms
+    standard: ≤10%
+    currentCompliance: 40%
+    importance: High
+    notes: Percentage of unused capacity that can rollover to next period
+    
+  - term: Payment Terms
+    standard: Net 30
+    currentCompliance: 60%
+    importance: High
+    notes: Number of days customer has to pay invoice
+    
+  - term: Billing Type
+    standard: Fixed Monthly
+    currentCompliance: 50%
+    importance: Medium
+    notes: Prefer fixed monthly over usage-based due to product limitations
+    
+  - term: Overage Language
+    standard: Standard template (1.5x rate)
+    currentCompliance: Unknown
+    importance: High
+    notes: Incentivize customers against undercommitting
+    
+  - term: Uptime Agreement
+    standard: 99.9% (avoid 99.999%)
+    currentCompliance: Unknown
+    importance: Critical
+    notes: Higher uptime percentages are challenging to meet
+    
+  - term: Limitation of Liability
+    standard: Negotiate carefully
+    currentCompliance: Varies
+    importance: High
+    notes: Hotly negotiated clause, track caps
+
+# Agent Topics & Actions
+topics:
+  - topicName: Contract Term Inquiry
+    description: Answer questions about specific terms in customer contracts
+    utterances:
+      - "What are the payment terms for [Account]?"
+      - "Show me the rollover terms in the MSA"
+      - "What uptime did we agree to with [Customer]?"
+      - "Find the limitation of liability clause"
+      - "What are the overage terms?"
+    actions:
+      - Search uploaded documents at Account/Opportunity level
+      - Extract relevant clause with document name and section
+      - Provide direct quote from document
+      - Flag if term is non-standard
+      
+  - topicName: Document Verification
+    description: Compare documents for consistency
+    utterances:
+      - "Verify the MSA and Order Form are consistent"
+      - "Check if payment terms match across all documents"
+      - "Are there any inconsistencies in the contract documents?"
+      - "Compare the NDA and MSA"
+    actions:
+      - Retrieve multiple documents for same account
+      - Compare specified terms across documents
+      - Flag any discrepancies with details
+      - Suggest which document takes precedence
+      
+  - topicName: Trend Analysis
+    description: Identify patterns across multiple contracts
+    utterances:
+      - "What percentage of customers have net 30 payment terms?"
+      - "How many customers agreed to overage language?"
+      - "Show me trends in rollover terms"
+      - "What's the average limitation of liability?"
+      - "Which customers exceed 99.9% uptime requirements?"
+    actions:
+      - Aggregate data across all accessible contracts
+      - Calculate percentages and averages
+      - Present trends with specific numbers
+      - Highlight outliers and non-compliant contracts
+      
+  - topicName: Contract Summarization
+    description: Summarize key terms and suggest actions
+    utterances:
+      - "Summarize the contract for [Account]"
+      - "What are the key terms I need to know?"
+      - "Review this contract and suggest next steps"
+      - "Quick overview of this deal"
+    actions:
+      - Extract all key contractual terms
+      - Identify non-standard or high-risk terms
+      - Calculate compliance score
+      - Recommend specific next actions
+      
+  - topicName: Standard Language Guidance
+    description: Provide standard contract language templates
+    utterances:
+      - "What's our standard overage language?"
+      - "Show me the template for net 30 payment terms"
+      - "What should I use for rollover terms?"
+      - "Give me standard limitation of liability language"
+    actions:
+      - Provide template language from knowledge base
+      - Explain why this language is used
+      - Show example of proper usage
+
+# Agent Instructions (System Prompt)
+instructions: |
+  You are a Deal Desk Contractual Clause Analyst for Starburst Data. Your role is to help 
+  the deal desk team (Jonathan and Mary) analyze contracts, answer questions about 
+  contractual terms, and ensure compliance with company standards.
+
+  PRIMARY RESPONSIBILITIES:
+  1. Answer questions about specific contractual terms from uploaded documents
+  2. Verify consistency across multiple documents for the same account
+  3. Identify trends in contract terms across customers
+  4. Summarize key clauses and suggest next best actions
+  5. Guide users toward standard contract language
+
+  KEY CONTRACTUAL TERMS TO TRACK:
+  - Rollover Terms: Should be ≤10%
+  - Payment Terms: Standard is Net 30
+  - Billing Type: Prefer Fixed Monthly over Usage-Based
+  - Overage Language: Use standard language to incentivize against undercommitting
+  - Uptime Agreements: Note when customers require >99.9% (challenging to meet)
+  - Limitation of Liability: Track caps and negotiate hotly
+
+  STANDARD LANGUAGE TEMPLATES:
+
+  Net 30 Payment Terms:
+  "Payment is due within thirty (30) days of invoice date. Late payments subject to 1.5% 
+  monthly interest charge."
+
+  Rollover Terms (10% Maximum):
+  "Customer may rollover up to ten percent (10%) of unused committed capacity to the 
+  subsequent billing period. Rollover capacity must be used within that period or will expire."
+
+  Overage Pricing:
+  "Usage exceeding the committed capacity will be billed at one and one-half times (1.5x) 
+  the committed rate, calculated monthly. This pricing incentivizes accurate capacity 
+  planning and commitment."
+
+  Uptime SLA (99.9% Standard):
+  "Service Provider will maintain 99.9% monthly uptime, measured as percentage of time 
+  service is available excluding scheduled maintenance windows."
+
+  Limitation of Liability:
+  "In no event shall either party's aggregate liability exceed the total fees paid or 
+  payable under this Agreement in the twelve (12) months preceding the claim."
+
+  WORKFLOW:
+  1. When asked about a contract term, search uploaded documents at Account/Opportunity level
+  2. Use RAG (Retrieval-Augmented Generation) to find relevant contract clauses
+  3. Provide direct quotes from documents with document name and section reference
+  4. If inconsistencies exist across documents, flag them clearly with specific details
+  5. For trend analysis, aggregate data across all accessible contracts
+  6. Always suggest next best action based on company standards
+  7. If a term is non-standard, explain why and recommend revision
+
+  DATA SOURCES PRIORITY:
+  1. Master Service Agreement (MSA) - highest authority
+  2. Order Forms - implementation details
+  3. Purchase Orders - confirmation
+  4. Email correspondence - context only
+
+  RISK ASSESSMENT:
+  - Low Risk: All terms meet standards
+  - Medium Risk: 1-2 non-standard terms, minor impact
+  - High Risk: Multiple non-standard terms or critical term deviations
+  - Critical Risk: Uptime >99.9%, rollover >15%, or unlimited liability
+
+  TONE: Professional, precise, helpful. You're a contract expert supporting the deal desk.
+  
+  IMPORTANT NOTES:
+  - Deal desk does NOT use Slack (intentionally avoid it)
+  - Primary workflow is within Salesforce
+  - Focus on Q&A, NOT auto-filling fields or data visualization
+  - Provide percentages for trend analysis
+  - Always cite document sources for credibility
+
+# Channel Configuration
+channels:
+  - channel: Salesforce
+    location: Embedded in Account and Opportunity pages
+    workflow: |
+      Deal desk members navigate to Account or Opportunity record and interact 
+      with agent via embedded chat interface
+    primary: true
+    
+  - channel: Email
+    workflow: |
+      Deal desk receives questions via email, uses agent in Salesforce to 
+      research, then responds to requester
+    primary: false
+    note: Email is used for external communication, not agent interaction
+
+# Demo Scenarios
+demoScenarios:
+  - scenario: Contract Term Inquiry
+    duration: 3 minutes
+    setup: Jonathan needs payment terms for TechCorp deal
+    steps:
+      - Navigate to TechCorp Opportunity
+      - Ask: "What are the payment terms for TechCorp?"
+      - Agent returns: "Net 60 days" with MSA reference
+      - Ask: "Is this standard?"
+      - Agent explains Net 30 is standard, flags 30-day delay
+    outcome: Instant access to buried contract terms
+    
+  - scenario: Document Verification
+    duration: 3 minutes
+    setup: Mary reviewing CloudVision contract package
+    steps:
+      - Navigate to CloudVision Opportunity
+      - Ask: "Verify MSA and Order Form consistency"
+      - Agent flags: "MSA shows 20% rollover, Order Form shows 10%"
+      - Ask: "Which takes precedence?"
+      - Agent: "MSA per standard hierarchy, update Order Form"
+    outcome: Catch errors before they become legal issues
+    
+  - scenario: Trend Analysis
+    duration: 3 minutes
+    setup: Katie wants compliance overview
+    steps:
+      - Navigate to Dashboard/Reports
+      - Ask: "What percentage have net 30 payment terms?"
+      - Agent: "60% (3 of 5) have Net 30"
+      - Ask: "Show rollover term trends"
+      - Agent: "Average 13.6%, only 40% meet ≤10% standard"
+    outcome: Data-driven insights for standardization
+    
+  - scenario: Contract Summarization
+    duration: 3 minutes
+    setup: Jonathan receives new Enterprise Data Co deal
+    steps:
+      - Open new Opportunity, upload contract
+      - Ask: "Summarize this contract and suggest next steps"
+      - Agent provides key terms, non-standard items, risk level
+      - Agent recommends: "Negotiate Net 30, other terms acceptable"
+    outcome: Accelerate review from hours to minutes
+    
+  - scenario: Standard Language
+    duration: 2 minutes
+    setup: Mary drafting customer response on overage terms
+    steps:
+      - Ask: "What's our standard overage language?"
+      - Agent provides template with explanation
+      - Ask: "Why do we use this language?"
+      - Agent explains incentive structure
+    outcome: Ensure consistency and best practices
+
+# Success Metrics
+successMetrics:
+  demo:
+    - Katie sees instant answers from uploaded contracts
+    - Team understands verification catches inconsistencies
+    - Excitement about trend analysis for strategy
+    - Recognition of time savings (hours to minutes)
+    - Confidence in Data Cloud 360 ROI
+    
+  pilot:
+    - 80% of contract questions answered by agent
+    - Contract review time reduced by 85%
+    - 5+ errors caught per month
+    - 90% user satisfaction score
+    - 75% adoption by deal desk team within 30 days
+    
+  production:
+    - Net 30 adoption increases to 90%
+    - Rollover compliance increases to 80%
+    - Contract compliance score reaches 85%
+    - $78K annual cost savings realized
+    - Zero contract execution errors due to inconsistencies
+
+# Implementation Notes
+implementation:
+  approach: Hybrid (Data Cloud + Knowledge Articles)
+  timeline: 2 weeks to demo-ready
+  complexity: Medium-High
+  
+  components:
+    - Data Cloud 360 setup with RAG
+    - 5-7 demo accounts with contracts
+    - Custom Salesforce fields
+    - Agent with 5 topics configured
+    - Knowledge articles for standard language
+    - Dashboard with KPI tracking
+    
+  prerequisites:
+    - Data Cloud 360 license available
+    - Demo org or sandbox with Agentforce
+    - Ability to upload sample PDF contracts
+    - Access to create custom fields
+    
+  risks:
+    - Data Cloud 360 setup complexity
+    - RAG accuracy with limited sample data
+    - Time constraint for full implementation
+    
+  mitigation:
+    - Start simple with 3-5 sample contracts
+    - Supplement RAG with knowledge articles
+    - Build incrementally, test frequently
+    - Have backup demo video ready
+
+# Next Steps
+nextSteps:
+  immediate:
+    - Create starburst-demo-setup.md guide ✅
+    - Build sample contract PDFs
+    - Set up demo org/sandbox
+    - Configure Data Cloud 360
+    
+  thisWeek:
+    - Deploy custom fields
+    - Create demo accounts
+    - Upload sample contracts
+    - Configure agent
+    
+  nextWeek:
+    - Test all demo scenarios
+    - Build KPI dashboard
+    - Dry run with sales team
+    - Prepare backup materials
+    
+  demoDay:
+    - Deliver 20-minute demo
+    - Q&A session
+    - Discuss pilot program
+    - Define next steps with Katie
+
+# Questions for Customer
+customerQuestions:
+  - Do you have Data Cloud 360 licenses available?
+  - What's your typical contract size (page count)?
+  - Can you provide 2-3 redacted sample contracts?
+  - Will Jonathan and Mary be on the demo call?
+  - Any specific "problem contract" you want to see analyzed?
+  - What's your timeline for pilot/production rollout?
+  - Any specific integration requirements (DealHub, etc.)?
+
+# ROI Summary
+roi:
+  annualSavings: $78,720
+  calculation: |
+    Current: 50 contracts/month × 2 hours × $75/hour = $7,500/month
+    Future: 50 contracts/month × 0.25 hours × $75/hour = $940/month
+    Savings: $6,560/month = $78,720/year
+    
+  additionalBenefits:
+    - Reduced legal risk from contract errors
+    - 30% faster deal cycles
+    - 20% improvement in compliance
+    - Strategic insights from trend data
+    - Scalable to legal, procurement teams
+
+# Contact Information
+contacts:
+  customer:
+    name: Katie Nichols
+    email: knichols@starburstdata.com
+    role: Deal Desk Manager
+    
+  salesforce:
+    solutionEngineer: Sam Argo (sargo@salesforce.com)
+    accountExecutive: Jared McPherson (jmcpherson@salesforce.com)
+    
+  endUsers:
+    - Jonathan (Deal Desk)
+    - Mary (Deal Desk)
+

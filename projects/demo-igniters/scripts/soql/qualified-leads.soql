@@ -1,0 +1,5 @@
+SELECT Id, FirstName, LastName, Company, Email, Status, Industry 
+FROM Lead 
+WHERE Status IN ('Qualified', 'Sales Qualified Lead', 'Marketing Qualified Lead') 
+LIMIT 20
+

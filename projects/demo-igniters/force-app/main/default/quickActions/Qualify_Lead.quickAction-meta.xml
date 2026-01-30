@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Qualify Lead with AI</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSection>
+            <layoutColumns>
+                <layoutItems>
+                    <emptySpace>true</emptySpace>
+                </layoutItems>
+            </layoutColumns>
+        </layoutSection>
+    </quickActionLayout>
+    <quickActionLayoutColumns>1</quickActionLayoutColumns>
+    <quickActionLayoutRows>1</quickActionLayoutRows>
+    <targetObject>Lead</targetObject>
+    <targetParentField>Id</targetParentField>
+    <type>LightningComponent</type>
+    <lightningComponent>
+        <componentName>leadQualification</componentName>
+    </lightningComponent>
+</QuickAction>
