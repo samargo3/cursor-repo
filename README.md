@@ -63,12 +63,28 @@ These work across all projects automatically:
 ## 🔧 Projects
 
 ### Active Projects
+
+#### Salesforce
 - `demo-igniters/` - Salesforce demo platform with Agentforce, Einstein, and integrations
+- `Agentforce Contract Analysis/` - Salesforce project with contract analysis flows and prompts
+
+#### Node.js / TypeScript
+- `argo-energy-solutions/` - Energy monitoring and analytics platform with React frontend
+
+#### Python
+- `project-data-pipeline/` - Salesforce to Tableau data pipeline with automation
+- `My Sandbox/` - Python experiments and prototyping (includes pizza charts)
+- `Pizza Chart Project/` - FBRef scout report scraper and visualizer
 
 ### Adding New Projects
 Use the setup script to create new projects with shared configurations:
 ```bash
 ./scripts/setup-new-project.sh salesforce project-name
+```
+
+Or manually move existing projects:
+```bash
+mv /path/to/your/project ~/cursor-repo/projects/
 ```
 
 ---
