@@ -8,6 +8,7 @@
 Cursor AI behavior rules that can be shared across projects:
 - `salesforce-apex-standards.md` - Apex coding conventions
 - `salesforce-lwc-best-practices.md` - Lightning Web Component patterns
+- `salesforce-ui-ux-standards.md` - World-class UI/UX design system for LWC
 - `salesforce-testing-requirements.md` - Testing standards
 - `nodejs-standards.md` - Node.js best practices
 

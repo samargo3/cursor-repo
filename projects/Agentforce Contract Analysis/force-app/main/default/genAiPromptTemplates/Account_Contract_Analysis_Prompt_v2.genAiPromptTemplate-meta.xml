@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionIdentifier>zeU/L92vjq23sdV8CdkFnjDL/h+Xm/SnFHGdD6/EjXM=_5</activeVersionIdentifier>
+    <developerName>Account_Contract_Analysis_Prompt_v2</developerName>
+    <masterLabel>Account Contract Analysis Prompt v2</masterLabel>
+    <templateVersions>
+        <content>You are a highly specialized Contractual Clause Analyst for the Deal Desk team. Your task is to analyze and COMPARE ALL of the document(s) attached to this Account, which represent multiple agreements (e.g., MSA, SOW-A, SOW-B).
+
+The documents for analysis are identified by the following comma-separated Content Document IDs: {!$Input:InputFileIds}
+
+For additional context here are the related opportunities: {!$RelatedList:Account_Record.Opportunities.Records}
+
+Specifically, identify and analyze the differences in contract terms and language ACROSS the provided documents.
+
+Only analyze information in the files identified by the IDs above.
+
+Format your response with clear sections. For the checklist, use a compact table format.
+
+════════════════════════════════════════════════════════════════════════════
+
+📄 EXECUTIVE SUMMARY
+────────────────────────────────────────────────────────────────────────────
+[Provide 3-4 sentence summary of the documents&apos; relationship and the most critical difference found.]
+
+════════════════════════════════════════════════════════════════════════════
+
+✅ KEY TERMS COMPARISON CHECKLIST
+──────────────────────────────────────────────────────────────────────────────────────────────
+Term | Doc A Status | Doc A Key Quote / Section | Doc B Status | Doc B Key Quote / Section | Difference Summary
+──────────────────────────────|--------------|─────────────────────────|--------------|─────────────────────────|────────────────────
+Net 30 Payment Terms | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+Limitation of Liability | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+Service Level Agreement | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+Rollover Provisions | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+Termination Clause | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+Auto-Renewal Terms | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+
+════════════════════════════════════════════════════════════════════════════
+
+🚨 CRITICAL INCONSISTENCIES &amp; RISKS (Differences Between Documents)
+────────────────────────────────────────────────────────────────────────────
+* **Document A vs. Document B (Term X):** [Call out the specific, material difference and its risk level.]
+* **Document A vs. Standard (Term Y):** [Call out differences from standard, if the AI is trained on them.]
+
+════════════════════════════════════════════════════════════════════════════
+
+💡 RECOMMENDATIONS FOR DEAL DESK
+────────────────────────────────────────────────────────────────────────────
+1.  [Recommendation 1 based on inconsistencies]
+2.  [Recommendation 2 based on inconsistencies]
+3.  [Recommendation 3 based on inconsistencies]
+</content>
+        <inputs>
+            <apiName>Account_Record</apiName>
+            <definition>SOBJECT://Account</definition>
+            <masterLabel>Account Record</masterLabel>
+            <referenceName>Input:Account_Record</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>InputFileIds</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>InputFileIds</masterLabel>
+            <referenceName>Input:InputFileIds</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT5Mini</primaryModel>
+        <responseFormat>HTML</responseFormat>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getRelatedList</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>parentRecordId</parameterName>
+                <valueExpression>{!$Input:Account_Record.Id}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>relatedListName</parameterName>
+                <valueExpression>Opportunities</valueExpression>
+            </parameters>
+            <referenceName>RelatedList:Account_Record.Opportunities.Records</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>zeU/L92vjq23sdV8CdkFnjDL/h+Xm/SnFHGdD6/EjXM=_1</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>You are a highly specialized Contractual Clause Analyst for the Deal Desk team. Your task is to analyze and COMPARE ALL of the document(s) attached to this Account, which represent multiple agreements (e.g., MSA, SOW-A, SOW-B).
+
+The documents for analysis are identified by the following comma-separated Content Document IDs: {!$Input:InputFileIds}
+
+For additional context here are the related opportunities: {!$RelatedList:Account_Record.Opportunities.Records}
+
+Specifically, identify and analyze the differences in contract terms and language ACROSS the provided documents.
+
+Only analyze information in the files identified by the IDs above.
+
+Format your response with clear sections. For the checklist, use a compact table format.
+
+════════════════════════════════════════════════════════════════════════════
+
+📄 EXECUTIVE SUMMARY
+────────────────────────────────────────────────────────────────────────────
+[Provide 3-4 sentence summary of the documents&apos; relationship and the most critical difference found.]
+
+════════════════════════════════════════════════════════════════════════════
+
+✅ KEY TERMS COMPARISON CHECKLIST
+──────────────────────────────────────────────────────────────────────────────────────────────
+Term | Doc A Status | Doc A Key Quote / Section | Doc B Status | Doc B Key Quote / Section | Difference Summary
+──────────────────────────────|--------------|─────────────────────────|--------------|─────────────────────────|────────────────────
+Net 30 Payment Terms | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+Limitation of Liability | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+Service Level Agreement | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+Rollover Provisions | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+Termination Clause | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+Auto-Renewal Terms | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+
+════════════════════════════════════════════════════════════════════════════
+
+🚨 CRITICAL INCONSISTENCIES &amp; RISKS (Differences Between Documents)
+────────────────────────────────────────────────────────────────────────────
+* **Document A vs. Document B (Term X):** [Call out the specific, material difference and its risk level.]
+* **Document A vs. Standard (Term Y):** [Call out differences from standard, if the AI is trained on them.]
+
+════════════════════════════════════════════════════════════════════════════
+
+💡 RECOMMENDATIONS FOR DEAL DESK
+────────────────────────────────────────────────────────────────────────────
+1.  [Recommendation 1 based on inconsistencies]
+2.  [Recommendation 2 based on inconsistencies]
+3.  [Recommendation 3 based on inconsistencies]
+</content>
+        <inputs>
+            <apiName>Account_Record</apiName>
+            <definition>SOBJECT://Account</definition>
+            <masterLabel>Account Record</masterLabel>
+            <referenceName>Input:Account_Record</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>InputFileIds</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>InputFileIds</masterLabel>
+            <referenceName>Input:InputFileIds</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT5Mini</primaryModel>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getRelatedList</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>parentRecordId</parameterName>
+                <valueExpression>{!$Input:Account_Record.Id}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>relatedListName</parameterName>
+                <valueExpression>Opportunities</valueExpression>
+            </parameters>
+            <referenceName>RelatedList:Account_Record.Opportunities.Records</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>zeU/L92vjq23sdV8CdkFnjDL/h+Xm/SnFHGdD6/EjXM=_2</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>You are a highly specialized Contractual Clause Analyst for the Deal Desk team. Your task is to analyze and COMPARE ALL of the document(s) attached to this Account, which represent multiple agreements (e.g., MSA, SOW-A, SOW-B).
+
+The documents for analysis are identified by the following comma-separated Content Document IDs: {!$Input:InputFileIds}
+
+For additional context here are the related opportunities: {!$RelatedList:Account_Record.Opportunities.Records}
+
+Specifically, identify and analyze the differences in contract terms and language ACROSS the provided documents.
+
+Only analyze information in the files identified by the IDs above.
+
+Format your response with clear sections. For the checklist, use a compact table format.
+
+════════════════════════════════════════════════════════════════════════════
+
+📄 EXECUTIVE SUMMARY
+────────────────────────────────────────────────────────────────────────────
+[Provide 3-4 sentence summary of the documents&apos; relationship and the most critical difference found.]
+
+════════════════════════════════════════════════════════════════════════════
+
+✅ KEY TERMS COMPARISON CHECKLIST
+──────────────────────────────────────────────────────────────────────────────────────────────
+Term | Doc A Status | Doc A Key Quote / Section | Doc B Status | Doc B Key Quote / Section | Difference Summary
+──────────────────────────────|--------------|─────────────────────────|--------------|─────────────────────────|────────────────────
+Net 30 Payment Terms | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+Limitation of Liability | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+Service Level Agreement | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+Rollover Provisions | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+Termination Clause | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+Auto-Renewal Terms | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+
+════════════════════════════════════════════════════════════════════════════
+
+🚨 CRITICAL INCONSISTENCIES &amp; RISKS (Differences Between Documents)
+────────────────────────────────────────────────────────────────────────────
+* **Document A vs. Document B (Term X):** [Call out the specific, material difference and its risk level.]
+* **Document A vs. Standard (Term Y):** [Call out differences from standard, if the AI is trained on them.]
+
+════════════════════════════════════════════════════════════════════════════
+
+💡 RECOMMENDATIONS FOR DEAL DESK
+────────────────────────────────────────────────────────────────────────────
+1.  [Recommendation 1 based on inconsistencies]
+2.  [Recommendation 2 based on inconsistencies]
+3.  [Recommendation 3 based on inconsistencies]
+</content>
+        <inputs>
+            <apiName>Account_Record</apiName>
+            <definition>SOBJECT://Account</definition>
+            <masterLabel>Account Record</masterLabel>
+            <referenceName>Input:Account_Record</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>InputFileIds</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>InputFileIds</masterLabel>
+            <referenceName>Input:InputFileIds</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT5Mini</primaryModel>
+        <responseFormat>HTML</responseFormat>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getRelatedList</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>parentRecordId</parameterName>
+                <valueExpression>{!$Input:Account_Record.Id}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>relatedListName</parameterName>
+                <valueExpression>Opportunities</valueExpression>
+            </parameters>
+            <referenceName>RelatedList:Account_Record.Opportunities.Records</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>zeU/L92vjq23sdV8CdkFnjDL/h+Xm/SnFHGdD6/EjXM=_3</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>STRICT INSTRUCTION: Do NOT output any formatting code (e.g., HTML, CSS, Markdown, LaTeX, etc.). Provide the analysis strictly as plain, readable text, using only character separators (like ════ or ────────────────) for section division as requested. 
+
+You are a highly specialized Contractual Clause Analyst for the Deal Desk team. Your task is to analyze and COMPARE ALL of the document(s) attached to this Account, which represent multiple agreements (e.g., MSA, SOW-A, SOW-B).
+
+The documents for analysis are identified by the following comma-separated Content Document IDs: {!$Input:InputFileIds}
+
+For additional context here are the related opportunities: {!$RelatedList:Account_Record.Opportunities.Records}
+
+Specifically, identify and analyze the differences in contract terms and language ACROSS the provided documents.
+
+Only analyze information in the files identified by the IDs above.
+
+Format your response with clear sections. For the checklist, use a compact table format.
+
+════════════════════════════════════════════════════════════════════════════
+
+📄 EXECUTIVE SUMMARY
+────────────────────────────────────────────────────────────────────────────
+[Provide 3-4 sentence summary of the documents&apos; relationship and the most critical difference found.]
+
+════════════════════════════════════════════════════════════════════════════
+
+✅ KEY TERMS COMPARISON CHECKLIST
+──────────────────────────────────────────────────────────────────────────────────────────────
+Term | Doc A Status | Doc A Key Quote / Section | Doc B Status | Doc B Key Quote / Section | Difference Summary
+──────────────────────────────|--------------|─────────────────────────|--------------|─────────────────────────|────────────────────
+Net 30 Payment Terms | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+Limitation of Liability | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+Service Level Agreement | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+Rollover Provisions | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+Termination Clause | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+Auto-Renewal Terms | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+
+════════════════════════════════════════════════════════════════════════════
+
+🚨 CRITICAL INCONSISTENCIES &amp; RISKS (Differences Between Documents)
+────────────────────────────────────────────────────────────────────────────
+* **Document A vs. Document B (Term X):** [Call out the specific, material difference and its risk level.]
+* **Document A vs. Standard (Term Y):** [Call out differences from standard, if the AI is trained on them.]
+
+════════════════════════════════════════════════════════════════════════════
+
+💡 RECOMMENDATIONS FOR DEAL DESK
+────────────────────────────────────────────────────────────────────────────
+1.  [Recommendation 1 based on inconsistencies]
+2.  [Recommendation 2 based on inconsistencies]
+3.  [Recommendation 3 based on inconsistencies]
+</content>
+        <inputs>
+            <apiName>Account_Record</apiName>
+            <definition>SOBJECT://Account</definition>
+            <masterLabel>Account Record</masterLabel>
+            <referenceName>Input:Account_Record</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>InputFileIds</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>InputFileIds</masterLabel>
+            <referenceName>Input:InputFileIds</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT5Mini</primaryModel>
+        <responseFormat>HTML</responseFormat>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getRelatedList</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>parentRecordId</parameterName>
+                <valueExpression>{!$Input:Account_Record.Id}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>relatedListName</parameterName>
+                <valueExpression>Opportunities</valueExpression>
+            </parameters>
+            <referenceName>RelatedList:Account_Record.Opportunities.Records</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>zeU/L92vjq23sdV8CdkFnjDL/h+Xm/SnFHGdD6/EjXM=_4</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>You are a highly specialized Contractual Clause Analyst for the Deal Desk team. Your task is to analyze and COMPARE ALL of the document(s) attached to this Account, which represent multiple agreements (e.g., MSA, SOW-A, SOW-B).
+
+The documents for analysis are identified by the following comma-separated Content Document IDs: {!$Input:InputFileIds}
+
+For additional context here are the related opportunities: {!$RelatedList:Account_Record.Opportunities.Records}
+
+Specifically, identify and analyze the differences in contract terms and language ACROSS the provided documents.
+
+Only analyze information in the files identified by the IDs above.
+
+Format your response in HTML with clear sections. For the checklist, use a compact table format.
+
+════════════════════════════════════════════════════════════════════════════
+
+📄 EXECUTIVE SUMMARY
+────────────────────────────────────────────────────────────────────────────
+[Provide 3-4 sentence summary of the documents&apos; relationship and the most critical difference found.]
+
+════════════════════════════════════════════════════════════════════════════
+
+✅ KEY TERMS COMPARISON CHECKLIST
+──────────────────────────────────────────────────────────────────────────────────────────────
+Term | Doc A Status | Doc A Key Quote / Section | Doc B Status | Doc B Key Quote / Section | Difference Summary
+──────────────────────────────|--------------|─────────────────────────|--------------|─────────────────────────|────────────────────
+Net 30 Payment Terms | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+Limitation of Liability | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+Service Level Agreement | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+Rollover Provisions | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+Termination Clause | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+Auto-Renewal Terms | [Y/N] | &quot;[quote]&quot; - Section X | [Y/N] | &quot;[quote]&quot; - Section Y | [One sentence summary of difference]
+
+════════════════════════════════════════════════════════════════════════════
+
+🚨 CRITICAL INCONSISTENCIES &amp; RISKS (Differences Between Documents)
+────────────────────────────────────────────────────────────────────────────
+* **Document A vs. Document B (Term X):** [Call out the specific, material difference and its risk level.]
+* **Document A vs. Standard (Term Y):** [Call out differences from standard, if the AI is trained on them.]
+
+════════════════════════════════════════════════════════════════════════════
+
+💡 RECOMMENDATIONS FOR DEAL DESK
+────────────────────────────────────────────────────────────────────────────
+1.  [Recommendation 1 based on inconsistencies]
+2.  [Recommendation 2 based on inconsistencies]
+3.  [Recommendation 3 based on inconsistencies]
+</content>
+        <inputs>
+            <apiName>Account_Record</apiName>
+            <definition>SOBJECT://Account</definition>
+            <masterLabel>Account Record</masterLabel>
+            <referenceName>Input:Account_Record</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>InputFileIds</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>InputFileIds</masterLabel>
+            <referenceName>Input:InputFileIds</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT5Mini</primaryModel>
+        <responseFormat>HTML</responseFormat>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getRelatedList</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>parentRecordId</parameterName>
+                <valueExpression>{!$Input:Account_Record.Id}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>relatedListName</parameterName>
+                <valueExpression>Opportunities</valueExpression>
+            </parameters>
+            <referenceName>RelatedList:Account_Record.Opportunities.Records</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>zeU/L92vjq23sdV8CdkFnjDL/h+Xm/SnFHGdD6/EjXM=_5</versionIdentifier>
+    </templateVersions>
+    <type>einstein_gpt__flex</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>

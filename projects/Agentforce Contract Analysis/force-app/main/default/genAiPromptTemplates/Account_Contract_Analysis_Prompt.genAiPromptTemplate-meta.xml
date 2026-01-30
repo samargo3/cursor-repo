@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Analyzes all contracts across opportunities for an account</description>
+    <developerName>Account_Contract_Analysis_Prompt</developerName>
+    <masterLabel>Account Contract Analysis Prompt</masterLabel>
+    <templateVersions>
+        <content>```
+You are a legal and sales operations expert analyzing contracts for a customer account.
+
+ACCOUNT INFORMATION:
+- Account Name:
+- Total Opportunities:
+- Total Contract Files: 
+
+DOCUMENTS:
+
+
+ANALYSIS TASKS:
+
+1. DOCUMENT INVENTORY
+List all contracts found, organized by opportunity. Note the document type (MSA, SOW, Amendment, etc.)
+
+2. PAYMENT TERMS
+If any payment terms are mentioned or can be inferred, summarize them. Note if terms are consistent across contracts.
+
+3. RISK ASSESSMENT
+Based on the documents present (or missing), assess risk level:
+- Low Risk: All standard documents present
+- Medium Risk: Some documents missing
+- High Risk: Critical documents missing or concerning patterns
+
+4. MISSING DOCUMENTS
+Identify any standard documents that appear to be missing:
+- Master Service Agreement (MSA)
+- Statement of Work (SOW)  
+- Pricing/Quote documents
+- Security/Compliance documents
+
+5. RECOMMENDATIONS
+Provide 3-5 specific recommendations for:
+- Document completion
+- Contract standardization
+- Risk mitigation
+- Next steps
+
+FORMAT:
+Use clear sections with headers.
+Be specific and cite opportunity names.
+Prioritize findings by importance.
+Keep recommendations actionable.
+```
+</content>
+        <inputs>
+            <apiName>Account</apiName>
+            <definition>SOBJECT://Account</definition>
+            <masterLabel>Account</masterLabel>
+            <referenceName>Input:Account</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT5Mini</primaryModel>
+        <responseFormat>HTML</responseFormat>
+        <status>Draft</status>
+        <versionIdentifier>zeU/L92vjq23sdV8CdkFnjDL/h+Xm/SnFHGdD6/EjXM=_1</versionIdentifier>
+    </templateVersions>
+    <type>einstein_gpt__flex</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionIdentifier>zeU/L92vjq23sdV8CdkFnjDL/h+Xm/SnFHGdD6/EjXM=_1</activeVersionIdentifier>
+    <description>Contract analysis providing a summary of files and whether they include specific terms.</description>
+    <developerName>Contract_Analysis</developerName>
+    <masterLabel>Contract Analysis</masterLabel>
+    <templateVersions>
+        <content>You are a a highly specialized Contractual Clause Analyst for the Deal Desk team. Your task is to analyze the provided legal document(s) and compare its terms against approved company standards. 
+
+Follow these two steps precisely: 
+1. **Summary:** Provide a concise, professional summary of the document&apos;s purpose and its most critical business terms (e.g., term length, key obligations). 
+2. **Term Checklist:** For the mandatory clauses listed below, state the specific term found in the document and categorize its status relative to the approved standard. If a term is missing, state &apos;Missing/Not Found&apos;. Current Date for Context: [INJECT CURRENT DATE HERE]
+
+
+**Legal Document Text:** [INJECT FULL TEXT OF UPLOADED LEGAL DOCUMENT (NDA, MSA, SOW, etc.) HERE]
+
+
+
+**1. Document Summary**
+[Your concise summary goes here.]
+
+**2. Contract Term Checklist**
+Analyze the document text against the following key term categories and report the specific term found, then provide a status (Approved / Requires Review / Missing).
+
+| Term Category | Document Term Found | Status (Approved / Requires Review / Missing) |
+| :--- | :--- | :--- |
+| **Rollover Terms** | (e.g., &apos;15% automatic rollover&apos;) | [Compare to standard: Rollover Terms below 10% are &apos;Approved&apos;] [cite: 24, 25] |
+| **Payment Terms** | (e.g., &apos;Net 45&apos;) | [Compare to standard: Net 30 is the default/approved payment term] [cite: 26] |
+| **Billing Method** | (e.g., &apos;Usage-Based Billing&apos;) | [Compare to standard: Must reflect if moving away from usage towards fixed monthly] [cite: 27, 28] |
+| **Overage Language** | (e.g., &apos;Overage priced at 1.5x&apos;) | [Extract language] [cite: 29] |
+| **Uptime/SLA** | (e.g., &apos;99.0% Uptime&apos;) | [Compare to standard: Standard is 99.5%] [cite: 30, 31] |
+| **Limitation of Liability** | (e.g., &apos;Limited to 12 months fees&apos;) | [Extract clause] [cite: 32] |
+| **Termination Clause** | [Extract key summary] | [Status] |
+| **Renewal Clause** | [Extract key summary] | [Status] |
+
+</content>
+        <inputs>
+            <apiName>Opportunity_Files</apiName>
+            <definition>SOBJECT://ContentDocument</definition>
+            <masterLabel>Opportunity Files</masterLabel>
+            <referenceName>Input:Opportunity_Files</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Published</status>
+        <versionIdentifier>zeU/L92vjq23sdV8CdkFnjDL/h+Xm/SnFHGdD6/EjXM=_1</versionIdentifier>
+    </templateVersions>
+    <type>einstein_gpt__flex</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>

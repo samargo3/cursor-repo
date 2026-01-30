@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionIdentifier>zeU/L92vjq23sdV8CdkFnjDL/h+Xm/SnFHGdD6/EjXM=_1</activeVersionIdentifier>
+    <description>Summarize and check terms of contracts attached to opportunities.</description>
+    <developerName>Contract_Analysis_v2</developerName>
+    <masterLabel>Contract Analysis v2</masterLabel>
+    <templateVersions>
+        <content>You are a contract analysis assistant. Analyze the following contract document and provide:
+
+1. A concise 3-4 sentence summary of the contract
+2. A checklist showing which key terms are present or absent
+
+CONTRACT DOCUMENT: [INJECT FULL TEXT OF UPLOADED LEGAL DOCUMENT (NDA, MSA, SOW, etc.) HERE]
+
+
+KEY TERMS TO CHECK:
+- Net 30 Payment Terms
+- Limitation of Liability
+- Service Level Agreement (SLA/Uptime)
+- Rollover Provisions
+- Termination Clause
+- Auto-Renewal Terms
+- Indemnification
+- Data Rights/Ownership
+
+**Document Summary**
+[Provide 3-4 sentence summary of the contract including: parties involved, type of agreement, key obligations, and term/duration]
+
+**Contract Term Checklist**
+CHECKLIST:
+☑️ Net 30 Payment Terms: [YES/NO] - [Quote exact language if found]
+☑️ Limitation of Liability: [YES/NO] - [Quote exact language if found]
+☑️ Service Level Agreement: [YES/NO] - [Quote exact language if found]
+☑️ Rollover Provisions: [YES/NO] - [Quote exact language if found]
+☑️ Termination Clause: [YES/NO] - [Quote exact language if found]
+☑️ Auto-Renewal Terms: [YES/NO] - [Quote exact language if found]
+☑️ Indemnification: [YES/NO] - [Quote exact language if found]
+☑️ Data Rights/Ownership: [YES/NO] - [Quote exact language if found]
+
+**Brief Risk Assessment**
+RISK ASSESSMENT:
+[Identify any concerning or non-standard terms]
+
+For each item in the checklist, if the term is found, provide the exact quote and section reference.
+</content>
+        <inputs>
+            <apiName>Opportunity_Files</apiName>
+            <definition>SOBJECT://ContentDocument</definition>
+            <masterLabel>Opportunity Files</masterLabel>
+            <referenceName>Input:Opportunity_Files</referenceName>
+            <required>true</required>
+        </inputs>
+        <inputs>
+            <apiName>Terms_to_Check</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>Terms to Check</masterLabel>
+            <referenceName>Input:Terms_to_Check</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Published</status>
+        <versionIdentifier>zeU/L92vjq23sdV8CdkFnjDL/h+Xm/SnFHGdD6/EjXM=_1</versionIdentifier>
+    </templateVersions>
+    <type>einstein_gpt__flex</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>

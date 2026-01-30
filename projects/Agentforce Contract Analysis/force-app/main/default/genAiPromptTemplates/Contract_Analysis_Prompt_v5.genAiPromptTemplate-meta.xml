@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionIdentifier>zeU/L92vjq23sdV8CdkFnjDL/h+Xm/SnFHGdD6/EjXM=_2</activeVersionIdentifier>
+    <description>Final Version used for Starburst Data demo, with Screen Flow on an Opportunity page.</description>
+    <developerName>Contract_Analysis_Prompt_v5</developerName>
+    <masterLabel>Contract Analysis Prompt v5</masterLabel>
+    <templateVersions>
+        <content>You are a a highly specialized Contractual Clause Analyst for the Deal Desk team. Your task is to analyze ALL of the document(s) attached to this opportunity and compare its terms against approved company standards. 
+
+Here is all of the available information about the opportunity. Only consider the related files on the opportunity for the analysis.
+
+Opportunity Snapshot:{!$RecordSnapshot:Opportunity_Snaphsot.Snapshot}
+Related Files: {!$RelatedList:Opportunity_Snaphsot.CombinedAttachments.Records}
+
+Format your response with clear sections. For the checklist, use a compact table format.
+
+════════════════════════════════════════════════════════════════════════════
+
+📄 EXECUTIVE SUMMARY
+────────────────────────────────────────────────────────────────────────────
+[Provide 3-4 sentence summary]
+
+════════════════════════════════════════════════════════════════════════════
+
+✅ KEY TERMS CHECKLIST
+────────────────────────────────────────────────────────────────────────────
+
+Term    | Found | File  | Key Quote / Section
+──────────────────────────────|-------|─────────────────|────────────────────────────────
+Net 30 Payment Terms  | [Y/N] | [filename] | &quot;[quote]&quot; - Section X
+Limitation of Liability | [Y/N] | [filename] | &quot;[quote]&quot; - Section X
+Service Level Agreement | [Y/N] | [filename] | &quot;[quote]&quot; - Section X
+Rollover Provisions  | [Y/N] | [filename] | &quot;[quote]&quot; - Section X
+Termination Clause  | [Y/N] | [filename] | &quot;[quote]&quot; - Section X
+Auto-Renewal Terms  | [Y/N] | [filename] | &quot;[quote]&quot; - Section X
+Indemnification  | [Y/N] | [filename] | &quot;[quote]&quot; - Section X
+Data Rights/Ownership  | [Y/N] | [filename] | &quot;[quote]&quot; - Section X
+
+════════════════════════════════════════════════════════════════════════════
+
+⚠️ RISK ASSESSMENT   💡 RECOMMENDATIONS
+──────────────────────────────── ──────────────────────────────────
+• [Risk 1]    1. [Recommendation 1]
+• [Risk 2]    2. [Recommendation 2]
+• [Risk 3]    3. [Recommendation 3]
+
+════════════════════════════════════════════════════════════════════════════
+
+🔍 INCONSISTENCIES: [Brief description or &quot;None found&quot;]
+
+❌ MISSING TERMS: [List briefly or &quot;None&quot;]
+</content>
+        <inputs>
+            <apiName>Opportunity_Snaphsot</apiName>
+            <definition>SOBJECT://Opportunity</definition>
+            <masterLabel>Opportunity Snaphsot</masterLabel>
+            <referenceName>Input:Opportunity_Snaphsot</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT5Mini</primaryModel>
+        <responseFormat>HTML</responseFormat>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getDataForGrounding</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>recordId</parameterName>
+                <valueExpression>{!$Input:Opportunity_Snaphsot.Id}</valueExpression>
+            </parameters>
+            <referenceName>RecordSnapshot:Opportunity_Snaphsot</referenceName>
+        </templateDataProviders>
+        <templateDataProviders>
+            <definition>invocable://getRelatedList</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>parentRecordId</parameterName>
+                <valueExpression>{!$Input:Opportunity_Snaphsot.Id}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>relatedListName</parameterName>
+                <valueExpression>CombinedAttachments</valueExpression>
+            </parameters>
+            <referenceName>RelatedList:Opportunity_Snaphsot.CombinedAttachments.Records</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>zeU/L92vjq23sdV8CdkFnjDL/h+Xm/SnFHGdD6/EjXM=_1</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>You are a a highly specialized Contractual Clause Analyst for the Deal Desk team. Your task is to analyze ALL of the document(s) attached to this opportunity and compare its terms against approved company standards. 
+
+Only analyze information in these files: {!$RelatedList:Opportunity_Snaphsot.CombinedAttachments.Records}
+
+Format your response with clear sections. For the checklist, use a compact table format.
+
+════════════════════════════════════════════════════════════════════════════
+
+📄 EXECUTIVE SUMMARY
+────────────────────────────────────────────────────────────────────────────
+[Provide 3-4 sentence summary]
+
+════════════════════════════════════════════════════════════════════════════
+
+✅ KEY TERMS CHECKLIST
+────────────────────────────────────────────────────────────────────────────
+
+Term    | Found | File  | Key Quote / Section
+──────────────────────────────|-------|─────────────────|────────────────────────────────
+Net 30 Payment Terms  | [Y/N] | [filename] | &quot;[quote]&quot; - Section X
+Limitation of Liability | [Y/N] | [filename] | &quot;[quote]&quot; - Section X
+Service Level Agreement | [Y/N] | [filename] | &quot;[quote]&quot; - Section X
+Rollover Provisions  | [Y/N] | [filename] | &quot;[quote]&quot; - Section X
+Termination Clause  | [Y/N] | [filename] | &quot;[quote]&quot; - Section X
+Auto-Renewal Terms  | [Y/N] | [filename] | &quot;[quote]&quot; - Section X
+Indemnification  | [Y/N] | [filename] | &quot;[quote]&quot; - Section X
+Data Rights/Ownership  | [Y/N] | [filename] | &quot;[quote]&quot; - Section X
+
+════════════════════════════════════════════════════════════════════════════
+
+⚠️ RISK ASSESSMENT   💡 RECOMMENDATIONS
+──────────────────────────────── ──────────────────────────────────
+• [Risk 1]    1. [Recommendation 1]
+• [Risk 2]    2. [Recommendation 2]
+• [Risk 3]    3. [Recommendation 3]
+
+════════════════════════════════════════════════════════════════════════════
+
+🔍 INCONSISTENCIES: [Brief description or &quot;None found&quot;]
+
+❌ MISSING TERMS: [List briefly or &quot;None&quot;]
+</content>
+        <inputs>
+            <apiName>Opportunity_Snaphsot</apiName>
+            <definition>SOBJECT://Opportunity</definition>
+            <masterLabel>Opportunity Snaphsot</masterLabel>
+            <referenceName>Input:Opportunity_Snaphsot</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultGPT5Mini</primaryModel>
+        <responseFormat>HTML</responseFormat>
+        <status>Published</status>
+        <templateDataProviders>
+            <definition>invocable://getRelatedList</definition>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>parentRecordId</parameterName>
+                <valueExpression>{!$Input:Opportunity_Snaphsot.Id}</valueExpression>
+            </parameters>
+            <parameters>
+                <definition>primitive://String</definition>
+                <isRequired>true</isRequired>
+                <parameterName>relatedListName</parameterName>
+                <valueExpression>CombinedAttachments</valueExpression>
+            </parameters>
+            <referenceName>RelatedList:Opportunity_Snaphsot.CombinedAttachments.Records</referenceName>
+        </templateDataProviders>
+        <versionIdentifier>zeU/L92vjq23sdV8CdkFnjDL/h+Xm/SnFHGdD6/EjXM=_2</versionIdentifier>
+    </templateVersions>
+    <type>einstein_gpt__flex</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>
