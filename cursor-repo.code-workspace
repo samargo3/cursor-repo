@@ -1,0 +1,40 @@
+{
+  "folders": [
+    {
+      "name": "🏠 Cursor Repo (Root)",
+      "path": "."
+    },
+    {
+      "name": "⚙️ Shared Configs",
+      "path": "shared-configs"
+    },
+    {
+      "name": "📚 Documentation",
+      "path": "documentation"
+    },
+    {
+      "name": "🚀 Demo Igniters",
+      "path": "projects/demo-igniters"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "**/node_modules": true,
+      "**/.sfdx": true
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/.sfdx": true,
+      "**/bower_components": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "salesforce.salesforcedx-vscode",
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint"
+    ]
+  }
+}
