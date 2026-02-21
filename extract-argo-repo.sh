@@ -3,6 +3,11 @@
 # Extract projects/argo-energy-solutions into a standalone Git repo with full history.
 # Run this from the cursor-repo root: ./extract-argo-repo.sh
 #
+# NOTE: This script handles argo-energy-solutions only.
+# To extract ALL projects at once, use:
+#   ./split-monorepo.sh                          # extract all
+#   ./split-monorepo.sh argo-energy-solutions    # extract just this one
+#
 
 set -e
 
