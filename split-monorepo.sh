@@ -14,13 +14,12 @@
 # Prerequisites:
 #   - Clean working tree (commit or stash pending changes)
 #   - Destination directories must not already exist
-#   - Create the GitHub repos before running (links are printed at the end)
+#   - SSH configured with 'github-personal' host alias in ~/.ssh/config
 #
 # After extraction:
 #   1. Verify each new repo (cd, git log, ls)
-#   2. Push:  git push -u origin main
-#   3. Clean up split branches in cursor-repo (optional):
-#      git branch -d <split-branch>
+#   2. Run: ./create-and-push.sh
+#      (creates GitHub repos and pushes)
 #
 
 set -euo pipefail
@@ -28,46 +27,6 @@ set -euo pipefail
 REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 DEST_PARENT="${DEST_PARENT:-$HOME}"
 GITHUB_USER="${GITHUB_USER:-samargo3}"
-
-# ---------------------------------------------------------------------------
-# Project configuration
-# Format: "KEY|PREFIX_IN_REPO|DEST_DIR_NAME|GITHUB_SLUG"
-# Slug is used to build: https://github.com/GITHUB_USER/SLUG.git
-# ---------------------------------------------------------------------------
-declare -A PROJECT_PREFIX
-declare -A PROJECT_DEST
-declare -A PROJECT_SLUG
-declare -A PROJECT_BRANCH
-
-PROJECT_PREFIX["demo-igniters"]="projects/demo-igniters"
-PROJECT_DEST["demo-igniters"]="demo-igniters"
-PROJECT_SLUG["demo-igniters"]="demo-igniters"
-PROJECT_BRANCH["demo-igniters"]="split/demo-igniters"
-
-PROJECT_PREFIX["argo-energy-solutions"]="projects/argo-energy-solutions"
-PROJECT_DEST["argo-energy-solutions"]="argo-energy-solutions"
-PROJECT_SLUG["argo-energy-solutions"]="argo-energy-solutions"
-PROJECT_BRANCH["argo-energy-solutions"]="split/argo-energy-solutions"
-
-PROJECT_PREFIX["project-data-pipeline"]="projects/project-data-pipeline"
-PROJECT_DEST["project-data-pipeline"]="project-data-pipeline"
-PROJECT_SLUG["project-data-pipeline"]="project-data-pipeline"
-PROJECT_BRANCH["project-data-pipeline"]="split/project-data-pipeline"
-
-PROJECT_PREFIX["agentforce-contract-analysis"]="projects/Agentforce Contract Analysis"
-PROJECT_DEST["agentforce-contract-analysis"]="agentforce-contract-analysis"
-PROJECT_SLUG["agentforce-contract-analysis"]="agentforce-contract-analysis"
-PROJECT_BRANCH["agentforce-contract-analysis"]="split/agentforce-contract-analysis"
-
-PROJECT_PREFIX["my-sandbox"]="projects/My Sandbox"
-PROJECT_DEST["my-sandbox"]="my-sandbox"
-PROJECT_SLUG["my-sandbox"]="my-sandbox"
-PROJECT_BRANCH["my-sandbox"]="split/my-sandbox"
-
-PROJECT_PREFIX["pizza-chart-project"]="projects/Pizza Chart Project"
-PROJECT_DEST["pizza-chart-project"]="pizza-chart-project"
-PROJECT_SLUG["pizza-chart-project"]="pizza-chart-project"
-PROJECT_BRANCH["pizza-chart-project"]="pizza-chart-project"
 
 ALL_KEYS=(
   demo-igniters
@@ -77,6 +36,47 @@ ALL_KEYS=(
   my-sandbox
   pizza-chart-project
 )
+
+# ---------------------------------------------------------------------------
+# Project config lookups (bash 3.2 compatible — no associative arrays)
+# ---------------------------------------------------------------------------
+get_prefix() {
+  case "$1" in
+    demo-igniters)               echo "projects/demo-igniters" ;;
+    argo-energy-solutions)       echo "projects/argo-energy-solutions" ;;
+    project-data-pipeline)       echo "projects/project-data-pipeline" ;;
+    agentforce-contract-analysis) echo "projects/Agentforce Contract Analysis" ;;
+    my-sandbox)                  echo "projects/My Sandbox" ;;
+    pizza-chart-project)         echo "projects/Pizza Chart Project" ;;
+    *) echo ""; return 1 ;;
+  esac
+}
+
+get_dest() {
+  case "$1" in
+    demo-igniters)               echo "demo-igniters" ;;
+    argo-energy-solutions)       echo "argo-energy-solutions" ;;
+    project-data-pipeline)       echo "project-data-pipeline" ;;
+    agentforce-contract-analysis) echo "agentforce-contract-analysis" ;;
+    my-sandbox)                  echo "my-sandbox" ;;
+    pizza-chart-project)         echo "pizza-chart-project" ;;
+    *) echo ""; return 1 ;;
+  esac
+}
+
+get_slug() { get_dest "$1"; }  # slug == dest for all projects
+
+get_branch() {
+  case "$1" in
+    demo-igniters)               echo "split/demo-igniters" ;;
+    argo-energy-solutions)       echo "split/argo-energy-solutions" ;;
+    project-data-pipeline)       echo "split/project-data-pipeline" ;;
+    agentforce-contract-analysis) echo "split/agentforce-contract-analysis" ;;
+    my-sandbox)                  echo "split/my-sandbox" ;;
+    pizza-chart-project)         echo "split/pizza-chart-project" ;;
+    *) echo ""; return 1 ;;
+  esac
+}
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -103,7 +103,7 @@ list_projects() {
   printf "  %-35s  %s\n" "KEY" "SOURCE PREFIX"
   echo "-----------------------------------------------------------"
   for key in "${ALL_KEYS[@]}"; do
-    printf "  %-35s  projects/%s\n" "$key" "${PROJECT_PREFIX[$key]#projects/}"
+    printf "  %-35s  %s\n" "$key" "$(get_prefix "$key")"
   done
   echo ""
 }
@@ -111,16 +111,15 @@ list_projects() {
 extract_project() {
   local key="$1"
 
-  if [[ -z "${PROJECT_PREFIX[$key]+x}" ]]; then
-    err "Unknown project key: '$key'"
-    echo "Run with --list to see available keys."
-    exit 1
-  fi
+  local prefix
+  prefix="$(get_prefix "$key")" || { err "Unknown project key: '$key'"; echo "Run with --list to see available keys."; exit 1; }
 
-  local prefix="${PROJECT_PREFIX[$key]}"
-  local dest_dir="$DEST_PARENT/${PROJECT_DEST[$key]}"
-  local split_branch="${PROJECT_BRANCH[$key]}"
-  local remote_url="git@github-personal:${GITHUB_USER}/${PROJECT_SLUG[$key]}.git"
+  local dest_dir="$DEST_PARENT/$(get_dest "$key")"
+  local split_branch
+  split_branch="$(get_branch "$key")"
+  local slug
+  slug="$(get_slug "$key")"
+  local remote_url="git@github-personal:${GITHUB_USER}/${slug}.git"
 
   echo ""
   echo "=================================================================="
@@ -173,7 +172,7 @@ extract_project() {
   echo "  git remote -v             # confirm remote"
   echo ""
   echo "  # Create the GitHub repo and push:"
-  echo "  gh repo create ${GITHUB_USER}/${PROJECT_SLUG[$key]} --private --source=. --remote=origin --push"
+  echo "  gh repo create ${GITHUB_USER}/${slug} --private --source=. --remote=origin --push"
   echo "------------------------------------------------------------------"
   echo ""
 }
@@ -182,7 +181,8 @@ cleanup_split_branches() {
   echo ""
   log "Cleaning up split branches in cursor-repo ..."
   for key in "${ALL_KEYS[@]}"; do
-    local branch="${PROJECT_BRANCH[$key]}"
+    local branch
+    branch="$(get_branch "$key")"
     if git -C "$REPO_ROOT" rev-parse --verify "$branch" &>/dev/null; then
       run git -C "$REPO_ROOT" branch -d "$branch"
       ok "Deleted branch: $branch"
@@ -195,7 +195,6 @@ cleanup_split_branches() {
 # ---------------------------------------------------------------------------
 cd "$REPO_ROOT"
 
-# Parse args
 TARGETS=()
 DO_CLEANUP=false
 
@@ -257,7 +256,8 @@ fi
 echo ""
 echo "  NEXT STEPS:"
 echo "  1. Verify each new repo (see instructions above)."
-echo "  2. Create GitHub repos (if not done) and push."
+echo "  2. Run: ./create-and-push.sh"
+echo "     (creates private GitHub repos and pushes)"
 echo "  3. Optionally run:  $0 --cleanup"
 echo "     (deletes the temporary split/* branches from cursor-repo)"
 echo "  4. Once all repos are pushed, remove projects/ from cursor-repo"
