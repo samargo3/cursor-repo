@@ -120,7 +120,7 @@ extract_project() {
   local prefix="${PROJECT_PREFIX[$key]}"
   local dest_dir="$DEST_PARENT/${PROJECT_DEST[$key]}"
   local split_branch="${PROJECT_BRANCH[$key]}"
-  local remote_url="https://github.com/${GITHUB_USER}/${PROJECT_SLUG[$key]}.git"
+  local remote_url="git@github-personal:${GITHUB_USER}/${PROJECT_SLUG[$key]}.git"
 
   echo ""
   echo "=================================================================="
@@ -172,9 +172,8 @@ extract_project() {
   echo "  git log --oneline -10     # confirm history"
   echo "  git remote -v             # confirm remote"
   echo ""
-  echo "  # Create the GitHub repo first, then push:"
-  echo "  gh repo create ${GITHUB_USER}/${PROJECT_SLUG[$key]} --private"
-  echo "  git push -u origin main"
+  echo "  # Create the GitHub repo and push:"
+  echo "  gh repo create ${GITHUB_USER}/${PROJECT_SLUG[$key]} --private --source=. --remote=origin --push"
   echo "------------------------------------------------------------------"
   echo ""
 }
